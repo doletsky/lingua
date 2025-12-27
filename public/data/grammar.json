@@ -1,0 +1,757 @@
+{
+  "grammar": [
+    {
+      "id": "g1",
+      "unit": "unit1",
+      "title": "Приветствия и прощания",
+      "explanation_ru": "Основные приветствия и прощания в португальском языке не изменяются по лицам и числам. Используются в любое время суток в зависимости от ситуации:\n- Olá — Привет / Здравствуйте (универсальное, неформальное и формальное).\n- Bom dia — Доброе утро (до ~12:00).\n- Boa tarde — Добрый день (с ~12:00 до ~18:00–19:00).\n- Boa noite — Добрый вечер / Доброй ночи (после заката, также при прощании перед сном).\nПрощания:\n- Adeus — До свидания (формальное, окончательное).\n- Tchau — Пока (неформальное).\n- Até logo — До скорого.\n- Até amanhã — До завтра.",
+      "examples": [
+        {
+          "pt": "Olá! Como estás?",
+          "ru": "Привет! Как дела?"
+        },
+        {
+          "pt": "Bom dia, senhor Silva.",
+          "ru": "Доброе утро, господин Силва."
+        },
+        {
+          "pt": "Boa tarde! Tudo bem?",
+          "ru": "Добрый день! Всё хорошо?"
+        },
+        {
+          "pt": "Boa noite. Até amanhã.",
+          "ru": "Добрый вечер. До завтра."
+        },
+        {
+          "pt": "Tchau! Até logo.",
+          "ru": "Пока! До скорого."
+        }
+      ],
+      "templates": [
+        {
+          "type": "multiple_choice",
+          "template": "Как сказать «Доброе утро» по-португальски?",
+          "correct": "Bom dia",
+          "hint": "Используется утром",
+          "distractors": [
+            "Boa tarde",
+            "Boa noite",
+            "Olá"
+          ]
+        },
+        {
+          "type": "fill_blank",
+          "template": "Вечером мы говорим: Boa ___.",
+          "correct": "noite",
+          "hint": "Добрый вечер / Доброй ночи",
+          "distractors": [
+            "dia",
+            "tarde",
+            "manhã"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "g2",
+      "unit": "unit1",
+      "title": "Глагол ser (быть) — настоящее время (Presente do Indicativo)",
+      "explanation_ru": "Глагол ser используется для постоянных характеристик, профессий, национальности, происхождения, времени, дат. Спряжение в настоящем времени:\n- eu sou — я есть\n- tu és — ты есть\n- ele/ela/você é — он/она/Вы есть\n- nós somos — мы есть\n- vocês são — вы есть\n- eles/elas são — они есть",
+      "examples": [
+        {
+          "pt": "Eu sou português.",
+          "ru": "Я португальец."
+        },
+        {
+          "pt": "Tu és estudante.",
+          "ru": "Ты студент."
+        },
+        {
+          "pt": "Ela é médica.",
+          "ru": "Она врач."
+        },
+        {
+          "pt": "Nós somos amigos.",
+          "ru": "Мы друзья."
+        },
+        {
+          "pt": "Vocês são de Lisboa?",
+          "ru": "Вы из Лиссабона?"
+        },
+        {
+          "pt": "Eles são professores.",
+          "ru": "Они учителя."
+        }
+      ],
+      "templates": [
+        {
+          "type": "fill_blank",
+          "template": "Eu ___ (ser) de Ucrânia.",
+          "correct": "sou",
+          "hint": "eu sou — от ser",
+          "distractors": [
+            "é",
+            "és",
+            "somos"
+          ]
+        },
+        {
+          "type": "multiple_choice",
+          "template": "Правильная форма: Nós ___ brasileiros.",
+          "correct": "somos",
+          "hint": "nós somos — от ser",
+          "distractors": [
+            "sou",
+            "é",
+            "são"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "g3",
+      "unit": "unit1",
+      "title": "Глагол estar (быть) — настоящее время",
+      "explanation_ru": "Глагол estar используется для временного состояния, местоположения, самочувствия. Спряжение в настоящем времени:\n- eu estou — я нахожусь\n- tu estás — ты находишься\n- ele/ela/você está — он/она/Вы находится\n- nós estamos — мы находимся\n- vocês estão — вы находитесь\n- eles/elas estão — они находятся",
+      "examples": [
+        {
+          "pt": "Eu estou em casa.",
+          "ru": "Я дома."
+        },
+        {
+          "pt": "Tu estás cansado?",
+          "ru": "Ты устал?"
+        },
+        {
+          "pt": "Ela está no trabalho.",
+          "ru": "Она на работе."
+        },
+        {
+          "pt": "Nós estamos bem.",
+          "ru": "Мы в порядке."
+        },
+        {
+          "pt": "Vocês estão em Portugal?",
+          "ru": "Вы в Португалии?"
+        },
+        {
+          "pt": "Eles estão doentes.",
+          "ru": "Они больны."
+        }
+      ],
+      "templates": [
+        {
+          "type": "fill_blank",
+          "template": "Ela ___ (estar) na escola agora.",
+          "correct": "está",
+          "hint": "ele/ela/você está — от estar",
+          "distractors": [
+            "estou",
+            "estás",
+            "estamos"
+          ]
+        },
+        {
+          "type": "multiple_choice",
+          "template": "Правильная форма: Nós ___ em Lisboa.",
+          "correct": "estamos",
+          "hint": "nós estamos — от estar",
+          "distractors": [
+            "está",
+            "estou",
+            "estão"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "g4",
+      "unit": "unit1",
+      "title": "Личные местоимения-подлежащие",
+      "explanation_ru": "Личные местоимения-подлежащие в португальском:\n- eu — я\n- tu — ты (неформальное)\n- ele — он\n- ela — она\n- você — Вы (формальное, 3-е лицо)\n- nós — мы\n- vocês — вы (мн.ч., также неформальное во многих регионах)\n- eles — они (муж.)\n- elas — они (жен.)",
+      "examples": [
+        {
+          "pt": "Eu moro em Porto.",
+          "ru": "Я живу в Порту."
+        },
+        {
+          "pt": "Tu falas português?",
+          "ru": "Ты говоришь по-португальски?"
+        },
+        {
+          "pt": "Você trabalha aqui.",
+          "ru": "Вы здесь работаете."
+        },
+        {
+          "pt": "Nós estudamos juntos.",
+          "ru": "Мы учимся вместе."
+        },
+        {
+          "pt": "Eles vivem em Coimbra.",
+          "ru": "Они живут в Коимбре."
+        }
+      ],
+      "templates": [
+        {
+          "type": "multiple_choice",
+          "template": "Местоимение «мы» по-португальски:",
+          "correct": "nós",
+          "hint": "Личное местоимение-подлежащее",
+          "distractors": [
+            "vocês",
+            "eles",
+            "elas"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "g5",
+      "unit": "unit1",
+      "title": "Глагол chamar-se (звать(ся))",
+      "explanation_ru": "Возвратный глагол chamar-se используется для представления: «меня зовут…». Спряжение в настоящем времени:\n- eu chamo-me — меня зовут\n- tu chamas-te — тебя зовут\n- ele/ela/você chama-se — его/её/Вас зовут\n- nós chamamo-nos — нас зовут\n- vocês chamam-se — вас зовут\n- eles/elas chamam-se — их зовут\nВ разговорной речи часто упрощают: Eu chamo-me Ana → O meu nome é Ana.",
+      "examples": [
+        {
+          "pt": "Eu chamo-me Maria.",
+          "ru": "Меня зовут Мария."
+        },
+        {
+          "pt": "Tu chamas-te Pedro?",
+          "ru": "Тебя зовут Педру?"
+        },
+        {
+          "pt": "Ela chama-se Ana Silva.",
+          "ru": "Её зовут Ана Силва."
+        },
+        {
+          "pt": "Nós chamamo-nos João e Rita.",
+          "ru": "Нас зовут Жуан и Рита."
+        }
+      ],
+      "templates": [
+        {
+          "type": "fill_blank",
+          "template": "Eu ___-me Olga.",
+          "correct": "chamo",
+          "hint": "eu chamo-me — от chamar-se",
+          "distractors": [
+            "chamas",
+            "chama",
+            "chamamos"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "g6",
+      "unit": "unit1",
+      "title": "Числа от 0 до 20",
+      "explanation_ru": "Числительные от 0 до 20 (не изменяются по роду и числу):\n0 — zero\n1 — um / uma\n2 — dois / duas\n3 — três\n4 — quatro\n5 — cinco\n6 — seis\n7 — sete\n8 — oito\n9 — nove\n10 — dez\n11 — onze\n12 — doze\n13 — treze\n14 — quatorze\n15 — quinze\n16 — dezasseis\n17 — dezassete\n18 — dezoito\n19 — dezanove\n20 — vinte",
+      "examples": [
+        {
+          "pt": "Tenho vinte e cinco anos.",
+          "ru": "Мне двадцать пять лет."
+        },
+        {
+          "pt": "São três horas.",
+          "ru": "Три часа."
+        },
+        {
+          "pt": "O autocarro número doze.",
+          "ru": "Автобус номер двенадцать."
+        },
+        {
+          "pt": "Zero problemas!",
+          "ru": "Ноль проблем!"
+        }
+      ],
+      "templates": [
+        {
+          "type": "multiple_choice",
+          "template": "Число 15 по-португальски:",
+          "correct": "quinze",
+          "hint": "15",
+          "distractors": [
+            "dez",
+            "vinte",
+            "onze"
+          ]
+        },
+        {
+          "type": "fill_blank",
+          "template": "Dez + seis = ___",
+          "correct": "dezasseis",
+          "hint": "16",
+          "distractors": [
+            "dezassete",
+            "dezoito",
+            "quinze"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "g7",
+      "unit": "unit1",
+      "title": "Время: Que horas são? São... hora(s)",
+      "explanation_ru": "Чтобы спросить время: Que horas são? / Que hora é?\nОтвет:\n- É uma hora. (1:00)\n- São duas horas. (2:00)\n- São três horas e quinze. (3:15)\n- São quatro horas e meia. (4:30)\n- São cinco menos um quarto. (4:45)\nДля 1 часа используется É uma hora, для остальных — São ... horas.",
+      "examples": [
+        {
+          "pt": "Que horas são? — São sete horas.",
+          "ru": "Который час? — Семь часов."
+        },
+        {
+          "pt": "É uma hora da tarde.",
+          "ru": "Один час дня."
+        },
+        {
+          "pt": "São dez e meia da manhã.",
+          "ru": "Половина одиннадцатого утра."
+        },
+        {
+          "pt": "São meio-dia.",
+          "ru": "Полдень."
+        },
+        {
+          "pt": "É meia-noite.",
+          "ru": "Полночь."
+        }
+      ],
+      "templates": [
+        {
+          "type": "multiple_choice",
+          "template": "8:00 — Это:",
+          "correct": "São oito horas",
+          "hint": "Больше одной часа → São ... horas",
+          "distractors": [
+            "É oito horas",
+            "São uma hora",
+            "É oito hora"
+          ]
+        },
+        {
+          "type": "fill_blank",
+          "template": "1:00 — É ___ hora.",
+          "correct": "uma",
+          "hint": "Только для одного часа используется É uma hora",
+          "distractors": [
+            "duas",
+            "três",
+            "dez"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "g8",
+      "unit": "unit1",
+      "title": "Дни недели",
+      "explanation_ru": "Дни недели (все мужского рода, пишутся с маленькой буквы, кроме начала предложения):\nsegunda-feira — понедельник\nterça-feira — вторник\nquarta-feira — среда\nquinta-feira — четверг\nsexta-feira — пятница\nsábado — суббота\ndomingo — воскресенье",
+      "examples": [
+        {
+          "pt": "Hoje é segunda-feira.",
+          "ru": "Сегодня понедельник."
+        },
+        {
+          "pt": "Amanhã é terça-feira.",
+          "ru": "Завтра вторник."
+        },
+        {
+          "pt": "Trabalho de segunda a sexta.",
+          "ru": "Работаю с понедельника по пятницу."
+        },
+        {
+          "pt": "No sábado descanso.",
+          "ru": "В субботу отдыхаю."
+        }
+      ],
+      "templates": [
+        {
+          "type": "multiple_choice",
+          "template": "Пятница по-португальски:",
+          "correct": "sexta-feira",
+          "hint": "День перед sábado",
+          "distractors": [
+            "quinta-feira",
+            "sábado",
+            "domingo"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "g9",
+      "unit": "unit1",
+      "title": "Глагол ter (иметь) — настоящее время",
+      "explanation_ru": "Глагол ter используется для обладания, возраста, семьи. Спряжение:\n- eu tenho — у меня есть\n- tu tens — у тебя есть\n- ele/ela/você tem — у него/неё/Вас есть\n- nós temos — у нас есть\n- vocês têm — у вас есть\n- eles/elas têm — у них есть",
+      "examples": [
+        {
+          "pt": "Eu tenho trinta anos.",
+          "ru": "Мне тридцать лет."
+        },
+        {
+          "pt": "Tu tens filhos?",
+          "ru": "У тебя есть дети?"
+        },
+        {
+          "pt": "Ela tem um irmão.",
+          "ru": "У неё есть брат."
+        },
+        {
+          "pt": "Nós temos uma casa.",
+          "ru": "У нас есть дом."
+        },
+        {
+          "pt": "Vocês têm carro?",
+          "ru": "У вас есть машина?"
+        }
+      ],
+      "templates": [
+        {
+          "type": "fill_blank",
+          "template": "Nós ___ (ter) dois filhos.",
+          "correct": "temos",
+          "hint": "nós temos — от ter",
+          "distractors": [
+            "tem",
+            "tenho",
+            "têm"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "g10",
+      "unit": "unit1",
+      "title": "Артикли определённые o, a, os, as",
+      "explanation_ru": "Определённые артикли согласуются с существительным по роду и числу:\n- o — мужской род, единственное число (o dia, o homem)\n- a — женский род, единственное число (a casa, a mulher)\n- os — мужской род, множественное число (os dias, os homens)\n- as — женский род, множественное число (as casas, as mulheres)",
+      "examples": [
+        {
+          "pt": "O meu dia é longo.",
+          "ru": "Мой день длинный."
+        },
+        {
+          "pt": "A família é importante.",
+          "ru": "Семья важна."
+        },
+        {
+          "pt": "Os filhos estudam.",
+          "ru": "Дети учатся."
+        },
+        {
+          "pt": "As semanas passam rápido.",
+          "ru": "Недели проходят быстро."
+        }
+      ],
+      "templates": [
+        {
+          "type": "multiple_choice",
+          "template": "Артикль перед словом casa:",
+          "correct": "a",
+          "hint": "casa — женский род",
+          "distractors": [
+            "o",
+            "os",
+            "as"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "g11",
+      "unit": "unit2",
+      "title": "Глагол gostar de + инфинитив или существительное",
+      "explanation_ru": "Глагол gostar de выражает 'нравится'. Спряжение в настоящем времени: eu gosto, tu gostas, ele/ela/você gosta, nós gostamos, vocês gostam, eles/elas gostam. После gostar de ставится существительное или инфинитив глагола. Примеры форм: gosto de comer (мне нравится есть), gosto de peixe (мне нравится рыба).",
+      "examples": [
+        {
+          "pt": "Gosto de comer peixe.",
+          "ru": "Мне нравится есть рыбу."
+        },
+        {
+          "pt": "Ela gosta de vinho.",
+          "ru": "Ей нравится вино."
+        },
+        {
+          "pt": "Nós gostamos de cozinhar.",
+          "ru": "Нам нравится готовить."
+        }
+      ],
+      "templates": [
+        {
+          "type": "fill_blank",
+          "template": "Eu ___ de bacalhau.",
+          "correct": "gosto",
+          "hint": "Форма от gostar для eu",
+          "distractors": [
+            "gostas",
+            "gosta"
+          ]
+        },
+        {
+          "type": "multiple_choice",
+          "template": "___ de pastel de nata?",
+          "options": [
+            "Gostas",
+            "Gosto",
+            "Gostam"
+          ],
+          "correct": "Gostas",
+          "hint": "Вопрос к tu"
+        }
+      ]
+    },
+    {
+      "id": "g12",
+      "unit": "unit2",
+      "title": "Артикли с продуктами питания",
+      "explanation_ru": "Перед названиями продуктов обычно используется определённый артикль: o pão, a água, o leite, as batatas. Если говорим о количестве или в общем смысле после gostar de, артикль может опускаться: gosto de pão (нравится хлеб вообще).",
+      "examples": [
+        {
+          "pt": "Compro o pão na padaria.",
+          "ru": "Я покупаю хлеб в булочной."
+        },
+        {
+          "pt": "Bebo a água.",
+          "ru": "Я пью воду."
+        },
+        {
+          "pt": "Gosto de queijo.",
+          "ru": "Мне нравится сыр."
+        }
+      ],
+      "templates": [
+        {
+          "type": "fill_blank",
+          "template": "Compro ___ leite no supermercado.",
+          "correct": "o",
+          "hint": "Определённый артикль муж. рода",
+          "distractors": [
+            "a",
+            "as"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "g13",
+      "unit": "unit2",
+      "title": "Выражения количества: um quilo de, meio quilo, uma dúzia",
+      "explanation_ru": "Для указания количества продуктов: um quilo de + продукт (муж./жен.), meio quilo de, uma garrafa de, um pacote de, uma dúzia de. Примеры: um quilo de carne, uma garrafa de água.",
+      "examples": [
+        {
+          "pt": "Quero um quilo de tomates.",
+          "ru": "Хочу килограмм помидоров."
+        },
+        {
+          "pt": "Meio quilo de queijo.",
+          "ru": "Полкило сыра."
+        },
+        {
+          "pt": "Uma dúzia de ovos.",
+          "ru": "Дюжина яиц."
+        }
+      ],
+      "templates": [
+        {
+          "type": "fill_blank",
+          "template": "Compro ___ quilo de arroz.",
+          "correct": "um",
+          "hint": "Неопределённый артикль",
+          "distractors": [
+            "uma",
+            "o"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "g14",
+      "unit": "unit2",
+      "title": "Глагол comer в настоящем времени",
+      "explanation_ru": "Спряжение глагола comer (есть): eu como, tu comes, ele/ela/você come, nós comemos, vocês comem, eles/elas comem.",
+      "examples": [
+        {
+          "pt": "Como sopa ao almoço.",
+          "ru": "Я ем суп на обед."
+        },
+        {
+          "pt": "Eles comem peixe.",
+          "ru": "Они едят рыбу."
+        },
+        {
+          "pt": "Comemos em casa.",
+          "ru": "Мы едим дома."
+        }
+      ],
+      "templates": [
+        {
+          "type": "fill_blank",
+          "template": "Nós ___ fruta todos os dias.",
+          "correct": "comemos",
+          "hint": "Форма от comer для nós",
+          "distractors": [
+            "come",
+            "como"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "g15",
+      "unit": "unit2",
+      "title": "Глагол beber в настоящем времени",
+      "explanation_ru": "Спряжение глагола beber (пить): eu bebo, tu bebes, ele/ela/você bebe, nós bebemos, vocês bebem, eles/elas bebem.",
+      "examples": [
+        {
+          "pt": "Bebo café de manhã.",
+          "ru": "Я пью кофе утром."
+        },
+        {
+          "pt": "Ela bebe água.",
+          "ru": "Она пьёт воду."
+        },
+        {
+          "pt": "Bebemos vinho ao jantar.",
+          "ru": "Мы пьём вино за ужином."
+        }
+      ],
+      "templates": [
+        {
+          "type": "fill_blank",
+          "template": "Vocês ___ sumo de laranja.",
+          "correct": "bebem",
+          "hint": "Форма от beber для vocês",
+          "distractors": [
+            "bebe",
+            "bebo"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "g16",
+      "unit": "unit2",
+      "title": "Прилагательные с продуктами (согласование)",
+      "explanation_ru": "Прилагательные согласуются в роде и числе: delicioso/deliciosa/deliciosos/deliciosas, fresco/fresca/frescos/frescas. Примеры: peixe fresco (муж.), fruta fresca (жен.), pastéis deliciosos.",
+      "examples": [
+        {
+          "pt": "O peixe está fresco.",
+          "ru": "Рыба свежая."
+        },
+        {
+          "pt": "A salada é deliciosa.",
+          "ru": "Салат вкусный."
+        },
+        {
+          "pt": "Os pastéis são deliciosos.",
+          "ru": "Пирожные вкусные."
+        }
+      ],
+      "templates": [
+        {
+          "type": "multiple_choice",
+          "template": "A carne está ___ .",
+          "options": [
+            "fresca",
+            "fresco",
+            "frescos"
+          ],
+          "correct": "fresca",
+          "hint": "a carne — жен. род"
+        }
+      ]
+    },
+    {
+      "id": "g17",
+      "unit": "unit2",
+      "title": "Фразы в ресторане (вежливые просьбы)",
+      "explanation_ru": "Вежливые фразы: Quero..., Por favor, A conta, por favor, Bom apetite! Глагол querer в настоящем: eu quero, tu queres, ele quer, nós queremos.",
+      "examples": [
+        {
+          "pt": "Quero uma sopa, por favor.",
+          "ru": "Хочу суп, пожалуйста."
+        },
+        {
+          "pt": "A conta, por favor.",
+          "ru": "Счёт, пожалуйста."
+        },
+        {
+          "pt": "Bom apetite!",
+          "ru": "Приятного аппетита!"
+        }
+      ],
+      "templates": [
+        {
+          "type": "fill_blank",
+          "template": "___ uma água, por favor.",
+          "correct": "Quero",
+          "hint": "Форма от querer для eu",
+          "distractors": [
+            "Quer",
+            "Queres"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "g18",
+      "unit": "unit2",
+      "title": "Выражение 'ter fome/sede/vontade de'",
+      "explanation_ru": "Конструкции: ter fome (быть голодным), ter sede (хотеть пить), ter vontade de + инф. (хотеть что-то сделать/съесть). Спряжение ter: eu tenho, tu tens, ele tem, nós temos.",
+      "examples": [
+        {
+          "pt": "Tenho fome.",
+          "ru": "Я голоден."
+        },
+        {
+          "pt": "Temos sede.",
+          "ru": "Мы хотим пить."
+        },
+        {
+          "pt": "Tenho vontade de gelado.",
+          "ru": "Хочу мороженого."
+        }
+      ],
+      "templates": [
+        {
+          "type": "fill_blank",
+          "template": "As crianças ___ fome.",
+          "correct": "têm",
+          "hint": "Форма от ter для eles",
+          "distractors": [
+            "tenho",
+            "tem"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "g19",
+      "unit": "unit2",
+      "title": "Предлоги с едой и временем приёма пищи",
+      "explanation_ru": "ao pequeno-almoço (на завтрак), ao almoço, ao jantar, à noite, de manhã. Сочетание a + o = ao.",
+      "examples": [
+        {
+          "pt": "Como pão ao pequeno-almoço.",
+          "ru": "Ем хлеб на завтрак."
+        },
+        {
+          "pt": "Bebo café de manhã.",
+          "ru": "Пью кофе утром."
+        }
+      ],
+      "templates": [
+        {
+          "type": "multiple_choice",
+          "template": "Bebo leite ___ pequeno-almoço.",
+          "options": [
+            "ao",
+            "a",
+            "de"
+          ],
+          "correct": "ao"
+        }
+      ]
+    }
+  ]
+}

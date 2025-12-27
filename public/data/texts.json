@@ -1,0 +1,330 @@
+{
+  "texts": [
+    {
+      "id": "t1",
+      "unit": "unit1",
+      "text": "Olá, chamo-me Ana. Sou de Ucrânia e vivo em Portugal há um ano. A minha rotina diária é simples. Levanto-me às sete da manhã. Lavo-me e tomo o pequeno-almoço com a família. O meu marido e os meus dois filhos comem pão e bebem leite. Depois, vou para o trabalho de autocarro. Trabalho num supermercado das oito às quatro. À tarde, volto para casa e cozinho o jantar. À noite, vemos televisão juntos. Deito-me às dez. Aos fins de semana, visitamos parques em Lisboa.",
+      "questions": [
+        {
+          "q": "Откуда Ана?",
+          "a": "De Ucrânia",
+          "type": "short_answer"
+        },
+        {
+          "q": "Во сколько она встает?",
+          "a": "Às sete da manhã",
+          "type": "multiple_choice",
+          "options": [
+            "Às seis",
+            "Às sete da manhã",
+            "Às oito"
+          ]
+        },
+        {
+          "q": "Что делает вечером?",
+          "a": "Vê televisão",
+          "type": "short_answer"
+        }
+      ]
+    },
+    {
+      "id": "t2",
+      "unit": "unit1",
+      "text": "Bom dia! O meu nome é João. Tenho uma família grande: a minha mulher, três filhos e os meus pais. Vivemos numa casa com quatro quartos, uma sala, cozinha e banheiro. De manhã, acordamos cedo. As crianças vão à escola. Eu trabalho como construtor. À tarde, a minha mulher limpa a casa e faz compras. No domingo, celebramos com a família. Em Portugal, respeitamos as regras e integramos na comunidade local.",
+      "questions": [
+        {
+          "q": "Сколько детей у Жоао?",
+          "a": "Três",
+          "type": "short_answer"
+        },
+        {
+          "q": "Что делает жена днем?",
+          "a": "Limpa a casa e faz compras",
+          "type": "multiple_choice",
+          "options": [
+            "Trabalha",
+            "Limpa a casa e faz compras",
+            "Vê TV"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "t3",
+      "unit": "unit1",
+      "text": "Que horas são? São nove horas. É hora de começar o dia. Na segunda-feira, vou ao banco abrir uma conta. É importante para migrantes em Portugal. Depois, às dez e meia, tenho aula de português. À uma da tarde, almoço com amigos. Às três, visito o centro de emprego. À noite, às oito, janto em casa. O relógio marca o tempo da minha rotina.",
+      "questions": [
+        {
+          "q": "Что делает в 10:30?",
+          "a": "Tem aula de português",
+          "type": "short_answer"
+        },
+        {
+          "q": "Почему важен банк?",
+          "a": "Para abrir uma conta",
+          "type": "multiple_choice",
+          "options": [
+            "Para comer",
+            "Para abrir uma conta",
+            "Para dormir"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "t4",
+      "unit": "unit1",
+      "text": "A minha casa em Portugal é acolhedora. Tem uma sala com sofá e televisão, dois quartos para as crianças, uma cozinha com mesa e cadeiras, e um banheiro. O jardim é pequeno, mas bonito. Os vizinhos são amigáveis. Cumprimentamos com 'bom dia' todos os dias. Integro-me bem na vizinhança.",
+      "questions": [
+        {
+          "q": "Сколько комнат для детей?",
+          "a": "Dois",
+          "type": "short_answer"
+        },
+        {
+          "q": "Как приветствуют соседей?",
+          "a": "Com 'bom dia'",
+          "type": "multiple_choice",
+          "options": [
+            "Adeus",
+            "Com 'bom dia'",
+            "Olá"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "t5",
+      "unit": "unit1",
+      "text": "Os dias da semana: Segunda-feira é o início. Trabalho duro. Terça-feira, quarta-feira e quinta-feira são dias de rotina. Sexta-feira é alegre. Sábado descanso e faço compras. Domingo passo com a família, visitamos a igreja ou o parque. Em Portugal, os fins de semana são para relaxar e integrar na cultura.",
+      "questions": [
+        {
+          "q": "Что делают в субботу?",
+          "a": "Descanso e faço compras",
+          "type": "short_answer"
+        },
+        {
+          "q": "Какой день радостный?",
+          "a": "Sexta-feira",
+          "type": "multiple_choice",
+          "options": [
+            "Segunda-feira",
+            "Sexta-feira",
+            "Domingo"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "t6",
+      "unit": "unit1",
+      "text": "Tenho vinte e cinco anos. A minha família tem cinco pessoas: eu, os meus pais e dois irmãos. Vivemos em Porto. O meu pai tem cinquenta anos e trabalha no porto. A minha mãe tem quarenta e oito e é dona de casa. Os meus irmãos têm quinze e dez anos. Estudam na escola local.",
+      "questions": [
+        {
+          "q": "Сколько человек в семье?",
+          "a": "Cinco",
+          "type": "short_answer"
+        },
+        {
+          "q": "Где работает отец?",
+          "a": "No porto",
+          "type": "multiple_choice",
+          "options": [
+            "Na escola",
+            "No porto",
+            "Em casa"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "t7",
+      "unit": "unit1",
+      "text": "Cumprimentos em Portugal: Olá para amigos, bom dia para manhã, boa tarde para dia, boa noite para noite. Digo 'obrigado' quando ajudam, 'por favor' para pedir. É importante para integração social como migrante.",
+      "questions": [
+        {
+          "q": "Что говорят утром?",
+          "a": "Bom dia",
+          "type": "short_answer"
+        },
+        {
+          "q": "Зачем говорить 'obrigado'?",
+          "a": "Quando ajudam",
+          "type": "multiple_choice",
+          "options": [
+            "Para pedir",
+            "Quando ajudam",
+            "Для прощания"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "t8",
+      "unit": "unit2",
+      "text": "Em Portugal as pessoas gostam muito de comer peixe. O prato típico é o bacalhau. Há mais de cem maneiras de preparar bacalhau. Ao almoço muitas famílias comem sopa primeiro e depois carne ou peixe com arroz ou batatas. No verão comem-se muitas sardinhas assadas. Para a sobremesa há pastéis de nata deliciosos. As pessoas bebem vinho ou água com as refeições. O café é muito popular, especialmente uma bica depois do almoço.",
+      "questions": [
+        {
+          "q": "Какое типичное блюдо в Португалии?",
+          "a": "bacalhau",
+          "type": "short_answer"
+        },
+        {
+          "q": "Что часто едят летом?",
+          "a": "sardinhas assadas",
+          "type": "short_answer"
+        },
+        {
+          "q": "Какой популярный десерт упоминается?",
+          "a": "pastéis de nata",
+          "type": "short_answer"
+        },
+        {
+          "q": "Что пьют с едой?",
+          "options": [
+            "vinho ou água",
+            "só café",
+            "só sumo"
+          ],
+          "a": "vinho ou água",
+          "type": "multiple_choice"
+        }
+      ]
+    },
+    {
+      "id": "t9",
+      "unit": "unit2",
+      "text": "Vou ao supermercado às segundas-feiras. Compro pão, leite, queijo, fruta e legumes. Preciso de um quilo de tomates e meio quilo de carne. Pago com cartão. Depois vou à padaria comprar pastéis de nata frescos. Gosto de cozinhar em casa. Hoje faço sopa de legumes e peixe grelhado. É saudável e delicioso.",
+      "questions": [
+        {
+          "q": "Куда герой ходит по понедельникам?",
+          "a": "ao supermercado",
+          "type": "short_answer"
+        },
+        {
+          "q": "Что он покупает в супермаркете?",
+          "a": "pão, leite, queijo, fruta e legumes",
+          "type": "short_answer"
+        },
+        {
+          "q": "Как он готовит сегодня?",
+          "options": [
+            "sopa de legumes e peixe grelhado",
+            "bacalhau",
+            "carne assada"
+          ],
+          "a": "sopa de legumes e peixe grelhado",
+          "type": "multiple_choice"
+        }
+      ]
+    },
+    {
+      "id": "t10",
+      "unit": "unit2",
+      "text": "No restaurante peço o menu. O empregado de mesa traz água e pão. Peço sopa como entrada e bacalhau como prato principal. Para sobremesa quero pastel de nata. Bebo um copo de vinho tinto. A comida está deliciosa. No fim peço a conta e pago. Digo 'Obrigado' e 'Bom apetite' não é necessário porque já comi.",
+      "questions": [
+        {
+          "q": "Что заказывает герой как основное блюдо?",
+          "a": "bacalhau",
+          "type": "short_answer"
+        },
+        {
+          "q": "Что он пьёт?",
+          "a": "vinho tinto",
+          "type": "short_answer"
+        },
+        {
+          "q": "Как он оценивает еду?",
+          "options": [
+            "deliciosa",
+            "cara",
+            "fria"
+          ],
+          "a": "deliciosa",
+          "type": "multiple_choice"
+        }
+      ]
+    },
+    {
+      "id": "t11",
+      "unit": "unit2",
+      "text": "O meu hobby é cozinhar pratos portugueses. Gosto de fazer caldeirada de peixe e arroz doce como sobremesa. Aos fins-de-semana convido amigos e comemos juntos. Bebemos vinho do Porto. Depois ouvimos fado ou vamos dar um passeio à beira-mar. Em Portugal a comida e a amizade são muito importantes.",
+      "questions": [
+        {
+          "q": "Какое хобби у героя?",
+          "a": "cozinhar",
+          "type": "short_answer"
+        },
+        {
+          "q": "Что он готовит на десерт?",
+          "a": "arroz doce",
+          "type": "short_answer"
+        },
+        {
+          "q": "Что важно в Португалии по тексту?",
+          "options": [
+            "comida e amizade",
+            "só futebol",
+            "só trabalho"
+          ],
+          "a": "comida e amizade",
+          "type": "multiple_choice"
+        }
+      ]
+    },
+    {
+      "id": "t12",
+      "unit": "unit2",
+      "text": "No São João, no Porto, há uma grande festa. As pessoas comem sardinhas assadas na rua e bebem vinho. Há música e dança toda a noite. Todos estão felizes. É uma tradição antiga. Muitas pessoas vêm de outras cidades para celebrar este feriado popular.",
+      "questions": [
+        {
+          "q": "Какой праздник описан?",
+          "a": "São João",
+          "type": "short_answer"
+        },
+        {
+          "q": "Что едят на улице?",
+          "a": "sardinhas assadas",
+          "type": "short_answer"
+        },
+        {
+          "q": "Что делают люди всю ночь?",
+          "options": [
+            "música e dança",
+            "trabalham",
+            "dormem"
+          ],
+          "a": "música e dança",
+          "type": "multiple_choice"
+        }
+      ]
+    },
+    {
+      "id": "t13",
+      "unit": "unit2",
+      "text": "Tenho uma dieta saudável. Como muita fruta e legumes todos os dias. Bebo água e chá sem açúcar. Não como muitos doces. Gosto de peixe grelhado e salada. Faço exercício e caminho na praia. Assim sinto-me bem e com energia.",
+      "questions": [
+        {
+          "q": "Что герой ест каждый день?",
+          "a": "fruta e legumes",
+          "type": "short_answer"
+        },
+        {
+          "q": "Какой рыбу он предпочитает?",
+          "a": "grelhado",
+          "type": "short_answer"
+        },
+        {
+          "q": "Почему он так питается?",
+          "options": [
+            "para sentir-se bem",
+            "porque é caro",
+            "porque não gosta"
+          ],
+          "a": "para sentir-se bem",
+          "type": "multiple_choice"
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,382 @@
+{
+  "templates": [
+    {
+      "type": "multiple_choice",
+      "base": "Escolha a saudação correta para [time_period]:",
+      "params": [
+        {
+          "placeholder": "[time_period]",
+          "from": "time",
+          "tense": "present"
+        }
+      ],
+      "correct_logic": "Match greeting to time: manhã - bom dia, tarde - boa tarde, noite - boa noite."
+    },
+    {
+      "type": "fill_blank",
+      "base": "Eu ___-me às [time] da manhã. (levantar)",
+      "params": [
+        {
+          "placeholder": "[time]",
+          "from": "numbers",
+          "tense": "present"
+        }
+      ],
+      "correct_logic": "Use reflexive verb in present: levanto."
+    },
+    {
+      "type": "match",
+      "base": "Sopostavite dias da semana: [day_pt] - [day_ru]",
+      "params": [
+        {
+          "placeholder": "[day_pt]",
+          "from": "days"
+        },
+        {
+          "placeholder": "[day_ru]",
+          "from": "translations"
+        }
+      ],
+      "correct_logic": "Match Portuguese day to Russian translation."
+    },
+    {
+      "type": "transform",
+      "base": "Transforme o número [number] em palavra:",
+      "params": [
+        {
+          "placeholder": "[number]",
+          "from": "numbers"
+        }
+      ],
+      "correct_logic": "Convert digit to word: 1 - um."
+    },
+    {
+      "type": "fill_blank",
+      "base": "O meu [family_member] é [adjective].",
+      "params": [
+        {
+          "placeholder": "[family_member]",
+          "from": "family"
+        },
+        {
+          "placeholder": "[adjective]",
+          "from": "adjectives"
+        }
+      ],
+      "correct_logic": "Use ser for permanent: O meu pai é alto."
+    },
+    {
+      "type": "multiple_choice",
+      "base": "Que horas são? São [time]. Escolha a descrição correta.",
+      "params": [
+        {
+          "placeholder": "[time]",
+          "from": "time_expressions"
+        }
+      ],
+      "correct_logic": "Match time format: 2:30 - duas e meia."
+    },
+    {
+      "type": "match",
+      "base": "Sopostavite partes da casa: [room_pt] - [room_ru]",
+      "params": [
+        {
+          "placeholder": "[room_pt]",
+          "from": "home"
+        },
+        {
+          "placeholder": "[room_ru]",
+          "from": "translations"
+        }
+      ],
+      "correct_logic": "Match room to translation."
+    },
+    {
+      "type": "fill_blank",
+      "base": "Eu ___ (estar) em casa agora.",
+      "params": [],
+      "correct_logic": "Use estar for location: estou."
+    },
+    {
+      "type": "multiple_choice",
+      "base": "Para [routine_action], uso [verb].",
+      "params": [
+        {
+          "placeholder": "[routine_action]",
+          "from": "routine"
+        },
+        {
+          "placeholder": "[verb]",
+          "from": "verbs"
+        }
+      ],
+      "correct_logic": "Choose correct verb for action."
+    },
+    {
+      "type": "transform",
+      "base": "Transforme para possessivo: A casa de eu - [possessive] casa.",
+      "params": [
+        {
+          "placeholder": "[possessive]",
+          "from": "possessives"
+        }
+      ],
+      "correct_logic": "A minha casa."
+    },
+    {
+      "type": "fill_blank",
+      "base": "___ (na) segunda-feira eu trabalho.",
+      "params": [],
+      "correct_logic": "Use na for days: Na."
+    },
+    {
+      "type": "match",
+      "base": "Sopostavite números: [word] - [digit]",
+      "params": [
+        {
+          "placeholder": "[word]",
+          "from": "numbers_words"
+        },
+        {
+          "placeholder": "[digit]",
+          "from": "digits"
+        }
+      ],
+      "correct_logic": "Um - 1."
+    },
+    {
+      "type": "multiple_choice",
+      "base": "A saudação para despedida: [greeting].",
+      "params": [
+        {
+          "placeholder": "[greeting]",
+          "from": "greetings"
+        }
+      ],
+      "correct_logic": "Adeus or até logo."
+    },
+    {
+      "type": "fill_blank",
+      "base": "São três ___ um quarto. (e)",
+      "params": [],
+      "correct_logic": "e for plus: e."
+    },
+    {
+      "type": "transform",
+      "base": "Transforme para reflexivo: Eu lavo. - Eu ___-me.",
+      "params": [],
+      "correct_logic": "lavo."
+    },
+    {
+      "type": "multiple_choice",
+      "base": "Eu ___ de [food].",
+      "params": [
+        {
+          "placeholder": "[food]",
+          "from": "vocabulary",
+          "tags": [
+            "food"
+          ]
+        }
+      ],
+      "correct_logic": "correct = 'gosto'"
+    },
+    {
+      "type": "fill_blank",
+      "base": "Compro ___ quilo de [product].",
+      "params": [
+        {
+          "placeholder": "[product]",
+          "from": "vocabulary",
+          "tags": [
+            "food"
+          ]
+        }
+      ],
+      "correct_logic": "correct = 'um' или 'meio' в зависимости от контекста"
+    },
+    {
+      "type": "fill_blank",
+      "base": "[subject] ___ [food] ao almoço.",
+      "params": [
+        {
+          "placeholder": "[subject]",
+          "from": [
+            "Eu",
+            "Eles",
+            "Nós"
+          ]
+        },
+        {
+          "placeholder": "[food]",
+          "from": "vocabulary",
+          "tags": [
+            "food"
+          ]
+        }
+      ],
+      "correct_logic": "спряжение comer по субъекту"
+    },
+    {
+      "type": "multiple_choice",
+      "base": "Gostas de ___ ?",
+      "params": [
+        {
+          "placeholder": "[item]",
+          "from": "vocabulary",
+          "tags": [
+            "food",
+            "leisure"
+          ]
+        }
+      ],
+      "correct_logic": "любой вариант приемлем, но проверка понимания gostar"
+    },
+    {
+      "type": "fill_blank",
+      "base": "Quero [quantity] de [product], por favor.",
+      "params": [
+        {
+          "placeholder": "[quantity]",
+          "from": [
+            "um quilo",
+            "meio quilo",
+            "uma garrafa",
+            "uma dúzia"
+          ]
+        },
+        {
+          "placeholder": "[product]",
+          "from": "vocabulary",
+          "tags": [
+            "food"
+          ]
+        }
+      ],
+      "correct_logic": "полное совпадение"
+    },
+    {
+      "type": "translation_pt_to_ru",
+      "base": "Переведи: 'Bebo [drink] todos os dias.'",
+      "params": [
+        {
+          "placeholder": "[drink]",
+          "from": "vocabulary",
+          "tags": [
+            "food"
+          ]
+        }
+      ],
+      "correct_logic": "правильный перевод"
+    },
+    {
+      "type": "translation_ru_to_pt",
+      "base": "Переведи на португальский: 'Мне нравится [activity].'",
+      "params": [
+        {
+          "placeholder": "[activity]",
+          "from": "vocabulary",
+          "tags": [
+            "leisure"
+          ]
+        }
+      ],
+      "correct_logic": "Gosto de [activity]."
+    },
+    {
+      "type": "match",
+      "base": "Сопоставь продукт и место покупки",
+      "params": [
+        {
+          "left": [
+            "pão",
+            "carne",
+            "peixe",
+            "pastéis"
+          ],
+          "right": [
+            "padaria",
+            "talho",
+            "peixaria",
+            "pastelaria"
+          ]
+        }
+      ],
+      "correct_logic": "правильные пары"
+    },
+    {
+      "type": "fill_blank",
+      "base": "A comida está ___ . (delicioso/deliciosa)",
+      "params": [
+        {
+          "placeholder": "[food_fem]",
+          "from": [
+            "sopa",
+            "salada",
+            "carne"
+          ]
+        }
+      ],
+      "correct_logic": "согласование прилагательного"
+    },
+    {
+      "type": "multiple_choice",
+      "base": "No restaurante peço ___ .",
+      "params": [],
+      "correct_logic": "a conta / o menu / uma sopa и т.д."
+    },
+    {
+      "type": "sentence_transform",
+      "base": "Преобразуй в вопрос: 'Gosto de cozinhar.'",
+      "params": [],
+      "correct_logic": "Gostas de cozinhar?"
+    },
+    {
+      "type": "fill_blank",
+      "base": "[subject] tem fome.",
+      "params": [
+        {
+          "placeholder": "[subject]",
+          "from": [
+            "Eu",
+            "As crianças",
+            "Nós"
+          ]
+        }
+      ],
+      "correct_logic": "спряжение ter"
+    },
+    {
+      "type": "multiple_choice",
+      "base": "Qual é o prato típico português?",
+      "options": [
+        "bacalhau",
+        "pizza",
+        "sushi"
+      ],
+      "correct_logic": "bacalhau"
+    },
+    {
+      "type": "fill_blank",
+      "base": "No verão como ___ assadas.",
+      "params": [],
+      "correct_logic": "sardinhas"
+    },
+    {
+      "type": "sentence_build",
+      "base": "Составь предложение из слов: gosto / eu / de / peixe",
+      "params": [],
+      "correct_logic": "Eu gosto de peixe."
+    },
+    {
+      "type": "multiple_choice",
+      "base": "O que se bebe muito em Portugal?",
+      "options": [
+        "café",
+        "chá",
+        "leite"
+      ],
+      "correct_logic": "café"
+    }
+  ]
+}
