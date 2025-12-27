@@ -1,0 +1,2932 @@
+{
+  "vocabulary": [
+    {
+      "id": "v1",
+      "word": "olá",
+      "translation_ru": "привет",
+      "example_pt": "Olá, como estás?",
+      "example_ru": "Привет, как дела?",
+      "tags": [
+        "unit1",
+        "greetings"
+      ]
+    },
+    {
+      "id": "v2",
+      "word": "bom dia",
+      "translation_ru": "доброе утро",
+      "example_pt": "Bom dia, senhor.",
+      "example_ru": "Доброе утро, сеньор.",
+      "tags": [
+        "unit1",
+        "greetings"
+      ]
+    },
+    {
+      "id": "v3",
+      "word": "boa tarde",
+      "translation_ru": "добрый день",
+      "example_pt": "Boa tarde, como posso ajudar?",
+      "example_ru": "Добрый день, чем могу помочь?",
+      "tags": [
+        "unit1",
+        "greetings"
+      ]
+    },
+    {
+      "id": "v4",
+      "word": "boa noite",
+      "translation_ru": "добрый вечер",
+      "example_pt": "Boa noite, até amanhã.",
+      "example_ru": "Добрый вечер, до завтра.",
+      "tags": [
+        "unit1",
+        "greetings"
+      ]
+    },
+    {
+      "id": "v5",
+      "word": "adeus",
+      "translation_ru": "до свидания",
+      "example_pt": "Adeus, foi um prazer.",
+      "example_ru": "До свидания, было приятно.",
+      "tags": [
+        "unit1",
+        "greetings"
+      ]
+    },
+    {
+      "id": "v6",
+      "word": "até logo",
+      "translation_ru": "до скорой встречи",
+      "example_pt": "Até logo, cuida-te.",
+      "example_ru": "До скорой встречи, береги себя.",
+      "tags": [
+        "unit1",
+        "greetings"
+      ]
+    },
+    {
+      "id": "v7",
+      "word": "obrigado",
+      "translation_ru": "спасибо (муж.)",
+      "example_pt": "Obrigado pela ajuda.",
+      "example_ru": "Спасибо за помощь.",
+      "tags": [
+        "unit1",
+        "greetings"
+      ]
+    },
+    {
+      "id": "v8",
+      "word": "obrigada",
+      "translation_ru": "спасибо (жен.)",
+      "example_pt": "Obrigada pelo presente.",
+      "example_ru": "Спасибо за подарок.",
+      "tags": [
+        "unit1",
+        "greetings"
+      ]
+    },
+    {
+      "id": "v9",
+      "word": "por favor",
+      "translation_ru": "пожалуйста",
+      "example_pt": "Um café, por favor.",
+      "example_ru": "Кофе, пожалуйста.",
+      "tags": [
+        "unit1",
+        "greetings"
+      ]
+    },
+    {
+      "id": "v10",
+      "word": "desculpe",
+      "translation_ru": "извините",
+      "example_pt": "Desculpe, não entendi.",
+      "example_ru": "Извините, не понял.",
+      "tags": [
+        "unit1",
+        "greetings"
+      ]
+    },
+    {
+      "id": "v11",
+      "word": "um",
+      "translation_ru": "один",
+      "example_pt": "Tenho um irmão.",
+      "example_ru": "У меня один брат.",
+      "tags": [
+        "unit1",
+        "numbers"
+      ]
+    },
+    {
+      "id": "v12",
+      "word": "dois",
+      "translation_ru": "два",
+      "example_pt": "Dois gatos em casa.",
+      "example_ru": "Два кота дома.",
+      "tags": [
+        "unit1",
+        "numbers"
+      ]
+    },
+    {
+      "id": "v13",
+      "word": "três",
+      "translation_ru": "три",
+      "example_pt": "Três maçãs na mesa.",
+      "example_ru": "Три яблока на столе.",
+      "tags": [
+        "unit1",
+        "numbers"
+      ]
+    },
+    {
+      "id": "v14",
+      "word": "quatro",
+      "translation_ru": "четыре",
+      "example_pt": "Quatro quartos na casa.",
+      "example_ru": "Четыре комнаты в доме.",
+      "tags": [
+        "unit1",
+        "numbers"
+      ]
+    },
+    {
+      "id": "v15",
+      "word": "cinco",
+      "translation_ru": "пять",
+      "example_pt": "Cinco dias na semana.",
+      "example_ru": "Пять дней в неделю.",
+      "tags": [
+        "unit1",
+        "numbers"
+      ]
+    },
+    {
+      "id": "v16",
+      "word": "seis",
+      "translation_ru": "шесть",
+      "example_pt": "Seis horas de sono.",
+      "example_ru": "Шесть часов сна.",
+      "tags": [
+        "unit1",
+        "numbers"
+      ]
+    },
+    {
+      "id": "v17",
+      "word": "sete",
+      "translation_ru": "семь",
+      "example_pt": "Sete dias na semana.",
+      "example_ru": "Семь дней в неделю.",
+      "tags": [
+        "unit1",
+        "numbers"
+      ]
+    },
+    {
+      "id": "v18",
+      "word": "oito",
+      "translation_ru": "восемь",
+      "example_pt": "Oito anos de idade.",
+      "example_ru": "Восемь лет возраста.",
+      "tags": [
+        "unit1",
+        "numbers"
+      ]
+    },
+    {
+      "id": "v19",
+      "word": "nove",
+      "translation_ru": "девять",
+      "example_pt": "Nove meses no ano.",
+      "example_ru": "Девять месяцев в году.",
+      "tags": [
+        "unit1",
+        "numbers"
+      ]
+    },
+    {
+      "id": "v20",
+      "word": "dez",
+      "translation_ru": "десять",
+      "example_pt": "Dez euros no bolso.",
+      "example_ru": "Десять евро в кармане.",
+      "tags": [
+        "unit1",
+        "numbers"
+      ]
+    },
+    {
+      "id": "v21",
+      "word": "onze",
+      "translation_ru": "одиннадцать",
+      "example_pt": "Onze jogadores no time.",
+      "example_ru": "Одиннадцать игроков в команде.",
+      "tags": [
+        "unit1",
+        "numbers"
+      ]
+    },
+    {
+      "id": "v22",
+      "word": "doze",
+      "translation_ru": "двенадцать",
+      "example_pt": "Doze horas no relógio.",
+      "example_ru": "Двенадцать часов на часах.",
+      "tags": [
+        "unit1",
+        "numbers"
+      ]
+    },
+    {
+      "id": "v23",
+      "word": "treze",
+      "translation_ru": "тринадцать",
+      "example_pt": "Treze anos.",
+      "example_ru": "Тринадцать лет.",
+      "tags": [
+        "unit1",
+        "numbers"
+      ]
+    },
+    {
+      "id": "v24",
+      "word": "quatorze",
+      "translation_ru": "четырнадцать",
+      "example_pt": "Quatorze dias de férias.",
+      "example_ru": "Четырнадцать дней отпуска.",
+      "tags": [
+        "unit1",
+        "numbers"
+      ]
+    },
+    {
+      "id": "v25",
+      "word": "quinze",
+      "translation_ru": "пятнадцать",
+      "example_pt": "Quinze minutos de espera.",
+      "example_ru": "Пятнадцать минут ожидания.",
+      "tags": [
+        "unit1",
+        "numbers"
+      ]
+    },
+    {
+      "id": "v26",
+      "word": "segunda-feira",
+      "translation_ru": "понедельник",
+      "example_pt": "Na segunda-feira, começo o trabalho.",
+      "example_ru": "В понедельник я начинаю работу.",
+      "tags": [
+        "unit1",
+        "days"
+      ]
+    },
+    {
+      "id": "v27",
+      "word": "terça-feira",
+      "translation_ru": "вторник",
+      "example_pt": "Terça-feira é dia de mercado.",
+      "example_ru": "Вторник - день рынка.",
+      "tags": [
+        "unit1",
+        "days"
+      ]
+    },
+    {
+      "id": "v28",
+      "word": "quarta-feira",
+      "translation_ru": "среда",
+      "example_pt": "Quarta-feira tenho aula.",
+      "example_ru": "В среду у меня урок.",
+      "tags": [
+        "unit1",
+        "days"
+      ]
+    },
+    {
+      "id": "v29",
+      "word": "quinta-feira",
+      "translation_ru": "четверг",
+      "example_pt": "Quinta-feira vou ao médico.",
+      "example_ru": "В четверг я иду к врачу.",
+      "tags": [
+        "unit1",
+        "days"
+      ]
+    },
+    {
+      "id": "v30",
+      "word": "sexta-feira",
+      "translation_ru": "пятница",
+      "example_pt": "Sexta-feira é o fim da semana.",
+      "example_ru": "Пятница - конец недели.",
+      "tags": [
+        "unit1",
+        "days"
+      ]
+    },
+    {
+      "id": "v31",
+      "word": "sábado",
+      "translation_ru": "суббота",
+      "example_pt": "No sábado, descanso.",
+      "example_ru": "В субботу я отдыхаю.",
+      "tags": [
+        "unit1",
+        "days"
+      ]
+    },
+    {
+      "id": "v32",
+      "word": "domingo",
+      "translation_ru": "воскресенье",
+      "example_pt": "Domingo é dia de família.",
+      "example_ru": "Воскресенье - день семьи.",
+      "tags": [
+        "unit1",
+        "days"
+      ]
+    },
+    {
+      "id": "v33",
+      "word": "a hora",
+      "translation_ru": "время (час)",
+      "example_pt": "Que hora é?",
+      "example_ru": "Который час?",
+      "tags": [
+        "unit1",
+        "time"
+      ]
+    },
+    {
+      "id": "v34",
+      "word": "o minuto",
+      "translation_ru": "минута",
+      "example_pt": "Faltam cinco minutos.",
+      "example_ru": "Осталось пять минут.",
+      "tags": [
+        "unit1",
+        "time"
+      ]
+    },
+    {
+      "id": "v35",
+      "word": "a manhã",
+      "translation_ru": "утро",
+      "example_pt": "De manhã, tomo café.",
+      "example_ru": "Утром я пью кофе.",
+      "tags": [
+        "unit1",
+        "time"
+      ]
+    },
+    {
+      "id": "v36",
+      "word": "a tarde",
+      "translation_ru": "день (после обеда)",
+      "example_pt": "À tarde, trabalho.",
+      "example_ru": "Днём я работаю.",
+      "tags": [
+        "unit1",
+        "time"
+      ]
+    },
+    {
+      "id": "v37",
+      "word": "a noite",
+      "translation_ru": "вечер",
+      "example_pt": "À noite, vejo TV.",
+      "example_ru": "Вечером я смотрю ТВ.",
+      "tags": [
+        "unit1",
+        "time"
+      ]
+    },
+    {
+      "id": "v38",
+      "word": "hoje",
+      "translation_ru": "сегодня",
+      "example_pt": "Hoje é segunda-feira.",
+      "example_ru": "Сегодня понедельник.",
+      "tags": [
+        "unit1",
+        "time"
+      ]
+    },
+    {
+      "id": "v39",
+      "word": "amanhã",
+      "translation_ru": "завтра",
+      "example_pt": "Amanhã vou ao mercado.",
+      "example_ru": "Завтра я иду на рынок.",
+      "tags": [
+        "unit1",
+        "time"
+      ]
+    },
+    {
+      "id": "v40",
+      "word": "ontem",
+      "translation_ru": "вчера",
+      "example_pt": "Ontem foi domingo.",
+      "example_ru": "Вчера было воскресенье.",
+      "tags": [
+        "unit1",
+        "time"
+      ]
+    },
+    {
+      "id": "v41",
+      "word": "levantar-se",
+      "translation_ru": "вставать",
+      "example_pt": "Eu levanto-me às sete.",
+      "example_ru": "Я встаю в семь.",
+      "tags": [
+        "unit1",
+        "routine",
+        "verbs"
+      ]
+    },
+    {
+      "id": "v42",
+      "word": "lavar-se",
+      "translation_ru": "умываться",
+      "example_pt": "Lavo-me no banheiro.",
+      "example_ru": "Я умываюсь в ванной.",
+      "tags": [
+        "unit1",
+        "routine",
+        "verbs"
+      ]
+    },
+    {
+      "id": "v43",
+      "word": "tomar o pequeno-almoço",
+      "translation_ru": "завтракать",
+      "example_pt": "Tomo o pequeno-almoço com a família.",
+      "example_ru": "Я завтракаю с семьей.",
+      "tags": [
+        "unit1",
+        "routine"
+      ]
+    },
+    {
+      "id": "v44",
+      "word": "ir para o trabalho",
+      "translation_ru": "идти на работу",
+      "example_pt": "Vou para o trabalho de autocarro.",
+      "example_ru": "Я иду на работу на автобусе.",
+      "tags": [
+        "unit1",
+        "routine"
+      ]
+    },
+    {
+      "id": "v45",
+      "word": "almoçar",
+      "translation_ru": "обедать",
+      "example_pt": "Almoço no restaurante.",
+      "example_ru": "Я обедаю в ресторане.",
+      "tags": [
+        "unit1",
+        "routine",
+        "verbs"
+      ]
+    },
+    {
+      "id": "v46",
+      "word": "trabalhar",
+      "translation_ru": "работать",
+      "example_pt": "Trabalho oito horas por dia.",
+      "example_ru": "Я работаю восемь часов в день.",
+      "tags": [
+        "unit1",
+        "routine",
+        "verbs"
+      ]
+    },
+    {
+      "id": "v47",
+      "word": "voltar para casa",
+      "translation_ru": "возвращаться домой",
+      "example_pt": "Volto para casa às seis.",
+      "example_ru": "Я возвращаюсь домой в шесть.",
+      "tags": [
+        "unit1",
+        "routine"
+      ]
+    },
+    {
+      "id": "v48",
+      "word": "jantar",
+      "translation_ru": "ужинать",
+      "example_pt": "Janto com os filhos.",
+      "example_ru": "Я ужинаю с детьми.",
+      "tags": [
+        "unit1",
+        "routine",
+        "verbs"
+      ]
+    },
+    {
+      "id": "v49",
+      "word": "ver televisão",
+      "translation_ru": "смотреть телевизор",
+      "example_pt": "Vejo televisão à noite.",
+      "example_ru": "Я смотрю телевизор вечером.",
+      "tags": [
+        "unit1",
+        "routine"
+      ]
+    },
+    {
+      "id": "v50",
+      "word": "deitar-se",
+      "translation_ru": "ложиться спать",
+      "example_pt": "Deito-me às dez.",
+      "example_ru": "Я ложусь спать в десять.",
+      "tags": [
+        "unit1",
+        "routine",
+        "verbs"
+      ]
+    },
+    {
+      "id": "v51",
+      "word": "a família",
+      "translation_ru": "семья",
+      "example_pt": "A minha família é grande.",
+      "example_ru": "Моя семья большая.",
+      "tags": [
+        "unit1",
+        "family"
+      ]
+    },
+    {
+      "id": "v52",
+      "word": "o pai",
+      "translation_ru": "отец",
+      "example_pt": "O meu pai trabalha no banco.",
+      "example_ru": "Мой отец работает в банке.",
+      "tags": [
+        "unit1",
+        "family"
+      ]
+    },
+    {
+      "id": "v53",
+      "word": "a mãe",
+      "translation_ru": "мать",
+      "example_pt": "A minha mãe é professora.",
+      "example_ru": "Моя мать - учительница.",
+      "tags": [
+        "unit1",
+        "family"
+      ]
+    },
+    {
+      "id": "v54",
+      "word": "o irmão",
+      "translation_ru": "брат",
+      "example_pt": "Tenho um irmão mais velho.",
+      "example_ru": "У меня есть старший брат.",
+      "tags": [
+        "unit1",
+        "family"
+      ]
+    },
+    {
+      "id": "v55",
+      "word": "a irmã",
+      "translation_ru": "сестра",
+      "example_pt": "A minha irmã estuda na universidade.",
+      "example_ru": "Моя сестра учится в университете.",
+      "tags": [
+        "unit1",
+        "family"
+      ]
+    },
+    {
+      "id": "v56",
+      "word": "o filho",
+      "translation_ru": "сын",
+      "example_pt": "O meu filho tem cinco anos.",
+      "example_ru": "Моему сыну пять лет.",
+      "tags": [
+        "unit1",
+        "family"
+      ]
+    },
+    {
+      "id": "v57",
+      "word": "a filha",
+      "translation_ru": "дочь",
+      "example_pt": "A minha filha gosta de dançar.",
+      "example_ru": "Моя дочь любит танцевать.",
+      "tags": [
+        "unit1",
+        "family"
+      ]
+    },
+    {
+      "id": "v58",
+      "word": "o marido",
+      "translation_ru": "муж",
+      "example_pt": "O meu marido é engenheiro.",
+      "example_ru": "Мой муж - инженер.",
+      "tags": [
+        "unit1",
+        "family"
+      ]
+    },
+    {
+      "id": "v59",
+      "word": "a mulher",
+      "translation_ru": "жена",
+      "example_pt": "A minha mulher trabalha em casa.",
+      "example_ru": "Моя жена работает дома.",
+      "tags": [
+        "unit1",
+        "family"
+      ]
+    },
+    {
+      "id": "v60",
+      "word": "o avô",
+      "translation_ru": "дедушка",
+      "example_pt": "O meu avô vive em Portugal.",
+      "example_ru": "Мой дедушка живет в Португалии.",
+      "tags": [
+        "unit1",
+        "family"
+      ]
+    },
+    {
+      "id": "v61",
+      "word": "a avó",
+      "translation_ru": "бабушка",
+      "example_pt": "A minha avó cozinha bem.",
+      "example_ru": "Моя бабушка хорошо готовит.",
+      "tags": [
+        "unit1",
+        "family"
+      ]
+    },
+    {
+      "id": "v62",
+      "word": "a casa",
+      "translation_ru": "дом",
+      "example_pt": "A minha casa é pequena.",
+      "example_ru": "Мой дом маленький.",
+      "tags": [
+        "unit1",
+        "home"
+      ]
+    },
+    {
+      "id": "v63",
+      "word": "o quarto",
+      "translation_ru": "комната",
+      "example_pt": "O quarto tem uma cama.",
+      "example_ru": "В комнате есть кровать.",
+      "tags": [
+        "unit1",
+        "home"
+      ]
+    },
+    {
+      "id": "v64",
+      "word": "a sala",
+      "translation_ru": "гостиная",
+      "example_pt": "Na sala há um sofá.",
+      "example_ru": "В гостиной есть диван.",
+      "tags": [
+        "unit1",
+        "home"
+      ]
+    },
+    {
+      "id": "v65",
+      "word": "a cozinha",
+      "translation_ru": "кухня",
+      "example_pt": "Cozinho na cozinha.",
+      "example_ru": "Я готовлю на кухне.",
+      "tags": [
+        "unit1",
+        "home"
+      ]
+    },
+    {
+      "id": "v66",
+      "word": "o banheiro",
+      "translation_ru": "ванная",
+      "example_pt": "O banheiro é limpo.",
+      "example_ru": "Ванная чистая.",
+      "tags": [
+        "unit1",
+        "home"
+      ]
+    },
+    {
+      "id": "v67",
+      "word": "a cama",
+      "translation_ru": "кровать",
+      "example_pt": "Durmo na cama.",
+      "example_ru": "Я сплю на кровати.",
+      "tags": [
+        "unit1",
+        "home"
+      ]
+    },
+    {
+      "id": "v68",
+      "word": "a mesa",
+      "translation_ru": "стол",
+      "example_pt": "Comemos à mesa.",
+      "example_ru": "Мы едим за столом.",
+      "tags": [
+        "unit1",
+        "home"
+      ]
+    },
+    {
+      "id": "v69",
+      "word": "a cadeira",
+      "translation_ru": "стул",
+      "example_pt": "Sento-me na cadeira.",
+      "example_ru": "Я сижу на стуле.",
+      "tags": [
+        "unit1",
+        "home"
+      ]
+    },
+    {
+      "id": "v70",
+      "word": "a janela",
+      "translation_ru": "окно",
+      "example_pt": "Abro a janela.",
+      "example_ru": "Я открываю окно.",
+      "tags": [
+        "unit1",
+        "home"
+      ]
+    },
+    {
+      "id": "v71",
+      "word": "a porta",
+      "translation_ru": "дверь",
+      "example_pt": "Fecho a porta.",
+      "example_ru": "Я закрываю дверь.",
+      "tags": [
+        "unit1",
+        "home"
+      ]
+    },
+    {
+      "id": "v72",
+      "word": "ser",
+      "translation_ru": "быть (постоянно)",
+      "example_pt": "Eu sou russo.",
+      "example_ru": "Я русский.",
+      "tags": [
+        "unit1",
+        "verbs"
+      ]
+    },
+    {
+      "id": "v73",
+      "word": "estar",
+      "translation_ru": "быть (временно)",
+      "example_pt": "Eu estou cansado.",
+      "example_ru": "Я устал.",
+      "tags": [
+        "unit1",
+        "verbs"
+      ]
+    },
+    {
+      "id": "v74",
+      "word": "ter",
+      "translation_ru": "иметь",
+      "example_pt": "Tenho uma casa.",
+      "example_ru": "У меня есть дом.",
+      "tags": [
+        "unit1",
+        "verbs"
+      ]
+    },
+    {
+      "id": "v75",
+      "word": "ir",
+      "translation_ru": "идти",
+      "example_pt": "Vou ao trabalho.",
+      "example_ru": "Я иду на работу.",
+      "tags": [
+        "unit1",
+        "verbs"
+      ]
+    },
+    {
+      "id": "v76",
+      "word": "vir",
+      "translation_ru": "приходить",
+      "example_pt": "Venho de Portugal.",
+      "example_ru": "Я прихожу из Португалии.",
+      "tags": [
+        "unit1",
+        "verbs"
+      ]
+    },
+    {
+      "id": "v77",
+      "word": "fazer",
+      "translation_ru": "делать",
+      "example_pt": "Faço o jantar.",
+      "example_ru": "Я делаю ужин.",
+      "tags": [
+        "unit1",
+        "verbs"
+      ]
+    },
+    {
+      "id": "v78",
+      "word": "dormir",
+      "translation_ru": "спать",
+      "example_pt": "Durmo oito horas.",
+      "example_ru": "Я сплю восемь часов.",
+      "tags": [
+        "unit1",
+        "routine",
+        "verbs"
+      ]
+    },
+    {
+      "id": "v79",
+      "word": "comer",
+      "translation_ru": "есть",
+      "example_pt": "Como fruta.",
+      "example_ru": "Я ем фрукты.",
+      "tags": [
+        "unit1",
+        "routine",
+        "verbs"
+      ]
+    },
+    {
+      "id": "v80",
+      "word": "beber",
+      "translation_ru": "пить",
+      "example_pt": "Bebo água.",
+      "example_ru": "Я пью воду.",
+      "tags": [
+        "unit1",
+        "routine",
+        "verbs"
+      ]
+    },
+    {
+      "id": "v81",
+      "word": "acordar",
+      "translation_ru": "просыпаться",
+      "example_pt": "Acordo cedo.",
+      "example_ru": "Я просыпаюсь рано.",
+      "tags": [
+        "unit1",
+        "routine",
+        "verbs"
+      ]
+    },
+    {
+      "id": "v82",
+      "word": "vestir-se",
+      "translation_ru": "одеваться",
+      "example_pt": "Visto-me rapidamente.",
+      "example_ru": "Я одеваюсь быстро.",
+      "tags": [
+        "unit1",
+        "routine",
+        "verbs"
+      ]
+    },
+    {
+      "id": "v83",
+      "word": "tomar banho",
+      "translation_ru": "принимать душ",
+      "example_pt": "Tomo banho de manhã.",
+      "example_ru": "Я принимаю душ утром.",
+      "tags": [
+        "unit1",
+        "routine"
+      ]
+    },
+    {
+      "id": "v84",
+      "word": "escovar os dentes",
+      "translation_ru": "чистить зубы",
+      "example_pt": "Escovo os dentes duas vezes.",
+      "example_ru": "Я чищу зубы два раза.",
+      "tags": [
+        "unit1",
+        "routine"
+      ]
+    },
+    {
+      "id": "v85",
+      "word": "pentear-se",
+      "translation_ru": "причесываться",
+      "example_pt": "Penteio-me no espelho.",
+      "example_ru": "Я причесываюсь у зеркала.",
+      "tags": [
+        "unit1",
+        "routine",
+        "verbs"
+      ]
+    },
+    {
+      "id": "v86",
+      "word": "sair de casa",
+      "translation_ru": "выходить из дома",
+      "example_pt": "Saio de casa às oito.",
+      "example_ru": "Я выхожу из дома в восемь.",
+      "tags": [
+        "unit1",
+        "routine"
+      ]
+    },
+    {
+      "id": "v87",
+      "word": "chegar ao trabalho",
+      "translation_ru": "приходить на работу",
+      "example_pt": "Chego ao trabalho às nove.",
+      "example_ru": "Я прихожу на работу в девять.",
+      "tags": [
+        "unit1",
+        "routine"
+      ]
+    },
+    {
+      "id": "v88",
+      "word": "fazer uma pausa",
+      "translation_ru": "делать перерыв",
+      "example_pt": "Faço uma pausa para café.",
+      "example_ru": "Я делаю перерыв на кофе.",
+      "tags": [
+        "unit1",
+        "routine"
+      ]
+    },
+    {
+      "id": "v89",
+      "word": "terminar o trabalho",
+      "translation_ru": "заканчивать работу",
+      "example_pt": "Termino o trabalho às cinco.",
+      "example_ru": "Я заканчиваю работу в пять.",
+      "tags": [
+        "unit1",
+        "routine"
+      ]
+    },
+    {
+      "id": "v90",
+      "word": "fazer compras",
+      "translation_ru": "делать покупки",
+      "example_pt": "Faço compras no supermercado.",
+      "example_ru": "Я делаю покупки в супермаркете.",
+      "tags": [
+        "unit1",
+        "routine"
+      ]
+    },
+    {
+      "id": "v91",
+      "word": "cozinhar",
+      "translation_ru": "готовить",
+      "example_pt": "Cozinho o jantar.",
+      "example_ru": "Я готовлю ужин.",
+      "tags": [
+        "unit1",
+        "routine",
+        "verbs"
+      ]
+    },
+    {
+      "id": "v92",
+      "word": "ler um livro",
+      "translation_ru": "читать книгу",
+      "example_pt": "Leio um livro antes de dormir.",
+      "example_ru": "Я читаю книгу перед сном.",
+      "tags": [
+        "unit1",
+        "routine"
+      ]
+    },
+    {
+      "id": "v93",
+      "word": "ouvir música",
+      "translation_ru": "слушать музыку",
+      "example_pt": "Ouço música no carro.",
+      "example_ru": "Я слушаю музыку в машине.",
+      "tags": [
+        "unit1",
+        "routine"
+      ]
+    },
+    {
+      "id": "v94",
+      "word": "falar com a família",
+      "translation_ru": "говорить с семьей",
+      "example_pt": "Falo com a família todos os dias.",
+      "example_ru": "Я говорю с семьей каждый день.",
+      "tags": [
+        "unit1",
+        "routine",
+        "family"
+      ]
+    },
+    {
+      "id": "v95",
+      "word": "brincar com os filhos",
+      "translation_ru": "играть с детьми",
+      "example_pt": "Brinco com os filhos à noite.",
+      "example_ru": "Я играю с детьми вечером.",
+      "tags": [
+        "unit1",
+        "routine",
+        "family"
+      ]
+    },
+    {
+      "id": "v96",
+      "word": "limpar a casa",
+      "translation_ru": "убирать дом",
+      "example_pt": "Limpo a casa no sábado.",
+      "example_ru": "Я убираю дом в субботу.",
+      "tags": [
+        "unit1",
+        "routine",
+        "home"
+      ]
+    },
+    {
+      "id": "v97",
+      "word": "lavar a roupa",
+      "translation_ru": "стирать одежду",
+      "example_pt": "Lavo a roupa na máquina.",
+      "example_ru": "Я стираю одежду в машине.",
+      "tags": [
+        "unit1",
+        "routine",
+        "home"
+      ]
+    },
+    {
+      "id": "v98",
+      "word": "passear o cão",
+      "translation_ru": "гулять с собакой",
+      "example_pt": "Passeio o cão no parque.",
+      "example_ru": "Я гуляю с собакой в парке.",
+      "tags": [
+        "unit1",
+        "routine"
+      ]
+    },
+    {
+      "id": "v99",
+      "word": "estudar português",
+      "translation_ru": "изучать португальский",
+      "example_pt": "Estudo português todos os dias.",
+      "example_ru": "Я изучаю португальский каждый день.",
+      "tags": [
+        "unit1",
+        "routine"
+      ]
+    },
+    {
+      "id": "v100",
+      "word": "relaxar",
+      "translation_ru": "расслабляться",
+      "example_pt": "Relaxo no sofá.",
+      "example_ru": "Я расслабляюсь на диване.",
+      "tags": [
+        "unit1",
+        "routine",
+        "verbs"
+      ]
+    },
+    {
+      "id": "v101",
+      "word": "meu",
+      "translation_ru": "мой (муж.)",
+      "example_pt": "O meu carro é novo.",
+      "example_ru": "Моя машина новая.",
+      "tags": [
+        "unit1",
+        "family",
+        "home"
+      ]
+    },
+    {
+      "id": "v102",
+      "word": "minha",
+      "translation_ru": "моя (жен.)",
+      "example_pt": "A minha casa é grande.",
+      "example_ru": "Мой дом большой.",
+      "tags": [
+        "unit1",
+        "family",
+        "home"
+      ]
+    },
+    {
+      "id": "v103",
+      "word": "nosso",
+      "translation_ru": "наш (муж.)",
+      "example_pt": "O nosso jardim é bonito.",
+      "example_ru": "Наш сад красивый.",
+      "tags": [
+        "unit1",
+        "family",
+        "home"
+      ]
+    },
+    {
+      "id": "v104",
+      "word": "em casa",
+      "translation_ru": "дома",
+      "example_pt": "Estou em casa.",
+      "example_ru": "Я дома.",
+      "tags": [
+        "unit1",
+        "home"
+      ]
+    },
+    {
+      "id": "v105",
+      "word": "no trabalho",
+      "translation_ru": "на работе",
+      "example_pt": "Estou no trabalho.",
+      "example_ru": "Я на работе.",
+      "tags": [
+        "unit1",
+        "routine"
+      ]
+    },
+    {
+      "id": "v106",
+      "word": "de manhã",
+      "translation_ru": "утром",
+      "example_pt": "De manhã bebo café.",
+      "example_ru": "Утром я пью кофе.",
+      "tags": [
+        "unit1",
+        "time",
+        "routine"
+      ]
+    },
+    {
+      "id": "v107",
+      "word": "à tarde",
+      "translation_ru": "днём",
+      "example_pt": "À tarde estudo.",
+      "example_ru": "Днём я учусь.",
+      "tags": [
+        "unit1",
+        "time",
+        "routine"
+      ]
+    },
+    {
+      "id": "v108",
+      "word": "à noite",
+      "translation_ru": "вечером",
+      "example_pt": "À noite durmo.",
+      "example_ru": "Вечером я сплю.",
+      "tags": [
+        "unit1",
+        "time",
+        "routine"
+      ]
+    },
+    {
+      "id": "v109",
+      "word": "todos os dias",
+      "translation_ru": "каждый день",
+      "example_pt": "Trabalho todos os dias.",
+      "example_ru": "Я работаю каждый день.",
+      "tags": [
+        "unit1",
+        "routine"
+      ]
+    },
+    {
+      "id": "v110",
+      "word": "às vezes",
+      "translation_ru": "иногда",
+      "example_pt": "Às vezes vou ao cinema.",
+      "example_ru": "Иногда я хожу в кино.",
+      "tags": [
+        "unit1",
+        "routine"
+      ]
+    },
+    {
+      "id": "v111",
+      "word": "nunca",
+      "translation_ru": "никогда",
+      "example_pt": "Nunca fumo.",
+      "example_ru": "Я никогда не курю.",
+      "tags": [
+        "unit1",
+        "routine"
+      ]
+    },
+    {
+      "id": "v112",
+      "word": "sempre",
+      "translation_ru": "всегда",
+      "example_pt": "Sempre como fruta.",
+      "example_ru": "Я всегда ем фрукты.",
+      "tags": [
+        "unit1",
+        "routine"
+      ]
+    },
+    {
+      "id": "v113",
+      "word": "Que horas são?",
+      "translation_ru": "Который час?",
+      "example_pt": "Que horas são? São oito.",
+      "example_ru": "Который час? Восемь.",
+      "tags": [
+        "unit1",
+        "time"
+      ]
+    },
+    {
+      "id": "v114",
+      "word": "São dez horas.",
+      "translation_ru": "Десять часов.",
+      "example_pt": "São dez horas da manhã.",
+      "example_ru": "Десять часов утра.",
+      "tags": [
+        "unit1",
+        "time"
+      ]
+    },
+    {
+      "id": "v115",
+      "word": "meio-dia",
+      "translation_ru": "полдень",
+      "example_pt": "Almoço ao meio-dia.",
+      "example_ru": "Обед в полдень.",
+      "tags": [
+        "unit1",
+        "time"
+      ]
+    },
+    {
+      "id": "v116",
+      "word": "meia-noite",
+      "translation_ru": "полночь",
+      "example_pt": "Durmo à meia-noite.",
+      "example_ru": "Я сплю в полночь.",
+      "tags": [
+        "unit1",
+        "time"
+      ]
+    },
+    {
+      "id": "v117",
+      "word": "e meia",
+      "translation_ru": "и половина",
+      "example_pt": "São duas e meia.",
+      "example_ru": "Два тридцать.",
+      "tags": [
+        "unit1",
+        "time"
+      ]
+    },
+    {
+      "id": "v118",
+      "word": "e um quarto",
+      "translation_ru": "и четверть",
+      "example_pt": "São três e um quarto.",
+      "example_ru": "Три пятнадцать.",
+      "tags": [
+        "unit1",
+        "time"
+      ]
+    },
+    {
+      "id": "v119",
+      "word": "menos um quarto",
+      "translation_ru": "без четверти",
+      "example_pt": "São quatro menos um quarto.",
+      "example_ru": "Без четверти четыре.",
+      "tags": [
+        "unit1",
+        "time"
+      ]
+    },
+    {
+      "id": "v120",
+      "word": "vinte minutos",
+      "translation_ru": "двадцать минут",
+      "example_pt": "São cinco e vinte minutos.",
+      "example_ru": "Пять двадцать.",
+      "tags": [
+        "unit1",
+        "time"
+      ]
+    },
+    {
+      "id": "v121",
+      "word": "o relógio",
+      "translation_ru": "часы",
+      "example_pt": "Olho para o relógio.",
+      "example_ru": "Я смотрю на часы.",
+      "tags": [
+        "unit1",
+        "time"
+      ]
+    },
+    {
+      "id": "v122",
+      "word": "cedo",
+      "translation_ru": "рано",
+      "example_pt": "Acordo cedo.",
+      "example_ru": "Я просыпаюсь рано.",
+      "tags": [
+        "unit1",
+        "time"
+      ]
+    },
+    {
+      "id": "v123",
+      "word": "tarde",
+      "translation_ru": "поздно",
+      "example_pt": "Deito-me tarde.",
+      "example_ru": "Я ложусь поздно.",
+      "tags": [
+        "unit1",
+        "time"
+      ]
+    },
+    {
+      "id": "v124",
+      "word": "a hora de almoço",
+      "translation_ru": "обеденное время",
+      "example_pt": "A hora de almoço é ao meio-dia.",
+      "example_ru": "Обеденное время в полдень.",
+      "tags": [
+        "unit1",
+        "time",
+        "routine"
+      ]
+    },
+    {
+      "id": "v125",
+      "word": "o horário",
+      "translation_ru": "расписание",
+      "example_pt": "O meu horário é apertado.",
+      "example_ru": "Моё расписание плотное.",
+      "tags": [
+        "unit1",
+        "time",
+        "routine"
+      ]
+    },
+    {
+      "id": "v126",
+      "word": "a rotina diária",
+      "translation_ru": "повседневная рутина",
+      "example_pt": "A minha rotina diária é simples.",
+      "example_ru": "Моя повседневная рутина простая.",
+      "tags": [
+        "unit1",
+        "routine"
+      ]
+    },
+    {
+      "id": "v127",
+      "word": "viver em Portugal",
+      "translation_ru": "жить в Португалии",
+      "example_pt": "Vivo em Portugal há dois anos.",
+      "example_ru": "Я живу в Португалии два года.",
+      "tags": [
+        "unit1",
+        "routine"
+      ]
+    },
+    {
+      "id": "v128",
+      "word": "integrar-se na sociedade",
+      "translation_ru": "интегрироваться в общество",
+      "example_pt": "Quero integrar-me na sociedade portuguesa.",
+      "example_ru": "Я хочу интегрироваться в португальское общество.",
+      "tags": [
+        "unit1",
+        "routine"
+      ]
+    },
+    {
+      "id": "v129",
+      "word": "aprender a língua",
+      "translation_ru": "изучать язык",
+      "example_pt": "Aprendo a língua para comunicar.",
+      "example_ru": "Я изучаю язык для общения.",
+      "tags": [
+        "unit1",
+        "routine"
+      ]
+    },
+    {
+      "id": "v130",
+      "word": "conhecer vizinhos",
+      "translation_ru": "знакомиться с соседями",
+      "example_pt": "Conheço os meus vizinhos.",
+      "example_ru": "Я знакомлюсь с моими соседями.",
+      "tags": [
+        "unit1",
+        "home",
+        "family"
+      ]
+    },
+    {
+      "id": "v131",
+      "word": "participar em atividades",
+      "translation_ru": "участвовать в活動",
+      "example_pt": "Participo em atividades locais.",
+      "example_ru": "Я участвую в местных活動.",
+      "tags": [
+        "unit1",
+        "routine"
+      ]
+    },
+    {
+      "id": "v132",
+      "word": "respeitar as regras",
+      "translation_ru": "уважать правила",
+      "example_pt": "Respeito as regras da casa.",
+      "example_ru": "Я уважаю правила дома.",
+      "tags": [
+        "unit1",
+        "home"
+      ]
+    },
+    {
+      "id": "v133",
+      "word": "compartilhar refeições",
+      "translation_ru": "делить еду",
+      "example_pt": "Compartilho refeições com a família.",
+      "example_ru": "Я делю еду с семьей.",
+      "tags": [
+        "unit1",
+        "family",
+        "routine"
+      ]
+    },
+    {
+      "id": "v134",
+      "word": "ajudar em casa",
+      "translation_ru": "помогать дома",
+      "example_pt": "Ajudamos em casa.",
+      "example_ru": "Мы помогаем дома.",
+      "tags": [
+        "unit1",
+        "home",
+        "family"
+      ]
+    },
+    {
+      "id": "v135",
+      "word": "celebrar aniversários",
+      "translation_ru": "праздновать дни рождения",
+      "example_pt": "Celebramos aniversários juntos.",
+      "example_ru": "Мы празднуем дни рождения вместе.",
+      "tags": [
+        "unit1",
+        "family"
+      ]
+    },
+    {
+      "id": "v136",
+      "word": "visitar familiares",
+      "translation_ru": "посещать родственников",
+      "example_pt": "Visitamos familiares no domingo.",
+      "example_ru": "Мы посещаем родственников в воскресенье.",
+      "tags": [
+        "unit1",
+        "family",
+        "days"
+      ]
+    },
+    {
+      "id": "v137",
+      "word": "fazer amigos",
+      "translation_ru": "заводить друзей",
+      "example_pt": "Faço amigos no trabalho.",
+      "example_ru": "Я завожу друзей на работе.",
+      "tags": [
+        "unit1",
+        "routine"
+      ]
+    },
+    {
+      "id": "v138",
+      "word": "usar transporte público",
+      "translation_ru": "использовать общественный транспорт",
+      "example_pt": "Uso transporte público para ir ao trabalho.",
+      "example_ru": "Я использую общественный транспорт, чтобы идти на работу.",
+      "tags": [
+        "unit1",
+        "routine"
+      ]
+    },
+    {
+      "id": "v139",
+      "word": "adaptar-se ao clima",
+      "translation_ru": "адаптироваться к климату",
+      "example_pt": "Adapto-me ao clima português.",
+      "example_ru": "Я адаптируюсь к португальскому климату.",
+      "tags": [
+        "unit1",
+        "routine"
+      ]
+    },
+    {
+      "id": "v140",
+      "word": "apreciar a cultura",
+      "translation_ru": "ценить культуру",
+      "example_pt": "Aprecio a cultura portuguesa.",
+      "example_ru": "Я ценю португальскую культуру.",
+      "tags": [
+        "unit1",
+        "routine"
+      ]
+    },
+    {
+      "id": "v141",
+      "word": "vinte e um",
+      "translation_ru": "двадцать один",
+      "example_pt": "Tenho vinte e um anos.",
+      "example_ru": "Мне двадцать один год.",
+      "tags": [
+        "unit1",
+        "numbers"
+      ]
+    },
+    {
+      "id": "v142",
+      "word": "trinta",
+      "translation_ru": "тридцать",
+      "example_pt": "Trinta dias no mês.",
+      "example_ru": "Тридцать дней в месяце.",
+      "tags": [
+        "unit1",
+        "numbers"
+      ]
+    },
+    {
+      "id": "v143",
+      "word": "quarenta",
+      "translation_ru": "сорок",
+      "example_pt": "Quarenta euros.",
+      "example_ru": "Сорок евро.",
+      "tags": [
+        "unit1",
+        "numbers"
+      ]
+    },
+    {
+      "id": "v144",
+      "word": "cinquenta",
+      "translation_ru": "пятьдесят",
+      "example_pt": "Cinquenta minutos.",
+      "example_ru": "Пятьдесят минут.",
+      "tags": [
+        "unit1",
+        "numbers"
+      ]
+    },
+    {
+      "id": "v145",
+      "word": "sessenta",
+      "translation_ru": "шестьдесят",
+      "example_pt": "Sessenta anos.",
+      "example_ru": "Шестьдесят лет.",
+      "tags": [
+        "unit1",
+        "numbers"
+      ]
+    },
+    {
+      "id": "v146",
+      "word": "setenta",
+      "translation_ru": "семьдесят",
+      "example_pt": "Setenta pessoas.",
+      "example_ru": "Семьдесят человек.",
+      "tags": [
+        "unit1",
+        "numbers"
+      ]
+    },
+    {
+      "id": "v147",
+      "word": "oitenta",
+      "translation_ru": "восемьдесят",
+      "example_pt": "Oitenta quilómetros.",
+      "example_ru": "Восемьдесят километров.",
+      "tags": [
+        "unit1",
+        "numbers"
+      ]
+    },
+    {
+      "id": "v148",
+      "word": "noventa",
+      "translation_ru": "девяносто",
+      "example_pt": "Noventa dias.",
+      "example_ru": "Девяносто дней.",
+      "tags": [
+        "unit1",
+        "numbers"
+      ]
+    },
+    {
+      "id": "v149",
+      "word": "cem",
+      "translation_ru": "сто",
+      "example_pt": "Cem euros.",
+      "example_ru": "Сто евро.",
+      "tags": [
+        "unit1",
+        "numbers"
+      ]
+    },
+    {
+      "id": "v150",
+      "word": "o apartamento",
+      "translation_ru": "квартира",
+      "example_pt": "Vivo num apartamento.",
+      "example_ru": "Я живу в квартире.",
+      "tags": [
+        "unit1",
+        "home"
+      ]
+    },
+    {
+      "id": "v151",
+      "word": "o jardim",
+      "translation_ru": "сад",
+      "example_pt": "Tenho um jardim.",
+      "example_ru": "У меня есть сад.",
+      "tags": [
+        "unit1",
+        "home"
+      ]
+    },
+    {
+      "id": "v152",
+      "word": "a varanda",
+      "translation_ru": "балкон",
+      "example_pt": "A varanda é pequena.",
+      "example_ru": "Балкон маленький.",
+      "tags": [
+        "unit1",
+        "home"
+      ]
+    },
+    {
+      "id": "v153",
+      "word": "o elevador",
+      "translation_ru": "лифт",
+      "example_pt": "Uso o elevador.",
+      "example_ru": "Я использую лифт.",
+      "tags": [
+        "unit1",
+        "home"
+      ]
+    },
+    {
+      "id": "v154",
+      "word": "a escada",
+      "translation_ru": "лестница",
+      "example_pt": "Subo a escada.",
+      "example_ru": "Я поднимаюсь по лестнице.",
+      "tags": [
+        "unit1",
+        "home"
+      ]
+    },
+    {
+      "id": "v155",
+      "word": "o vizinho",
+      "translation_ru": "сосед",
+      "example_pt": "O vizinho é amigável.",
+      "example_ru": "Сосед дружелюбный.",
+      "tags": [
+        "unit1",
+        "home"
+      ]
+    },
+    {
+      "id": "v156",
+      "word": "a televisão",
+      "translation_ru": "телевизор",
+      "example_pt": "Vejo a televisão.",
+      "example_ru": "Я смотрю телевизор.",
+      "tags": [
+        "unit1",
+        "home"
+      ]
+    },
+    {
+      "id": "v157",
+      "word": "o computador",
+      "translation_ru": "компьютер",
+      "example_pt": "Uso o computador.",
+      "example_ru": "Я использую компьютер.",
+      "tags": [
+        "unit1",
+        "home"
+      ]
+    },
+    {
+      "id": "v158",
+      "word": "o telefone",
+      "translation_ru": "телефон",
+      "example_pt": "Ligo pelo telefone.",
+      "example_ru": "Я звоню по телефону.",
+      "tags": [
+        "unit1",
+        "home"
+      ]
+    },
+    {
+      "id": "v159",
+      "word": "o frigorífico",
+      "translation_ru": "холодильник",
+      "example_pt": "Abro o frigorífico.",
+      "example_ru": "Я открываю холодильник.",
+      "tags": [
+        "unit1",
+        "home"
+      ]
+    },
+    {
+      "id": "v160",
+      "word": "o forno",
+      "translation_ru": "духовка",
+      "example_pt": "Cozinho no forno.",
+      "example_ru": "Я готовлю в духовке.",
+      "tags": [
+        "unit1",
+        "home"
+      ]
+    },
+    {
+      "id": "v161",
+      "word": "o pequeno-almoço",
+      "translation_ru": "завтрак",
+      "example_pt": "Tomo o pequeno-almoço às oito horas.",
+      "example_ru": "Я завтракаю в восемь часов.",
+      "tags": [
+        "unit2",
+        "food"
+      ]
+    },
+    {
+      "id": "v162",
+      "word": "o almoço",
+      "translation_ru": "обед",
+      "example_pt": "O almoço é às treze horas.",
+      "example_ru": "Обед в тринадцать часов.",
+      "tags": [
+        "unit2",
+        "food"
+      ]
+    },
+    {
+      "id": "v163",
+      "word": "o jantar",
+      "translation_ru": "ужин",
+      "example_pt": "O jantar é com a família.",
+      "example_ru": "Ужин с семьёй.",
+      "tags": [
+        "unit2",
+        "food"
+      ]
+    },
+    {
+      "id": "v164",
+      "word": "a sopa",
+      "translation_ru": "суп",
+      "example_pt": "Gosto de sopa de legumes.",
+      "example_ru": "Мне нравится овощной суп.",
+      "tags": [
+        "unit2",
+        "food"
+      ]
+    },
+    {
+      "id": "v165",
+      "word": "o peixe",
+      "translation_ru": "рыба",
+      "example_pt": "Em Portugal come-se muito peixe.",
+      "example_ru": "В Португалии едят много рыбы.",
+      "tags": [
+        "unit2",
+        "food"
+      ]
+    },
+    {
+      "id": "v166",
+      "word": "a carne",
+      "translation_ru": "мясо",
+      "example_pt": "Prefiro carne grelhada.",
+      "example_ru": "Я предпочитаю мясо на гриле.",
+      "tags": [
+        "unit2",
+        "food"
+      ]
+    },
+    {
+      "id": "v167",
+      "word": "o arroz",
+      "translation_ru": "рис",
+      "example_pt": "Como arroz com feijão.",
+      "example_ru": "Я ем рис с фасолью.",
+      "tags": [
+        "unit2",
+        "food"
+      ]
+    },
+    {
+      "id": "v168",
+      "word": "as batatas",
+      "translation_ru": "картофель",
+      "example_pt": "As batatas fritas são deliciosas.",
+      "example_ru": "Картофель фри вкусный.",
+      "tags": [
+        "unit2",
+        "food"
+      ]
+    },
+    {
+      "id": "v169",
+      "word": "a salada",
+      "translation_ru": "салат",
+      "example_pt": "A salada tem tomate e alface.",
+      "example_ru": "Салат с помидором и салатом.",
+      "tags": [
+        "unit2",
+        "food"
+      ]
+    },
+    {
+      "id": "v170",
+      "word": "o pão",
+      "translation_ru": "хлеб",
+      "example_pt": "Compro pão todos os dias.",
+      "example_ru": "Я покупаю хлеб каждый день.",
+      "tags": [
+        "unit2",
+        "food",
+        "shopping"
+      ]
+    },
+    {
+      "id": "v171",
+      "word": "o queijo",
+      "translation_ru": "сыр",
+      "example_pt": "O queijo português é muito bom.",
+      "example_ru": "Португальский сыр очень хороший.",
+      "tags": [
+        "unit2",
+        "food"
+      ]
+    },
+    {
+      "id": "v172",
+      "word": "o leite",
+      "translation_ru": "молоко",
+      "example_pt": "Bebo leite ao pequeno-almoço.",
+      "example_ru": "Я пью молоко на завтрак.",
+      "tags": [
+        "unit2",
+        "food"
+      ]
+    },
+    {
+      "id": "v173",
+      "word": "a água",
+      "translation_ru": "вода",
+      "example_pt": "Bebo muita água por dia.",
+      "example_ru": "Я пью много воды в день.",
+      "tags": [
+        "unit2",
+        "food"
+      ]
+    },
+    {
+      "id": "v174",
+      "word": "o café",
+      "translation_ru": "кофе",
+      "example_pt": "Em Portugal bebe-se muito café.",
+      "example_ru": "В Португалии пьют много кофе.",
+      "tags": [
+        "unit2",
+        "food",
+        "culture"
+      ]
+    },
+    {
+      "id": "v175",
+      "word": "o vinho",
+      "translation_ru": "вино",
+      "example_pt": "O vinho do Porto é famoso.",
+      "example_ru": "Вино Порту известно.",
+      "tags": [
+        "unit2",
+        "food",
+        "culture"
+      ]
+    },
+    {
+      "id": "v176",
+      "word": "o sumo",
+      "translation_ru": "сок",
+      "example_pt": "Quero um sumo de laranja.",
+      "example_ru": "Хочу апельсиновый сок.",
+      "tags": [
+        "unit2",
+        "food"
+      ]
+    },
+    {
+      "id": "v177",
+      "word": "a fruta",
+      "translation_ru": "фрукты",
+      "example_pt": "Como fruta todos os dias.",
+      "example_ru": "Я ем фрукты каждый день.",
+      "tags": [
+        "unit2",
+        "food"
+      ]
+    },
+    {
+      "id": "v178",
+      "word": "a maçã",
+      "translation_ru": "яблоко",
+      "example_pt": "Uma maçã por dia é saudável.",
+      "example_ru": "Яблоко в день — это здорово.",
+      "tags": [
+        "unit2",
+        "food"
+      ]
+    },
+    {
+      "id": "v179",
+      "word": "a banana",
+      "translation_ru": "банан",
+      "example_pt": "A banana é a minha fruta favorita.",
+      "example_ru": "Банан — мой любимый фрукт.",
+      "tags": [
+        "unit2",
+        "food"
+      ]
+    },
+    {
+      "id": "v180",
+      "word": "a laranja",
+      "translation_ru": "апельсин",
+      "example_pt": "Compro laranjas no mercado.",
+      "example_ru": "Я покупаю апельсины на рынке.",
+      "tags": [
+        "unit2",
+        "food",
+        "shopping"
+      ]
+    },
+    {
+      "id": "v181",
+      "word": "gostar de",
+      "translation_ru": "нравиться, любить (что-то делать)",
+      "example_pt": "Gosto de comer bacalhau.",
+      "example_ru": "Мне нравится есть треску.",
+      "tags": [
+        "unit2",
+        "verbs",
+        "food"
+      ]
+    },
+    {
+      "id": "v182",
+      "word": "comer",
+      "translation_ru": "есть",
+      "example_pt": "Como às doze horas.",
+      "example_ru": "Я ем в двенадцать часов.",
+      "tags": [
+        "unit2",
+        "verbs",
+        "food"
+      ]
+    },
+    {
+      "id": "v183",
+      "word": "beber",
+      "translation_ru": "пить",
+      "example_pt": "Bebo água sem gás.",
+      "example_ru": "Я пью воду без газа.",
+      "tags": [
+        "unit2",
+        "verbs",
+        "food"
+      ]
+    },
+    {
+      "id": "v184",
+      "word": "o supermercado",
+      "translation_ru": "супермаркет",
+      "example_pt": "Vou ao supermercado às sextas.",
+      "example_ru": "Я хожу в супермаркет по пятницам.",
+      "tags": [
+        "unit2",
+        "shopping"
+      ]
+    },
+    {
+      "id": "v185",
+      "word": "o mercado",
+      "translation_ru": "рынок",
+      "example_pt": "No mercado há fruta fresca.",
+      "example_ru": "На рынке есть свежие фрукты.",
+      "tags": [
+        "unit2",
+        "shopping"
+      ]
+    },
+    {
+      "id": "v186",
+      "word": "comprar",
+      "translation_ru": "покупать",
+      "example_pt": "Compro pão na padaria.",
+      "example_ru": "Я покупаю хлеб в булочной.",
+      "tags": [
+        "unit2",
+        "verbs",
+        "shopping"
+      ]
+    },
+    {
+      "id": "v187",
+      "word": "pagar",
+      "translation_ru": "платить",
+      "example_pt": "Pago com cartão.",
+      "example_ru": "Я плачу картой.",
+      "tags": [
+        "unit2",
+        "verbs",
+        "shopping"
+      ]
+    },
+    {
+      "id": "v188",
+      "word": "o restaurante",
+      "translation_ru": "ресторан",
+      "example_pt": "Vamos ao restaurante hoje?",
+      "example_ru": "Пойдём сегодня в ресторан?",
+      "tags": [
+        "unit2",
+        "restaurant"
+      ]
+    },
+    {
+      "id": "v189",
+      "word": "o menu",
+      "translation_ru": "меню",
+      "example_pt": "O empregado traz o menu.",
+      "example_ru": "Официант приносит меню.",
+      "tags": [
+        "unit2",
+        "restaurant"
+      ]
+    },
+    {
+      "id": "v190",
+      "word": "o empregado de mesa",
+      "translation_ru": "официант",
+      "example_pt": "Chamo o empregado de mesa.",
+      "example_ru": "Я зову официанта.",
+      "tags": [
+        "unit2",
+        "restaurant"
+      ]
+    },
+    {
+      "id": "v191",
+      "word": "pedir",
+      "translation_ru": "заказывать",
+      "example_pt": "Peço uma sopa e peixe.",
+      "example_ru": "Я заказываю суп и рыбу.",
+      "tags": [
+        "unit2",
+        "verbs",
+        "restaurant"
+      ]
+    },
+    {
+      "id": "v192",
+      "word": "a conta",
+      "translation_ru": "счёт",
+      "example_pt": "A conta, por favor.",
+      "example_ru": "Счёт, пожалуйста.",
+      "tags": [
+        "unit2",
+        "restaurant"
+      ]
+    },
+    {
+      "id": "v193",
+      "word": "delicioso",
+      "translation_ru": "вкусный",
+      "example_pt": "A comida está deliciosa.",
+      "example_ru": "Еда вкусная.",
+      "tags": [
+        "unit2",
+        "adjectives",
+        "food"
+      ]
+    },
+    {
+      "id": "v194",
+      "word": "saudável",
+      "translation_ru": "здоровый",
+      "example_pt": "Comida saudável é importante.",
+      "example_ru": "Здоровая еда важна.",
+      "tags": [
+        "unit2",
+        "adjectives",
+        "food"
+      ]
+    },
+    {
+      "id": "v195",
+      "word": "o fado",
+      "translation_ru": "фаду",
+      "example_pt": "Ouço fado num restaurante.",
+      "example_ru": "Я слушаю фаду в ресторане.",
+      "tags": [
+        "unit2",
+        "culture",
+        "leisure"
+      ]
+    },
+    {
+      "id": "v196",
+      "word": "o futebol",
+      "translation_ru": "футбол",
+      "example_pt": "Vejo futebol aos fins-de-semana.",
+      "example_ru": "Я смотрю футбол по выходным.",
+      "tags": [
+        "unit2",
+        "leisure"
+      ]
+    },
+    {
+      "id": "v197",
+      "word": "o cinema",
+      "translation_ru": "кино",
+      "example_pt": "Vou ao cinema com amigos.",
+      "example_ru": "Я хожу в кино с друзьями.",
+      "tags": [
+        "unit2",
+        "leisure"
+      ]
+    },
+    {
+      "id": "v198",
+      "word": "a praia",
+      "translation_ru": "пляж",
+      "example_pt": "No verão vou à praia.",
+      "example_ru": "Летом я хожу на пляж.",
+      "tags": [
+        "unit2",
+        "leisure"
+      ]
+    },
+    {
+      "id": "v199",
+      "word": "ler",
+      "translation_ru": "читать",
+      "example_pt": "Gosto de ler livros.",
+      "example_ru": "Мне нравится читать книги.",
+      "tags": [
+        "unit2",
+        "verbs",
+        "leisure"
+      ]
+    },
+    {
+      "id": "v200",
+      "word": "o Natal",
+      "translation_ru": "Рождество",
+      "example_pt": "No Natal como bacalhau.",
+      "example_ru": "На Рождество ем треску.",
+      "tags": [
+        "unit2",
+        "holidays"
+      ]
+    },
+    {
+      "id": "v201",
+      "word": "o Carnaval",
+      "translation_ru": "карнавал",
+      "example_pt": "No Carnaval há desfiles.",
+      "example_ru": "На карнавале бывают парады.",
+      "tags": [
+        "unit2",
+        "holidays"
+      ]
+    },
+    {
+      "id": "v202",
+      "word": "o São João",
+      "translation_ru": "Сан-Жуан (праздник в Порту)",
+      "example_pt": "No São João há sardinhada.",
+      "example_ru": "На Сан-Жуан едят жареные сардины.",
+      "tags": [
+        "unit2",
+        "holidays",
+        "culture"
+      ]
+    },
+    {
+      "id": "v203",
+      "word": "o pastel de nata",
+      "translation_ru": "пастел-де-ната",
+      "example_pt": "Como um pastel de nata com café.",
+      "example_ru": "Я ем пастел-де-ната с кофе.",
+      "tags": [
+        "unit2",
+        "food",
+        "culture"
+      ]
+    },
+    {
+      "id": "v204",
+      "word": "o bacalhau",
+      "translation_ru": "треска",
+      "example_pt": "O bacalhau é o prato nacional.",
+      "example_ru": "Треска — национальное блюдо.",
+      "tags": [
+        "unit2",
+        "food",
+        "culture"
+      ]
+    },
+    {
+      "id": "v205",
+      "word": "a sardinha",
+      "translation_ru": "сардина",
+      "example_pt": "No verão como sardinha assada.",
+      "example_ru": "Летом я ем жареную сардину.",
+      "tags": [
+        "unit2",
+        "food",
+        "culture"
+      ]
+    },
+    {
+      "id": "v206",
+      "word": "ir às compras",
+      "translation_ru": "ходить по магазинам",
+      "example_pt": "Aos sábados vou às compras.",
+      "example_ru": "По субботам я хожу по магазинам.",
+      "tags": [
+        "unit2",
+        "shopping"
+      ]
+    },
+    {
+      "id": "v207",
+      "word": "quanto custa?",
+      "translation_ru": "сколько стоит?",
+      "example_pt": "Quanto custa o pão?",
+      "example_ru": "Сколько стоит хлеб?",
+      "tags": [
+        "unit2",
+        "shopping"
+      ]
+    },
+    {
+      "id": "v208",
+      "word": "caro",
+      "translation_ru": "дорогой",
+      "example_pt": "A carne está cara.",
+      "example_ru": "Мясо дорогое.",
+      "tags": [
+        "unit2",
+        "adjectives",
+        "shopping"
+      ]
+    },
+    {
+      "id": "v209",
+      "word": "barato",
+      "translation_ru": "дешёвый",
+      "example_pt": "A fruta no mercado é barata.",
+      "example_ru": "Фрукты на рынке дешёвые.",
+      "tags": [
+        "unit2",
+        "adjectives",
+        "shopping"
+      ]
+    },
+    {
+      "id": "v210",
+      "word": "o hobby",
+      "translation_ru": "хобби",
+      "example_pt": "O meu hobby é cozinhar.",
+      "example_ru": "Моё хобби — готовить.",
+      "tags": [
+        "unit2",
+        "leisure"
+      ]
+    },
+    {
+      "id": "v211",
+      "word": "cozinhar",
+      "translation_ru": "готовить",
+      "example_pt": "Gosto de cozinhar pratos portugueses.",
+      "example_ru": "Мне нравится готовить португальские блюда.",
+      "tags": [
+        "unit2",
+        "verbs",
+        "leisure"
+      ]
+    },
+    {
+      "id": "v212",
+      "word": "dançar",
+      "translation_ru": "танцевать",
+      "example_pt": "No Carnaval gosto de dançar.",
+      "example_ru": "На карнавале люблю танцевать.",
+      "tags": [
+        "unit2",
+        "verbs",
+        "leisure"
+      ]
+    },
+    {
+      "id": "v213",
+      "word": "caminhar",
+      "translation_ru": "гулять, ходить пешком",
+      "example_pt": "Caminho na praia ao fim do dia.",
+      "example_ru": "Я гуляю по пляжу вечером.",
+      "tags": [
+        "unit2",
+        "verbs",
+        "leisure"
+      ]
+    },
+    {
+      "id": "v214",
+      "word": "o mar",
+      "translation_ru": "море",
+      "example_pt": "Em Portugal há muito mar.",
+      "example_ru": "В Португалии много моря.",
+      "tags": [
+        "unit2",
+        "leisure"
+      ]
+    },
+    {
+      "id": "v215",
+      "word": "a tradição",
+      "translation_ru": "традиция",
+      "example_pt": "A tradição do fado é importante.",
+      "example_ru": "Традиция фаду важна.",
+      "tags": [
+        "unit2",
+        "culture"
+      ]
+    },
+    {
+      "id": "v216",
+      "word": "o feriado",
+      "translation_ru": "праздник, выходной",
+      "example_pt": "O 25 de Abril é feriado.",
+      "example_ru": "25 апреля — выходной.",
+      "tags": [
+        "unit2",
+        "holidays"
+      ]
+    },
+    {
+      "id": "v217",
+      "word": "feliz",
+      "translation_ru": "счастливый",
+      "example_pt": "No Natal estou feliz.",
+      "example_ru": "На Рождество я счастлив.",
+      "tags": [
+        "unit2",
+        "adjectives"
+      ]
+    },
+    {
+      "id": "v218",
+      "word": "faminto",
+      "translation_ru": "голодный",
+      "example_pt": "Depois do trabalho estou faminto.",
+      "example_ru": "После работы я голодный.",
+      "tags": [
+        "unit2",
+        "adjectives",
+        "food"
+      ]
+    },
+    {
+      "id": "v219",
+      "word": "com sede",
+      "translation_ru": "испытывающий жажду",
+      "example_pt": "No verão tenho sede.",
+      "example_ru": "Летом я хочу пить.",
+      "tags": [
+        "unit2",
+        "food"
+      ]
+    },
+    {
+      "id": "v220",
+      "word": "um quilo de",
+      "translation_ru": "килограмм",
+      "example_pt": "Quero um quilo de tomates.",
+      "example_ru": "Хочу килограмм помидоров.",
+      "tags": [
+        "unit2",
+        "shopping"
+      ]
+    },
+    {
+      "id": "v221",
+      "word": "meio quilo",
+      "translation_ru": "полкило",
+      "example_pt": "Meio quilo de queijo, por favor.",
+      "example_ru": "Полкило сыра, пожалуйста.",
+      "tags": [
+        "unit2",
+        "shopping"
+      ]
+    },
+    {
+      "id": "v222",
+      "word": "uma dúzia",
+      "translation_ru": "дюжина",
+      "example_pt": "Uma dúzia de ovos.",
+      "example_ru": "Дюжина яиц.",
+      "tags": [
+        "unit2",
+        "shopping"
+      ]
+    },
+    {
+      "id": "v223",
+      "word": "o ovo",
+      "translation_ru": "яйцо",
+      "example_pt": "Compro ovos no supermercado.",
+      "example_ru": "Я покупаю яйца в супермаркете.",
+      "tags": [
+        "unit2",
+        "food"
+      ]
+    },
+    {
+      "id": "v224",
+      "word": "o açúcar",
+      "translation_ru": "сахар",
+      "example_pt": "Ponho açúcar no café.",
+      "example_ru": "Я кладу сахар в кофе.",
+      "tags": [
+        "unit2",
+        "food"
+      ]
+    },
+    {
+      "id": "v225",
+      "word": "o sal",
+      "translation_ru": "соль",
+      "example_pt": "A sopa precisa de sal.",
+      "example_ru": "Супу нужна соль.",
+      "tags": [
+        "unit2",
+        "food"
+      ]
+    },
+    {
+      "id": "v226",
+      "word": "o azeite",
+      "translation_ru": "оливковое масло",
+      "example_pt": "Em Portugal usa-se muito azeite.",
+      "example_ru": "В Португалии используют много оливкового масла.",
+      "tags": [
+        "unit2",
+        "food",
+        "culture"
+      ]
+    },
+    {
+      "id": "v227",
+      "word": "frito",
+      "translation_ru": "жареный",
+      "example_pt": "Gosto de batatas fritas.",
+      "example_ru": "Мне нравятся жареные картофелины.",
+      "tags": [
+        "unit2",
+        "adjectives",
+        "food"
+      ]
+    },
+    {
+      "id": "v228",
+      "word": "grelhado",
+      "translation_ru": "гриль",
+      "example_pt": "Peixe grelhado é saudável.",
+      "example_ru": "Рыба на гриле здоровая.",
+      "tags": [
+        "unit2",
+        "adjectives",
+        "food"
+      ]
+    },
+    {
+      "id": "v229",
+      "word": "doce",
+      "translation_ru": "сладкий",
+      "example_pt": "Os pastéis de nata são doces.",
+      "example_ru": "Пастел-де-ната сладкие.",
+      "tags": [
+        "unit2",
+        "adjectives",
+        "food"
+      ]
+    },
+    {
+      "id": "v230",
+      "word": "salgado",
+      "translation_ru": "солёный",
+      "example_pt": "Prefiro comida salgada.",
+      "example_ru": "Я предпочитаю солёную еду.",
+      "tags": [
+        "unit2",
+        "adjectives",
+        "food"
+      ]
+    },
+    {
+      "id": "v231",
+      "word": "a dieta",
+      "translation_ru": "диета",
+      "example_pt": "Faço dieta para estar saudável.",
+      "example_ru": "Я сижу на диете, чтобы быть здоровым.",
+      "tags": [
+        "unit2",
+        "food"
+      ]
+    },
+    {
+      "id": "v232",
+      "word": "vegetariano",
+      "translation_ru": "вегетарианский",
+      "example_pt": "Sou vegetariano.",
+      "example_ru": "Я вегетарианец.",
+      "tags": [
+        "unit2",
+        "food"
+      ]
+    },
+    {
+      "id": "v233",
+      "word": "o prato do dia",
+      "translation_ru": "блюдо дня",
+      "example_pt": "Qual é o prato do dia?",
+      "example_ru": "Какое сегодня блюдо дня?",
+      "tags": [
+        "unit2",
+        "restaurant"
+      ]
+    },
+    {
+      "id": "v234",
+      "word": "a sobremesa",
+      "translation_ru": "десерт",
+      "example_pt": "Quero uma sobremesa.",
+      "example_ru": "Хочу десерт.",
+      "tags": [
+        "unit2",
+        "restaurant",
+        "food"
+      ]
+    },
+    {
+      "id": "v235",
+      "word": "a entrada",
+      "translation_ru": "закуска",
+      "example_pt": "A entrada é sopa.",
+      "example_ru": "Закуска — суп.",
+      "tags": [
+        "unit2",
+        "restaurant"
+      ]
+    },
+    {
+      "id": "v236",
+      "word": "o prato principal",
+      "translation_ru": "основное блюдо",
+      "example_pt": "O prato principal é bacalhau.",
+      "example_ru": "Основное блюдо — треска.",
+      "tags": [
+        "unit2",
+        "restaurant"
+      ]
+    },
+    {
+      "id": "v237",
+      "word": "bom apetite!",
+      "translation_ru": "приятного аппетита!",
+      "example_pt": "Bom apetite a todos!",
+      "example_ru": "Приятного аппетита всем!",
+      "tags": [
+        "unit2",
+        "restaurant"
+      ]
+    },
+    {
+      "id": "v238",
+      "word": "estar com fome",
+      "translation_ru": "быть голодным",
+      "example_pt": "As crianças estão com fome.",
+      "example_ru": "Дети голодные.",
+      "tags": [
+        "unit2",
+        "food"
+      ]
+    },
+    {
+      "id": "v239",
+      "word": "o lanche",
+      "translation_ru": "перекус",
+      "example_pt": "Faço um lanche à tarde.",
+      "example_ru": "Я перекусываю днём.",
+      "tags": [
+        "unit2",
+        "food"
+      ]
+    },
+    {
+      "id": "v240",
+      "word": "a padaria",
+      "translation_ru": "булочная",
+      "example_pt": "Compro pão na padaria.",
+      "example_ru": "Я покупаю хлеб в булочной.",
+      "tags": [
+        "unit2",
+        "shopping"
+      ]
+    },
+    {
+      "id": "v241",
+      "word": "a talho",
+      "translation_ru": "мясная лавка",
+      "example_pt": "Compro carne no talho.",
+      "example_ru": "Я покупаю мясо в мясной лавке.",
+      "tags": [
+        "unit2",
+        "shopping"
+      ]
+    },
+    {
+      "id": "v242",
+      "word": "a peixaria",
+      "translation_ru": "рыбный магазин",
+      "example_pt": "O peixe é fresco na peixaria.",
+      "example_ru": "Рыба свежая в рыбном магазине.",
+      "tags": [
+        "unit2",
+        "shopping"
+      ]
+    },
+    {
+      "id": "v243",
+      "word": "fresco",
+      "translation_ru": "свежий",
+      "example_pt": "Gosto de peixe fresco.",
+      "example_ru": "Мне нравится свежая рыба.",
+      "tags": [
+        "unit2",
+        "adjectives",
+        "food"
+      ]
+    },
+    {
+      "id": "v244",
+      "word": "congelado",
+      "translation_ru": "замороженный",
+      "example_pt": "Compro legumes congelados.",
+      "example_ru": "Я покупаю замороженные овощи.",
+      "tags": [
+        "unit2",
+        "adjectives",
+        "food"
+      ]
+    },
+    {
+      "id": "v245",
+      "word": "o pacote",
+      "translation_ru": "пачка, упаковка",
+      "example_pt": "Um pacote de leite, por favor.",
+      "example_ru": "Пачку молока, пожалуйста.",
+      "tags": [
+        "unit2",
+        "shopping"
+      ]
+    },
+    {
+      "id": "v246",
+      "word": "a garrafa",
+      "translation_ru": "бутылка",
+      "example_pt": "Uma garrafa de água.",
+      "example_ru": "Бутылку воды.",
+      "tags": [
+        "unit2",
+        "shopping"
+      ]
+    },
+    {
+      "id": "v247",
+      "word": "a lata",
+      "translation_ru": "банка",
+      "example_pt": "Uma lata de atum.",
+      "example_ru": "Банку тунца.",
+      "tags": [
+        "unit2",
+        "shopping"
+      ]
+    },
+    {
+      "id": "v248",
+      "word": "o pacote de açúcar",
+      "translation_ru": "пачка сахара",
+      "example_pt": "Preciso de um pacote de açúcar.",
+      "example_ru": "Мне нужна пачка сахара.",
+      "tags": [
+        "unit2",
+        "shopping"
+      ]
+    },
+    {
+      "id": "v249",
+      "word": "precisar de",
+      "translation_ru": "нуждаться в",
+      "example_pt": "Preciso de fruta.",
+      "example_ru": "Мне нужны фрукты.",
+      "tags": [
+        "unit2",
+        "verbs",
+        "shopping"
+      ]
+    },
+    {
+      "id": "v250",
+      "word": "ter vontade de",
+      "translation_ru": "хотеть (чего-то поесть/попить)",
+      "example_pt": "Tenho vontade de gelado.",
+      "example_ru": "Хочу мороженого.",
+      "tags": [
+        "unit2",
+        "verbs",
+        "food"
+      ]
+    },
+    {
+      "id": "v251",
+      "word": "o gelado",
+      "translation_ru": "мороженое",
+      "example_pt": "No verão como gelado.",
+      "example_ru": "Летом я ем мороженое.",
+      "tags": [
+        "unit2",
+        "food"
+      ]
+    },
+    {
+      "id": "v252",
+      "word": "o chá",
+      "translation_ru": "чай",
+      "example_pt": "Bebo chá à noite.",
+      "example_ru": "Я пью чай вечером.",
+      "tags": [
+        "unit2",
+        "food"
+      ]
+    },
+    {
+      "id": "v253",
+      "word": "sem açúcar",
+      "translation_ru": "без сахара",
+      "example_pt": "Café sem açúcar, por favor.",
+      "example_ru": "Кофе без сахара, пожалуйста.",
+      "tags": [
+        "unit2",
+        "restaurant"
+      ]
+    },
+    {
+      "id": "v254",
+      "word": "com leite",
+      "translation_ru": "с молоком",
+      "example_pt": "Café com leite.",
+      "example_ru": "Кофе с молоком.",
+      "tags": [
+        "unit2",
+        "restaurant"
+      ]
+    },
+    {
+      "id": "v255",
+      "word": "uma bica",
+      "translation_ru": "эспрессо (в Португалии)",
+      "example_pt": "Quero uma bica.",
+      "example_ru": "Хочу эспрессо.",
+      "tags": [
+        "unit2",
+        "food",
+        "culture"
+      ]
+    },
+    {
+      "id": "v256",
+      "word": "um galão",
+      "translation_ru": "кофе с молоком в большом стакане",
+      "example_pt": "Peço um galão.",
+      "example_ru": "Заказываю галан.",
+      "tags": [
+        "unit2",
+        "food",
+        "culture"
+      ]
+    },
+    {
+      "id": "v257",
+      "word": "a pastelaria",
+      "translation_ru": "кондитерская",
+      "example_pt": "Na pastelaria compro pastéis.",
+      "example_ru": "В кондитерской покупаю пирожные.",
+      "tags": [
+        "unit2",
+        "shopping",
+        "culture"
+      ]
+    },
+    {
+      "id": "v258",
+      "word": "passar tempo",
+      "translation_ru": "проводить время",
+      "example_pt": "Gosto de passar tempo com amigos.",
+      "example_ru": "Мне нравится проводить время с друзьями.",
+      "tags": [
+        "unit2",
+        "leisure"
+      ]
+    },
+    {
+      "id": "v259",
+      "word": "o passeio",
+      "translation_ru": "прогулка",
+      "example_pt": "Dou um passeio à noite.",
+      "example_ru": "Я совершаю вечернюю прогулку.",
+      "tags": [
+        "unit2",
+        "leisure"
+      ]
+    },
+    {
+      "id": "v260",
+      "word": "o festival",
+      "translation_ru": "фестиваль",
+      "example_pt": "No verão há muitos festivais.",
+      "example_ru": "Летом много фестивалей.",
+      "tags": [
+        "unit2",
+        "culture",
+        "leisure"
+      ]
+    }
+  ]
+}
