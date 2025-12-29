@@ -21,7 +21,7 @@
       </div>
     </div>
 
-    <button v-if="!viewOnly" @click="$emit('continue')" class="btn-continue">
+    <button v-if="!viewOnly" @click="$emit('continue')" class="btn-continue sprint-btn">
       Начать упражнения →
     </button>
   </div>
@@ -123,6 +123,8 @@ defineEmits(['continue'])
 .btn-continue:hover {
   background: #35a372;
 }
+
+.sprint-btn { margin-top: 1rem }
 
 @media (max-width: 768px) {
   .theory-card {

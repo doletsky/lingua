@@ -1,9 +1,9 @@
 <template>
   <div class="fill-blank">
     <!-- Guard: incomplete exercise -->
-    <div v-if="!exercise || !exercise.question || !exercise.correct" class="incomplete">
+      <div v-if="!exercise || !exercise.question || !exercise.correct" class="incomplete">
       <p>⚠️ Упражнение неполное. Пропустить?</p>
-      <button @click="continueNext" class="btn-skip">Пропустить →</button>
+      <button @click="continueNext" class="btn-skip sprint-btn">Пропустить →</button>
     </div>
 
     <div v-else>
@@ -31,14 +31,14 @@
             <strong>Объяснение:</strong> {{ exercise.explanationRu }}
           </p>
         </div>
-        <button @click="continueNext" class="btn-continue">Далее →</button>
+        <button @click="continueNext" class="btn-continue sprint-btn">Далее →</button>
       </div>
 
       <div v-if="!answered" class="actions">
-        <button @click="showHint = true" v-if="!showHint && exercise.hint" class="btn-hint">
+        <button @click="showHint = true" v-if="!showHint && exercise.hint" class="btn-hint sprint-btn">
           💡 Подсказка
         </button>
-        <button @click="checkAnswer" class="btn-check">
+        <button @click="checkAnswer" class="btn-check sprint-btn">
           Проверить
         </button>
       </div>
@@ -254,4 +254,8 @@ const continueNext = () => {
   cursor: pointer;
 }
 
+</style>
+
+<style scoped>
+.sprint-btn { margin-top: 1rem; }
 </style>

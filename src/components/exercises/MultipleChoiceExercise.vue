@@ -1,8 +1,8 @@
 <template>
   <div class="multiple-choice">
-    <div v-if="!exercise || !exercise.question || !exercise.options || exercise.options.length < 2 || !exercise.correct" class="incomplete">
+      <div v-if="!exercise || !exercise.question || !exercise.options || exercise.options.length < 2 || !exercise.correct" class="incomplete">
       <p>⚠️ Упражнение неполное. Пропустить?</p>
-      <button @click="continueNext" class="btn-skip">Пропустить →</button>
+      <button @click="continueNext" class="btn-skip sprint-btn">Пропустить →</button>
     </div>
 
     <div v-else>
@@ -33,13 +33,13 @@
             <strong>Объяснение:</strong> {{ exercise.explanationRu }}
           </p>
         </div>
-        <button @click="continueNext" class="btn-continue">Далее →</button>
+        <button @click="continueNext" class="btn-continue sprint-btn">Далее →</button>
       </div>
 
       <button
         v-if="!answered && !showHint"
         @click="showHint = true"
-        class="btn-hint"
+        class="btn-hint sprint-btn"
       >
         💡 Подсказка
       </button>
@@ -240,4 +240,8 @@ const continueNext = () => {
   cursor: pointer;
 }
 
+</style>
+
+<style scoped>
+.sprint-btn { margin-top: 1rem; }
 </style>

@@ -1,10 +1,10 @@
 <template>
   <div class="sprint-view">
     <!-- Ошибка инициализации -->
-    <div v-if="error" class="error-container">
+      <div v-if="error" class="error-container">
       <h2>⚠️ Ошибка</h2>
       <p>{{ error }}</p>
-      <button @click="$router.push('/')" class="btn-primary">
+      <button @click="$router.push('/')" class="btn-primary sprint-btn">
         На главную
       </button>
     </div>
@@ -74,7 +74,7 @@
           <p>⏱️ Время: {{ Math.floor(elapsedSeconds / 60) }}м {{ elapsedSeconds % 60 }}с</p>
         </div>
 
-        <button @click="finishSprint" class="btn-primary">
+        <button @click="finishSprint" class="btn-primary sprint-btn">
           Завершить
         </button>
       </div>
@@ -798,6 +798,12 @@ const finishSprint = () => {
   }
 }
 </script>
+
+<style scoped>
+.sprint-btn {
+  margin-top: 1rem;
+}
+</style>
 
 <style scoped>
 .sprint-view {

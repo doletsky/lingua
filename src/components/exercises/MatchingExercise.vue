@@ -1,8 +1,8 @@
 <template>
   <div class="matching">
-    <div v-if="!exercise || !exercise.pairs || exercise.pairs.length < 2" class="incomplete">
+      <div v-if="!exercise || !exercise.pairs || exercise.pairs.length < 2" class="incomplete">
       <p>⚠️ Упражнение неполное. Пропустить?</p>
-      <button @click="continueNext" class="btn-skip">Пропустить →</button>
+      <button @click="continueNext" class="btn-skip sprint-btn">Пропустить →</button>
     </div>
 
     <div v-else>
@@ -45,7 +45,7 @@
         <p v-if="exercise.explanationRu" class="explanation">
           <strong>Объяснение:</strong> {{ exercise.explanationRu }}
         </p>
-        <button @click="continueNext" class="btn-continue">Далее →</button>
+        <button @click="continueNext" class="btn-continue sprint-btn">Далее →</button>
       </div>
     </div>
   </div>
@@ -299,4 +299,8 @@ function shuffle(array) {
   cursor: pointer;
 }
 
+</style>
+
+<style scoped>
+.sprint-btn { margin-top: 1rem; }
 </style>

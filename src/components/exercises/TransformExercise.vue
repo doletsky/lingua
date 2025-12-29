@@ -31,14 +31,14 @@
           <strong>Объяснение:</strong> {{ exercise.explanationRu }}
         </p>
       </div>
-      <button @click="continueNext" class="btn-continue">Далее →</button>
+      <button @click="continueNext" class="btn-continue sprint-btn">Далее →</button>
     </div>
 
     <div v-if="!answered" class="actions">
-      <button @click="showHint = true" v-if="!showHint && exercise.hint" class="btn-hint">
+      <button @click="showHint = true" v-if="!showHint && exercise.hint" class="btn-hint sprint-btn">
         💡 Подсказка
       </button>
-      <button @click="checkAnswer" class="btn-check">
+      <button @click="checkAnswer" class="btn-check sprint-btn">
         Проверить
       </button>
     </div>
@@ -250,4 +250,8 @@ const continueNext = () => {
   transform: translateY(-2px);
   box-shadow: 0 4px 8px rgba(66, 184, 131, 0.3);
 }
+</style>
+
+<style scoped>
+.sprint-btn { margin-top: 1rem; }
 </style>
