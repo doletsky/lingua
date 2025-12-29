@@ -84,9 +84,33 @@ const load = async () => {
     const map = {}
     for (const g of grammars.value) {
       const related = history.filter(s => s.exerciseResults && s.exerciseResults.some(er => er.snapshot && er.snapshot.grammarId === g.id))
+
+      // Группируем повторы одного и того же набора упражнений в один уникальный спринт
+      const groupsMap = new Map()
+      for (const sp of related) {
+        const signature = (sp.exerciseResults || []).map(er => {
+          const snap = er.snapshot || {}
+          if (Array.isArray(snap.itemIds) && snap.itemIds.length > 0) return snap.itemIds.join(',')
+          if (snap.itemId !== undefined && snap.itemId !== null) return String(snap.itemId)
+          if (er.itemId !== undefined && er.itemId !== null) return String(er.itemId)
+          return String(er.exerciseId || '')
+        }).filter(Boolean).sort().join('|')
+
+        const key = `${signature}::${g.id}`
+        if (!groupsMap.has(key)) groupsMap.set(key, [])
+        groupsMap.get(key).push(sp)
+      }
+
+      const groups = Array.from(groupsMap.values())
+      const timesPracticed = groups.length
+
+      // Для каждой уникальной группы возьмём лучшую точность (если были повторы), затем усредним
+      const bestPerGroup = groups.map(gr => Math.max(...gr.map(s => (s.stats && typeof s.stats.accuracy === 'number') ? s.stats.accuracy : 0)))
+      const avgBest = bestPerGroup.length > 0 ? Math.round(bestPerGroup.reduce((a, b) => a + b, 0) / bestPerGroup.length) : null
+
       map[g.id] = {
-        timesPracticed: related.length,
-        lastAccuracy: related.length > 0 ? related[0].stats.accuracy : null
+        timesPracticed,
+        lastAccuracy: avgBest
       }
     }
 

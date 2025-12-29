@@ -148,9 +148,35 @@ export const useProgressStore = defineStore('progress', () => {
   // Сохранить статистику спринта
   const saveSprintStats = async () => {
     if (!db.value) await initDB()
-    
-    totalSprints.value++
-    
+    // Recompute total sprints from sprintHistory to avoid double-counting repeated runs
+    const allSprints = await getAllSprintHistory(1000)
+
+    const dedupeBySignature = (list) => {
+      const map = new Map()
+      for (const sp of list) {
+        try {
+          const signature = (sp.exerciseResults || []).map(er => {
+            const snap = er.snapshot || {}
+            if (Array.isArray(snap.itemIds) && snap.itemIds.length > 0) return snap.itemIds.join(',')
+            if (snap.itemId !== undefined && snap.itemId !== null) return String(snap.itemId)
+            if (er.itemId !== undefined && er.itemId !== null) return String(er.itemId)
+            return String(er.exerciseId || '')
+          }).filter(Boolean).sort().join('|')
+
+          const key = `${sp.unitId || ''}::${signature}::${(sp.stats && sp.stats.accuracy) || ''}`
+          if (!map.has(key)) map.set(key, [])
+          map.get(key).push(sp)
+        } catch (e) {
+          const uid = `__bad__${Math.random()}`
+          map.set(uid, (map.get(uid) || []).concat(sp))
+        }
+      }
+      return Array.from(map.values())
+    }
+
+    const groups = dedupeBySignature(allSprints)
+    totalSprints.value = groups.length
+
     const tx = db.value.transaction('stats', 'readwrite')
     await tx.objectStore('stats').put({ key: 'totalSprints', value: totalSprints.value })
     
@@ -186,10 +212,39 @@ export const useProgressStore = defineStore('progress', () => {
   // Сохранить последнюю пройденную грамматику для юнита
   const setLastCompletedGrammar = async (unitId, grammarId) => {
     const id = unitId && unitId.value !== undefined ? unitId.value : unitId
-    lastCompletedGrammar.value = { ...lastCompletedGrammar.value, [id]: grammarId }
+
+    // Normalize grammarId to primitive where possible
+    let primitiveGrammarId = grammarId
+    if (grammarId && typeof grammarId === 'object') {
+      if ('id' in grammarId) primitiveGrammarId = grammarId.id
+      else primitiveGrammarId = String(grammarId)
+    }
+
+    // Update in-memory value (use plain object to avoid reactive proxies leaking)
+    const newMap = Object.assign({}, lastCompletedGrammar.value || {})
+    newMap[id] = primitiveGrammarId
+    lastCompletedGrammar.value = newMap
+
     if (db.value) {
-      const tx = db.value.transaction('stats', 'readwrite')
-      await tx.objectStore('stats').put({ key: 'lastCompletedGrammar', value: lastCompletedGrammar.value })
+      try {
+        const tx = db.value.transaction('stats', 'readwrite')
+        // Ensure value is structured-cloneable: store a deep plain copy
+        let serializable = null
+        try {
+          serializable = structuredClone(newMap)
+        } catch (e) {
+          serializable = JSON.parse(JSON.stringify(newMap))
+        }
+        await tx.objectStore('stats').put({ key: 'lastCompletedGrammar', value: serializable })
+      } catch (e) {
+        console.warn('[ProgressStore] Не удалось записать lastCompletedGrammar в IndexedDB, попытка с JSON stringify:', e)
+        try {
+          const tx2 = db.value.transaction('stats', 'readwrite')
+          await tx2.objectStore('stats').put({ key: 'lastCompletedGrammar', value: JSON.parse(JSON.stringify(newMap)) })
+        } catch (err) {
+          console.error('[ProgressStore] Сбой записи lastCompletedGrammar:', err)
+        }
+      }
     }
   }
 
@@ -273,12 +328,47 @@ export const useProgressStore = defineStore('progress', () => {
       }
     }
 
-    const accuracies = sprints.map(s => s.stats.accuracy)
-    const totalSprints = sprints.length
-    const averageAccuracy = Math.round(
-      accuracies.reduce((a, b) => a + b, 0) / accuracies.length
-    )
-    const bestAccuracy = Math.max(...accuracies)
+    // Для юнита: объединяем повторы одного и того же набора упражнений в один "уникальный" спринт
+    const dedupeBySignature = (list) => {
+      const map = new Map()
+      for (const sp of list) {
+        try {
+          const signature = (sp.exerciseResults || []).map(er => {
+            const snap = er.snapshot || {}
+            if (Array.isArray(snap.itemIds) && snap.itemIds.length > 0) return snap.itemIds.join(',')
+            if (snap.itemId !== undefined && snap.itemId !== null) return String(snap.itemId)
+            if (er.itemId !== undefined && er.itemId !== null) return String(er.itemId)
+            return String(er.exerciseId || '')
+          }).filter(Boolean).sort().join('|')
+
+          // fallback: include grammarId to reduce collisions
+          const grammarId = (sp.exerciseResults || []).find(er => er.snapshot && (er.snapshot.grammarId || er.snapshot.grammarId === 0))?.snapshot?.grammarId
+          const key = `${signature}::${grammarId ?? ''}`
+
+          if (!map.has(key)) map.set(key, [])
+          map.get(key).push(sp)
+        } catch (e) {
+          // если какая-то запись не сериализуется корректно — просто учитываем её отдельно
+          const uid = `__bad__${Math.random()}`
+          map.set(uid, (map.get(uid) || []).concat(sp))
+        }
+      }
+      return Array.from(map.values())
+    }
+
+    let groups = sprints
+    // если указан unitId — хотим агрегировать повторные прохождения одного и того же набора
+    if (unitId) {
+      groups = dedupeBySignature(sprints)
+    } else {
+      // для общего списка тоже можно сгруппировать, но оставим прежнее поведение: считать все записи
+      groups = sprints.map(s => [s])
+    }
+
+    const bestAccuracies = groups.map(group => Math.max(...group.map(s => (s.stats && typeof s.stats.accuracy === 'number') ? s.stats.accuracy : 0)))
+    const totalSprints = groups.length
+    const averageAccuracy = Math.round(bestAccuracies.reduce((a, b) => a + b, 0) / bestAccuracies.length)
+    const bestAccuracy = Math.max(...bestAccuracies)
     const lastSprintDate = sprints[0].date
 
     return {

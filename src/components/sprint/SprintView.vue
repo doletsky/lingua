@@ -756,8 +756,10 @@ const saveSprintHistory = async () => {
     const clonableSprintResult = (function () {
       try { return structuredClone(sprintResult) } catch (e) { return JSON.parse(JSON.stringify(sprintResult)) }
     })()
-    const addResult = await store.add(clonableSprintResult)
-    console.log('[SprintView] История спринта сохранена:', clonableSprintResult)
+    // Используем put, чтобы при наличии одинакового id (например, grammar-based id) запись перезаписывалась,
+    // а не создавалась новая. Это позволяет одному и тому же спринту (по грамматике) не дублироваться.
+    const putResult = await store.put(clonableSprintResult)
+    console.log('[SprintView] История спринта сохранена (put):', clonableSprintResult)
 
     // Если в сохранённой истории есть связанная грамматика — пометим её как последнюю пройденную
     try {
