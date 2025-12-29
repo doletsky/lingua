@@ -1,1 +1,0 @@
-import{_ as s,d as e,j as t,P as a,h as o,i as r}from"./index-MJFMpcdq.js";const _={class:"stats-page"},c={__name:"StatsView",setup(d){return o(),(n,p)=>(r(),e("div",_,[t(a)]))}},u=s(c,[["__scopeId","data-v-529460d4"]]);export{u as default};
