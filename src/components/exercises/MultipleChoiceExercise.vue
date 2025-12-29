@@ -1,42 +1,49 @@
 <template>
   <div class="multiple-choice">
-    <h3 class="question">{{ exercise.question }}</h3>
-    
-    <div class="options">
+    <div v-if="!exercise || !exercise.question || !exercise.options || exercise.options.length < 2 || !exercise.correct" class="incomplete">
+      <p>⚠️ Упражнение неполное. Пропустить?</p>
+      <button @click="continueNext" class="btn-skip">Пропустить →</button>
+    </div>
+
+    <div v-else>
+      <h3 class="question">{{ exercise.question }}</h3>
+
+      <div class="options">
+        <button
+          v-for="(option, index) in (exercise.options || [])"
+          :key="index"
+          @click="selectAnswer(option)"
+          :class="['option-btn', getOptionClass(option)]"
+          :disabled="answered"
+        >
+          {{ option }}
+        </button>
+      </div>
+
+      <div v-if="showHint" class="hint">
+        💡 <strong>Подсказка:</strong> {{ exercise.hint }}
+      </div>
+
+      <div v-if="answered" class="feedback" :class="isCorrect ? 'correct' : 'incorrect'">
+        <p v-if="isCorrect">✅ Правильно!</p>
+        <div v-else>
+          <p>❌ Неправильно.</p>
+          <p class="correct-answer">Правильный ответ: <strong>{{ exercise.correct }}</strong></p>
+          <p v-if="exercise.explanationRu" class="explanation">
+            <strong>Объяснение:</strong> {{ exercise.explanationRu }}
+          </p>
+        </div>
+        <button @click="continueNext" class="btn-continue">Далее →</button>
+      </div>
+
       <button
-        v-for="(option, index) in exercise.options"
-        :key="index"
-        @click="selectAnswer(option)"
-        :class="['option-btn', getOptionClass(option)]"
-        :disabled="answered"
+        v-if="!answered && !showHint"
+        @click="showHint = true"
+        class="btn-hint"
       >
-        {{ option }}
+        💡 Подсказка
       </button>
     </div>
-
-    <div v-if="showHint" class="hint">
-      💡 <strong>Подсказка:</strong> {{ exercise.hint }}
-    </div>
-
-    <div v-if="answered" class="feedback" :class="isCorrect ? 'correct' : 'incorrect'">
-      <p v-if="isCorrect">✅ Правильно!</p>
-      <div v-else>
-        <p>❌ Неправильно.</p>
-        <p class="correct-answer">Правильный ответ: <strong>{{ exercise.correct }}</strong></p>
-        <p v-if="exercise.explanationRu" class="explanation">
-          <strong>Объяснение:</strong> {{ exercise.explanationRu }}
-        </p>
-      </div>
-      <button @click="continueNext" class="btn-continue">Далее →</button>
-    </div>
-
-    <button
-      v-if="!answered && !showHint"
-      @click="showHint = true"
-      class="btn-hint"
-    >
-      💡 Подсказка
-    </button>
   </div>
 </template>
 
@@ -57,7 +64,7 @@ const answered = ref(false)
 const showHint = ref(false)
 
 const isCorrect = computed(() => 
-  selectedAnswer.value === props.exercise.correct
+  selectedAnswer.value === (props.exercise?.correct ?? null)
 )
 
 const getOptionClass = (option) => {
@@ -76,7 +83,7 @@ const selectAnswer = (option) => {
 const continueNext = () => {
   emit('answer', {
     isCorrect: isCorrect.value,
-    itemId: props.exercise.itemId
+    itemId: props.exercise?.itemId
   })
 }
 </script>
@@ -215,4 +222,22 @@ const continueNext = () => {
   transform: translateY(-2px);
   box-shadow: 0 4px 8px rgba(255, 193, 7, 0.3);
 }
+.incomplete {
+  padding: 1rem;
+  background: #fff3cd;
+  border-left: 4px solid #ffc107;
+  border-radius: 8px;
+  text-align: center;
+}
+
+.btn-skip {
+  margin-top: 0.75rem;
+  padding: 0.6rem 1rem;
+  background: #6c757d;
+  color: white;
+  border: none;
+  border-radius: 8px;
+  cursor: pointer;
+}
+
 </style>

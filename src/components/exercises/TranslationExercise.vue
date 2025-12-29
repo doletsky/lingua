@@ -1,45 +1,51 @@
 <template>
   <div class="translation">
-    <div class="direction-badge">
-      {{ directionLabel }}
+    <div v-if="!exercise || !exercise.question || !exercise.correct" class="incomplete">
+      <p>⚠️ Упражнение неполное. Пропустить?</p>
+      <button @click="continueNext" class="btn-skip">Пропустить →</button>
     </div>
 
-    <h3 class="question">{{ exercise.question }}</h3>
-    
-    <textarea
-      v-model="userAnswer"
-      @keyup.ctrl.enter="checkAnswer"
-      :disabled="answered"
-      class="answer-textarea"
-      placeholder="Введите перевод..."
-      rows="3"
-    />
-
-    <p class="keyboard-hint">Нажмите Ctrl+Enter для проверки</p>
-
-    <div v-if="showHint && exercise.hint" class="hint">
-      💡 <strong>Пример:</strong> {{ exercise.hint }}
-    </div>
-
-    <div v-if="answered" class="feedback" :class="isCorrect ? 'correct' : 'incorrect'">
-      <p v-if="isCorrect">✅ Правильно!</p>
-      <div v-else>
-        <p>❌ Ваш ответ не совсем точный</p>
-        <p class="correct-answer">Правильный ответ: <strong>{{ exercise.correct }}</strong></p>
-        <p v-if="exercise.explanationRu" class="explanation">
-          <strong>Объяснение:</strong> {{ exercise.explanationRu }}
-        </p>
+    <div v-else>
+      <div class="direction-badge">
+        {{ directionLabel }}
       </div>
-      <button @click="continueNext" class="btn-continue">Далее →</button>
-    </div>
 
-    <div v-if="!answered" class="actions">
-      <button @click="showHint = true" v-if="!showHint && exercise.hint" class="btn-hint">
-        💡 Подсказка
-      </button>
-      <button @click="checkAnswer" class="btn-check">
-        Проверить
-      </button>
+      <h3 class="question">{{ exercise.question }}</h3>
+      
+      <textarea
+        v-model="userAnswer"
+        @keyup.ctrl.enter="checkAnswer"
+        :disabled="answered"
+        class="answer-textarea"
+        placeholder="Введите перевод..."
+        rows="3"
+      />
+
+      <p class="keyboard-hint">Нажмите Ctrl+Enter для проверки</p>
+
+      <div v-if="showHint && exercise.hint" class="hint">
+        💡 <strong>Пример:</strong> {{ exercise.hint }}
+      </div>
+
+      <div v-if="answered" class="feedback" :class="isCorrect ? 'correct' : 'incorrect'">
+        <p v-if="isCorrect">✅ Правильно!</p>
+        <div v-else>
+          <p>❌ Ваш ответ не совсем точный</p>
+          <p class="correct-answer">Правильный ответ: <strong>{{ exercise.correct }}</strong></p>
+          <p v-if="exercise.explanationRu" class="explanation">
+            <strong>Объяснение:</strong> {{ exercise.explanationRu }}</p>
+        </div>
+        <button @click="continueNext" class="btn-continue">Далее →</button>
+      </div>
+
+      <div v-if="!answered" class="actions">
+        <button @click="showHint = true" v-if="!showHint && exercise.hint" class="btn-hint">
+          💡 Подсказка
+        </button>
+        <button @click="checkAnswer" class="btn-check">
+          Проверить
+        </button>
+      </div>
     </div>
   </div>
 </template>
@@ -66,15 +72,20 @@ const directionLabel = computed(() => {
     : '🇷🇺 → 🇵🇹'
 })
 
-// Простая проверка (можно усложнить)
+// Простая проверка (с защитой от неполных данных)
 const isCorrect = computed(() => {
-  const userClean = userAnswer.value.trim().toLowerCase()
-  const correctClean = props.exercise.correct.toLowerCase()
-  
-  // Точное совпадение или очень близкое
-  return userClean === correctClean || 
-         userClean.includes(correctClean) ||
-         correctClean.includes(userClean)
+  try {
+    const userClean = userAnswer.value.trim().toLowerCase()
+    const correctClean = (props.exercise?.correct || '').toString().toLowerCase()
+    if (!correctClean) return false
+    // Точное совпадение или очень близкое
+    return userClean === correctClean || 
+           userClean.includes(correctClean) ||
+           correctClean.includes(userClean)
+  } catch (e) {
+    console.warn('Translation: isCorrect error', e)
+    return false
+  }
 })
 
 const checkAnswer = () => {
@@ -254,4 +265,22 @@ const continueNext = () => {
   transform: translateY(-2px);
   box-shadow: 0 4px 8px rgba(66, 184, 131, 0.3);
 }
+.incomplete {
+  padding: 1rem;
+  background: #fff3cd;
+  border-left: 4px solid #ffc107;
+  border-radius: 8px;
+  text-align: center;
+}
+
+.btn-skip {
+  margin-top: 0.75rem;
+  padding: 0.6rem 1rem;
+  background: #6c757d;
+  color: white;
+  border: none;
+  border-radius: 8px;
+  cursor: pointer;
+}
+
 </style>

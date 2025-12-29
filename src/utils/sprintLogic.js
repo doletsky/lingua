@@ -58,7 +58,9 @@ export function formatSprintResult(stats, unitId, exerciseResults = []) {
       itemId: result.itemId,
       isCorrect: result.isCorrect,
       type: result.type,
-      timestamp: result.timestamp || Date.now()
+      timestamp: result.timestamp || Date.now(),
+      // Сохраняем снимок упражнения для возможности повтора
+      snapshot: result.snapshot || null
     }))
   }
 }

@@ -117,10 +117,7 @@ const isExpanded = ref(props.expanded)
   color: #333;
   line-height: 1.6;
   font-size: 0.95rem;
-}
-
-.explanation-text p {
-  margin: 0;
+  white-space: pre-line;
 }
 
 .examples {

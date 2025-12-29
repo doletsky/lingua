@@ -1,8 +1,10 @@
 <template>
+  <PageNav />
   <router-view />
 </template>
 
 <script setup>
+import PageNav from './components/common/PageNav.vue'
 // Основной контейнер
 </script>
 

@@ -5,32 +5,10 @@
       <p class="tagline">15 минут в день — путь к свободному общению</p>
     </header>
 
-    <div class="stats-cards">
-      <div class="stat-card">
-        <span class="stat-icon">🔥</span>
-        <span class="stat-value">{{ progressStore.streakDays }}</span>
-        <span class="stat-label">дней подряд</span>
-      </div>
-      
-      <div class="stat-card">
-        <span class="stat-icon">🎯</span>
-        <span class="stat-value">{{ progressStore.totalSprints }}</span>
-        <span class="stat-label">спринтов</span>
-      </div>
-      
-      <div class="stat-card">
-        <span class="stat-icon">📚</span>
-        <span class="stat-value">{{ currentUnitProgress }}%</span>
-        <span class="stat-label">текущий юнит</span>
-      </div>
-    </div>
-
     <div class="main-action">
-      <button @click="startSprint" class="btn-start-sprint">
-        <span class="btn-icon">▶️</span>
-        <span>Начать спринт</span>
-        <span class="btn-duration">15 минут</span>
-      </button>
+      <div class="last-info" v-if="lastCompletedGrammarTitle">
+        <p v-if="lastCompletedGrammarTitle">✅ Последний пройденный: <strong>{{ lastCompletedGrammarTitle }}</strong></p>
+      </div>
     </div>
 
     <UnitSelector 
@@ -38,7 +16,7 @@
       @select-unit="changeUnit"
     />
 
-    <ProgressDashboard />
+    <ProgressDashboard :compact="true" />
   </div>
 </template>
 
@@ -54,29 +32,48 @@ const router = useRouter()
 const progressStore = useProgressStore()
 const materialsStore = useMaterialsStore()
 
-const currentUnitProgress = computed(() => {
-  if (!materialsStore.loaded) return 0
-  const allItems = [
-    ...materialsStore.vocabulary,
-    ...materialsStore.grammar
-  ]
-  const stats = progressStore.getUnitStats(progressStore.currentUnit, allItems)
-  return stats.percentage
+// Показываем заголовки последней и следующей грамматики для текущего юнита
+const lastCompletedGrammarTitle = computed(() => {
+  // Защита: ждём загрузки материалов и DB и проверяем наличие функции
+  if (!materialsStore.loaded) return null
+  if (typeof progressStore.getLastCompletedGrammar !== 'function') return null
+
+  const lastId = progressStore.getLastCompletedGrammar(progressStore.currentUnit)
+  if (!lastId) return null
+
+  // Безопасный доступ к getGrammarById (может быть computed ref или обычная функция)
+  try {
+    const getter = materialsStore.getGrammarById
+    if (getter && typeof getter.value === 'function') {
+      const g = getter.value(lastId)
+      return g ? g.title : null
+    }
+    // fallback - ищем в массиве grammar
+    const fallback = (materialsStore.grammar || []).find(g => String(g.id) === String(lastId))
+    return fallback ? fallback.title : null
+  } catch (e) {
+    console.warn('Ошибка при получении grammar by id:', e)
+    return null
+  }
 })
+
+
 
 onMounted(async () => {
   await materialsStore.loadAll()
   await progressStore.initDB()
 })
 
-const startSprint = () => {
-  router.push('/sprint')
-}
-
 const changeUnit = async (unitId) => {
   // Преобразуем числовой ID в формат строки 'unitN'
   const unitString = typeof unitId === 'number' ? `unit${unitId}` : unitId
   await progressStore.setCurrentUnit(unitString)
+  // Перейти на страницу спринтов выбранного юнита
+  router.push({ name: 'UnitSprints', params: { unitId: unitString } })
+}
+
+const openStats = () => {
+  router.push({ name: 'Stats' })
 }
 </script>
 
@@ -89,7 +86,6 @@ const changeUnit = async (unitId) => {
 
 .app-header {
   text-align: center;
-  margin-bottom: 3rem;
 }
 
 .app-header h1 {
@@ -103,65 +99,13 @@ const changeUnit = async (unitId) => {
   color: #666;
 }
 
-.stats-cards {
-  display: grid;
-  grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
-  gap: 1.5rem;
-  margin-bottom: 3rem;
-}
-
-.stat-card {
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  padding: 2rem;
-  background: white;
-  border-radius: 16px;
-  box-shadow: 0 2px 8px rgba(0,0,0,0.1);
-}
-
-.stat-icon {
-  font-size: 2.5rem;
-  margin-bottom: 0.5rem;
-}
-
-.stat-value {
-  font-size: 2.5rem;
-  font-weight: 700;
-  color: #42b883;
-  margin-bottom: 0.25rem;
-}
-
-.stat-label {
-  font-size: 0.9rem;
-  color: #666;
-}
-
 .main-action {
   display: flex;
   justify-content: center;
   margin-bottom: 3rem;
 }
 
-.btn-start-sprint {
-  display: flex;
-  align-items: center;
-  gap: 1rem;
-  padding: 1.5rem 3rem;
-  font-size: 1.3rem;
-  background: linear-gradient(135deg, #42b883 0%, #35a372 100%);
-  color: white;
-  border: none;
-  border-radius: 12px;
-  cursor: pointer;
-  box-shadow: 0 4px 12px rgba(66, 184, 131, 0.3);
-  transition: all 0.3s;
-}
 
-.btn-start-sprint:hover {
-  transform: translateY(-2px);
-  box-shadow: 0 6px 16px rgba(66, 184, 131, 0.4);
-}
 
 .btn-icon {
   font-size: 1.5rem;
@@ -172,17 +116,11 @@ const changeUnit = async (unitId) => {
   opacity: 0.9;
 }
 
-@media (max-width: 768px) {
-  .home-view {
-    padding: 1rem;
-  }
+
   
-  .app-header h1 {
-    font-size: 2rem;
-  }
-  
-  .stats-cards {
-    grid-template-columns: 1fr;
-  }
+.app-header h1 {
+  font-size: 2rem;
 }
+
+
 </style>

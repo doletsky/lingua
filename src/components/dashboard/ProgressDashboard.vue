@@ -2,6 +2,7 @@
   <div class="progress-dashboard">
     <div class="dashboard-header">
       <h2>📊 Статистика</h2>
+      <button  v-if="compact" class="btn-stats" @click="openStats">📊 Полная статистика</button>
     </div>
 
     <!-- Общие статистика -->
@@ -42,6 +43,7 @@
       </div>
     </div>
 
+    <template v-if="!compact">
     <!-- Прогресс по типам упражнений -->
     <div class="stats-section">
       <h3>По типам упражнений</h3>
@@ -125,15 +127,22 @@
         </div>
       </div>
     </div>
+    </template>
+
+
   </div>
 </template>
 
 <script setup>
 import { computed, onMounted } from 'vue'
+import { useRouter } from 'vue-router'
 import { useProgressStore } from '@/stores/progressStore'
 import ProgressBar from '../common/ProgressBar.vue'
 
+const props = defineProps({ compact: { type: Boolean, default: false } })
 const progressStore = useProgressStore()
+const router = useRouter()
+const openStats = () => router.push({ name: 'Stats' })
 
 // Временные данные (будут подставляться из store)
 const totalStats = computed(() => ({
@@ -286,6 +295,20 @@ onMounted(async () => {
 
 .dashboard-header {
   margin-bottom: 2rem;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 1rem;
+}
+
+.btn-stats {
+  padding: 0.45rem 0.8rem;
+  border-radius: 8px;
+  background: white;
+  color: #42b883;
+  border: 2px solid #42b883;
+  cursor: pointer;
+  font-weight: 600;
 }
 
 .dashboard-header h2 {

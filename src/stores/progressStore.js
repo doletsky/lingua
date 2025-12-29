@@ -1,5 +1,5 @@
 import { defineStore } from 'pinia'
-import { ref, computed } from 'vue'
+import { ref, computed, toRaw } from 'vue'
 import { openDB } from 'idb'
 import {
   calculateNextReview,
@@ -17,6 +17,8 @@ export const useProgressStore = defineStore('progress', () => {
   const currentUnit = ref('unit1')
   const totalSprints = ref(0)
   const streakDays = ref(0)
+  // Map of last completed grammar per unit: { unitId: grammarId }
+  const lastCompletedGrammar = ref({})
 
   // Инициализация IndexedDB
   const initDB = async () => {
@@ -66,6 +68,7 @@ export const useProgressStore = defineStore('progress', () => {
     const unitData = await statsStore.get('currentUnit')
     const sprintsData = await statsStore.get('totalSprints')
     const streakData = await statsStore.get('streakDays')
+    const lastGrammarData = await statsStore.get('lastCompletedGrammar')
     
     if (unitData) {
       // Нормализуем формат юнита: если число, преобразуем в 'unitN'
@@ -74,6 +77,7 @@ export const useProgressStore = defineStore('progress', () => {
     }
     if (sprintsData) totalSprints.value = sprintsData.value
     if (streakData) streakDays.value = streakData.value
+    if (lastGrammarData) lastCompletedGrammar.value = lastGrammarData.value || {}
   }
 
   // Сохранение прогресса элемента с SRS алгоритмом
@@ -97,9 +101,9 @@ export const useProgressStore = defineStore('progress', () => {
         incorrect: 0
       }
 
-      // Сохранение в IndexedDB
+      // Сохранение в IndexedDB (сохраняем «сырой» объект без реактивной обертки)
       const tx = db.value.transaction('progress', 'readwrite')
-      await tx.objectStore('progress').put(userProgress.value[itemId])
+      await tx.objectStore('progress').put(toRaw(userProgress.value[itemId]))
     } else {
       const existing = userProgress.value[itemId]
 
@@ -118,9 +122,9 @@ export const useProgressStore = defineStore('progress', () => {
       
       userProgress.value[itemId] = existing
 
-      // Сохранение в IndexedDB
+      // Сохранение в IndexedDB (сохраняем «сырой» объект без реактивной обертки)
       const tx = db.value.transaction('progress', 'readwrite')
-      await tx.objectStore('progress').put(existing)
+      await tx.objectStore('progress').put(toRaw(existing))
     }
   }
 
@@ -179,6 +183,21 @@ export const useProgressStore = defineStore('progress', () => {
     }
   }
 
+  // Сохранить последнюю пройденную грамматику для юнита
+  const setLastCompletedGrammar = async (unitId, grammarId) => {
+    const id = unitId && unitId.value !== undefined ? unitId.value : unitId
+    lastCompletedGrammar.value = { ...lastCompletedGrammar.value, [id]: grammarId }
+    if (db.value) {
+      const tx = db.value.transaction('stats', 'readwrite')
+      await tx.objectStore('stats').put({ key: 'lastCompletedGrammar', value: lastCompletedGrammar.value })
+    }
+  }
+
+  const getLastCompletedGrammar = (unitId) => {
+    const id = unitId && unitId.value !== undefined ? unitId.value : unitId
+    return lastCompletedGrammar.value[id] || null
+  }
+
   // Получить прогресс элемента
   const getItemProgress = (itemId) => {
     const progress = userProgress.value[itemId]
@@ -225,6 +244,14 @@ export const useProgressStore = defineStore('progress', () => {
     
     // Сортируем по дате (новые первыми) и берем последние
     return all.sort((a, b) => new Date(b.date) - new Date(a.date)).slice(0, limit)
+  }
+
+  // Получить спринт по ID
+  const getSprintById = async (id) => {
+    if (!db.value) await initDB()
+    const tx = db.value.transaction('sprintHistory', 'readonly')
+    const store = tx.objectStore('sprintHistory')
+    return await store.get(id)
   }
 
   // Получить статистику по спринтам
@@ -294,9 +321,12 @@ export const useProgressStore = defineStore('progress', () => {
     saveItemProgress,
     saveSprintStats,
     setCurrentUnit,
+    setLastCompletedGrammar,
+    getLastCompletedGrammar,
     getItemProgress,
     getSprintHistoryByUnit,
     getAllSprintHistory,
+    getSprintById,
     getSprintStatistics,
     getSprintItems,
     

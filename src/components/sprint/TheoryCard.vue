@@ -21,7 +21,7 @@
       </div>
     </div>
 
-    <button @click="$emit('continue')" class="btn-continue">
+    <button v-if="!viewOnly" @click="$emit('continue')" class="btn-continue">
       Начать упражнения →
     </button>
   </div>
@@ -32,6 +32,10 @@ defineProps({
   theory: {
     type: Object,
     required: true
+  },
+  viewOnly: {
+    type: Boolean,
+    default: false
   }
 })
 
@@ -68,11 +72,7 @@ defineEmits(['continue'])
   line-height: 1.6;
   color: #555;
   margin-bottom: 2rem;
-}
-
-.examples {
-  background: #f9f9f9;
-  padding: 1.5rem;
+  white-space: pre-line;
   border-radius: 12px;
   margin-bottom: 2rem;
 }

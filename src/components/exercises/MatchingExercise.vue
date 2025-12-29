@@ -1,45 +1,52 @@
 <template>
   <div class="matching">
-    <h3 class="instruction">Сопоставьте пары:</h3>
-
-    <div class="matching-grid">
-      <!-- Левая колонка (португальский) -->
-      <div class="column left">
-        <button
-          v-for="(pair, index) in shuffledLeft"
-          :key="`left-${index}`"
-          @click="selectLeft(pair, index)"
-          :class="['match-btn', getLeftClass(pair, index)]"
-          :disabled="matched.includes(pair.id)"
-        >
-          {{ pair.pt }}
-        </button>
-      </div>
-
-      <!-- Правая колонка (русский) -->
-      <div class="column right">
-        <button
-          v-for="(pair, index) in shuffledRight"
-          :key="`right-${index}`"
-          @click="selectRight(pair, index)"
-          :class="['match-btn', getRightClass(pair, index)]"
-          :disabled="matched.includes(pair.id)"
-        >
-          {{ pair.ru }}
-        </button>
-      </div>
+    <div v-if="!exercise || !exercise.pairs || exercise.pairs.length < 2" class="incomplete">
+      <p>⚠️ Упражнение неполное. Пропустить?</p>
+      <button @click="continueNext" class="btn-skip">Пропустить →</button>
     </div>
 
-    <div v-if="feedback" class="feedback" :class="feedback.type">
-      {{ feedback.message }}
-    </div>
+    <div v-else>
+      <h3 class="instruction">Сопоставьте пары:</h3>
 
-    <div v-if="allMatched" class="completion">
-      <p>🎉 Все пары сопоставлены!</p>
-      <p v-if="exercise.explanationRu" class="explanation">
-        <strong>Объяснение:</strong> {{ exercise.explanationRu }}
-      </p>
-      <button @click="continueNext" class="btn-continue">Далее →</button>
+      <div class="matching-grid">
+        <!-- Левая колонка (португальский) -->
+        <div class="column left">
+          <button
+            v-for="(pair, index) in shuffledLeft"
+            :key="`left-${index}`"
+            @click="selectLeft(pair, index)"
+            :class="['match-btn', getLeftClass(pair, index)]"
+            :disabled="matched.includes(pair.id)"
+          >
+            {{ pair.pt }}
+          </button>
+        </div>
+
+        <!-- Правая колонка (русский) -->
+        <div class="column right">
+          <button
+            v-for="(pair, index) in shuffledRight"
+            :key="`right-${index}`"
+            @click="selectRight(pair, index)"
+            :class="['match-btn', getRightClass(pair, index)]"
+            :disabled="matched.includes(pair.id)"
+          >
+            {{ pair.ru }}
+          </button>
+        </div>
+      </div>
+
+      <div v-if="feedback" class="feedback" :class="feedback.type">
+        {{ feedback.message }}
+      </div>
+
+      <div v-if="allMatched" class="completion">
+        <p>🎉 Все пары сопоставлены!</p>
+        <p v-if="exercise.explanationRu" class="explanation">
+          <strong>Объяснение:</strong> {{ exercise.explanationRu }}
+        </p>
+        <button @click="continueNext" class="btn-continue">Далее →</button>
+      </div>
     </div>
   </div>
 </template>
@@ -64,12 +71,12 @@ const matched = ref([])
 const feedback = ref(null)
 
 const allMatched = computed(() => 
-  matched.value.length === props.exercise.pairs.length
+  matched.value.length === (props.exercise?.pairs?.length || 0)
 )
 
 onMounted(() => {
   // Добавляем ID к парам для отслеживания
-  const pairsWithIds = props.exercise.pairs.map((pair, index) => ({
+  const pairsWithIds = (props.exercise?.pairs || []).map((pair, index) => ({
     ...pair,
     id: index
   }))
@@ -274,4 +281,22 @@ function shuffle(array) {
     gap: 1rem;
   }
 }
+.incomplete {
+  padding: 1rem;
+  background: #fff3cd;
+  border-left: 4px solid #ffc107;
+  border-radius: 8px;
+  text-align: center;
+}
+
+.btn-skip {
+  margin-top: 0.75rem;
+  padding: 0.6rem 1rem;
+  background: #6c757d;
+  color: white;
+  border: none;
+  border-radius: 8px;
+  cursor: pointer;
+}
+
 </style>
