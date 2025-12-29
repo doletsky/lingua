@@ -298,9 +298,14 @@ const averageProgress = computed(() => {
 // Методы
 const isUnitUnlocked = (unitId) => {
   // Юнит разблокирован если это первый юнит или если предыдущий завершен на 80%+
+  // Также учитываем ситуации, когда пользователь прошёл спринты предыдущего юнита
+  // (например, когда элементы были усилены через SRS и процент ещё не дотянул до 80).
   if (unitId === 1) return true
   const prevUnit = units.value[unitId - 2]
-  return prevUnit && prevUnit.percentage >= 80
+  if (!prevUnit) return false
+  // Разблокировать если процент >= 80, или если предыдущий юнит завершён на 100%,
+  // или если для него есть хотя бы один пройденный спринт.
+  return prevUnit.percentage >= 80 || prevUnit.percentage === 100 || (prevUnit.sprintsCompleted && prevUnit.sprintsCompleted > 0)
 }
 
 const isUnitCompleted = (unitId) => {
@@ -324,7 +329,7 @@ const getUnitColor = (percentage) => {
 
 const selectUnit = (unitId) => {
   if (!isUnitUnlocked(unitId)) {
-    alert(`Юнит ${unitId} заблокирован. Завершите ${unitId - 1} юнит на 80% или больше.`)
+    alert(`Юнит ${unitId} заблокирован. Завершите предыдущий юнит (80%+ или пройдите хотя бы один спринт).`)
     return
   }
   // Преобразуем число в строку формата 'unitN'
