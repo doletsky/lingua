@@ -585,6 +585,8 @@ export function generateSprintExercises(materials, count = 10) {
     return related
   }
 
+  // Simple inline duplicate checks are used below (compare type + question/itemId + correct) — no helpers.
+
   const grammarVocab = focusedGrammar ? findVocabRelatedToGrammar(vocabulary, focusedGrammar) : []
 
   // 1. Translation - если фокусная грамматика задана, сначала используем vocab, связанный с ней
@@ -595,7 +597,14 @@ export function generateSprintExercises(materials, count = 10) {
       if (ex) {
         // помечаем только если это действительно из грамматики
         const enriched = enrichExerciseWithGrammar(ex, focusedGrammar)
-        exercises.push(enriched)
+        // Inline simple duplicate check
+        if (!exercises.some(e =>
+          e.type === enriched.type &&
+          String((e.itemId || e.question || '')).toLowerCase() === String((enriched.itemId || enriched.question || '')).toLowerCase() &&
+          String((e.correct || '')).toLowerCase() === String((enriched.correct || '')).toLowerCase()
+        )) {
+          exercises.push(enriched)
+        }
       }
     }
   }
@@ -604,7 +613,15 @@ export function generateSprintExercises(materials, count = 10) {
   for (let i = exercises.length; i < Math.max(typeCounts.translation, 0) && exercises.length < count; i++) {
     const vocab = vocabulary[Math.floor(Math.random() * vocabulary.length)]
     const ex = generateTranslation(vocab)
-    if (ex) exercises.push(ex)
+    if (ex) {
+      if (!exercises.some(e =>
+        e.type === ex.type &&
+        String((e.itemId || e.question || '')).toLowerCase() === String((ex.itemId || ex.question || '')).toLowerCase() &&
+        String((e.correct || '')).toLowerCase() === String((ex.correct || '')).toLowerCase()
+      )) {
+        exercises.push(ex)
+      }
+    }
   }
 
   // 2. Multiple Choice — сначала берем шаблоны из самой грамматики (если есть)
@@ -614,7 +631,13 @@ export function generateSprintExercises(materials, count = 10) {
       const raw = generateMultipleChoice(mcTemplates[i], vocabulary)
       if (raw) {
         const ex = enrichExerciseWithGrammar(raw, focusedGrammar)
-        exercises.push(ex)
+        if (!exercises.some(e =>
+          e.type === ex.type &&
+          String((e.itemId || e.question || '')).toLowerCase() === String((ex.itemId || ex.question || '')).toLowerCase() &&
+          String((e.correct || '')).toLowerCase() === String((ex.correct || '')).toLowerCase()
+        )) {
+          exercises.push(ex)
+        }
       }
     }
   }
@@ -629,7 +652,13 @@ export function generateSprintExercises(materials, count = 10) {
           const relevantGrammar = findRelevantGrammar(raw, grammar)
           const ex = enrichExerciseWithGrammar(raw, relevantGrammar)
           console.debug('[generateSprintExercises] multiple_choice enriched with grammar:', { exerciseId: ex.id, grammarId: ex.grammarId, grammarTitle: ex.grammarTitle })
-          exercises.push(ex)
+          if (!exercises.some(e =>
+            e.type === ex.type &&
+            String((e.itemId || e.question || '')).toLowerCase() === String((ex.itemId || ex.question || '')).toLowerCase() &&
+            String((e.correct || '')).toLowerCase() === String((ex.correct || '')).toLowerCase()
+          )) {
+            exercises.push(ex)
+          }
         }
       }
     }
@@ -642,7 +671,13 @@ export function generateSprintExercises(materials, count = 10) {
       const raw = generateFillBlank(fbTemplates[i], vocabulary)
       if (raw) {
         const ex = enrichExerciseWithGrammar(raw, focusedGrammar)
-        exercises.push(ex)
+        if (!exercises.some(e =>
+          e.type === ex.type &&
+          String((e.itemId || e.question || '')).toLowerCase() === String((ex.itemId || ex.question || '')).toLowerCase() &&
+          String((e.correct || '')).toLowerCase() === String((ex.correct || '')).toLowerCase()
+        )) {
+          exercises.push(ex)
+        }
       }
     }
   }
@@ -657,7 +692,13 @@ export function generateSprintExercises(materials, count = 10) {
           const relevantGrammar = findRelevantGrammar(raw, grammar)
           const ex = enrichExerciseWithGrammar(raw, relevantGrammar)
           console.debug('[generateSprintExercises] fill_blank enriched with grammar:', { exerciseId: ex.id, grammarId: ex.grammarId, grammarTitle: ex.grammarTitle })
-          exercises.push(ex)
+          if (!exercises.some(e =>
+            e.type === ex.type &&
+            String((e.itemId || e.question || '')).toLowerCase() === String((ex.itemId || ex.question || '')).toLowerCase() &&
+            String((e.correct || '')).toLowerCase() === String((ex.correct || '')).toLowerCase()
+          )) {
+            exercises.push(ex)
+          }
         }
       }
     }
@@ -669,13 +710,25 @@ export function generateSprintExercises(materials, count = 10) {
       const ex = generateMatching(grammarVocab)
       if (ex) {
         const enriched = focusedGrammar ? enrichExerciseWithGrammar(ex, focusedGrammar) : ex
-        exercises.push(enriched)
+        if (!exercises.some(e =>
+          e.type === enriched.type &&
+          String((e.itemIds || e.itemId || '')).toLowerCase() === String((enriched.itemIds || enriched.itemId || '')).toLowerCase()
+        )) {
+          exercises.push(enriched)
+        }
       }
     }
   } else if (vocabulary.length >= 5) {
     for (let i = 0; i < typeCounts.matching && exercises.length < count; i++) {
       const ex = generateMatching(vocabulary)
-      if (ex) exercises.push(ex)
+      if (ex) {
+        if (!exercises.some(e =>
+          e.type === ex.type &&
+          String((e.itemIds || e.itemId || '')).toLowerCase() === String((ex.itemIds || ex.itemId || '')).toLowerCase()
+        )) {
+          exercises.push(ex)
+        }
+      }
     }
   }
 
@@ -686,7 +739,13 @@ export function generateSprintExercises(materials, count = 10) {
       const raw = generateTransform(trTemplates[i], vocabulary)
       if (raw) {
         const ex = enrichExerciseWithGrammar(raw, focusedGrammar)
-        exercises.push(ex)
+        if (!exercises.some(e =>
+          e.type === ex.type &&
+          String((e.itemId || e.question || '')).toLowerCase() === String((ex.itemId || ex.question || '')).toLowerCase() &&
+          String((e.correct || '')).toLowerCase() === String((ex.correct || '')).toLowerCase()
+        )) {
+          exercises.push(ex)
+        }
       }
     }
   }
@@ -701,7 +760,13 @@ export function generateSprintExercises(materials, count = 10) {
           const relevantGrammar = findRelevantGrammar(raw, grammar)
           const ex = enrichExerciseWithGrammar(raw, relevantGrammar)
           console.debug('[generateSprintExercises] transform enriched with grammar:', { exerciseId: ex.id, grammarId: ex.grammarId, grammarTitle: ex.grammarTitle })
-          exercises.push(ex)
+          if (!exercises.some(e =>
+            e.type === ex.type &&
+            String((e.itemId || e.question || '')).toLowerCase() === String((ex.itemId || ex.question || '')).toLowerCase() &&
+            String((e.correct || '')).toLowerCase() === String((ex.correct || '')).toLowerCase()
+          )) {
+            exercises.push(ex)
+          }
         }
       }
     }
@@ -739,7 +804,15 @@ export function generateSprintExercises(materials, count = 10) {
     console.warn(`generateSprintExercises: filtered out ${beforeFilterCount - filtered.length} invalid exercises`)
   }
   exercises.length = 0
-  exercises.push(...filtered)
+  filtered.forEach(ex => {
+    if (!exercises.some(e =>
+      e.type === ex.type &&
+      String((e.itemId || e.question || '')).toLowerCase() === String((ex.itemId || ex.question || '')).toLowerCase() &&
+      String((e.correct || '')).toLowerCase() === String((ex.correct || '')).toLowerCase()
+    )) {
+      exercises.push(ex)
+    }
+  })
 
   // Пополняем упражнения переводами из валидных слов, если не хватает
   const target = Math.max(5, count)
@@ -748,7 +821,15 @@ export function generateSprintExercises(materials, count = 10) {
     while (exercises.length < Math.min(count, target) && validVocab.length > 0) {
       const vocab = validVocab.splice(Math.floor(Math.random() * validVocab.length), 1)[0]
       const ex = generateTranslation(vocab)
-      if (ex) exercises.push(ex)
+      if (ex) {
+        if (!exercises.some(e =>
+          e.type === ex.type &&
+          String((e.itemId || e.question || '')).toLowerCase() === String((ex.itemId || ex.question || '')).toLowerCase() &&
+          String((e.correct || '')).toLowerCase() === String((ex.correct || '')).toLowerCase()
+        )) {
+          exercises.push(ex)
+        }
+      }
     }
   }
 
@@ -756,7 +837,15 @@ export function generateSprintExercises(materials, count = 10) {
   while (exercises.length < count) {
     const vocab = vocabulary[Math.floor(Math.random() * vocabulary.length)]
     const ex = generateTranslation(vocab)
-    if (ex) exercises.push(ex)
+    if (ex) {
+      if (!exercises.some(e =>
+        e.type === ex.type &&
+        String((e.itemId || e.question || '')).toLowerCase() === String((ex.itemId || ex.question || '')).toLowerCase() &&
+        String((e.correct || '')).toLowerCase() === String((ex.correct || '')).toLowerCase()
+      )) {
+        exercises.push(ex)
+      }
+    }
     else {
       // Если не удалось сгенерировать с текущего vocab, попробуем другой
       const fallback = vocabulary.find(v => v && v.word && v.translation_ru)
@@ -811,17 +900,38 @@ export function generateSprintExercises(materials, count = 10) {
 
     // Finally replace exercises with related ones
     exercises.length = 0
-    exercises.push(...related)
+    related.forEach(ex => {
+      if (!exercises.some(e =>
+        e.type === ex.type &&
+        String((e.itemId || e.question || '')).toLowerCase() === String((ex.itemId || ex.question || '')).toLowerCase() &&
+        String((e.correct || '')).toLowerCase() === String((ex.correct || '')).toLowerCase()
+      )) {
+        exercises.push(ex)
+      }
+    })
 
-    // If still less than target and we have at least one related exercise, duplicate with new ids
+    // If still less than target and we have at least one related exercise, try to top up without creating duplicates
     if (exercises.length > 0 && exercises.length < count) {
-      console.warn('[generateSprintExercises] Not enough unique grammar-linked items; duplicating related exercises to reach target count')
+      console.warn('[generateSprintExercises] Not enough unique grammar-linked items; attempting to top up with additional translations instead of duplicating')
+      const fallbackPool = [...new Set([...grammarVocab, ...vocabulary])]
       let idx = 0
-      while (exercises.length < count) {
-        const src = exercises[idx % exercises.length]
-        const clone = { ...src, id: generateExerciseId() }
-        exercises.push(clone)
+      // Try each fallback vocab item once
+      while (exercises.length < count && idx < fallbackPool.length) {
+        const v = fallbackPool[idx]
         idx++
+        const t = generateTranslation(v)
+        if (!t) continue
+        if (!exercises.some(e =>
+          e.type === t.type &&
+          String((e.itemId || e.question || '')).toLowerCase() === String((t.itemId || t.question || '')).toLowerCase() &&
+          String((e.correct || '')).toLowerCase() === String((t.correct || '')).toLowerCase()
+        )) {
+          exercises.push(enrichExerciseWithGrammar(t, focusedGrammar))
+        }
+      }
+
+      if (exercises.length < count) {
+        console.warn('[generateSprintExercises] Could not reach target count without creating duplicates; stopping with fewer exercises')
       }
     }
   }
