@@ -507,13 +507,15 @@ onMounted(async () => {
 
     // Генерируем упражнения из материалов спринта
     console.log('🎯 [SprintView] Генерация упражнений...')
+    // Yield to the main thread so the UI can render the "Генерация упражнений..." message before heavy sync work
+    await new Promise(resolve => setTimeout(resolve, 0))
     exercises.value = generateSprintExercises(
-      {
-        vocabulary: sprintMaterials.vocabulary,
-        templates: sprintMaterials.templates,
-        grammar: currentTheory.value // ограничиваем шаблоны видимой теорией
-      },
-      sprintPlan.value.metadata.actualSize // Используем размер из плана
+      sprintMaterials.vocabulary,
+      sprintMaterials.templates,
+      sprintMaterials.grammar,
+      sprintMaterials.texts,
+      sprintPlan.value.metadata.actualSize,
+      currentTheory.value // фокусируем на текущей теории
     )
     
     console.log('✅ [SprintView] Упражнения сгенерированы:', {
