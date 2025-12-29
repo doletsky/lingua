@@ -1,0 +1,27 @@
+{
+  "vocabulary": [
+    {
+      "id": "v1",
+      "word": "olá",
+      "translation_ru": "привет",
+      "example_pt": "Olá, como estás?",
+      "example_ru": "Привет, как дела?",
+      "tags": [
+        "unit1",
+        "greetings"
+      ]
+    },
+    {
+      "id": "v2",
+      "word": "bom dia",
+      "translation_ru": "доброе утро",
+      "example_pt": "Bom dia, senhor.",
+      "example_ru": "Доброе утро, сеньор.",
+      "tags": [
+        "unit1",
+        "greetings"
+      ]
+    }
+    /* Backup truncated - full file copied earlier */
+  ]
+}

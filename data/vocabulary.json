@@ -58,7 +58,7 @@
     {
       "id": "v6",
       "word": "até logo",
-      "translation_ru": "до скорой встречи",
+      "translation_ru": "До скорого",
       "example_pt": "Até logo, cuida-te.",
       "example_ru": "До скорой встречи, береги себя.",
       "tags": [
@@ -91,7 +91,7 @@
     {
       "id": "v9",
       "word": "por favor",
-      "translation_ru": "пожалуйста",
+      "translation_ru": "Счёт",
       "example_pt": "Um café, por favor.",
       "example_ru": "Кофе, пожалуйста.",
       "tags": [
@@ -135,7 +135,7 @@
     {
       "id": "v13",
       "word": "três",
-      "translation_ru": "три",
+      "translation_ru": "Три часа",
       "example_pt": "Três maçãs na mesa.",
       "example_ru": "Три яблока на столе.",
       "tags": [
@@ -179,7 +179,7 @@
     {
       "id": "v17",
       "word": "sete",
-      "translation_ru": "семь",
+      "translation_ru": "Семь часов",
       "example_pt": "Sete dias na semana.",
       "example_ru": "Семь дней в неделю.",
       "tags": [
@@ -234,7 +234,7 @@
     {
       "id": "v22",
       "word": "doze",
-      "translation_ru": "двенадцать",
+      "translation_ru": "Автобус номер двенадцать",
       "example_pt": "Doze horas no relógio.",
       "example_ru": "Двенадцать часов на часах.",
       "tags": [
@@ -278,7 +278,7 @@
     {
       "id": "v26",
       "word": "segunda-feira",
-      "translation_ru": "понедельник",
+      "translation_ru": "Сегодня понедельник",
       "example_pt": "Na segunda-feira, começo o trabalho.",
       "example_ru": "В понедельник я начинаю работу.",
       "tags": [
@@ -289,7 +289,7 @@
     {
       "id": "v27",
       "word": "terça-feira",
-      "translation_ru": "вторник",
+      "translation_ru": "Завтра вторник",
       "example_pt": "Terça-feira é dia de mercado.",
       "example_ru": "Вторник - день рынка.",
       "tags": [
@@ -333,7 +333,7 @@
     {
       "id": "v31",
       "word": "sábado",
-      "translation_ru": "суббота",
+      "translation_ru": "В субботу отдыхаю",
       "example_pt": "No sábado, descanso.",
       "example_ru": "В субботу я отдыхаю.",
       "tags": [
@@ -410,7 +410,7 @@
     {
       "id": "v38",
       "word": "hoje",
-      "translation_ru": "сегодня",
+      "translation_ru": "Сегодня понедельник",
       "example_pt": "Hoje é segunda-feira.",
       "example_ru": "Сегодня понедельник.",
       "tags": [
@@ -421,7 +421,7 @@
     {
       "id": "v39",
       "word": "amanhã",
-      "translation_ru": "завтра",
+      "translation_ru": "До завтра",
       "example_pt": "Amanhã vou ao mercado.",
       "example_ru": "Завтра я иду на рынок.",
       "tags": [
@@ -559,7 +559,7 @@
     {
       "id": "v51",
       "word": "a família",
-      "translation_ru": "семья",
+      "translation_ru": "Семья важна",
       "example_pt": "A minha família é grande.",
       "example_ru": "Моя семья большая.",
       "tags": [
@@ -1179,7 +1179,7 @@
     {
       "id": "v106",
       "word": "de manhã",
-      "translation_ru": "утром",
+      "translation_ru": "Пью кофе утром",
       "example_pt": "De manhã bebo café.",
       "example_ru": "Утром я пью кофе.",
       "tags": [
@@ -1369,7 +1369,7 @@
     {
       "id": "v123",
       "word": "tarde",
-      "translation_ru": "поздно",
+      "translation_ru": "Добрый день",
       "example_pt": "Deito-me tarde.",
       "example_ru": "Я ложусь поздно.",
       "tags": [
@@ -1837,7 +1837,7 @@
     {
       "id": "v165",
       "word": "o peixe",
-      "translation_ru": "рыба",
+      "translation_ru": "Рыба свежая",
       "example_pt": "Em Portugal come-se muito peixe.",
       "example_ru": "В Португалии едят много рыбы.",
       "tags": [
@@ -1881,7 +1881,7 @@
     {
       "id": "v169",
       "word": "a salada",
-      "translation_ru": "салат",
+      "translation_ru": "Салат вкусный",
       "example_pt": "A salada tem tomate e alface.",
       "example_ru": "Салат с помидором и салатом.",
       "tags": [
@@ -2466,7 +2466,7 @@
     {
       "id": "v220",
       "word": "um quilo de",
-      "translation_ru": "килограмм",
+      "translation_ru": "Хочу килограмм помидоров",
       "example_pt": "Quero um quilo de tomates.",
       "example_ru": "Хочу килограмм помидоров.",
       "tags": [
@@ -2477,7 +2477,7 @@
     {
       "id": "v221",
       "word": "meio quilo",
-      "translation_ru": "полкило",
+      "translation_ru": "Полкило сыра",
       "example_pt": "Meio quilo de queijo, por favor.",
       "example_ru": "Полкило сыра, пожалуйста.",
       "tags": [
@@ -2488,7 +2488,7 @@
     {
       "id": "v222",
       "word": "uma dúzia",
-      "translation_ru": "дюжина",
+      "translation_ru": "Дюжина яиц",
       "example_pt": "Uma dúzia de ovos.",
       "example_ru": "Дюжина яиц.",
       "tags": [
@@ -2725,7 +2725,7 @@
     {
       "id": "v243",
       "word": "fresco",
-      "translation_ru": "свежий",
+      "translation_ru": "Рыба свежая",
       "example_pt": "Gosto de peixe fresco.",
       "example_ru": "Мне нравится свежая рыба.",
       "tags": [
