@@ -66,6 +66,11 @@ const sprintLabel = (s) => {
     if (firstSnapshot.grammarTitle) return `Спринт — ${firstSnapshot.grammarTitle}`
     return `Спринт — id:${firstSnapshot.grammarId}`
   }
+  // Если есть метаданные текста — показываем их
+  if (firstSnapshot && (firstSnapshot.textTitle || firstSnapshot.textId)) {
+    if (firstSnapshot.textTitle) return `Текст — ${firstSnapshot.textTitle}`
+    return `Текст — id:${firstSnapshot.textId}`
+  }
   // fallback — короткий id
   if (s.id && s.id.startsWith('sprint_')) return `Спринт #${s.id.split('_')[1]}`
   return s.id || 'Спринт'

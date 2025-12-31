@@ -2927,6 +2927,2832 @@
         "culture",
         "leisure"
       ]
+    },
+    {
+      "id": "v261",
+      "word": "o corpo",
+      "translation_ru": "тело",
+      "example_pt": "O corpo humano tem muitos órgãos.",
+      "example_ru": "Человеческое тело имеет много органов.",
+      "tags": [
+        "unit3",
+        "body"
+      ]
+    },
+    {
+      "id": "v262",
+      "word": "a cabeça",
+      "translation_ru": "голова",
+      "example_pt": "A cabeça dói.",
+      "example_ru": "Голова болит.",
+      "tags": [
+        "unit3",
+        "body"
+      ]
+    },
+    {
+      "id": "v263",
+      "word": "os olhos",
+      "translation_ru": "глаза",
+      "example_pt": "Os olhos são azuis.",
+      "example_ru": "Глаза голубые.",
+      "tags": [
+        "unit3",
+        "body"
+      ]
+    },
+    {
+      "id": "v264",
+      "word": "o nariz",
+      "translation_ru": "нос",
+      "example_pt": "O nariz está entupido.",
+      "example_ru": "Нос заложен.",
+      "tags": [
+        "unit3",
+        "body"
+      ]
+    },
+    {
+      "id": "v265",
+      "word": "a boca",
+      "translation_ru": "рот",
+      "example_pt": "A boca está seca.",
+      "example_ru": "Рот сухой.",
+      "tags": [
+        "unit3",
+        "body"
+      ]
+    },
+    {
+      "id": "v266",
+      "word": "as orelhas",
+      "translation_ru": "уши",
+      "example_pt": "As orelhas escutam.",
+      "example_ru": "Уши слушают.",
+      "tags": [
+        "unit3",
+        "body"
+      ]
+    },
+    {
+      "id": "v267",
+      "word": "o pescoço",
+      "translation_ru": "шея",
+      "example_pt": "O pescoço dói.",
+      "example_ru": "Шея болит.",
+      "tags": [
+        "unit3",
+        "body"
+      ]
+    },
+    {
+      "id": "v268",
+      "word": "os ombros",
+      "translation_ru": "плечи",
+      "example_pt": "Os ombros são largos.",
+      "example_ru": "Плечи широкие.",
+      "tags": [
+        "unit3",
+        "body"
+      ]
+    },
+    {
+      "id": "v269",
+      "word": "o peito",
+      "translation_ru": "грудь",
+      "example_pt": "O peito dói.",
+      "example_ru": "Грудь болит.",
+      "tags": [
+        "unit3",
+        "body"
+      ]
+    },
+    {
+      "id": "v270",
+      "word": "as costas",
+      "translation_ru": "спина",
+      "example_pt": "As costas doem.",
+      "example_ru": "Спина болит.",
+      "tags": [
+        "unit3",
+        "body"
+      ]
+    },
+    {
+      "id": "v271",
+      "word": "o braço",
+      "translation_ru": "рука (от плеча)",
+      "example_pt": "O braço está quebrado.",
+      "example_ru": "Рука сломана.",
+      "tags": [
+        "unit3",
+        "body"
+      ]
+    },
+    {
+      "id": "v272",
+      "word": "a mão",
+      "translation_ru": "кисть руки",
+      "example_pt": "A mão segura o livro.",
+      "example_ru": "Рука держит книгу.",
+      "tags": [
+        "unit3",
+        "body"
+      ]
+    },
+    {
+      "id": "v273",
+      "word": "os dedos",
+      "translation_ru": "пальцы",
+      "example_pt": "Os dedos tocam o piano.",
+      "example_ru": "Пальцы играют на пианино.",
+      "tags": [
+        "unit3",
+        "body"
+      ]
+    },
+    {
+      "id": "v274",
+      "word": "a barriga",
+      "translation_ru": "живот",
+      "example_pt": "A barriga dói.",
+      "example_ru": "Живот болит.",
+      "tags": [
+        "unit3",
+        "body"
+      ]
+    },
+    {
+      "id": "v275",
+      "word": "as pernas",
+      "translation_ru": "ноги",
+      "example_pt": "As pernas correm.",
+      "example_ru": "Ноги бегут.",
+      "tags": [
+        "unit3",
+        "body"
+      ]
+    },
+    {
+      "id": "v276",
+      "word": "o joelho",
+      "translation_ru": "колено",
+      "example_pt": "O joelho dói.",
+      "example_ru": "Колено болит.",
+      "tags": [
+        "unit3",
+        "body"
+      ]
+    },
+    {
+      "id": "v277",
+      "word": "o pé",
+      "translation_ru": "стопа",
+      "example_pt": "O pé está inchado.",
+      "example_ru": "Стопа опухла.",
+      "tags": [
+        "unit3",
+        "body"
+      ]
+    },
+    {
+      "id": "v278",
+      "word": "a saúde",
+      "translation_ru": "здоровье",
+      "example_pt": "A saúde é importante.",
+      "example_ru": "Здоровье важно.",
+      "tags": [
+        "unit3",
+        "health"
+      ]
+    },
+    {
+      "id": "v279",
+      "word": "doente",
+      "translation_ru": "больной",
+      "example_pt": "Eu estou doente.",
+      "example_ru": "Я болен.",
+      "tags": [
+        "unit3",
+        "health"
+      ]
+    },
+    {
+      "id": "v280",
+      "word": "saudável",
+      "translation_ru": "здоровый",
+      "example_pt": "Eu sou saudável.",
+      "example_ru": "Я здоров.",
+      "tags": [
+        "unit3",
+        "health"
+      ]
+    },
+    {
+      "id": "v281",
+      "word": "a dor",
+      "translation_ru": "боль",
+      "example_pt": "A dor é forte.",
+      "example_ru": "Боль сильная.",
+      "tags": [
+        "unit3",
+        "health"
+      ]
+    },
+    {
+      "id": "v282",
+      "word": "a febre",
+      "translation_ru": "температура",
+      "example_pt": "Eu tenho febre.",
+      "example_ru": "У меня температура.",
+      "tags": [
+        "unit3",
+        "health"
+      ]
+    },
+    {
+      "id": "v283",
+      "word": "a tosse",
+      "translation_ru": "кашель",
+      "example_pt": "Eu tenho tosse.",
+      "example_ru": "У меня кашель.",
+      "tags": [
+        "unit3",
+        "health"
+      ]
+    },
+    {
+      "id": "v284",
+      "word": "o resfriado",
+      "translation_ru": "простуда",
+      "example_pt": "Eu tenho um resfriado.",
+      "example_ru": "У меня простуда.",
+      "tags": [
+        "unit3",
+        "health"
+      ]
+    },
+    {
+      "id": "v285",
+      "word": "a gripe",
+      "translation_ru": "грипп",
+      "example_pt": "É a gripe.",
+      "example_ru": "Это грипп.",
+      "tags": [
+        "unit3",
+        "health"
+      ]
+    },
+    {
+      "id": "v286",
+      "word": "o médico",
+      "translation_ru": "врач",
+      "example_pt": "O médico examina o paciente.",
+      "example_ru": "Врач осматривает пациента.",
+      "tags": [
+        "unit3",
+        "doctor"
+      ]
+    },
+    {
+      "id": "v287",
+      "word": "a consulta",
+      "translation_ru": "прием у врача",
+      "example_pt": "Eu tenho uma consulta.",
+      "example_ru": "У меня прием.",
+      "tags": [
+        "unit3",
+        "doctor"
+      ]
+    },
+    {
+      "id": "v288",
+      "word": "o hospital",
+      "translation_ru": "больница",
+      "example_pt": "O hospital é grande.",
+      "example_ru": "Больница большая.",
+      "tags": [
+        "unit3",
+        "doctor"
+      ]
+    },
+    {
+      "id": "v289",
+      "word": "a enfermeira",
+      "translation_ru": "медсестра",
+      "example_pt": "A enfermeira ajuda.",
+      "example_ru": "Медсестра помогает.",
+      "tags": [
+        "unit3",
+        "doctor"
+      ]
+    },
+    {
+      "id": "v290",
+      "word": "o exame",
+      "translation_ru": "осмотр",
+      "example_pt": "O exame é necessário.",
+      "example_ru": "Осмотр необходим.",
+      "tags": [
+        "unit3",
+        "doctor"
+      ]
+    },
+    {
+      "id": "v291",
+      "word": "a receita",
+      "translation_ru": "рецепт",
+      "example_pt": "O médico dá a receita.",
+      "example_ru": "Врач дает рецепт.",
+      "tags": [
+        "unit3",
+        "pharmacy"
+      ]
+    },
+    {
+      "id": "v292",
+      "word": "a farmácia",
+      "translation_ru": "аптека",
+      "example_pt": "A farmácia vende remédios.",
+      "example_ru": "Аптека продает лекарства.",
+      "tags": [
+        "unit3",
+        "pharmacy"
+      ]
+    },
+    {
+      "id": "v293",
+      "word": "o remédio",
+      "translation_ru": "лекарство",
+      "example_pt": "O remédio cura.",
+      "example_ru": "Лекарство лечит.",
+      "tags": [
+        "unit3",
+        "pharmacy"
+      ]
+    },
+    {
+      "id": "v294",
+      "word": "o comprimido",
+      "translation_ru": "таблетка",
+      "example_pt": "Toma o comprimido.",
+      "example_ru": "Прими таблетку.",
+      "tags": [
+        "unit3",
+        "pharmacy"
+      ]
+    },
+    {
+      "id": "v295",
+      "word": "o xarope",
+      "translation_ru": "сироп",
+      "example_pt": "O xarope é para tosse.",
+      "example_ru": "Сироп от кашля.",
+      "tags": [
+        "unit3",
+        "pharmacy"
+      ]
+    },
+    {
+      "id": "v296",
+      "word": "os correios",
+      "translation_ru": "почта",
+      "example_pt": "Eu vou aos correios.",
+      "example_ru": "Я иду на почту.",
+      "tags": [
+        "unit3",
+        "services"
+      ]
+    },
+    {
+      "id": "v297",
+      "word": "a carta",
+      "translation_ru": "письмо",
+      "example_pt": "Envio a carta.",
+      "example_ru": "Отправляю письмо.",
+      "tags": [
+        "unit3",
+        "services"
+      ]
+    },
+    {
+      "id": "v298",
+      "word": "o selo",
+      "translation_ru": "марка",
+      "example_pt": "Coloco o selo.",
+      "example_ru": "Наклеиваю марку.",
+      "tags": [
+        "unit3",
+        "services"
+      ]
+    },
+    {
+      "id": "v299",
+      "word": "o pacote",
+      "translation_ru": "посылка",
+      "example_pt": "Recebo o pacote.",
+      "example_ru": "Получаю посылку.",
+      "tags": [
+        "unit3",
+        "services"
+      ]
+    },
+    {
+      "id": "v300",
+      "word": "o banco",
+      "translation_ru": "банк",
+      "example_pt": "Eu vou ao banco.",
+      "example_ru": "Я иду в банк.",
+      "tags": [
+        "unit3",
+        "services"
+      ]
+    },
+    {
+      "id": "v301",
+      "word": "a conta",
+      "translation_ru": "счет",
+      "example_pt": "Abro a conta.",
+      "example_ru": "Открываю счет.",
+      "tags": [
+        "unit3",
+        "services"
+      ]
+    },
+    {
+      "id": "v302",
+      "word": "o dinheiro",
+      "translation_ru": "деньги",
+      "example_pt": "Deposito o dinheiro.",
+      "example_ru": "Вношу деньги.",
+      "tags": [
+        "unit3",
+        "services"
+      ]
+    },
+    {
+      "id": "v303",
+      "word": "o cartão",
+      "translation_ru": "карта",
+      "example_pt": "Uso o cartão.",
+      "example_ru": "Использую карту.",
+      "tags": [
+        "unit3",
+        "services"
+      ]
+    },
+    {
+      "id": "v304",
+      "word": "o transporte",
+      "translation_ru": "транспорт",
+      "example_pt": "O transporte público é bom.",
+      "example_ru": "Общественный транспорт хороший.",
+      "tags": [
+        "unit3",
+        "transport"
+      ]
+    },
+    {
+      "id": "v305",
+      "word": "o autocarro",
+      "translation_ru": "автобус",
+      "example_pt": "Pego o autocarro.",
+      "example_ru": "Сажусь в автобус.",
+      "tags": [
+        "unit3",
+        "transport"
+      ]
+    },
+    {
+      "id": "v306",
+      "word": "o metro",
+      "translation_ru": "метро",
+      "example_pt": "O metro é rápido.",
+      "example_ru": "Метро быстрое.",
+      "tags": [
+        "unit3",
+        "transport"
+      ]
+    },
+    {
+      "id": "v307",
+      "word": "o comboio",
+      "translation_ru": "поезд",
+      "example_pt": "Viajo de comboio.",
+      "example_ru": "Еду на поезде.",
+      "tags": [
+        "unit3",
+        "transport"
+      ]
+    },
+    {
+      "id": "v308",
+      "word": "o bilhete",
+      "translation_ru": "билет",
+      "example_pt": "Compro o bilhete.",
+      "example_ru": "Покупаю билет.",
+      "tags": [
+        "unit3",
+        "transport"
+      ]
+    },
+    {
+      "id": "v309",
+      "word": "a paragem",
+      "translation_ru": "остановка",
+      "example_pt": "Espero na paragem.",
+      "example_ru": "Жду на остановке.",
+      "tags": [
+        "unit3",
+        "transport"
+      ]
+    },
+    {
+      "id": "v310",
+      "word": "a estação",
+      "translation_ru": "станция",
+      "example_pt": "A estação é grande.",
+      "example_ru": "Станция большая.",
+      "tags": [
+        "unit3",
+        "transport"
+      ]
+    },
+    {
+      "id": "v311",
+      "word": "ter dor de cabeça",
+      "translation_ru": "иметь головную боль",
+      "example_pt": "Eu tenho dor de cabeça.",
+      "example_ru": "У меня головная боль.",
+      "tags": [
+        "unit3",
+        "health",
+        "phrases"
+      ]
+    },
+    {
+      "id": "v312",
+      "word": "estar constipado",
+      "translation_ru": "быть простуженным",
+      "example_pt": "Eu estou constipado.",
+      "example_ru": "Я простужен.",
+      "tags": [
+        "unit3",
+        "health",
+        "phrases"
+      ]
+    },
+    {
+      "id": "v313",
+      "word": "marcar uma consulta",
+      "translation_ru": "записаться на прием",
+      "example_pt": "Eu marco uma consulta.",
+      "example_ru": "Я записываюсь на прием.",
+      "tags": [
+        "unit3",
+        "doctor",
+        "phrases"
+      ]
+    },
+    {
+      "id": "v314",
+      "word": "ir ao médico",
+      "translation_ru": "идти к врачу",
+      "example_pt": "Eu vou ao médico.",
+      "example_ru": "Я иду к врачу.",
+      "tags": [
+        "unit3",
+        "doctor",
+        "phrases"
+      ]
+    },
+    {
+      "id": "v315",
+      "word": "tomar remédio",
+      "translation_ru": "принимать лекарство",
+      "example_pt": "Eu tomo remédio.",
+      "example_ru": "Я принимаю лекарство.",
+      "tags": [
+        "unit3",
+        "pharmacy",
+        "phrases"
+      ]
+    },
+    {
+      "id": "v316",
+      "word": "enviar uma carta",
+      "translation_ru": "отправить письмо",
+      "example_pt": "Eu envio uma carta.",
+      "example_ru": "Я отправляю письмо.",
+      "tags": [
+        "unit3",
+        "services",
+        "phrases"
+      ]
+    },
+    {
+      "id": "v317",
+      "word": "levantar dinheiro",
+      "translation_ru": "снять деньги",
+      "example_pt": "Eu levanto dinheiro.",
+      "example_ru": "Я снимаю деньги.",
+      "tags": [
+        "unit3",
+        "services",
+        "phrases"
+      ]
+    },
+    {
+      "id": "v318",
+      "word": "apanhar o autocarro",
+      "translation_ru": "сесть в автобус",
+      "example_pt": "Eu apanho o autocarro.",
+      "example_ru": "Я сажусь в автобус.",
+      "tags": [
+        "unit3",
+        "transport",
+        "phrases"
+      ]
+    },
+    {
+      "id": "v319",
+      "word": "comprar bilhete",
+      "translation_ru": "купить билет",
+      "example_pt": "Eu compro bilhete.",
+      "example_ru": "Я покупаю билет.",
+      "tags": [
+        "unit3",
+        "transport",
+        "phrases"
+      ]
+    },
+    {
+      "id": "v320",
+      "word": "o dente",
+      "translation_ru": "зуб",
+      "example_pt": "O dente dói.",
+      "example_ru": "Зуб болит.",
+      "tags": [
+        "unit3",
+        "body"
+      ]
+    },
+    {
+      "id": "v321",
+      "word": "o cabelo",
+      "translation_ru": "волосы",
+      "example_pt": "O cabelo é longo.",
+      "example_ru": "Волосы длинные.",
+      "tags": [
+        "unit3",
+        "body"
+      ]
+    },
+    {
+      "id": "v322",
+      "word": "a língua",
+      "translation_ru": "язык",
+      "example_pt": "A língua fala.",
+      "example_ru": "Язык говорит.",
+      "tags": [
+        "unit3",
+        "body"
+      ]
+    },
+    {
+      "id": "v323",
+      "word": "o estômago",
+      "translation_ru": "желудок",
+      "example_pt": "O estômago dói.",
+      "example_ru": "Желудок болит.",
+      "tags": [
+        "unit3",
+        "body"
+      ]
+    },
+    {
+      "id": "v324",
+      "word": "o coração",
+      "translation_ru": "сердце",
+      "example_pt": "O coração bate.",
+      "example_ru": "Сердце бьется.",
+      "tags": [
+        "unit3",
+        "body"
+      ]
+    },
+    {
+      "id": "v325",
+      "word": "os pulmões",
+      "translation_ru": "легкие",
+      "example_pt": "Os pulmões respiram.",
+      "example_ru": "Легкие дышат.",
+      "tags": [
+        "unit3",
+        "body"
+      ]
+    },
+    {
+      "id": "v326",
+      "word": "o fígado",
+      "translation_ru": "печень",
+      "example_pt": "O fígado é importante.",
+      "example_ru": "Печень важна.",
+      "tags": [
+        "unit3",
+        "body"
+      ]
+    },
+    {
+      "id": "v327",
+      "word": "os rins",
+      "translation_ru": "почки",
+      "example_pt": "Os rins filtram.",
+      "example_ru": "Почки фильтруют.",
+      "tags": [
+        "unit3",
+        "body"
+      ]
+    },
+    {
+      "id": "v328",
+      "word": "o osso",
+      "translation_ru": "кость",
+      "example_pt": "O osso quebra.",
+      "example_ru": "Кость ломается.",
+      "tags": [
+        "unit3",
+        "body"
+      ]
+    },
+    {
+      "id": "v329",
+      "word": "o músculo",
+      "translation_ru": "мышца",
+      "example_pt": "O músculo é forte.",
+      "example_ru": "Мышца сильная.",
+      "tags": [
+        "unit3",
+        "body"
+      ]
+    },
+    {
+      "id": "v330",
+      "word": "a pele",
+      "translation_ru": "кожа",
+      "example_pt": "A pele é macia.",
+      "example_ru": "Кожа мягкая.",
+      "tags": [
+        "unit3",
+        "body"
+      ]
+    },
+    {
+      "id": "v331",
+      "word": "cansado",
+      "translation_ru": "усталый",
+      "example_pt": "Eu estou cansado.",
+      "example_ru": "Я устал.",
+      "tags": [
+        "unit3",
+        "health"
+      ]
+    },
+    {
+      "id": "v332",
+      "word": "bem",
+      "translation_ru": "хорошо",
+      "example_pt": "Eu estou bem.",
+      "example_ru": "Я в порядке.",
+      "tags": [
+        "unit3",
+        "health"
+      ]
+    },
+    {
+      "id": "v333",
+      "word": "mal",
+      "translation_ru": "плохо",
+      "example_pt": "Eu estou mal.",
+      "example_ru": "Мне плохо.",
+      "tags": [
+        "unit3",
+        "health"
+      ]
+    },
+    {
+      "id": "v334",
+      "word": "o acidente",
+      "translation_ru": "несчастный случай",
+      "example_pt": "Há um acidente.",
+      "example_ru": "Произошел несчастный случай.",
+      "tags": [
+        "unit3",
+        "health"
+      ]
+    },
+    {
+      "id": "v335",
+      "word": "a ambulância",
+      "translation_ru": "скорая помощь",
+      "example_pt": "Chamo a ambulância.",
+      "example_ru": "Вызываю скорую.",
+      "tags": [
+        "unit3",
+        "health"
+      ]
+    },
+    {
+      "id": "v336",
+      "word": "a emergência",
+      "translation_ru": "экстренная ситуация",
+      "example_pt": "É uma emergência.",
+      "example_ru": "Это экстренная ситуация.",
+      "tags": [
+        "unit3",
+        "health"
+      ]
+    },
+    {
+      "id": "v337",
+      "word": "o dentista",
+      "translation_ru": "стоматолог",
+      "example_pt": "Vou ao dentista.",
+      "example_ru": "Иду к стоматологу.",
+      "tags": [
+        "unit3",
+        "doctor"
+      ]
+    },
+    {
+      "id": "v338",
+      "word": "o oftalmologista",
+      "translation_ru": "окулист",
+      "example_pt": "O oftalmologista verifica os olhos.",
+      "example_ru": "Окулист проверяет глаза.",
+      "tags": [
+        "unit3",
+        "doctor"
+      ]
+    },
+    {
+      "id": "v339",
+      "word": "a análise",
+      "translation_ru": "анализ",
+      "example_pt": "Faço a análise.",
+      "example_ru": "Делаю анализ.",
+      "tags": [
+        "unit3",
+        "doctor"
+      ]
+    },
+    {
+      "id": "v340",
+      "word": "o raio-X",
+      "translation_ru": "рентген",
+      "example_pt": "Faço raio-X.",
+      "example_ru": "Делаю рентген.",
+      "tags": [
+        "unit3",
+        "doctor"
+      ]
+    },
+    {
+      "id": "v341",
+      "word": "o farmacêutico",
+      "translation_ru": "фармацевт",
+      "example_pt": "O farmacêutico vende.",
+      "example_ru": "Фармацевт продает.",
+      "tags": [
+        "unit3",
+        "pharmacy"
+      ]
+    },
+    {
+      "id": "v342",
+      "word": "a pomada",
+      "translation_ru": "мазь",
+      "example_pt": "A pomada cura a pele.",
+      "example_ru": "Мазь лечит кожу.",
+      "tags": [
+        "unit3",
+        "pharmacy"
+      ]
+    },
+    {
+      "id": "v343",
+      "word": "as gotas",
+      "translation_ru": "капли",
+      "example_pt": "As gotas para os olhos.",
+      "example_ru": "Капли для глаз.",
+      "tags": [
+        "unit3",
+        "pharmacy"
+      ]
+    },
+    {
+      "id": "v344",
+      "word": "o antibiótico",
+      "translation_ru": "антибиотик",
+      "example_pt": "Tomo antibiótico.",
+      "example_ru": "Принимаю антибиотик.",
+      "tags": [
+        "unit3",
+        "pharmacy"
+      ]
+    },
+    {
+      "id": "v345",
+      "word": "o analgésico",
+      "translation_ru": "обезболивающее",
+      "example_pt": "O analgésico alivia a dor.",
+      "example_ru": "Обезболивающее снимает боль.",
+      "tags": [
+        "unit3",
+        "pharmacy"
+      ]
+    },
+    {
+      "id": "v346",
+      "word": "o endereço",
+      "translation_ru": "адрес",
+      "example_pt": "Escrevo o endereço.",
+      "example_ru": "Пишу адрес.",
+      "tags": [
+        "unit3",
+        "services"
+      ]
+    },
+    {
+      "id": "v347",
+      "word": "o envelope",
+      "translation_ru": "конверт",
+      "example_pt": "Coloco no envelope.",
+      "example_ru": "Кладу в конверт.",
+      "tags": [
+        "unit3",
+        "services"
+      ]
+    },
+    {
+      "id": "v348",
+      "word": "a transferência",
+      "translation_ru": "перевод (денег)",
+      "example_pt": "Faço a transferência.",
+      "example_ru": "Делаю перевод.",
+      "tags": [
+        "unit3",
+        "services"
+      ]
+    },
+    {
+      "id": "v349",
+      "word": "o empréstimo",
+      "translation_ru": "кредит",
+      "example_pt": "Peço o empréstimo.",
+      "example_ru": "Прошу кредит.",
+      "tags": [
+        "unit3",
+        "services"
+      ]
+    },
+    {
+      "id": "v350",
+      "word": "o multibanco",
+      "translation_ru": "банкомат",
+      "example_pt": "Uso o multibanco.",
+      "example_ru": "Использую банкомат.",
+      "tags": [
+        "unit3",
+        "services"
+      ]
+    },
+    {
+      "id": "v351",
+      "word": "o carro",
+      "translation_ru": "машина",
+      "example_pt": "Conduzo o carro.",
+      "example_ru": "Веду машину.",
+      "tags": [
+        "unit3",
+        "transport"
+      ]
+    },
+    {
+      "id": "v352",
+      "word": "a bicicleta",
+      "translation_ru": "велосипед",
+      "example_pt": "Ando de bicicleta.",
+      "example_ru": "Езжу на велосипеде.",
+      "tags": [
+        "unit3",
+        "transport"
+      ]
+    },
+    {
+      "id": "v353",
+      "word": "o táxi",
+      "translation_ru": "такси",
+      "example_pt": "Chamo o táxi.",
+      "example_ru": "Вызываю такси.",
+      "tags": [
+        "unit3",
+        "transport"
+      ]
+    },
+    {
+      "id": "v354",
+      "word": "o avião",
+      "translation_ru": "самолет",
+      "example_pt": "Viajo de avião.",
+      "example_ru": "Лечу на самолете.",
+      "tags": [
+        "unit3",
+        "transport"
+      ]
+    },
+    {
+      "id": "v355",
+      "word": "o barco",
+      "translation_ru": "корабль",
+      "example_pt": "Viajo de barco.",
+      "example_ru": "Плыву на корабле.",
+      "tags": [
+        "unit3",
+        "transport"
+      ]
+    },
+    {
+      "id": "v356",
+      "word": "a linha",
+      "translation_ru": "линия (метро)",
+      "example_pt": "A linha amarela.",
+      "example_ru": "Желтая линия.",
+      "tags": [
+        "unit3",
+        "transport"
+      ]
+    },
+    {
+      "id": "v357",
+      "word": "o horário",
+      "translation_ru": "расписание",
+      "example_pt": "Vejo o horário.",
+      "example_ru": "Смотрю расписание.",
+      "tags": [
+        "unit3",
+        "transport"
+      ]
+    },
+    {
+      "id": "v358",
+      "word": "o atraso",
+      "translation_ru": "опоздание",
+      "example_pt": "Há atraso.",
+      "example_ru": "Есть опоздание.",
+      "tags": [
+        "unit3",
+        "transport"
+      ]
+    },
+    {
+      "id": "v359",
+      "word": "o trânsito",
+      "translation_ru": "движение (трафик)",
+      "example_pt": "O trânsito é intenso.",
+      "example_ru": "Движение интенсивное.",
+      "tags": [
+        "unit3",
+        "transport"
+      ]
+    },
+    {
+      "id": "v360",
+      "word": "a rua",
+      "translation_ru": "улица",
+      "example_pt": "A rua é larga.",
+      "example_ru": "Улица широкая.",
+      "tags": [
+        "unit3",
+        "transport"
+      ]
+    },
+    {
+      "id": "v361",
+      "word": "ter gripe",
+      "translation_ru": "иметь грипп",
+      "example_pt": "Eu tenho gripe.",
+      "example_ru": "У меня грипп.",
+      "tags": [
+        "unit3",
+        "health",
+        "phrases"
+      ]
+    },
+    {
+      "id": "v362",
+      "word": "sentir-se mal",
+      "translation_ru": "чувствовать себя плохо",
+      "example_pt": "Eu sinto-me mal.",
+      "example_ru": "Я чувствую себя плохо.",
+      "tags": [
+        "unit3",
+        "health",
+        "phrases"
+      ]
+    },
+    {
+      "id": "v363",
+      "word": "chamar o médico",
+      "translation_ru": "вызвать врача",
+      "example_pt": "Eu chamo o médico.",
+      "example_ru": "Я вызываю врача.",
+      "tags": [
+        "unit3",
+        "doctor",
+        "phrases"
+      ]
+    },
+    {
+      "id": "v364",
+      "word": "ir à farmácia",
+      "translation_ru": "идти в аптеку",
+      "example_pt": "Eu vou à farmácia.",
+      "example_ru": "Я иду в аптеку.",
+      "tags": [
+        "unit3",
+        "pharmacy",
+        "phrases"
+      ]
+    },
+    {
+      "id": "v365",
+      "word": "pagar com cartão",
+      "translation_ru": "платить картой",
+      "example_pt": "Eu pago com cartão.",
+      "example_ru": "Я плачу картой.",
+      "tags": [
+        "unit3",
+        "services",
+        "phrases"
+      ]
+    },
+    {
+      "id": "v366",
+      "word": "esperar o comboio",
+      "translation_ru": "ждать поезд",
+      "example_pt": "Eu espero o comboio.",
+      "example_ru": "Я жду поезд.",
+      "tags": [
+        "unit3",
+        "transport",
+        "phrases"
+      ]
+    },
+    {
+      "id": "v367",
+      "word": "descer na paragem",
+      "translation_ru": "выйти на остановке",
+      "example_pt": "Eu desço na paragem.",
+      "example_ru": "Я выхожу на остановке.",
+      "tags": [
+        "unit3",
+        "transport",
+        "phrases"
+      ]
+    },
+    {
+      "id": "v368",
+      "word": "o sangue",
+      "translation_ru": "кровь",
+      "example_pt": "O sangue circula.",
+      "example_ru": "Кровь циркулирует.",
+      "tags": [
+        "unit3",
+        "body"
+      ]
+    },
+    {
+      "id": "v369",
+      "word": "o cérebro",
+      "translation_ru": "мозг",
+      "example_pt": "O cérebro pensa.",
+      "example_ru": "Мозг думает.",
+      "tags": [
+        "unit3",
+        "body"
+      ]
+    },
+    {
+      "id": "v370",
+      "word": "a garganta",
+      "translation_ru": "горло",
+      "example_pt": "A garganta dói.",
+      "example_ru": "Горло болит.",
+      "tags": [
+        "unit3",
+        "body"
+      ]
+    },
+    {
+      "id": "v371",
+      "word": "o cotovelo",
+      "translation_ru": "локоть",
+      "example_pt": "O cotovelo dobra.",
+      "example_ru": "Локоть сгибается.",
+      "tags": [
+        "unit3",
+        "body"
+      ]
+    },
+    {
+      "id": "v372",
+      "word": "o tornozelo",
+      "translation_ru": "лодыжка",
+      "example_pt": "O tornozelo torce.",
+      "example_ru": "Лодыжка вывихнута.",
+      "tags": [
+        "unit3",
+        "body"
+      ]
+    },
+    {
+      "id": "v373",
+      "word": "o calcanhar",
+      "translation_ru": "пятка",
+      "example_pt": "O calcanhar apoia.",
+      "example_ru": "Пятка поддерживает.",
+      "tags": [
+        "unit3",
+        "body"
+      ]
+    },
+    {
+      "id": "v374",
+      "word": "a unha",
+      "translation_ru": "ноготь",
+      "example_pt": "A unha cresce.",
+      "example_ru": "Ноготь растет.",
+      "tags": [
+        "unit3",
+        "body"
+      ]
+    },
+    {
+      "id": "v375",
+      "word": "o nervo",
+      "translation_ru": "нерв",
+      "example_pt": "O nervo sente.",
+      "example_ru": "Нерв чувствует.",
+      "tags": [
+        "unit3",
+        "body"
+      ]
+    },
+    {
+      "id": "v376",
+      "word": "a veia",
+      "translation_ru": "вена",
+      "example_pt": "A veia transporta sangue.",
+      "example_ru": "Вена транспортирует кровь.",
+      "tags": [
+        "unit3",
+        "body"
+      ]
+    },
+    {
+      "id": "v377",
+      "word": "a artéria",
+      "translation_ru": "артерия",
+      "example_pt": "A artéria leva oxigênio.",
+      "example_ru": "Артерия несет кислород.",
+      "tags": [
+        "unit3",
+        "body"
+      ]
+    },
+    {
+      "id": "v378",
+      "word": "a alergia",
+      "translation_ru": "аллергия",
+      "example_pt": "Eu tenho alergia.",
+      "example_ru": "У меня аллергия.",
+      "tags": [
+        "unit3",
+        "health"
+      ]
+    },
+    {
+      "id": "v379",
+      "word": "a asma",
+      "translation_ru": "астма",
+      "example_pt": "A asma dificulta a respiração.",
+      "example_ru": "Астма затрудняет дыхание.",
+      "tags": [
+        "unit3",
+        "health"
+      ]
+    },
+    {
+      "id": "v380",
+      "word": "a diabetes",
+      "translation_ru": "диабет",
+      "example_pt": "A diabetes precisa de controlo.",
+      "example_ru": "Диабет нуждается в контроле.",
+      "tags": [
+        "unit3",
+        "health"
+      ]
+    },
+    {
+      "id": "v381",
+      "word": "o stress",
+      "translation_ru": "стресс",
+      "example_pt": "O stress é mau.",
+      "example_ru": "Стресс плохой.",
+      "tags": [
+        "unit3",
+        "health"
+      ]
+    },
+    {
+      "id": "v382",
+      "word": "a depressão",
+      "translation_ru": "депрессия",
+      "example_pt": "A depressão é séria.",
+      "example_ru": "Депрессия серьезная.",
+      "tags": [
+        "unit3",
+        "health"
+      ]
+    },
+    {
+      "id": "v383",
+      "word": "o cirurgião",
+      "translation_ru": "хирург",
+      "example_pt": "O cirurgião opera.",
+      "example_ru": "Хирург оперирует.",
+      "tags": [
+        "unit3",
+        "doctor"
+      ]
+    },
+    {
+      "id": "v384",
+      "word": "o pediatra",
+      "translation_ru": "педиатр",
+      "example_pt": "O pediatra cuida de crianças.",
+      "example_ru": "Педиатр заботится о детях.",
+      "tags": [
+        "unit3",
+        "doctor"
+      ]
+    },
+    {
+      "id": "v385",
+      "word": "a operação",
+      "translation_ru": "операция",
+      "example_pt": "A operação é necessária.",
+      "example_ru": "Операция необходима.",
+      "tags": [
+        "unit3",
+        "doctor"
+      ]
+    },
+    {
+      "id": "v386",
+      "word": "o gesso",
+      "translation_ru": "гипс",
+      "example_pt": "Coloco gesso.",
+      "example_ru": "Накладываю гипс.",
+      "tags": [
+        "unit3",
+        "doctor"
+      ]
+    },
+    {
+      "id": "v387",
+      "word": "o injetável",
+      "translation_ru": "инъекция",
+      "example_pt": "Faço injetável.",
+      "example_ru": "Делаю укол.",
+      "tags": [
+        "unit3",
+        "pharmacy"
+      ]
+    },
+    {
+      "id": "v388",
+      "word": "o spray",
+      "translation_ru": "спрей",
+      "example_pt": "Uso o spray nasal.",
+      "example_ru": "Использую назальный спрей.",
+      "tags": [
+        "unit3",
+        "pharmacy"
+      ]
+    },
+    {
+      "id": "v389",
+      "word": "o penso",
+      "translation_ru": "пластырь",
+      "example_pt": "Coloco o penso.",
+      "example_ru": "Наклеиваю пластырь.",
+      "tags": [
+        "unit3",
+        "pharmacy"
+      ]
+    },
+    {
+      "id": "v390",
+      "word": "a vitamina",
+      "translation_ru": "витамин",
+      "example_pt": "Tomo vitamina.",
+      "example_ru": "Принимаю витамин.",
+      "tags": [
+        "unit3",
+        "pharmacy"
+      ]
+    },
+    {
+      "id": "v391",
+      "word": "o cheque",
+      "translation_ru": "чек",
+      "example_pt": "Assino o cheque.",
+      "example_ru": "Подписываю чек.",
+      "tags": [
+        "unit3",
+        "services"
+      ]
+    },
+    {
+      "id": "v392",
+      "word": "o saldo",
+      "translation_ru": "баланс",
+      "example_pt": "Vejo o saldo.",
+      "example_ru": "Смотрю баланс.",
+      "tags": [
+        "unit3",
+        "services"
+      ]
+    },
+    {
+      "id": "v393",
+      "word": "o pagamento",
+      "translation_ru": "оплата",
+      "example_pt": "Faço o pagamento.",
+      "example_ru": "Делаю оплату.",
+      "tags": [
+        "unit3",
+        "services"
+      ]
+    },
+    {
+      "id": "v394",
+      "word": "o recibo",
+      "translation_ru": "квитанция",
+      "example_pt": "Recebo o recibo.",
+      "example_ru": "Получаю квитанцию.",
+      "tags": [
+        "unit3",
+        "services"
+      ]
+    },
+    {
+      "id": "v395",
+      "word": "o motorista",
+      "translation_ru": "водитель",
+      "example_pt": "O motorista conduz.",
+      "example_ru": "Водитель ведет.",
+      "tags": [
+        "unit3",
+        "transport"
+      ]
+    },
+    {
+      "id": "v396",
+      "word": "o passageiro",
+      "translation_ru": "пассажир",
+      "example_pt": "O passageiro viaja.",
+      "example_ru": "Пассажир путешествует.",
+      "tags": [
+        "unit3",
+        "transport"
+      ]
+    },
+    {
+      "id": "v397",
+      "word": "o semáforo",
+      "translation_ru": "светофор",
+      "example_pt": "O semáforo está vermelho.",
+      "example_ru": "Светофор красный.",
+      "tags": [
+        "unit3",
+        "transport"
+      ]
+    },
+    {
+      "id": "v398",
+      "word": "a estrada",
+      "translation_ru": "дорога",
+      "example_pt": "A estrada é longa.",
+      "example_ru": "Дорога длинная.",
+      "tags": [
+        "unit3",
+        "transport"
+      ]
+    },
+    {
+      "id": "v399",
+      "word": "o parque de estacionamento",
+      "translation_ru": "парковка",
+      "example_pt": "Procuro o parque de estacionamento.",
+      "example_ru": "Ищу парковку.",
+      "tags": [
+        "unit3",
+        "transport"
+      ]
+    },
+    {
+      "id": "v400",
+      "word": "o combustível",
+      "translation_ru": "топливо",
+      "example_pt": "Coloco combustível.",
+      "example_ru": "Заливаю топливо.",
+      "tags": [
+        "unit3",
+        "transport"
+      ]
+    },
+    {
+      "id": "v401",
+      "word": "ter dor nas costas",
+      "translation_ru": "иметь боль в спине",
+      "example_pt": "Eu tenho dor nas costas.",
+      "example_ru": "У меня боль в спине.",
+      "tags": [
+        "unit3",
+        "health",
+        "phrases"
+      ]
+    },
+    {
+      "id": "v402",
+      "word": "estar grávida",
+      "translation_ru": "быть беременной",
+      "example_pt": "Ela está grávida.",
+      "example_ru": "Она беременна.",
+      "tags": [
+        "unit3",
+        "health",
+        "phrases"
+      ]
+    },
+    {
+      "id": "v403",
+      "word": "fazer exercício",
+      "translation_ru": "заниматься спортом",
+      "example_pt": "Eu faço exercício.",
+      "example_ru": "Я занимаюсь спортом.",
+      "tags": [
+        "unit3",
+        "health",
+        "phrases"
+      ]
+    },
+    {
+      "id": "v404",
+      "word": "beber água",
+      "translation_ru": "пить воду",
+      "example_pt": "Eu bebo água.",
+      "example_ru": "Я пью воду.",
+      "tags": [
+        "unit3",
+        "health",
+        "phrases"
+      ]
+    },
+    {
+      "id": "v405",
+      "word": "dormir bem",
+      "translation_ru": "спать хорошо",
+      "example_pt": "Eu durmo bem.",
+      "example_ru": "Я сплю хорошо.",
+      "tags": [
+        "unit3",
+        "health",
+        "phrases"
+      ]
+    },
+    {
+      "id": "v406",
+      "word": "aviar a receita",
+      "translation_ru": "выдать по рецепту",
+      "example_pt": "Avião a receita na farmácia.",
+      "example_ru": "Выдают по рецепту в аптеке.",
+      "tags": [
+        "unit3",
+        "pharmacy",
+        "phrases"
+      ]
+    },
+    {
+      "id": "v407",
+      "word": "pagar a conta",
+      "translation_ru": "оплатить счет",
+      "example_pt": "Eu pago a conta.",
+      "example_ru": "Я оплачиваю счет.",
+      "tags": [
+        "unit3",
+        "services",
+        "phrases"
+      ]
+    },
+    {
+      "id": "v408",
+      "word": "validar o bilhete",
+      "translation_ru": "провалить билет",
+      "example_pt": "Valido o bilhete.",
+      "example_ru": "Проваливаю билет.",
+      "tags": [
+        "unit3",
+        "transport",
+        "phrases"
+      ]
+    },
+    {
+      "id": "v409",
+      "word": "mudar de linha",
+      "translation_ru": "сменить линию",
+      "example_pt": "Mudo de linha no metro.",
+      "example_ru": "Меняю линию в метро.",
+      "tags": [
+        "unit3",
+        "transport",
+        "phrases"
+      ]
+    },
+    {
+      "id": "v410",
+      "word": "chegar ao destino",
+      "translation_ru": "добраться до пункта назначения",
+      "example_pt": "Chego ao destino.",
+      "example_ru": "Добрался до пункта назначения.",
+      "tags": [
+        "unit3",
+        "transport",
+        "phrases"
+      ]
+    },
+    {
+      "id": "v411",
+      "word": "bom dia",
+      "translation_ru": "доброе утро",
+      "example_pt": "Bom dia! Como estás?",
+      "example_ru": "Доброе утро! Как дела?",
+      "tags": [
+        "a1",
+        "unit4",
+        "greetings"
+      ]
+    },
+    {
+      "id": "v412",
+      "word": "boa tarde",
+      "translation_ru": "добрый день",
+      "example_pt": "Boa tarde, senhor.",
+      "example_ru": "Добрый день, господин.",
+      "tags": [
+        "a1",
+        "unit4",
+        "greetings"
+      ]
+    },
+    {
+      "id": "v413",
+      "word": "boa noite",
+      "translation_ru": "добрый вечер / спокойной ночи",
+      "example_pt": "Boa noite a todos.",
+      "example_ru": "Добрый вечер всем.",
+      "tags": [
+        "a1",
+        "unit4",
+        "greetings"
+      ]
+    },
+    {
+      "id": "v414",
+      "word": "olá",
+      "translation_ru": "привет",
+      "example_pt": "Olá, sou o Pedro.",
+      "example_ru": "Привет, я Педру.",
+      "tags": [
+        "a1",
+        "unit4",
+        "greetings"
+      ]
+    },
+    {
+      "id": "v415",
+      "word": "adeus",
+      "translation_ru": "до свидания",
+      "example_pt": "Adeus, até amanhã!",
+      "example_ru": "До свидания, до завтра!",
+      "tags": [
+        "a1",
+        "unit4",
+        "greetings"
+      ]
+    },
+    {
+      "id": "v416",
+      "word": "a família",
+      "translation_ru": "семья",
+      "example_pt": "A minha família é grande.",
+      "example_ru": "Моя семья большая.",
+      "tags": [
+        "a1",
+        "unit4",
+        "family"
+      ]
+    },
+    {
+      "id": "v417",
+      "word": "o pai",
+      "translation_ru": "папа",
+      "example_pt": "O meu pai trabalha muito.",
+      "example_ru": "Мой папа много работает.",
+      "tags": [
+        "a1",
+        "unit4",
+        "family"
+      ]
+    },
+    {
+      "id": "v418",
+      "word": "a mãe",
+      "translation_ru": "мама",
+      "example_pt": "A mãe cozinha bem.",
+      "example_ru": "Мама хорошо готовит.",
+      "tags": [
+        "a1",
+        "unit4",
+        "family"
+      ]
+    },
+    {
+      "id": "v419",
+      "word": "o irmão",
+      "translation_ru": "брат",
+      "example_pt": "Tenho um irmão mais novo.",
+      "example_ru": "У меня есть младший брат.",
+      "tags": [
+        "a1",
+        "unit4",
+        "family"
+      ]
+    },
+    {
+      "id": "v420",
+      "word": "a irmã",
+      "translation_ru": "сестра",
+      "example_pt": "A minha irmã estuda medicina.",
+      "example_ru": "Моя сестра изучает медицину.",
+      "tags": [
+        "a1",
+        "unit4",
+        "family"
+      ]
+    },
+    {
+      "id": "v421",
+      "word": "o filho",
+      "translation_ru": "сын",
+      "example_pt": "O filho joga futebol.",
+      "example_ru": "Сын играет в футбол.",
+      "tags": [
+        "a1",
+        "unit4",
+        "family"
+      ]
+    },
+    {
+      "id": "v422",
+      "word": "a filha",
+      "translation_ru": "дочь",
+      "example_pt": "A filha gosta de ler.",
+      "example_ru": "Дочь любит читать.",
+      "tags": [
+        "a1",
+        "unit4",
+        "family"
+      ]
+    },
+    {
+      "id": "v423",
+      "word": "a casa",
+      "translation_ru": "дом",
+      "example_pt": "Moro numa casa grande.",
+      "example_ru": "Я живу в большом доме.",
+      "tags": [
+        "a1",
+        "unit4",
+        "home"
+      ]
+    },
+    {
+      "id": "v424",
+      "word": "o quarto",
+      "translation_ru": "комната / спальня",
+      "example_pt": "O meu quarto é pequeno.",
+      "example_ru": "Моя комната маленькая.",
+      "tags": [
+        "a1",
+        "unit4",
+        "home"
+      ]
+    },
+    {
+      "id": "v425",
+      "word": "a cozinha",
+      "translation_ru": "кухня",
+      "example_pt": "Faço o pequeno-almoço na cozinha.",
+      "example_ru": "Я готовлю завтрак на кухне.",
+      "tags": [
+        "a1",
+        "unit4",
+        "home"
+      ]
+    },
+    {
+      "id": "v426",
+      "word": "a sala",
+      "translation_ru": "гостиная",
+      "example_pt": "Vemos televisão na sala.",
+      "example_ru": "Мы смотрим телевизор в гостиной.",
+      "tags": [
+        "a1",
+        "unit4",
+        "home"
+      ]
+    },
+    {
+      "id": "v427",
+      "word": "a casa de banho",
+      "translation_ru": "ванная комната",
+      "example_pt": "Tomo banho na casa de banho.",
+      "example_ru": "Я принимаю душ в ванной.",
+      "tags": [
+        "a1",
+        "unit4",
+        "home"
+      ]
+    },
+    {
+      "id": "v428",
+      "word": "acordar",
+      "translation_ru": "просыпаться",
+      "example_pt": "Acordo às sete horas.",
+      "example_ru": "Я просыпаюсь в семь часов.",
+      "tags": [
+        "a1",
+        "unit4",
+        "routine",
+        "verbs"
+      ]
+    },
+    {
+      "id": "v429",
+      "word": "levantar-se",
+      "translation_ru": "вставать",
+      "example_pt": "Levanto-me cedo.",
+      "example_ru": "Я встаю рано.",
+      "tags": [
+        "a1",
+        "unit4",
+        "routine",
+        "verbs"
+      ]
+    },
+    {
+      "id": "v430",
+      "word": "tomar banho",
+      "translation_ru": "принимать душ",
+      "example_pt": "Tomo banho de manhã.",
+      "example_ru": "Я принимаю душ утром.",
+      "tags": [
+        "a1",
+        "unit4",
+        "routine"
+      ]
+    },
+    {
+      "id": "v431",
+      "word": "escovar os dentes",
+      "translation_ru": "чистить зубы",
+      "example_pt": "Escovo os dentes duas vezes por dia.",
+      "example_ru": "Я чищу зубы два раза в день.",
+      "tags": [
+        "a1",
+        "unit4",
+        "routine"
+      ]
+    },
+    {
+      "id": "v432",
+      "word": "vestir-se",
+      "translation_ru": "одеваться",
+      "example_pt": "Visto-me rapidamente.",
+      "example_ru": "Я одеваюсь быстро.",
+      "tags": [
+        "a1",
+        "unit4",
+        "routine",
+        "verbs"
+      ]
+    },
+    {
+      "id": "v433",
+      "word": "tomar o pequeno-almoço",
+      "translation_ru": "завтракать",
+      "example_pt": "Tomo o pequeno-almoço na cozinha.",
+      "example_ru": "Я завтракаю на кухне.",
+      "tags": [
+        "a1",
+        "unit4",
+        "routine"
+      ]
+    },
+    {
+      "id": "v434",
+      "word": "ir para o trabalho",
+      "translation_ru": "идти на работу",
+      "example_pt": "Vou para o trabalho de autocarro.",
+      "example_ru": "Я еду на работу на автобусе.",
+      "tags": [
+        "a1",
+        "unit4",
+        "routine"
+      ]
+    },
+    {
+      "id": "v435",
+      "word": "almoçar",
+      "translation_ru": "обедать",
+      "example_pt": "Almoço às doze horas.",
+      "example_ru": "Я обедаю в двенадцать часов.",
+      "tags": [
+        "a1",
+        "unit4",
+        "routine",
+        "verbs"
+      ]
+    },
+    {
+      "id": "v436",
+      "word": "jantar",
+      "translation_ru": "ужинать",
+      "example_pt": "Jantamos juntos às oito.",
+      "example_ru": "Мы ужинаем вместе в восемь.",
+      "tags": [
+        "a1",
+        "unit4",
+        "routine",
+        "verbs"
+      ]
+    },
+    {
+      "id": "v437",
+      "word": "deitar-se",
+      "translation_ru": "ложиться спать",
+      "example_pt": "Deito-me às onze da noite.",
+      "example_ru": "Я ложусь спать в одиннадцать вечера.",
+      "tags": [
+        "a1",
+        "unit4",
+        "routine",
+        "verbs"
+      ]
+    },
+    {
+      "id": "v438",
+      "word": "segunda-feira",
+      "translation_ru": "понедельник",
+      "example_pt": "Na segunda-feira vou ao ginásio.",
+      "example_ru": "В понедельник я хожу в спортзал.",
+      "tags": [
+        "a1",
+        "unit4",
+        "days"
+      ]
+    },
+    {
+      "id": "v439",
+      "word": "terça-feira",
+      "translation_ru": "вторник",
+      "example_pt": "Terça-feira é dia de reunião.",
+      "example_ru": "Вторник — день собрания.",
+      "tags": [
+        "a1",
+        "unit4",
+        "days"
+      ]
+    },
+    {
+      "id": "v440",
+      "word": "quarta-feira",
+      "translation_ru": "среда",
+      "example_pt": "Quarta-feira estudo português.",
+      "example_ru": "В среду я учу португальский.",
+      "tags": [
+        "a1",
+        "unit4",
+        "days"
+      ]
+    },
+    {
+      "id": "v441",
+      "word": "quinta-feira",
+      "translation_ru": "четверг",
+      "example_pt": "À quinta-feira faço compras.",
+      "example_ru": "В четверг я делаю покупки.",
+      "tags": [
+        "a1",
+        "unit4",
+        "days"
+      ]
+    },
+    {
+      "id": "v442",
+      "word": "sexta-feira",
+      "translation_ru": "пятница",
+      "example_pt": "Sexta-feira é o meu dia favorito.",
+      "example_ru": "Пятница — мой любимый день.",
+      "tags": [
+        "a1",
+        "unit4",
+        "days"
+      ]
+    },
+    {
+      "id": "v443",
+      "word": "sábado",
+      "translation_ru": "суббота",
+      "example_pt": "Ao sábado descanso.",
+      "example_ru": "В субботу я отдыхаю.",
+      "tags": [
+        "a1",
+        "unit4",
+        "days"
+      ]
+    },
+    {
+      "id": "v444",
+      "word": "domingo",
+      "translation_ru": "воскресенье",
+      "example_pt": "Domingo é dia de família.",
+      "example_ru": "Воскресенье — семейный день.",
+      "tags": [
+        "a1",
+        "unit4",
+        "days"
+      ]
+    },
+    {
+      "id": "v445",
+      "word": "uma hora",
+      "translation_ru": "один час",
+      "example_pt": "São duas horas.",
+      "example_ru": "Два часа.",
+      "tags": [
+        "a1",
+        "unit4",
+        "time"
+      ]
+    },
+    {
+      "id": "v446",
+      "word": "meia hora",
+      "translation_ru": "полчаса",
+      "example_pt": "Falta meia hora.",
+      "example_ru": "Осталось полчаса.",
+      "tags": [
+        "a1",
+        "unit4",
+        "time"
+      ]
+    },
+    {
+      "id": "v447",
+      "word": "um quarto de hora",
+      "translation_ru": "четверть часа",
+      "example_pt": "Chego num quarto de hora.",
+      "example_ru": "Я приеду через четверть часа.",
+      "tags": [
+        "a1",
+        "unit4",
+        "time"
+      ]
+    },
+    {
+      "id": "v448",
+      "word": "às sete horas",
+      "translation_ru": "в семь часов",
+      "example_pt": "Acordo às sete horas.",
+      "example_ru": "Я просыпаюсь в семь часов.",
+      "tags": [
+        "a1",
+        "unit4",
+        "time"
+      ]
+    },
+    {
+      "id": "v449",
+      "word": "da manhã",
+      "translation_ru": "утра",
+      "example_pt": "Às oito da manhã.",
+      "example_ru": "В восемь утра.",
+      "tags": [
+        "a1",
+        "unit4",
+        "time"
+      ]
+    },
+    {
+      "id": "v450",
+      "word": "da tarde",
+      "translation_ru": "дня (после полудня)",
+      "example_pt": "Às três da tarde.",
+      "example_ru": "В три часа дня.",
+      "tags": [
+        "a1",
+        "unit4",
+        "time"
+      ]
+    },
+    {
+      "id": "v451",
+      "word": "da noite",
+      "translation_ru": "вечера / ночи",
+      "example_pt": "Às dez da noite.",
+      "example_ru": "В десять вечера.",
+      "tags": [
+        "a1",
+        "unit4",
+        "time"
+      ]
+    },
+    {
+      "id": "v452",
+      "word": "o corpo",
+      "translation_ru": "тело",
+      "example_pt": "O corpo humano tem muitos ossos.",
+      "example_ru": "Человеческое тело имеет много костей.",
+      "tags": [
+        "a1",
+        "unit4",
+        "body"
+      ]
+    },
+    {
+      "id": "v453",
+      "word": "a cabeça",
+      "translation_ru": "голова",
+      "example_pt": "Dói-me a cabeça.",
+      "example_ru": "У меня болит голова.",
+      "tags": [
+        "a1",
+        "unit4",
+        "body"
+      ]
+    },
+    {
+      "id": "v454",
+      "word": "o cabelo",
+      "translation_ru": "волосы",
+      "example_pt": "Tenho cabelo castanho.",
+      "example_ru": "У меня каштановые волосы.",
+      "tags": [
+        "a1",
+        "unit4",
+        "body"
+      ]
+    },
+    {
+      "id": "v455",
+      "word": "o olho",
+      "translation_ru": "глаз",
+      "example_pt": "Os olhos são azuis.",
+      "example_ru": "Глаза голубые.",
+      "tags": [
+        "a1",
+        "unit4",
+        "body"
+      ]
+    },
+    {
+      "id": "v456",
+      "word": "o nariz",
+      "translation_ru": "нос",
+      "example_pt": "O nariz está entupido.",
+      "example_ru": "Нос заложило.",
+      "tags": [
+        "a1",
+        "unit4",
+        "body"
+      ]
+    },
+    {
+      "id": "v457",
+      "word": "a boca",
+      "translation_ru": "рот",
+      "example_pt": "Abro a boca no dentista.",
+      "example_ru": "Я открываю рот у стоматолога.",
+      "tags": [
+        "a1",
+        "unit4",
+        "body"
+      ]
+    },
+    {
+      "id": "v458",
+      "word": "o dente",
+      "translation_ru": "зуб",
+      "example_pt": "Escovo os dentes.",
+      "example_ru": "Я чищу зубы.",
+      "tags": [
+        "a1",
+        "unit4",
+        "body"
+      ]
+    },
+    {
+      "id": "v459",
+      "word": "a mão",
+      "translation_ru": "рука / кисть",
+      "example_pt": "Lavo as mãos.",
+      "example_ru": "Я мою руки.",
+      "tags": [
+        "a1",
+        "unit4",
+        "body"
+      ]
+    },
+    {
+      "id": "v460",
+      "word": "o braço",
+      "translation_ru": "рука (от плеча)",
+      "example_pt": "O braço direito dói.",
+      "example_ru": "Болит правая рука.",
+      "tags": [
+        "a1",
+        "unit4",
+        "body"
+      ]
+    },
+    {
+      "id": "v461",
+      "word": "a perna",
+      "translation_ru": "нога",
+      "example_pt": "A perna está cansada.",
+      "example_ru": "Нога устала.",
+      "tags": [
+        "a1",
+        "unit4",
+        "body"
+      ]
+    },
+    {
+      "id": "v462",
+      "word": "o pé",
+      "translation_ru": "ступня / нога",
+      "example_pt": "Os pés estão frios.",
+      "example_ru": "Ноги холодные.",
+      "tags": [
+        "a1",
+        "unit4",
+        "body"
+      ]
+    },
+    {
+      "id": "v463",
+      "word": "doer",
+      "translation_ru": "болеть",
+      "example_pt": "Dói-me a cabeça.",
+      "example_ru": "У меня болит голова.",
+      "tags": [
+        "a1",
+        "unit4",
+        "health",
+        "verbs"
+      ]
+    },
+    {
+      "id": "v464",
+      "word": "estar doente",
+      "translation_ru": "болеть",
+      "example_pt": "Estou doente hoje.",
+      "example_ru": "Я сегодня болею.",
+      "tags": [
+        "a1",
+        "unit4",
+        "health"
+      ]
+    },
+    {
+      "id": "v465",
+      "word": "a saúde",
+      "translation_ru": "здоровье",
+      "example_pt": "A saúde é importante.",
+      "example_ru": "Здоровье важно.",
+      "tags": [
+        "a1",
+        "unit4",
+        "health"
+      ]
+    },
+    {
+      "id": "v466",
+      "word": "o médico",
+      "translation_ru": "врач (муж.)",
+      "example_pt": "Vou ao médico amanhã.",
+      "example_ru": "Я иду к врачу завтра.",
+      "tags": [
+        "a1",
+        "unit4",
+        "health"
+      ]
+    },
+    {
+      "id": "v467",
+      "word": "a médica",
+      "translation_ru": "врач (жен.)",
+      "example_pt": "A médica é muito boa.",
+      "example_ru": "Врач очень хорошая.",
+      "tags": [
+        "a1",
+        "unit4",
+        "health"
+      ]
+    },
+    {
+      "id": "v468",
+      "word": "o hospital",
+      "translation_ru": "больница",
+      "example_pt": "O hospital fica perto.",
+      "example_ru": "Больница находится рядом.",
+      "tags": [
+        "a1",
+        "unit4",
+        "health"
+      ]
+    },
+    {
+      "id": "v469",
+      "word": "a farmácia",
+      "translation_ru": "аптека",
+      "example_pt": "Compro medicamentos na farmácia.",
+      "example_ru": "Я покупаю лекарства в аптеке.",
+      "tags": [
+        "a1",
+        "unit4",
+        "health"
+      ]
+    },
+    {
+      "id": "v470",
+      "word": "o medicamento",
+      "translation_ru": "лекарство",
+      "example_pt": "Tomo o medicamento duas vezes.",
+      "example_ru": "Я принимаю лекарство два раза.",
+      "tags": [
+        "a1",
+        "unit4",
+        "health"
+      ]
+    },
+    {
+      "id": "v471",
+      "word": "os correios",
+      "translation_ru": "почта",
+      "example_pt": "Envio a carta nos correios.",
+      "example_ru": "Я отправляю письмо на почте.",
+      "tags": [
+        "a1",
+        "unit4",
+        "services"
+      ]
+    },
+    {
+      "id": "v472",
+      "word": "a carta",
+      "translation_ru": "письмо",
+      "example_pt": "Escrevo uma carta à família.",
+      "example_ru": "Я пишу письмо семье.",
+      "tags": [
+        "a1",
+        "unit4",
+        "services"
+      ]
+    },
+    {
+      "id": "v473",
+      "word": "o envelope",
+      "translation_ru": "конверт",
+      "example_pt": "Coloco a carta no envelope.",
+      "example_ru": "Я кладу письмо в конверт.",
+      "tags": [
+        "a1",
+        "unit4",
+        "services"
+      ]
+    },
+    {
+      "id": "v474",
+      "word": "o selo",
+      "translation_ru": "марка",
+      "example_pt": "Compro um selo nos correios.",
+      "example_ru": "Я покупаю марку на почте.",
+      "tags": [
+        "a1",
+        "unit4",
+        "services"
+      ]
+    },
+    {
+      "id": "v475",
+      "word": "o banco",
+      "translation_ru": "банк",
+      "example_pt": "Abro conta no banco.",
+      "example_ru": "Я открываю счёт в банке.",
+      "tags": [
+        "a1",
+        "unit4",
+        "services"
+      ]
+    },
+    {
+      "id": "v476",
+      "word": "o dinheiro",
+      "translation_ru": "деньги",
+      "example_pt": "Levanto dinheiro no banco.",
+      "example_ru": "Я снимаю деньги в банке.",
+      "tags": [
+        "a1",
+        "unit4",
+        "services"
+      ]
+    },
+    {
+      "id": "v477",
+      "word": "a conta",
+      "translation_ru": "счёт",
+      "example_pt": "Pago a conta no banco.",
+      "example_ru": "Я плачу по счёту в банке.",
+      "tags": [
+        "a1",
+        "unit4",
+        "services"
+      ]
+    },
+    {
+      "id": "v478",
+      "word": "o autocarro",
+      "translation_ru": "автобус",
+      "example_pt": "Apanho o autocarro às oito.",
+      "example_ru": "Я сажусь на автобус в восемь.",
+      "tags": [
+        "a1",
+        "unit4",
+        "transport"
+      ]
+    },
+    {
+      "id": "v479",
+      "word": "o comboio",
+      "translation_ru": "поезд",
+      "example_pt": "Vou de comboio para Lisboa.",
+      "example_ru": "Я еду поездом в Лиссабон.",
+      "tags": [
+        "a1",
+        "unit4",
+        "transport"
+      ]
+    },
+    {
+      "id": "v480",
+      "word": "o metro",
+      "translation_ru": "метро",
+      "example_pt": "Uso o metro todos os dias.",
+      "example_ru": "Я пользуюсь метро каждый день.",
+      "tags": [
+        "a1",
+        "unit4",
+        "transport"
+      ]
+    },
+    {
+      "id": "v481",
+      "word": "o bilhete",
+      "translation_ru": "билет",
+      "example_pt": "Compro o bilhete na estação.",
+      "example_ru": "Я покупаю билет на станции.",
+      "tags": [
+        "a1",
+        "unit4",
+        "transport"
+      ]
+    },
+    {
+      "id": "v482",
+      "word": "o carro",
+      "translation_ru": "машина",
+      "example_pt": "Vou de carro para o trabalho.",
+      "example_ru": "Я еду на работу на машине.",
+      "tags": [
+        "a1",
+        "unit4",
+        "transport"
+      ]
+    },
+    {
+      "id": "v483",
+      "word": "a comida",
+      "translation_ru": "еда",
+      "example_pt": "Gosto de comida portuguesa.",
+      "example_ru": "Мне нравится португальская еда.",
+      "tags": [
+        "a1",
+        "unit4",
+        "food"
+      ]
+    },
+    {
+      "id": "v484",
+      "word": "o pão",
+      "translation_ru": "хлеб",
+      "example_pt": "Compro pão todos os dias.",
+      "example_ru": "Я покупаю хлеб каждый день.",
+      "tags": [
+        "a1",
+        "unit4",
+        "food"
+      ]
+    },
+    {
+      "id": "v485",
+      "word": "o queijo",
+      "translation_ru": "сыр",
+      "example_pt": "O queijo português é ótimo.",
+      "example_ru": "Португальский сыр отличный.",
+      "tags": [
+        "a1",
+        "unit4",
+        "food"
+      ]
+    },
+    {
+      "id": "v486",
+      "word": "o arroz",
+      "translation_ru": "рис",
+      "example_pt": "Como arroz com feijão.",
+      "example_ru": "Я ем рис с фасолью.",
+      "tags": [
+        "a1",
+        "unit4",
+        "food"
+      ]
+    },
+    {
+      "id": "v487",
+      "word": "a fruta",
+      "translation_ru": "фрукты",
+      "example_pt": "Como fruta todos os dias.",
+      "example_ru": "Я ем фрукты каждый день.",
+      "tags": [
+        "a1",
+        "unit4",
+        "food"
+      ]
+    },
+    {
+      "id": "v488",
+      "word": "a água",
+      "translation_ru": "вода",
+      "example_pt": "Bebo muita água.",
+      "example_ru": "Я пью много воды.",
+      "tags": [
+        "a1",
+        "unit4",
+        "food"
+      ]
+    },
+    {
+      "id": "v489",
+      "word": "o café",
+      "translation_ru": "кофе",
+      "example_pt": "Tomo um café de manhã.",
+      "example_ru": "Я пью кофе утром.",
+      "tags": [
+        "a1",
+        "unit4",
+        "food"
+      ]
+    },
+    {
+      "id": "v490",
+      "word": "o supermercado",
+      "translation_ru": "супермаркет",
+      "example_pt": "Faço compras no supermercado.",
+      "example_ru": "Я делаю покупки в супермаркете.",
+      "tags": [
+        "a1",
+        "unit4",
+        "shopping"
+      ]
+    },
+    {
+      "id": "v491",
+      "word": "comprar",
+      "translation_ru": "покупать",
+      "example_pt": "Compro frutas frescas.",
+      "example_ru": "Я покупаю свежие фрукты.",
+      "tags": [
+        "a1",
+        "unit4",
+        "shopping",
+        "verbs"
+      ]
+    },
+    {
+      "id": "v492",
+      "word": "pagar",
+      "translation_ru": "платить",
+      "example_pt": "Pago com cartão.",
+      "example_ru": "Я плачу картой.",
+      "tags": [
+        "a1",
+        "unit4",
+        "shopping",
+        "verbs"
+      ]
+    },
+    {
+      "id": "v493",
+      "word": "o restaurante",
+      "translation_ru": "ресторан",
+      "example_pt": "Vamos ao restaurante hoje.",
+      "example_ru": "Мы идём в ресторан сегодня.",
+      "tags": [
+        "a1",
+        "unit4",
+        "food"
+      ]
+    },
+    {
+      "id": "v494",
+      "word": "o empregado de mesa",
+      "translation_ru": "официант",
+      "example_pt": "O empregado traz o menu.",
+      "example_ru": "Официант приносит меню.",
+      "tags": [
+        "a1",
+        "unit4",
+        "food"
+      ]
+    },
+    {
+      "id": "v495",
+      "word": "a ementa",
+      "translation_ru": "меню",
+      "example_pt": "Peço a ementa.",
+      "example_ru": "Я прошу меню.",
+      "tags": [
+        "a1",
+        "unit4",
+        "food"
+      ]
+    },
+    {
+      "id": "v496",
+      "word": "pedir",
+      "translation_ru": "заказывать / просить",
+      "example_pt": "Peço bacalhau.",
+      "example_ru": "Я заказываю треску.",
+      "tags": [
+        "a1",
+        "unit4",
+        "food",
+        "verbs"
+      ]
+    },
+    {
+      "id": "v497",
+      "word": "o bacalhau",
+      "translation_ru": "треска",
+      "example_pt": "O bacalhau é típico em Portugal.",
+      "example_ru": "Треска типична для Португалии.",
+      "tags": [
+        "a1",
+        "unit4",
+        "food"
+      ]
+    },
+    {
+      "id": "v498",
+      "word": "gostar de",
+      "translation_ru": "нравиться",
+      "example_pt": "Gosto muito de pastel de nata.",
+      "example_ru": "Мне очень нравится паштел де ната.",
+      "tags": [
+        "a1",
+        "unit4",
+        "verbs"
+      ]
+    },
+    {
+      "id": "v499",
+      "word": "o tempo livre",
+      "translation_ru": "свободное время",
+      "example_pt": "No tempo livre leio livros.",
+      "example_ru": "В свободное время я читаю книги.",
+      "tags": [
+        "a1",
+        "unit4",
+        "leisure"
+      ]
+    },
+    {
+      "id": "v500",
+      "word": "o hobby",
+      "translation_ru": "хобби",
+      "example_pt": "O meu hobby é cozinhar.",
+      "example_ru": "Моё хобби — готовить.",
+      "tags": [
+        "a1",
+        "unit4",
+        "leisure"
+      ]
+    },
+    {
+      "id": "v501",
+      "word": "o Natal",
+      "translation_ru": "Рождество",
+      "example_pt": "No Natal reunimo-nos em família.",
+      "example_ru": "На Рождество мы собираемся семьёй.",
+      "tags": [
+        "a1",
+        "unit4",
+        "holidays"
+      ]
+    },
+    {
+      "id": "v502",
+      "word": "o Ano Novo",
+      "translation_ru": "Новый год",
+      "example_pt": "No Ano Novo há fogos de artifício.",
+      "example_ru": "В Новый год бывают фейерверки.",
+      "tags": [
+        "a1",
+        "unit4",
+        "holidays"
+      ]
+    },
+    {
+      "id": "v503",
+      "word": "a tradição",
+      "translation_ru": "традиция",
+      "example_pt": "Em Portugal há muitas tradições.",
+      "example_ru": "В Португалии много традиций.",
+      "tags": [
+        "a1",
+        "unit4",
+        "culture"
+      ]
+    },
+    {
+      "id": "v504",
+      "word": "o fado",
+      "translation_ru": "фаду",
+      "example_pt": "Ouço fado à noite.",
+      "example_ru": "Я слушаю фаду вечером.",
+      "tags": [
+        "a1",
+        "unit4",
+        "culture"
+      ]
+    },
+    {
+      "id": "v505",
+      "word": "o futebol",
+      "translation_ru": "футбол",
+      "example_pt": "Em Portugal todos gostam de futebol.",
+      "example_ru": "В Португалии все любят футбол.",
+      "tags": [
+        "a1",
+        "unit4",
+        "leisure"
+      ]
     }
   ]
 }

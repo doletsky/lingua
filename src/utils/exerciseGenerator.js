@@ -137,6 +137,67 @@ function shuffleArray(array) {
 }
 
 /**
+ * Генерация упражнений по одному тексту из texts.json
+ * Поддерживает вопросы типов: multiple_choice, short_answer
+ * Возвращает упражнения совместимые с существующими компонентами.
+ */
+export function generateTextSprintExercises(textEntry) {
+  if (!textEntry) return []
+
+  const questions = Array.isArray(textEntry.questions) ? textEntry.questions : []
+  const textId = textEntry.id
+  const textTitle = textEntry.title || textEntry.name || `Текст ${String(textId || '')}`
+
+  const exercises = []
+
+  questions.forEach((q, idx) => {
+    if (!q || !q.q || q.a === undefined || q.a === null) return
+
+    if (q.type === 'multiple_choice') {
+      const options = Array.isArray(q.options) ? q.options.slice() : []
+      if (options.length < 2 || !options.includes(q.a)) return
+
+      exercises.push({
+        id: generateExerciseId(),
+        type: 'multiple_choice',
+        question: q.q,
+        options,
+        correct: q.a,
+        hint: q.hint || '',
+        // метаданные текста
+        textId,
+        textTitle,
+        textUnit: textEntry.unit,
+        // itemId намеренно не ставим, чтобы не писать SRS для текстовых вопросов
+        itemId: null,
+        // стабильный идентификатор конкретного вопроса (может пригодиться позже)
+        textQuestionId: `${String(textId || '')}::${idx}`
+      })
+      return
+    }
+
+    // short_answer → используем существующий TranslationExercise (текстовый ввод)
+    if (q.type === 'short_answer') {
+      exercises.push({
+        id: generateExerciseId(),
+        type: 'translation',
+        direction: 'ru-pt',
+        question: q.q,
+        correct: q.a,
+        hint: q.hint || '',
+        textId,
+        textTitle,
+        textUnit: textEntry.unit,
+        itemId: null,
+        textQuestionId: `${String(textId || '')}::${idx}`
+      })
+    }
+  })
+
+  return exercises
+}
+
+/**
  * Главная функция генерации упражнений
  */
 export function generateSprintExercises(vocabulary = [], templates = [], grammar = [], texts = [], count = 10, focusedGrammar = null) {

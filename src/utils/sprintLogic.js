@@ -48,7 +48,12 @@ export function calculateSprintStats(exercises, elapsedSeconds) {
 export function formatSprintResult(stats, unitId, exerciseResults = []) {
   // Если в снимках есть grammarId — используем его как ключ спринта (чтобы повторные прогoны того же набора перезаписывали запись)
   const grammarId = (exerciseResults || []).find(er => er.snapshot && (er.snapshot.grammarId || er.snapshot.grammarId === 0))?.snapshot?.grammarId
-  const id = grammarId !== undefined && grammarId !== null ? `grammar_${String(unitId || '')}_${String(grammarId)}` : `sprint_${Date.now()}`
+  const textId = (exerciseResults || []).find(er => er.snapshot && (er.snapshot.textId || er.snapshot.textId === 0))?.snapshot?.textId
+  const id = (grammarId !== undefined && grammarId !== null)
+    ? `grammar_${String(unitId || '')}_${String(grammarId)}`
+    : (textId !== undefined && textId !== null)
+      ? `text_${String(unitId || '')}_${String(textId)}`
+      : `sprint_${Date.now()}`
 
   return {
     id,

@@ -7,22 +7,45 @@
 
     <div v-if="loading" class="loading">Загрузка...</div>
 
-    <div v-else-if="grammars.length === 0" class="empty">Грамматика не найдена для этого юнита</div>
+    <div v-else-if="grammars.length === 0 && texts.length === 0" class="empty">Материалы не найдены для этого юнита</div>
 
-    <div v-else class="sprints-grid">
-      <div v-for="g in grammars" :key="g.id" class="grammar-card">
-        <div class="card-header">
-          <h3 class="grammar-title">{{ g.title }}</h3>
-          <div class="meta">
-            <span v-if="statsByGrammar[g.id]">⏱️ {{ statsByGrammar[g.id].timesPracticed }}×</span>
-            <span v-if="statsByGrammar[g.id]">📊 {{ statsByGrammar[g.id].lastAccuracy || '—' }}%</span>
+    <div v-else>
+      <div v-if="grammars.length > 0" class="sprints-grid">
+        <div v-for="g in grammars" :key="g.id" class="grammar-card">
+          <div class="card-header">
+            <h3 class="grammar-title">{{ g.title }}</h3>
+            <div class="meta">
+              <span v-if="statsByGrammar[g.id]">⏱️ {{ statsByGrammar[g.id].timesPracticed }}×</span>
+              <span v-if="statsByGrammar[g.id]">📊 {{ statsByGrammar[g.id].lastAccuracy || '—' }}%</span>
+            </div>
+          </div>
+          <p class="grammar-desc" v-if="g.excerpt">{{ g.excerpt }}</p>
+
+          <div class="card-actions">
+            <button @click="startGrammarSprint(g.id)" class="btn-start">▶️ Начать спринт</button>
+            <button @click="viewGrammar(g.id)" class="btn-view">👀 Просмотр</button>
           </div>
         </div>
-        <p class="grammar-desc" v-if="g.excerpt">{{ g.excerpt }}</p>
+      </div>
 
-        <div class="card-actions">
-          <button @click="startGrammarSprint(g.id)" class="btn-start">▶️ Начать спринт</button>
-          <button @click="viewGrammar(g.id)" class="btn-view">👀 Просмотр</button>
+      <div v-if="texts.length > 0" class="texts-section">
+        <h3 class="section-title">📝 Тексты</h3>
+        <div class="sprints-grid">
+          <div v-for="t in texts" :key="t.id" class="grammar-card">
+            <div class="card-header">
+              <h3 class="grammar-title">{{ t.title || ('Текст ' + t.id) }}</h3>
+              <div class="meta">
+                <span v-if="statsByText[t.id]">⏱️ {{ statsByText[t.id].timesPracticed }}×</span>
+                <span v-if="statsByText[t.id]">📊 {{ statsByText[t.id].lastAccuracy || '—' }}%</span>
+              </div>
+            </div>
+            <p class="grammar-desc" v-if="t.text">{{ (t.text || '').slice(0, 140) }}{{ (t.text || '').length > 140 ? '…' : '' }}</p>
+
+            <div class="card-actions">
+              <button @click="startTextSprint(t.id)" class="btn-start">▶️ Начать спринт</button>
+              <button @click="viewText(t.id)" class="btn-view">👀 Просмотр</button>
+            </div>
+          </div>
         </div>
       </div>
     </div>
@@ -50,8 +73,10 @@ const unitId = computed(() => {
 
 const loading = ref(true)
 const grammars = ref([])
+const texts = ref([])
 const unitInfo = ref(null)
 const statsByGrammar = ref({})
+const statsByText = ref({})
 
 const load = async () => {
   loading.value = true
@@ -76,6 +101,20 @@ const load = async () => {
     }
 
     grammars.value = list
+    // texts for unit
+    let textList = []
+    try {
+      const getter = materialsStore.getTextsByUnit
+      if (getter && typeof getter.value === 'function') {
+        textList = getter.value(unit) || []
+      } else {
+        textList = (materialsStore.texts || []).filter(t => t.unit === unit)
+      }
+    } catch (e) {
+      console.warn('[UnitSprints] Ошибка при получении текстов через getter:', e)
+      textList = (materialsStore.texts || []).filter(t => t.unit === unit)
+    }
+    texts.value = textList
     unitInfo.value = { name: `Юнит ${String(unit).replace('unit','')}` }
 
     // collect stats from sprint history
@@ -115,6 +154,36 @@ const load = async () => {
     }
 
     statsByGrammar.value = map
+
+    // stats for text sprints
+    const textMap = {}
+    for (const t of texts.value) {
+      const related = history.filter(s => s.exerciseResults && s.exerciseResults.some(er => er.snapshot && er.snapshot.textId === t.id))
+
+      const groupsMap = new Map()
+      for (const sp of related) {
+        const signature = (sp.exerciseResults || []).map(er => {
+          const snap = er.snapshot || {}
+          // для текстов предпочитаем идентификатор вопроса, если есть
+          if (snap.textQuestionId) return String(snap.textQuestionId)
+          if (er.exerciseId) return String(er.exerciseId)
+          return ''
+        }).filter(Boolean).sort().join('|')
+
+        const key = `${signature}::${t.id}`
+        if (!groupsMap.has(key)) groupsMap.set(key, [])
+        groupsMap.get(key).push(sp)
+      }
+
+      const groups = Array.from(groupsMap.values())
+      const timesPracticed = groups.length
+      const bestPerGroup = groups.map(gr => Math.max(...gr.map(s => (s.stats && typeof s.stats.accuracy === 'number') ? s.stats.accuracy : 0)))
+      const avgBest = bestPerGroup.length > 0 ? Math.round(bestPerGroup.reduce((a, b) => a + b, 0) / bestPerGroup.length) : null
+
+      textMap[t.id] = { timesPracticed, lastAccuracy: avgBest }
+    }
+
+    statsByText.value = textMap
   } catch (err) {
     console.error('[UnitSprints] Ошибка загрузки страницы спринтов юнита:', err)
   } finally {
@@ -144,12 +213,32 @@ const viewGrammar = async (grammarId) => {
     console.error('[UnitSprints] Navigation error on viewGrammar:', e)
   }
 }
+
+const startTextSprint = async (textId) => {
+  await progressStore.setCurrentUnit(unitId.value)
+  try {
+    await router.push({ name: 'Sprint', query: { textId } })
+  } catch (e) {
+    console.error('[UnitSprints] Navigation error (startTextSprint):', e)
+  }
+}
+
+const viewText = async (textId) => {
+  try {
+    await progressStore.setCurrentUnit(unitId.value)
+    await router.push({ name: 'Sprint', query: { textId, viewOnly: true } })
+  } catch (e) {
+    console.error('[UnitSprints] Navigation error on viewText:', e)
+  }
+}
 </script>
 
 <style scoped>
 .unit-sprints { max-width:1100px; margin:0 auto; padding:1rem }
 .unit-header { text-align:center; margin-bottom:1rem }
 .sprints-grid { display:grid; grid-template-columns:repeat(auto-fill,minmax(280px,1fr)); gap:1rem }
+.texts-section { margin-top: 1.25rem }
+.section-title { margin: 1rem 0; text-align: left }
 .grammar-card { background:white; padding:1rem; border-radius:10px; border:1px solid #e8e8e8 }
 .card-header { display:flex; justify-content:space-between; align-items:center }
 .grammar-title { margin:0; font-size:1.1rem }

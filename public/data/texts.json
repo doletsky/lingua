@@ -325,6 +325,496 @@
           "type": "multiple_choice"
         }
       ]
+    },
+    {
+      "id": "t14",
+      "unit": "unit3",
+      "text": "O corpo humano é incrível. Tem a cabeça com olhos, nariz e boca. Os braços e as mãos ajudam a trabalhar. As pernas e os pés andam. O coração bate no peito. As costas são fortes. Quando dói algo, vamos ao médico. É importante cuidar da saúde.",
+      "questions": [
+        {
+          "q": "Что имеет тело человека?",
+          "a": "Голову, глаза, нос и рот",
+          "type": "short_answer"
+        },
+        {
+          "q": "Куда идти, когда что-то болит?",
+          "a": "Ao médico",
+          "type": "multiple_choice",
+          "options": [
+            "Ao médico",
+            "À farmácia",
+            "Ao banco",
+            "Aos correios"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "t15",
+      "unit": "unit3",
+      "text": "Eu tenho dor de cabeça. Estou doente. Vou ao médico. O médico examina e dá receita. Vou à farmácia comprar remédio. Tomo o comprimido e bebo água. Agora sinto-me melhor. A saúde é importante em Portugal.",
+      "questions": [
+        {
+          "q": "Что у человека?",
+          "a": "Dor de cabeça",
+          "type": "short_answer"
+        },
+        {
+          "q": "Что делает врач?",
+          "a": "Examina e dá receita",
+          "type": "multiple_choice",
+          "options": [
+            "Examina e dá receita",
+            "Vende remédio",
+            "Envia carta",
+            "Compra bilhete"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "t16",
+      "unit": "unit3",
+      "text": "Nos correios, envio cartas e pacotes. Coloco selo no envelope. O endereço é importante. No banco, deposito dinheiro e uso cartão. Abro conta para pagamentos. Em Portugal, serviços são úteis para migrantes.",
+      "questions": [
+        {
+          "q": "Что отправляют на почте?",
+          "a": "Cartas e pacotes",
+          "type": "short_answer"
+        },
+        {
+          "q": "Что используют в банке?",
+          "a": "Cartão",
+          "type": "multiple_choice",
+          "options": [
+            "Cartão",
+            "Remédio",
+            "Bilhete",
+            "Selo"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "t17",
+      "unit": "unit3",
+      "text": "O transporte em Lisboa é bom. Há metro, autocarro e comboio. Compro bilhete na estação. Espero na paragem. O metro é rápido. No autocarro, vejo a cidade. Migrantes usam transporte para ir ao trabalho ou médico.",
+      "questions": [
+        {
+          "q": "Что есть в Лиссабоне?",
+          "a": "Metro, autocarro e comboio",
+          "type": "short_answer"
+        },
+        {
+          "q": "Где покупают билет?",
+          "a": "Na estação",
+          "type": "multiple_choice",
+          "options": [
+            "Na estação",
+            "No médico",
+            "Na farmácia",
+            "No banco"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "t18",
+      "unit": "unit3",
+      "text": "Quando tenho febre, chamo o médico. A enfermeira mede a temperatura. No hospital, há emergência. Para tosse, tomo xarope. É bom dormir bem e comer saudável. Em Portugal, o SNS ajuda migrantes com saúde gratuita.",
+      "questions": [
+        {
+          "q": "Что делают при температуре?",
+          "a": "Chamo o médico",
+          "type": "short_answer"
+        },
+        {
+          "q": "Что принимает при кашле?",
+          "a": "Xarope",
+          "type": "multiple_choice",
+          "options": [
+            "Xarope",
+            "Comprimido",
+            "Pomada",
+            "Gotas"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "t19",
+      "unit": "unit3",
+      "text": "A farmácia vende remédios. Com receita, compro antibiótico. O farmacêutico explica como tomar. Para dor, há analgésico. Migrantes podem usar farmácias 24 horas em emergências.",
+      "questions": [
+        {
+          "q": "Что продает аптека?",
+          "a": "Remédios",
+          "type": "short_answer"
+        },
+        {
+          "q": "Что объясняет фармацевт?",
+          "a": "Como tomar",
+          "type": "multiple_choice",
+          "options": [
+            "Como tomar",
+            "Como enviar",
+            "Como comprar",
+            "Como depositar"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "t20",
+      "unit": "unit3",
+      "text": "No transporte público, valido o bilhete. Há linhas diferentes no metro. O comboio vai para outras cidades. Em Portugal, migrantes recebem cartão de transporte para descontos.",
+      "questions": [
+        {
+          "q": "Что делают с билетом?",
+          "a": "Valido",
+          "type": "short_answer"
+        },
+        {
+          "q": "Куда идет поезд?",
+          "a": "Para outras cidades",
+          "type": "multiple_choice",
+          "options": [
+            "Para outras cidades",
+            "Para o médico",
+            "Para o banco",
+            "Para a farmácia"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "t21",
+      "unit": "a1",
+      "text": "Chamo-me Ana e sou de Portugal. Moro em Lisboa com a minha família. Todos os dias acordo às sete horas da manhã. Levanto-me, tomo banho e escovo os dentes. Depois tomo o pequeno-almoço na cozinha: pão com queijo e café. Vou para o trabalho de metro. Trabalho num banco no centro da cidade. Almoço às doze e meia. À noite chego a casa às seis, janto com a família e vejo televisão. Deito-me às onze da noite. Aos fins de semana descanso e passeio com os amigos.",
+      "questions": [
+        {
+          "q": "Как зовут девушку?",
+          "a": "Ana",
+          "type": "short_answer",
+          "options": []
+        },
+        {
+          "q": "Где она живёт?",
+          "a": "Em Lisboa",
+          "type": "multiple_choice",
+          "options": [
+            "Em Lisboa",
+            "Em Porto",
+            "Em Coimbra",
+            "No Brasil"
+          ]
+        },
+        {
+          "q": "Во сколько она просыпается?",
+          "a": "Às sete horas da manhã",
+          "type": "short_answer",
+          "options": []
+        },
+        {
+          "q": "Как она едет на работу?",
+          "a": "de metro",
+          "type": "multiple_choice",
+          "options": [
+            "de metro",
+            "de carro",
+            "a pé",
+            "de autocarro"
+          ]
+        },
+        {
+          "q": "Где она работает?",
+          "a": "num banco",
+          "type": "short_answer",
+          "options": []
+        }
+      ]
+    },
+    {
+      "id": "t22",
+      "unit": "a1",
+      "text": "Olá! Sou o Pedro e tenho uma família grande. O meu pai chama-se João e a minha mãe chama-se Maria. Tenho dois irmãos e uma irmã. Vivemos todos juntos numa casa grande. A casa tem quatro quartos, uma sala, uma cozinha e duas casas de banho. De manhã tomo o pequeno-almoço com a família. Gosto muito de pão com manteiga. Depois vou para a escola de autocarro. À tarde faço os trabalhos de casa e jogo futebol com os amigos. Aos domingos vamos à missa e almoçamos com os avós.",
+      "questions": [
+        {
+          "q": "Сколько братьев и сестёр у Педру?",
+          "a": "três",
+          "type": "short_answer",
+          "options": []
+        },
+        {
+          "q": "Как зовут маму?",
+          "a": "Maria",
+          "type": "multiple_choice",
+          "options": [
+            "Maria",
+            "Ana",
+            "Joana",
+            "Carla"
+          ]
+        },
+        {
+          "q": "Что он любит на завтрак?",
+          "a": "pão com manteiga",
+          "type": "short_answer",
+          "options": []
+        },
+        {
+          "q": "Что он делает по воскресеньям?",
+          "a": "vão à missa e almoçam com os avós",
+          "type": "multiple_choice",
+          "options": [
+            "vão à missa e almoçam com os avós",
+            "jogam futebol",
+            "vão ao cinema",
+            "ficam em casa"
+          ]
+        },
+        {
+          "q": "Как он ездит в школу?",
+          "a": "de autocarro",
+          "type": "short_answer",
+          "options": []
+        }
+      ]
+    },
+    {
+      "id": "t23",
+      "unit": "a1",
+      "text": "Hoje não me sinto bem. Dói-me a cabeça e tenho febre. De manhã fui à farmácia e comprei medicamentos. O farmacêutico disse para tomar o medicamento três vezes por dia. Agora estou em casa e descanso. Bebo muita água e chá. A minha mãe faz sopa para o almoço. Espero melhorar amanhã porque na quarta-feira tenho consulta no médico. Em Portugal podemos marcar consulta no centro de saúde.",
+      "questions": [
+        {
+          "q": "Что болит у героя?",
+          "a": "a cabeça",
+          "type": "multiple_choice",
+          "options": [
+            "a cabeça",
+            "a perna",
+            "o estômago",
+            "os dentes"
+          ]
+        },
+        {
+          "q": "Что он купил в аптеке?",
+          "a": "medicamentos",
+          "type": "short_answer",
+          "options": []
+        },
+        {
+          "q": "Сколько раз в день принимать лекарство?",
+          "a": "três vezes",
+          "type": "short_answer",
+          "options": []
+        },
+        {
+          "q": "Что готовит мама?",
+          "a": "sopa",
+          "type": "multiple_choice",
+          "options": [
+            "sopa",
+            "arroz",
+            "bacalhau",
+            "pastel de nata"
+          ]
+        },
+        {
+          "q": "Когда у него приём у врача?",
+          "a": "na quarta-feira",
+          "type": "short_answer",
+          "options": []
+        }
+      ]
+    },
+    {
+      "id": "t24",
+      "unit": "a1",
+      "text": "Em Portugal gostamos muito de comer bem. No pequeno-almoço tomamos café com leite e um pastel de nata ou torrada. Ao almoço comemos pratos como bacalhau, sardinha assada ou feijoada. À noite o jantar é mais leve: sopa, salada e fruta. Aos domingos muitas famílias comem cozido à portuguesa. Nas festas tradicionais há doces típicos. Eu adoro pastel de nata e bebo um café depois do almoço todos os dias.",
+      "questions": [
+        {
+          "q": "Что типично на завтрак в Португалии?",
+          "a": "café com leite e pastel de nata ou torrada",
+          "type": "short_answer",
+          "options": []
+        },
+        {
+          "q": "Какое известное блюдо упоминается?",
+          "a": "bacalhau",
+          "type": "multiple_choice",
+          "options": [
+            "bacalhau",
+            "pizza",
+            "sushi",
+            "hamburguer"
+          ]
+        },
+        {
+          "q": "Что едят по воскресеньям многие семьи?",
+          "a": "cozido à portuguesa",
+          "type": "short_answer",
+          "options": []
+        },
+        {
+          "q": "Какой десерт любит автор?",
+          "a": "pastel de nata",
+          "type": "multiple_choice",
+          "options": [
+            "pastel de nata",
+            "gelado",
+            "bolo",
+            "chocolate"
+          ]
+        },
+        {
+          "q": "Что пьёт автор после обеда?",
+          "a": "um café",
+          "type": "short_answer",
+          "options": []
+        }
+      ]
+    },
+    {
+      "id": "t25",
+      "unit": "a1",
+      "text": "Vivo em Portugal há um ano e gosto muito do país. Todos os dias uso o transporte público: autocarro, metro ou comboio. Compro o bilhete mensal. Vou aos correios enviar cartas para a família no meu país. No banco abri uma conta e levanto dinheiro. Quando preciso de ajuda médica, marco consulta no centro de saúde. Em Portugal há muitos serviços para imigrantes. Aprendo português para me integrar melhor na sociedade.",
+      "questions": [
+        {
+          "q": "Сколько времени автор живёт в Португалии?",
+          "a": "há um ano",
+          "type": "short_answer",
+          "options": []
+        },
+        {
+          "q": "Какой транспорт он использует?",
+          "a": "autocarro, metro ou comboio",
+          "type": "multiple_choice",
+          "options": [
+            "autocarro, metro ou comboio",
+            "carro",
+            "bicicleta",
+            "a pé"
+          ]
+        },
+        {
+          "q": "Что он делает на почте?",
+          "a": "enviar cartas",
+          "type": "short_answer",
+          "options": []
+        },
+        {
+          "q": "Где он открыл счёт?",
+          "a": "no banco",
+          "type": "multiple_choice",
+          "options": [
+            "no banco",
+            "nos correios",
+            "no supermercado",
+            "no hospital"
+          ]
+        },
+        {
+          "q": "Зачем он учит португальский?",
+          "a": "para me integrar melhor",
+          "type": "short_answer",
+          "options": []
+        }
+      ]
+    },
+    {
+      "id": "t26",
+      "unit": "a1",
+      "text": "A minha rotina aos fins de semana é diferente. No sábado acordo mais tarde, às nove horas. Tomo o pequeno-almoço lentamente e leio o jornal. Depois faço compras no supermercado. À tarde encontro-me com amigos num café. Falamos e bebemos um café ou uma cerveja. À noite vamos ao restaurante comer bacalhau ou outro prato típico. No domingo fico em casa com a família ou vou passear ao parque.",
+      "questions": [
+        {
+          "q": "Во сколько он просыпается в субботу?",
+          "a": "às nove horas",
+          "type": "short_answer",
+          "options": []
+        },
+        {
+          "q": "Что он делает после завтрака в субботу?",
+          "a": "leio o jornal",
+          "type": "multiple_choice",
+          "options": [
+            "leio o jornal",
+            "vou para o trabalho",
+            "tomo banho",
+            "janto"
+          ]
+        },
+        {
+          "q": "Где он делает покупки?",
+          "a": "no supermercado",
+          "type": "short_answer",
+          "options": []
+        },
+        {
+          "q": "Что они пьют с друзьями?",
+          "a": "um café ou uma cerveja",
+          "type": "multiple_choice",
+          "options": [
+            "um café ou uma cerveja",
+            "água",
+            "sumo",
+            "vinho"
+          ]
+        },
+        {
+          "q": "Что он делает в воскресенье?",
+          "a": "fico em casa ou vou passear ao parque",
+          "type": "short_answer",
+          "options": []
+        }
+      ]
+    },
+    {
+      "id": "t27",
+      "unit": "a1",
+      "text": "O corpo humano é incrível. Temos cabeça, braços, pernas, mãos e pés. Quando dói alguma parte vamos ao médico ou à farmácia. Em Portugal o sistema de saúde é bom. Podemos ir ao centro de saúde da nossa área. Lá o médico de família nos ajuda. Se precisamos de exames vamos ao hospital. É importante cuidar da saúde: comer bem, fazer exercício e dormir suficiente.",
+      "questions": [
+        {
+          "q": "Что делают, когда что-то болит?",
+          "a": "vamos ao médico ou à farmácia",
+          "type": "short_answer",
+          "options": []
+        },
+        {
+          "q": "Кто помогает в центре здоровья?",
+          "a": "o médico de família",
+          "type": "multiple_choice",
+          "options": [
+            "o médico de família",
+            "o farmacêutico",
+            "o dentista",
+            "o enfermeiro"
+          ]
+        },
+        {
+          "q": "Куда идут на обследования?",
+          "a": "ao hospital",
+          "type": "short_answer",
+          "options": []
+        },
+        {
+          "q": "Что важно для здоровья?",
+          "a": "comer bem, fazer exercício e dormir suficiente",
+          "type": "multiple_choice",
+          "options": [
+            "comer bem, fazer exercício e dormir suficiente",
+            "beber café",
+            "ver televisão",
+            "trabalhar muito"
+          ]
+        },
+        {
+          "q": "Как оценивается система здравоохранения в Португалии?",
+          "a": "é bom",
+          "type": "short_answer",
+          "options": []
+        }
+      ]
     }
   ]
 }

@@ -97,6 +97,7 @@ import { useProgressStore } from '@/stores/progressStore'
 // Роутер нужен для корректной SPA-навигации после завершения спринта
 const router = useRouter()
 import { generateSprintExercises } from '@/utils/exerciseGenerator'
+import { generateTextSprintExercises } from '@/utils/exerciseGenerator'
 import { calculateSprintStats, formatSprintResult, analyzeExerciseTypes, generateSprintFeedback } from '@/utils/sprintLogic'
 import { planSprint, identifyErrorProneItems, getStudyRecommendation } from '@/utils/sprintPlanning'
 import TheoryCard from './TheoryCard.vue'
@@ -150,6 +151,7 @@ onMounted(async () => {
     console.log('🚀 [SprintView] Инициализация спринта...')
 
     const route = useRoute()
+    const forcedTextId = route.query.textId || route.params.textId
 
     // Если запрошен повтор спринта через route param replayId
     const replayId = route.params.replayId || route.query.replayId
@@ -246,6 +248,21 @@ onMounted(async () => {
           currentTheory.value = found
           showingTheory.value = true
           console.log('✅ [SprintView] Теория загружена для просмотра (grammarId query):', found.title)
+          return
+        }
+      }
+
+      // Если передан textId — показываем сам текст как "теорию"
+      if (forcedTextId) {
+        const foundText = (materialsStore.texts || []).find(t => String(t.id) === String(forcedTextId))
+        if (foundText) {
+          currentTheory.value = {
+            title: foundText.title || `Текст ${String(foundText.id)}`,
+            explanation_ru: foundText.text || '',
+            examples: null
+          }
+          showingTheory.value = true
+          console.log('✅ [SprintView] Текст загружен для просмотра (textId query):', foundText.id)
           return
         }
       }
@@ -347,6 +364,46 @@ onMounted(async () => {
     console.log('🗂️ [SprintView] Инициализация БД...')
     await progressStore.initDB()
     console.log('✅ [SprintView] БД инициализирована')
+
+    // ===== НОВОЕ: режим спринта по тексту (textId) =====
+    if (forcedTextId) {
+      console.log('📖 [SprintView] Режим текстового спринта. textId:', forcedTextId)
+
+      const unitId = progressStore.currentUnit?.value ?? progressStore.currentUnit
+      const foundText = (materialsStore.texts || []).find(t => String(t.id) === String(forcedTextId))
+      if (!foundText) {
+        error.value = `Не найден текст с id: ${String(forcedTextId)}`
+        console.error('❌ [SprintView] text sprint: текст не найден:', forcedTextId)
+        return
+      }
+
+      // Показываем текст как "теорию" перед вопросами
+      currentTheory.value = {
+        title: foundText.title || `Текст ${String(foundText.id)}`,
+        explanation_ru: foundText.text || '',
+        examples: null,
+        // полезно для отладки/просмотра
+        textId: foundText.id,
+        unit: foundText.unit
+      }
+      showingTheory.value = true
+
+      // Генерируем упражнения из вопросов к тексту
+      exercises.value = generateTextSprintExercises(foundText)
+      if (!Array.isArray(exercises.value) || exercises.value.length === 0) {
+        error.value = 'В этом тексте нет упражнений (вопросов)'
+        console.error('❌ [SprintView] text sprint: нет вопросов для генерации упражнений')
+        return
+      }
+
+      // Запускаем таймер
+      timerInterval.value = setInterval(() => {
+        elapsedSeconds.value++
+      }, 1000)
+      console.log('⏱️ [SprintView] Таймер запущен (text sprint)')
+      return
+    }
+    // ===== КОНЕЦ режима текстового спринта =====
 
     // ===== НОВОЕ: Планирование спринта (7.2) =====
     console.log('📋 [SprintView] Планирование спринта...')
@@ -652,7 +709,10 @@ const handleAnswer = async (result) => {
       itemId: currentExerciseData.itemId,
       // Мета для идентификации использованной грамматики
       grammarId: currentExerciseData.grammarId || null,
-      grammarTitle: currentExerciseData.grammarTitle || null
+      grammarTitle: currentExerciseData.grammarTitle || null,
+      // Мета для идентификации текста (text sprint)
+      textId: currentExerciseData.textId || null,
+      textTitle: currentExerciseData.textTitle || null
     }
   })
 

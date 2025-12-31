@@ -147,6 +147,7 @@ export const useMaterialsStore = defineStore('materials', () => {
     const unitVocab = getVocabularyByUnit.value(unitId)
     const unitGrammar = getGrammarByUnit.value(unitId)
     const unitTemplates = getTemplatesByTags([unitId])
+    const unitTexts = getTextsByUnit.value(unitId)
 
     // Элементы для повторения (SRS)
     const dueForReview = progressStore.getItemsDueForReview?.value || []
@@ -163,6 +164,7 @@ export const useMaterialsStore = defineStore('materials', () => {
       vocabulary: allVocab.length > 0 ? allVocab : unitVocab, // Fallback на все слова если SRS пуст
       grammar: unitGrammar,
       templates: unitTemplates.length > 0 ? unitTemplates : templates.value,
+      texts: unitTexts,
       stats: {
         dueForReview: reviewItems.length,
         newItems: newVocab.length,
