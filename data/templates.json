@@ -377,6 +377,412 @@
         "leite"
       ],
       "correct_logic": "café"
+    },
+    {
+      "type": "multiple_choice",
+      "base": "Qual é a tradução de [word]?",
+      "params": [
+        {
+          "placeholder": "[word]",
+          "from": "vocabulary",
+          "filter": "tags includes 'unit3'"
+        }
+      ],
+      "correct_logic": "translation_ru of selected word"
+    },
+    {
+      "type": "fill_blank",
+      "base": "[sentence_pt with blank] (перевод: [example_ru])",
+      "params": [
+        {
+          "placeholder": "blank",
+          "from": "vocabulary",
+          "filter": "body or health words"
+        }
+      ],
+      "correct_logic": "word from vocabulary"
+    },
+    {
+      "type": "match",
+      "base": "Combine palavras com traduções",
+      "params": [
+        {
+          "placeholder": "pairs",
+          "from": "vocabulary",
+          "count": 5
+        }
+      ],
+      "correct_logic": "match word to translation_ru"
+    },
+    {
+      "type": "transform",
+      "base": "Transforme para plural: [singular word]",
+      "params": [
+        {
+          "placeholder": "[singular word]",
+          "from": "vocabulary",
+          "filter": "singular nouns from body"
+        }
+      ],
+      "correct_logic": "add s or change accordingly, e.g., mão -> mãos"
+    },
+    {
+      "type": "fill_blank",
+      "base": "Eu ___ [symptom]. (ter)",
+      "params": [
+        {
+          "placeholder": "___",
+          "from": "grammar g2 forms"
+        }
+      ],
+      "correct_logic": "correct conjugation of ter"
+    },
+    {
+      "type": "multiple_choice",
+      "base": "Escolha a forma correta: Eu [estar] doente.",
+      "params": [
+        {
+          "placeholder": "[estar]",
+          "from": "grammar g3"
+        }
+      ],
+      "correct_logic": "estou"
+    },
+    {
+      "type": "fill_blank",
+      "base": "A cabeça ___. (doer)",
+      "params": [
+        {
+          "placeholder": "___",
+          "from": "grammar g4"
+        }
+      ],
+      "correct_logic": "dói for singular"
+    },
+    {
+      "type": "match",
+      "base": "Combine possessivos: o meu [body part]",
+      "params": [
+        {
+          "placeholder": "[body part]",
+          "from": "vocabulary body"
+        }
+      ],
+      "correct_logic": "match to gender/number"
+    },
+    {
+      "type": "fill_blank",
+      "base": "Eu vou ___ médico. (preposição)",
+      "params": [
+        {
+          "placeholder": "___",
+          "from": "grammar g6"
+        }
+      ],
+      "correct_logic": "ao"
+    },
+    {
+      "type": "multiple_choice",
+      "base": "Adjativo para mulher: cansad_",
+      "params": [
+        {
+          "placeholder": "a/o",
+          "from": "grammar g7"
+        }
+      ],
+      "correct_logic": "cansada"
+    },
+    {
+      "type": "fill_blank",
+      "base": "___ está a farmácia? (pergunta)",
+      "params": [
+        {
+          "placeholder": "___",
+          "from": "grammar g8"
+        }
+      ],
+      "correct_logic": "Onde"
+    },
+    {
+      "type": "fill_blank",
+      "base": "___ o remédio. (imperativo)",
+      "params": [
+        {
+          "placeholder": "___",
+          "from": "grammar g9"
+        }
+      ],
+      "correct_logic": "Toma"
+    },
+    {
+      "type": "multiple_choice",
+      "base": "Quantos? [number] bilhetes.",
+      "params": [
+        {
+          "placeholder": "[number]",
+          "from": "grammar g10"
+        }
+      ],
+      "correct_logic": "correct number word"
+    },
+    {
+      "type": "short_answer",
+      "base": "Traduza: [example_pt from vocabulary]",
+      "params": [
+        {
+          "placeholder": "[example_pt]",
+          "from": "vocabulary"
+        }
+      ],
+      "correct_logic": "example_ru"
+    },
+    {
+      "type": "multiple_choice",
+      "base": "Qual artigo: ___ corpo.",
+      "params": [
+        {
+          "placeholder": "___",
+          "from": "grammar g1"
+        }
+      ],
+      "correct_logic": "O"
+    },
+    {
+      "type": "fill_blank",
+      "base": "Os olhos ___ . (doer plural)",
+      "params": [
+        {
+          "placeholder": "___",
+          "from": "grammar g4"
+        }
+      ],
+      "correct_logic": "doem"
+    },
+    {
+      "type": "multiple_choice",
+      "base": "Как сказать «[greeting]» по-португальски?",
+      "params": [
+        {
+          "placeholder": "[greeting]",
+          "from": "greetings"
+        }
+      ],
+      "correct_logic": "Выбрать правильный перевод из vocabulary"
+    },
+    {
+      "type": "fill_blank",
+      "base": "[greeting]! Como [form_estás]?",
+      "params": [
+        {
+          "placeholder": "[greeting]",
+          "from": "greetings"
+        },
+        {
+          "placeholder": "[form_estás]",
+          "from": "estar_forms"
+        }
+      ],
+      "correct_logic": "Подставить правильную форму estar"
+    },
+    {
+      "type": "multiple_choice",
+      "base": "Правильная форма ser: Eu ___ [profession].",
+      "params": [
+        {
+          "placeholder": "[profession]",
+          "from": "professions"
+        }
+      ],
+      "correct_logic": "sou"
+    },
+    {
+      "type": "fill_blank",
+      "base": "Nós ___ (ser) da [country].",
+      "params": [
+        {
+          "placeholder": "[country]",
+          "from": "countries"
+        }
+      ],
+      "correct_logic": "somos"
+    },
+    {
+      "type": "multiple_choice",
+      "base": "Временное состояние — используем:",
+      "params": [],
+      "correct_logic": "estar"
+    },
+    {
+      "type": "fill_blank",
+      "base": "Agora eu ___ (estar) [state].",
+      "params": [
+        {
+          "placeholder": "[state]",
+          "from": "temporary_states"
+        }
+      ],
+      "correct_logic": "estou"
+    },
+    {
+      "type": "multiple_choice",
+      "base": "Сколько времени: [time] — это [pt_time].",
+      "params": [
+        {
+          "placeholder": "[time]",
+          "from": "clock_times"
+        },
+        {
+          "placeholder": "[pt_time]",
+          "from": "pt_clock"
+        }
+      ],
+      "correct_logic": "Сопоставить время"
+    },
+    {
+      "type": "fill_blank",
+      "base": "São [hour] e [fraction] [period].",
+      "params": [
+        {
+          "placeholder": "[hour]",
+          "from": "hours"
+        },
+        {
+          "placeholder": "[fraction]",
+          "from": "fractions"
+        },
+        {
+          "placeholder": "[period]",
+          "from": "periods"
+        }
+      ],
+      "correct_logic": "Правильная конструкция времени"
+    },
+    {
+      "type": "multiple_choice",
+      "base": "День недели: [day_ru] — это [day_pt].",
+      "params": [
+        {
+          "placeholder": "[day_ru]",
+          "from": "days_ru"
+        },
+        {
+          "placeholder": "[day_pt]",
+          "from": "days_pt"
+        }
+      ],
+      "correct_logic": "Сопоставить день"
+    },
+    {
+      "type": "fill_blank",
+      "base": "Na [day] vou [activity].",
+      "params": [
+        {
+          "placeholder": "[day]",
+          "from": "days"
+        },
+        {
+          "placeholder": "[activity]",
+          "from": "activities"
+        }
+      ],
+      "correct_logic": "Правильный предлог и день"
+    },
+    {
+      "type": "fill_blank",
+      "base": "Dói-me [body_part].",
+      "params": [
+        {
+          "placeholder": "[body_part]",
+          "from": "body_parts"
+        }
+      ],
+      "correct_logic": "Правильный артикль"
+    },
+    {
+      "type": "multiple_choice",
+      "base": "У меня [feeling]: Tenho [feeling_pt].",
+      "params": [
+        {
+          "placeholder": "[feeling]",
+          "from": "feelings_ru"
+        },
+        {
+          "placeholder": "[feeling_pt]",
+          "from": "feelings_pt"
+        }
+      ],
+      "correct_logic": "Сопоставить"
+    },
+    {
+      "type": "fill_blank",
+      "base": "Todos os dias eu [routine_action].",
+      "params": [
+        {
+          "placeholder": "[routine_action]",
+          "from": "routine_verbs"
+        }
+      ],
+      "correct_logic": "Правильная форма глагола"
+    },
+    {
+      "type": "multiple_choice",
+      "base": "Рефлексивный глагол: [action] — [reflexive_form].",
+      "params": [
+        {
+          "placeholder": "[action]",
+          "from": "reflexive_base"
+        },
+        {
+          "placeholder": "[reflexive_form]",
+          "from": "reflexive_conj"
+        }
+      ],
+      "correct_logic": "Правильная рефлексивная форма"
+    },
+    {
+      "type": "fill_blank",
+      "base": "Vou [preposition] [place].",
+      "params": [
+        {
+          "placeholder": "[preposition]",
+          "from": "prepositions_direction"
+        },
+        {
+          "placeholder": "[place]",
+          "from": "places"
+        }
+      ],
+      "correct_logic": "Правильный предлог направления"
+    },
+    {
+      "type": "multiple_choice",
+      "base": "Местоположение: Estou [prep] [place].",
+      "params": [
+        {
+          "placeholder": "[prep]",
+          "from": "prepositions_location"
+        },
+        {
+          "placeholder": "[place]",
+          "from": "places"
+        }
+      ],
+      "correct_logic": "Правильный предлог em/no/na"
+    },
+    {
+      "type": "fill_blank",
+      "base": "[family_member] é muito [adjective].",
+      "params": [
+        {
+          "placeholder": "[family_member]",
+          "from": "family"
+        },
+        {
+          "placeholder": "[adjective]",
+          "from": "adjectives"
+        }
+      ],
+      "correct_logic": "Правильный артикль и согласование"
     }
   ]
 }

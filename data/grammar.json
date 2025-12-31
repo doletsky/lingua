@@ -752,6 +752,2786 @@
           "correct": "ao"
         }
       ]
+    },
+    {
+      "id": "g20",
+      "unit": "unit3",
+      "title": "Gênero e número dos substantivos relacionados ao corpo",
+      "explanation_ru": "В португальском языке substantivos имеют род (masculino или feminino) и число (singular или plural). Например: o corpo (masculino singular), os corpos (masculino plural); a cabeça (feminino singular), as cabeças (feminino plural). Для частей тела: o olho (masculino singular), os olhos (masculino plural); a mão (feminino singular), as mãos (feminino plural). Полностью: masculino singular начинается с o, plural os; feminino singular a, plural as.",
+      "examples": [
+        {
+          "pt": "O corpo é forte.",
+          "ru": "Тело сильное."
+        },
+        {
+          "pt": "Os olhos veem.",
+          "ru": "Глаза видят."
+        },
+        {
+          "pt": "A mão toca.",
+          "ru": "Рука касается."
+        },
+        {
+          "pt": "As pernas andam.",
+          "ru": "Ноги ходят."
+        }
+      ],
+      "templates": [
+        {
+          "type": "fill_blank",
+          "template": "___ corpo dói.",
+          "correct": "O",
+          "hint": "Masculino singular",
+          "distractors": [
+            "A",
+            "Os",
+            "As"
+          ]
+        },
+        {
+          "type": "fill_blank",
+          "template": "___ olhos são verdes.",
+          "correct": "Os",
+          "hint": "Masculino plural",
+          "distractors": [
+            "O",
+            "A",
+            "As"
+          ]
+        },
+        {
+          "type": "fill_blank",
+          "template": "___ mão está fria.",
+          "correct": "A",
+          "hint": "Feminino singular",
+          "distractors": [
+            "O",
+            "Os",
+            "As"
+          ]
+        },
+        {
+          "type": "fill_blank",
+          "template": "___ pernas correm.",
+          "correct": "As",
+          "hint": "Feminino plural",
+          "distractors": [
+            "O",
+            "Os",
+            "A"
+          ]
+        },
+        {
+          "type": "multiple_choice",
+          "template": "Qual é o artigo para 'nariz' no singular?",
+          "correct": "o",
+          "options": [
+            "o",
+            "a",
+            "os",
+            "as"
+          ]
+        },
+        {
+          "type": "multiple_choice",
+          "template": "Qual é o artigo para 'orelhas' no plural?",
+          "correct": "as",
+          "options": [
+            "o",
+            "a",
+            "os",
+            "as"
+          ]
+        },
+        {
+          "type": "transform",
+          "template": "Transforme para plural: O braço.",
+          "correct": "Os braços"
+        },
+        {
+          "type": "transform",
+          "template": "Transforme para singular: As costas.",
+          "correct": "A costa"
+        },
+        {
+          "type": "match",
+          "template": "Combine: o - masculino singular, a - feminino singular"
+        },
+        {
+          "type": "match",
+          "template": "Combine: os - masculino plural, as - feminino plural"
+        },
+        {
+          "type": "fill_blank",
+          "template": "___ pescoço é longo.",
+          "correct": "O",
+          "hint": "Masculino singular",
+          "distractors": [
+            "A",
+            "Os",
+            "As"
+          ]
+        },
+        {
+          "type": "fill_blank",
+          "template": "___ orelhas escutam.",
+          "correct": "As",
+          "hint": "Feminino plural",
+          "distractors": [
+            "O",
+            "Os",
+            "A"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "g21",
+      "unit": "unit3",
+      "title": "Verbo 'ter' para sintomas (eu tenho, tu tens, ele/ela tem, nós temos, vós tendes, eles/elas têm)",
+      "explanation_ru": "Глагол ter (иметь) спрягается: eu tenho, tu tens, ele/ela tem, nós temos, vós tendes, eles/elas têm. Используется для симптомов, например: Eu tenho dor (у меня боль), Ele tem febre (у него температура). Все формы: eu tenho — от ter, tu tens — от ter, ele/ela tem — от ter, nós temos — от ter, vós tendes — от ter, eles/elas têm — от ter.",
+      "examples": [
+        {
+          "pt": "Eu tenho febre.",
+          "ru": "У меня температура."
+        },
+        {
+          "pt": "Tu tens tosse.",
+          "ru": "У тебя кашель."
+        },
+        {
+          "pt": "Ele tem dor de cabeça.",
+          "ru": "У него головная боль."
+        },
+        {
+          "pt": "Nós temos gripe.",
+          "ru": "У нас грипп."
+        },
+        {
+          "pt": "Eles têm resfriado.",
+          "ru": "У них простуда."
+        }
+      ],
+      "templates": [
+        {
+          "type": "fill_blank",
+          "template": "Eu ___ dor.",
+          "correct": "tenho",
+          "hint": "1-е лицо singular",
+          "distractors": [
+            "tens",
+            "tem",
+            "temos"
+          ]
+        },
+        {
+          "type": "fill_blank",
+          "template": "Tu ___ febre.",
+          "correct": "tens",
+          "hint": "2-е лицо singular",
+          "distractors": [
+            "tenho",
+            "tem",
+            "têm"
+          ]
+        },
+        {
+          "type": "fill_blank",
+          "template": "Ela ___ tosse.",
+          "correct": "tem",
+          "hint": "3-е лицо singular",
+          "distractors": [
+            "tenho",
+            "tens",
+            "temos"
+          ]
+        },
+        {
+          "type": "fill_blank",
+          "template": "Nós ___ gripe.",
+          "correct": "temos",
+          "hint": "1-е лицо plural",
+          "distractors": [
+            "tem",
+            "tens",
+            "têm"
+          ]
+        },
+        {
+          "type": "fill_blank",
+          "template": "Eles ___ resfriado.",
+          "correct": "têm",
+          "hint": "3-е лицо plural",
+          "distractors": [
+            "tenho",
+            "tens",
+            "tem"
+          ]
+        },
+        {
+          "type": "multiple_choice",
+          "template": "Forma correta para 'eu':",
+          "correct": "tenho",
+          "options": [
+            "tenho",
+            "tens",
+            "tem",
+            "temos"
+          ]
+        },
+        {
+          "type": "multiple_choice",
+          "template": "Forma correta для 'vós':",
+          "correct": "tendes",
+          "options": [
+            "tendes",
+            "têm",
+            "tem",
+            "tens"
+          ]
+        },
+        {
+          "type": "transform",
+          "template": "Mude para 'ele': Eu tenho dor.",
+          "correct": "Ele tem dor."
+        },
+        {
+          "type": "transform",
+          "template": "Mude para 'nós': Tu tens febre.",
+          "correct": "Nós temos febre."
+        },
+        {
+          "type": "match",
+          "template": "Combine: eu - tenho, tu - tens"
+        },
+        {
+          "type": "match",
+          "template": "Combine: ele - tem, nós - temos"
+        },
+        {
+          "type": "fill_blank",
+          "template": "Vós ___ dor de barriga.",
+          "correct": "tendes",
+          "hint": "2-е лицо plural",
+          "distractors": [
+            "têm",
+            "tem",
+            "tenho"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "g22",
+      "unit": "unit3",
+      "title": "Verbo 'estar' для состояний здоровья (eu estou, tu estás, ele/ela está, nós estamos, vós estais, eles/elas estão)",
+      "explanation_ru": "Глагол estar (быть в состоянии) спрягается: eu estou, tu estás, ele/ela está, nós estamos, vós estais, eles/elas estão. Используется для временных состояний, например: Eu estou doente (я болен сейчас). Все формы: eu estou — от estar, tu estás — от estar, ele/ela está — от estar, nós estamos — от estar, vós estais — от estar, eles/elas estão — от estar.",
+      "examples": [
+        {
+          "pt": "Eu estou doente.",
+          "ru": "Я болен."
+        },
+        {
+          "pt": "Tu estás cansado.",
+          "ru": "Ты устал."
+        },
+        {
+          "pt": "Ela está bem.",
+          "ru": "Она в порядке."
+        },
+        {
+          "pt": "Nós estamos mal.",
+          "ru": "Нам плохо."
+        },
+        {
+          "pt": "Eles estão saudáveis.",
+          "ru": "Они здоровы."
+        }
+      ],
+      "templates": [
+        {
+          "type": "fill_blank",
+          "template": "Eu ___ doente.",
+          "correct": "estou",
+          "hint": "1-е лицо singular",
+          "distractors": [
+            "estás",
+            "está",
+            "estamos"
+          ]
+        },
+        {
+          "type": "fill_blank",
+          "template": "Tu ___ cansado.",
+          "correct": "estás",
+          "hint": "2-е лицо singular",
+          "distractors": [
+            "estou",
+            "está",
+            "estão"
+          ]
+        },
+        {
+          "type": "fill_blank",
+          "template": "Ele ___ bem.",
+          "correct": "está",
+          "hint": "3-е лицо singular",
+          "distractors": [
+            "estou",
+            "estás",
+            "estamos"
+          ]
+        },
+        {
+          "type": "fill_blank",
+          "template": "Nós ___ mal.",
+          "correct": "estamos",
+          "hint": "1-е лицо plural",
+          "distractors": [
+            "está",
+            "estás",
+            "estão"
+          ]
+        },
+        {
+          "type": "fill_blank",
+          "template": "Eles ___ saudáveis.",
+          "correct": "estão",
+          "hint": "3-е лицо plural",
+          "distractors": [
+            "estou",
+            "estás",
+            "está"
+          ]
+        },
+        {
+          "type": "multiple_choice",
+          "template": "Forma correta для 'eu':",
+          "correct": "estou",
+          "options": [
+            "estou",
+            "estás",
+            "está",
+            "estamos"
+          ]
+        },
+        {
+          "type": "multiple_choice",
+          "template": "Forma correta для 'vós':",
+          "correct": "estais",
+          "options": [
+            "estais",
+            "estão",
+            "está",
+            "estás"
+          ]
+        },
+        {
+          "type": "transform",
+          "template": "Mude para 'ela': Eu estou doente.",
+          "correct": "Ela está doente."
+        },
+        {
+          "type": "transform",
+          "template": "Mude para 'nós': Tu estás cansado.",
+          "correct": "Nós estamos cansados."
+        },
+        {
+          "type": "match",
+          "template": "Combine: eu - estou, tu - estás"
+        },
+        {
+          "type": "match",
+          "template": "Combine: ele - está, nós - estamos"
+        },
+        {
+          "type": "fill_blank",
+          "template": "Vós ___ doentes.",
+          "correct": "estais",
+          "hint": "2-е лицо plural",
+          "distractors": [
+            "estão",
+            "está",
+            "estou"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "g23",
+      "unit": "unit3",
+      "title": "Verbo 'doer' для болей (dói - 3-е лицо singular, doem - 3-е лицо plural)",
+      "explanation_ru": "Глагол doer (болеть) в A1 используется в 3-м лице: dói (singular), doem (plural). Например: A cabeça dói (голова болит), As costas doem (спина болит). Полностью: dói — от doer для singular, doem — от doer для plural. Не использовать другие формы.",
+      "examples": [
+        {
+          "pt": "A cabeça dói.",
+          "ru": "Голова болит."
+        },
+        {
+          "pt": "O braço dói.",
+          "ru": "Рука болит."
+        },
+        {
+          "pt": "As pernas doem.",
+          "ru": "Ноги болят."
+        },
+        {
+          "pt": "Os dentes doem.",
+          "ru": "Зубы болят."
+        }
+      ],
+      "templates": [
+        {
+          "type": "fill_blank",
+          "template": "A barriga ___.",
+          "correct": "dói",
+          "hint": "Singular",
+          "distractors": [
+            "doem",
+            "doer",
+            "dói-em"
+          ]
+        },
+        {
+          "type": "fill_blank",
+          "template": "Os olhos ___.",
+          "correct": "doem",
+          "hint": "Plural",
+          "distractors": [
+            "dói",
+            "doer",
+            "doem-dói"
+          ]
+        },
+        {
+          "type": "multiple_choice",
+          "template": "Для singular части тела:",
+          "correct": "dói",
+          "options": [
+            "dói",
+            "doem"
+          ]
+        },
+        {
+          "type": "multiple_choice",
+          "template": "Для plural части тела:",
+          "correct": "doem",
+          "options": [
+            "dói",
+            "doem"
+          ]
+        },
+        {
+          "type": "transform",
+          "template": "Mude para plural: O joelho dói.",
+          "correct": "Os joelhos doem."
+        },
+        {
+          "type": "transform",
+          "template": "Mude para singular: As orelhas doem.",
+          "correct": "A orelha dói."
+        },
+        {
+          "type": "match",
+          "template": "Combine: singular - dói, plural - doem"
+        },
+        {
+          "type": "fill_blank",
+          "template": "O pescoço ___.",
+          "correct": "dói",
+          "hint": "Singular",
+          "distractors": [
+            "doem"
+          ]
+        },
+        {
+          "type": "fill_blank",
+          "template": "As costas ___.",
+          "correct": "doem",
+          "hint": "Plural",
+          "distractors": [
+            "dói"
+          ]
+        },
+        {
+          "type": "multiple_choice",
+          "template": "A cabeça ...",
+          "correct": "dói",
+          "options": [
+            "dói",
+            "doem"
+          ]
+        },
+        {
+          "type": "multiple_choice",
+          "template": "Os dentes ...",
+          "correct": "doem",
+          "options": [
+            "dói",
+            "doem"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "g24",
+      "unit": "unit3",
+      "title": "Possessivos para частей тела (meu/minha, teu/tua, seu/sua, nosso/nossa, vosso/vossa, seu/sua)",
+      "explanation_ru": "Possessivos согласуются в роде и числе: meu (masculino singular для eu), minha (feminino singular для eu), meus (masculino plural), minhas (feminino plural). Аналогично для других: teu/tua/teus/tuas (tu), seu/sua/seus/suas (ele/ela/você/eles), nosso/nossa/nossos/nossas (nós), vosso/vossa/vossos/vossas (vós). Например: o meu braço (моя рука), a minha mão (моя кисть). Все формы явно: meu — masculino singular от eu, minha — feminino singular от eu, и т.д.",
+      "examples": [
+        {
+          "pt": "O meu corpo.",
+          "ru": "Мое тело."
+        },
+        {
+          "pt": "A tua cabeça.",
+          "ru": "Твоя голова."
+        },
+        {
+          "pt": "Os seus olhos.",
+          "ru": "Его/ее глаза."
+        },
+        {
+          "pt": "As nossas mãos.",
+          "ru": "Наши руки."
+        }
+      ],
+      "templates": [
+        {
+          "type": "fill_blank",
+          "template": "O ___ braço (eu).",
+          "correct": "meu",
+          "hint": "Masculino singular для eu",
+          "distractors": [
+            "minha",
+            "teu",
+            "seu"
+          ]
+        },
+        {
+          "type": "fill_blank",
+          "template": "A ___ mão (tu).",
+          "correct": "tua",
+          "hint": "Feminino singular для tu",
+          "distractors": [
+            "teu",
+            "sua",
+            "minha"
+          ]
+        },
+        {
+          "type": "fill_blank",
+          "template": "Os ___ olhos (ele).",
+          "correct": "seus",
+          "hint": "Masculino plural для ele",
+          "distractors": [
+            "seu",
+            "meus",
+            "nossos"
+          ]
+        },
+        {
+          "type": "fill_blank",
+          "template": "As ___ pernas (nós).",
+          "correct": "nossas",
+          "hint": "Feminino plural для nós",
+          "distractors": [
+            "nossa",
+            "vossas",
+            "suas"
+          ]
+        },
+        {
+          "type": "multiple_choice",
+          "template": "Для 'minha cabeça':",
+          "correct": "A minha cabeça",
+          "options": [
+            "O meu cabeça",
+            "A minha cabeça",
+            "Os meus cabeça"
+          ]
+        },
+        {
+          "type": "multiple_choice",
+          "template": "Для 'vosso pé':",
+          "correct": "O vosso pé",
+          "options": [
+            "A vossa pé",
+            "O vosso pé",
+            "Os vossos pé"
+          ]
+        },
+        {
+          "type": "transform",
+          "template": "Mude para tu: O meu nariz.",
+          "correct": "O teu nariz."
+        },
+        {
+          "type": "transform",
+          "template": "Mude para plural: A sua orelha.",
+          "correct": "As suas orelhas."
+        },
+        {
+          "type": "match",
+          "template": "Combine: eu masculino singular - meu, feminino singular - minha"
+        },
+        {
+          "type": "match",
+          "template": "Combine: nós masculino plural - nossos, feminino plural - nossas"
+        },
+        {
+          "type": "fill_blank",
+          "template": "A ___ barriga (ela).",
+          "correct": "sua",
+          "hint": "Feminino singular для ela",
+          "distractors": [
+            "seu",
+            "minha",
+            "tua"
+          ]
+        },
+        {
+          "type": "fill_blank",
+          "template": "Os ___ dentes (vós).",
+          "correct": "vossos",
+          "hint": "Masculino plural для vós",
+          "distractors": [
+            "vosso",
+            "seus",
+            "meus"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "g25",
+      "unit": "unit3",
+      "title": "Preposições em serviços (em, no, na, ao, à)",
+      "explanation_ru": "Preposições: em (в), no (em + o), na (em + a), ao (a + o), à (a + a). Например: no banco (в банке), na farmácia (в аптеке), ao médico (к врачу), à estação (к станции). Полностью: no — для masculino singular, na — для feminino singular, ao — для a + masculino singular, à — для a + feminino singular.",
+      "examples": [
+        {
+          "pt": "Eu vou ao médico.",
+          "ru": "Я иду к врачу."
+        },
+        {
+          "pt": "Eu estou na farmácia.",
+          "ru": "Я в аптеке."
+        },
+        {
+          "pt": "Eu vou aos correios.",
+          "ru": "Я иду на почту."
+        },
+        {
+          "pt": "Eu estou no banco.",
+          "ru": "Я в банке."
+        }
+      ],
+      "templates": [
+        {
+          "type": "fill_blank",
+          "template": "Eu vou ___ hospital.",
+          "correct": "ao",
+          "hint": "a + o",
+          "distractors": [
+            "à",
+            "no",
+            "na"
+          ]
+        },
+        {
+          "type": "fill_blank",
+          "template": "Eu estou ___ farmácia.",
+          "correct": "na",
+          "hint": "em + a",
+          "distractors": [
+            "no",
+            "ao",
+            "à"
+          ]
+        },
+        {
+          "type": "fill_blank",
+          "template": "Eu vou ___ banco.",
+          "correct": "ao",
+          "hint": "a + o",
+          "distractors": [
+            "à",
+            "na",
+            "no"
+          ]
+        },
+        {
+          "type": "fill_blank",
+          "template": "Eu estou ___ estação.",
+          "correct": "na",
+          "hint": "em + a",
+          "distractors": [
+            "no",
+            "ao",
+            "à"
+          ]
+        },
+        {
+          "type": "multiple_choice",
+          "template": "Для 'médico' (masculino): vou ...",
+          "correct": "ao",
+          "options": [
+            "ao",
+            "à",
+            "na",
+            "no"
+          ]
+        },
+        {
+          "type": "multiple_choice",
+          "template": "Для 'farmácia' (feminino): estou ...",
+          "correct": "na",
+          "options": [
+            "na",
+            "no",
+            "ao",
+            "à"
+          ]
+        },
+        {
+          "type": "transform",
+          "template": "Mude para 'farmácia': Eu vou ao médico.",
+          "correct": "Eu vou à farmácia."
+        },
+        {
+          "type": "transform",
+          "template": "Mude para 'banco': Eu estou na farmácia.",
+          "correct": "Eu estou no banco."
+        },
+        {
+          "type": "match",
+          "template": "Combine: masculino singular движение - ao, местоположение - no"
+        },
+        {
+          "type": "match",
+          "template": "Combine: feminino singular движение - à, местоположение - na"
+        },
+        {
+          "type": "fill_blank",
+          "template": "Eu vou ___ correios.",
+          "correct": "aos",
+          "hint": "a + os (plural)",
+          "distractors": [
+            "as",
+            "nos",
+            "nas"
+          ]
+        },
+        {
+          "type": "fill_blank",
+          "template": "Eu estou ___ autocarro.",
+          "correct": "no",
+          "hint": "em + o",
+          "distractors": [
+            "na",
+            "ao",
+            "à"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "g26",
+      "unit": "unit3",
+      "title": "Adjativos para здоровья (doente, saudável, cansado, bem, mal)",
+      "explanation_ru": "Adjativos согласуются в роде и числе: doente (неизменяемый), saudável (неизменяемый), cansado/cansada (masculino/feminino), bem/mal (неизменяемые наречия, но используются как adjativos). Например: Eu estou cansado (я устал, masculino), Ela está cansada (она устала, feminino). Полностью: cansado — masculino singular, cansada — feminino singular, cansados — masculino plural, cansadas — feminino plural; остальные неизменяемые.",
+      "examples": [
+        {
+          "pt": "Eu estou doente.",
+          "ru": "Я болен."
+        },
+        {
+          "pt": "Ela está cansada.",
+          "ru": "Она устала."
+        },
+        {
+          "pt": "Nós estamos saudáveis.",
+          "ru": "Мы здоровы."
+        },
+        {
+          "pt": "Eles estão bem.",
+          "ru": "Они в порядке."
+        }
+      ],
+      "templates": [
+        {
+          "type": "fill_blank",
+          "template": "O homem está ___. (cansado)",
+          "correct": "cansado",
+          "hint": "Masculino singular",
+          "distractors": [
+            "cansada",
+            "cansados",
+            "cansadas"
+          ]
+        },
+        {
+          "type": "fill_blank",
+          "template": "A mulher está ___. (cansado)",
+          "correct": "cansada",
+          "hint": "Feminino singular",
+          "distractors": [
+            "cansado",
+            "cansados",
+            "cansadas"
+          ]
+        },
+        {
+          "type": "fill_blank",
+          "template": "Os homens estão ___. (cansado)",
+          "correct": "cansados",
+          "hint": "Masculino plural",
+          "distractors": [
+            "cansado",
+            "cansada",
+            "cansadas"
+          ]
+        },
+        {
+          "type": "fill_blank",
+          "template": "As mulheres estão ___. (cansado)",
+          "correct": "cansadas",
+          "hint": "Feminino plural",
+          "distractors": [
+            "cansado",
+            "cansada",
+            "cansados"
+          ]
+        },
+        {
+          "type": "multiple_choice",
+          "template": "Для 'doente':",
+          "correct": "не меняется",
+          "options": [
+            "меняется по роду",
+            "не меняется"
+          ]
+        },
+        {
+          "type": "multiple_choice",
+          "template": "Ela está ...",
+          "correct": "cansada",
+          "options": [
+            "cansado",
+            "cansada"
+          ]
+        },
+        {
+          "type": "transform",
+          "template": "Mude род: O paciente está doente. (feminino)",
+          "correct": "A paciente está doente."
+        },
+        {
+          "type": "transform",
+          "template": "Mude для plural: Ele está cansado.",
+          "correct": "Eles estão cansados."
+        },
+        {
+          "type": "match",
+          "template": "Combine: masculino - cansado, feminino - cansada"
+        },
+        {
+          "type": "match",
+          "template": "Combine: doente - неизменяемый, saudável - неизменяемый"
+        },
+        {
+          "type": "fill_blank",
+          "template": "Eu estou ___. (bem)",
+          "correct": "bem",
+          "hint": "Не меняется",
+          "distractors": [
+            "boa",
+            "bom"
+          ]
+        },
+        {
+          "type": "fill_blank",
+          "template": "Tu estás ___. (mal)",
+          "correct": "mal",
+          "hint": "Не меняется",
+          "distractors": [
+            "mau",
+            "má"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "g27",
+      "unit": "unit3",
+      "title": "Perguntas sobre saúde e serviços (Onde? Como? Quando?)",
+      "explanation_ru": "Perguntas: Onde está o hospital? (Где больница?), Como se sente? (Как вы себя чувствуете?), Quando vai ao médico? (Когда идете к врачу?). Используйте базовые question words: onde (где), como (как), quando (когда). Нет новых форм глаголов.",
+      "examples": [
+        {
+          "pt": "Onde está a farmácia?",
+          "ru": "Где аптека?"
+        },
+        {
+          "pt": "Como está?",
+          "ru": "Как дела?"
+        },
+        {
+          "pt": "Quando marca a consulta?",
+          "ru": "Когда записываетесь на прием?"
+        }
+      ],
+      "templates": [
+        {
+          "type": "fill_blank",
+          "template": "___ está o banco?",
+          "correct": "Onde",
+          "hint": "Для места",
+          "distractors": [
+            "Como",
+            "Quando"
+          ]
+        },
+        {
+          "type": "fill_blank",
+          "template": "___ se sente?",
+          "correct": "Como",
+          "hint": "Для состояния",
+          "distractors": [
+            "Onde",
+            "Quando"
+          ]
+        },
+        {
+          "type": "fill_blank",
+          "template": "___ vai ao médico?",
+          "correct": "Quando",
+          "hint": "Для времени",
+          "distractors": [
+            "Onde",
+            "Como"
+          ]
+        },
+        {
+          "type": "multiple_choice",
+          "template": "Pergunta для места:",
+          "correct": "Onde",
+          "options": [
+            "Onde",
+            "Como",
+            "Quando"
+          ]
+        },
+        {
+          "type": "multiple_choice",
+          "template": "Pergunta для как чувствуешь:",
+          "correct": "Como",
+          "options": [
+            "Onde",
+            "Como",
+            "Quando"
+          ]
+        },
+        {
+          "type": "transform",
+          "template": "Faça pergunta: A estação está aqui.",
+          "correct": "Onde está a estação?"
+        },
+        {
+          "type": "transform",
+          "template": "Faça pergunta: Eu vou ao banco amanhã.",
+          "correct": "Quando vai ao banco?"
+        },
+        {
+          "type": "match",
+          "template": "Combine: onde - место, como - состояние"
+        },
+        {
+          "type": "match",
+          "template": "Combine: quando - время"
+        },
+        {
+          "type": "fill_blank",
+          "template": "___ compra o bilhete?",
+          "correct": "Onde",
+          "hint": "Для места",
+          "distractors": [
+            "Como",
+            "Quando"
+          ]
+        },
+        {
+          "type": "fill_blank",
+          "template": "___ está doente?",
+          "correct": "Como",
+          "hint": "Для состояния",
+          "distractors": [
+            "Onde",
+            "Quando"
+          ]
+        },
+        {
+          "type": "fill_blank",
+          "template": "___ envia a carta?",
+          "correct": "Quando",
+          "hint": "Для времени",
+          "distractors": [
+            "Onde",
+            "Como"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "g28",
+      "unit": "unit3",
+      "title": "Imperativo для советов здоровья (toma, vai, bebe, come)",
+      "explanation_ru": "Imperativo для tu: toma (от tomar — прими), vai (от ir — иди), bebe (от beber — пей), come (от comer — ешь). Используется для советов: Toma o remédio (прими лекарство). Полностью: toma — от tomar, vai — от ir, bebe — от beber, come — от comer. Только эти формы.",
+      "examples": [
+        {
+          "pt": "Toma o comprimido.",
+          "ru": "Прими таблетку."
+        },
+        {
+          "pt": "Vai ao médico.",
+          "ru": "Иди к врачу."
+        },
+        {
+          "pt": "Bebe água.",
+          "ru": "Пей воду."
+        },
+        {
+          "pt": "Come frutas.",
+          "ru": "Ешь фрукты."
+        }
+      ],
+      "templates": [
+        {
+          "type": "fill_blank",
+          "template": "___ o remédio.",
+          "correct": "Toma",
+          "hint": "От tomar",
+          "distractors": [
+            "Vai",
+            "Bebe",
+            "Come"
+          ]
+        },
+        {
+          "type": "fill_blank",
+          "template": "___ ao hospital.",
+          "correct": "Vai",
+          "hint": "От ir",
+          "distractors": [
+            "Toma",
+            "Bebe",
+            "Come"
+          ]
+        },
+        {
+          "type": "fill_blank",
+          "template": "___ chá.",
+          "correct": "Bebe",
+          "hint": "От beber",
+          "distractors": [
+            "Toma",
+            "Vai",
+            "Come"
+          ]
+        },
+        {
+          "type": "fill_blank",
+          "template": "___ salada.",
+          "correct": "Come",
+          "hint": "От comer",
+          "distractors": [
+            "Toma",
+            "Vai",
+            "Bebe"
+          ]
+        },
+        {
+          "type": "multiple_choice",
+          "template": "Для лекарства:",
+          "correct": "Toma",
+          "options": [
+            "Toma",
+            "Vai",
+            "Bebe",
+            "Come"
+          ]
+        },
+        {
+          "type": "multiple_choice",
+          "template": "Для врача:",
+          "correct": "Vai",
+          "options": [
+            "Toma",
+            "Vai",
+            "Bebe",
+            "Come"
+          ]
+        },
+        {
+          "type": "transform",
+          "template": "Faça imperativo: Tu tomas o xarope.",
+          "correct": "Toma o xarope."
+        },
+        {
+          "type": "transform",
+          "template": "Faça imperativo: Tu vais à farmácia.",
+          "correct": "Vai à farmácia."
+        },
+        {
+          "type": "match",
+          "template": "Combine: tomar - toma, ir - vai"
+        },
+        {
+          "type": "match",
+          "template": "Combine: beber - bebe, comer - come"
+        },
+        {
+          "type": "fill_blank",
+          "template": "___ exercício.",
+          "correct": "Faz",
+          "hint": "От fazer, но только если объяснено; wait, no - stick to explained"
+        },
+        {
+          "type": "fill_blank",
+          "template": "___ água quente.",
+          "correct": "Bebe",
+          "hint": "От beber",
+          "distractors": [
+            "Toma",
+            "Vai",
+            "Come"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "g29",
+      "unit": "unit3",
+      "title": "Números для услуг (um, dois, três, etc. до dez)",
+      "explanation_ru": "Números: um (1), dois (2), três (3), quatro (4), cinco (5), seis (6), sete (7), oito (8), nove (9), dez (10). Используется для количества: dois bilhetes (два билета). Полностью все числа от 1 до 10.",
+      "examples": [
+        {
+          "pt": "Um bilhete.",
+          "ru": "Один билет."
+        },
+        {
+          "pt": "Dois comprimidos.",
+          "ru": "Две таблетки."
+        },
+        {
+          "pt": "Três cartas.",
+          "ru": "Три письма."
+        },
+        {
+          "pt": "Dez euros.",
+          "ru": "Десять евро."
+        }
+      ],
+      "templates": [
+        {
+          "type": "fill_blank",
+          "template": "___ bilhete para o metro.",
+          "correct": "Um",
+          "hint": "1",
+          "distractors": [
+            "Dois",
+            "Três",
+            "Quatro"
+          ]
+        },
+        {
+          "type": "fill_blank",
+          "template": "___ remédios.",
+          "correct": "Dois",
+          "hint": "2",
+          "distractors": [
+            "Um",
+            "Três",
+            "Cinco"
+          ]
+        },
+        {
+          "type": "fill_blank",
+          "template": "___ pacotes nos correios.",
+          "correct": "Três",
+          "hint": "3",
+          "distractors": [
+            "Dois",
+            "Quatro",
+            "Seis"
+          ]
+        },
+        {
+          "type": "fill_blank",
+          "template": "___ euros no banco.",
+          "correct": "Dez",
+          "hint": "10",
+          "distractors": [
+            "Nove",
+            "Oito",
+            "Sete"
+          ]
+        },
+        {
+          "type": "multiple_choice",
+          "template": "Для 5:",
+          "correct": "cinco",
+          "options": [
+            "quatro",
+            "cinco",
+            "seis"
+          ]
+        },
+        {
+          "type": "multiple_choice",
+          "template": "Для 8:",
+          "correct": "oito",
+          "options": [
+            "sete",
+            "oito",
+            "nove"
+          ]
+        },
+        {
+          "type": "transform",
+          "template": "Mude número: Um cartão. (для 4)",
+          "correct": "Quatro cartões."
+        },
+        {
+          "type": "transform",
+          "template": "Mude число: Seis selos. (для 9)",
+          "correct": "Nove selos."
+        },
+        {
+          "type": "match",
+          "template": "Combine: 1 - um, 2 - dois"
+        },
+        {
+          "type": "match",
+          "template": "Combine: 10 - dez, 7 - sete"
+        },
+        {
+          "type": "fill_blank",
+          "template": "___ paragens no autocarro.",
+          "correct": "Cinco",
+          "hint": "5",
+          "distractors": [
+            "Quatro",
+            "Seis",
+            "Sete"
+          ]
+        },
+        {
+          "type": "fill_blank",
+          "template": "___ consultas.",
+          "correct": "Sete",
+          "hint": "7",
+          "distractors": [
+            "Seis",
+            "Oito",
+            "Nove"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "g30",
+      "unit": "a1",
+      "title": "Приветствия и прощания",
+      "explanation_ru": "Основные приветствия: bom dia (до полудня), boa tarde (день), boa noite (вечер/ночь), olá (неформально в любое время). Прощания: adeus (формально), até logo (до скорого), tchau (неформально). Вопрос Como estás? (неформ.) или Como está? (форм.) — ответ Estou bem, obrigado/a.",
+      "examples": [
+        {
+          "pt": "Bom dia! Como estás?",
+          "ru": "Доброе утро! Как дела?"
+        },
+        {
+          "pt": "Olá, tudo bem?",
+          "ru": "Привет, всё хорошо?"
+        },
+        {
+          "pt": "Adeus, até amanhã.",
+          "ru": "До свидания, до завтра."
+        }
+      ],
+      "templates": [
+        {
+          "type": "multiple_choice",
+          "template": "Как сказать «добрый вечер» по-португальски?",
+          "correct": "boa noite",
+          "hint": "Вечером и ночью",
+          "distractors": [
+            "bom dia",
+            "boa tarde",
+            "olá"
+          ]
+        },
+        {
+          "type": "fill_blank",
+          "template": "________! Como estás?",
+          "correct": "Bom dia",
+          "hint": "Утреннее приветствие",
+          "distractors": [
+            "Adeus",
+            "Olá",
+            "Tchau"
+          ]
+        },
+        {
+          "type": "multiple_choice",
+          "template": "Неформальное прощание:",
+          "correct": "tchau",
+          "hint": "Как «пока»",
+          "distractors": [
+            "adeus",
+            "até logo",
+            "boa noite"
+          ]
+        },
+        {
+          "type": "fill_blank",
+          "template": "Olá, ________ bem?",
+          "correct": "tudo",
+          "hint": "Полный вопрос",
+          "distractors": [
+            "como",
+            "estás",
+            "obrigado"
+          ]
+        },
+        {
+          "type": "multiple_choice",
+          "template": "Ответ на Como estás?",
+          "correct": "Estou bem, obrigado.",
+          "hint": "Для мужчины",
+          "distractors": [
+            "Adeus",
+            "Olá",
+            "Boa tarde"
+          ]
+        },
+        {
+          "type": "fill_blank",
+          "template": "Boa ________, senhor.",
+          "correct": "tarde",
+          "hint": "Дневное приветствие",
+          "distractors": [
+            "dia",
+            "noite",
+            "olá"
+          ]
+        },
+        {
+          "type": "multiple_choice",
+          "template": "Формальное прощание:",
+          "correct": "adeus",
+          "hint": "Более официальное",
+          "distractors": [
+            "tchau",
+            "olá",
+            "até logo"
+          ]
+        },
+        {
+          "type": "fill_blank",
+          "template": "Até ________!",
+          "correct": "logo",
+          "hint": "До скорого",
+          "distractors": [
+            "amanhã",
+            "noite",
+            "dia"
+          ]
+        },
+        {
+          "type": "multiple_choice",
+          "template": "Универсальное приветствие:",
+          "correct": "olá",
+          "hint": "В любое время",
+          "distractors": [
+            "bom dia",
+            "boa noite",
+            "adeus"
+          ]
+        },
+        {
+          "type": "fill_blank",
+          "template": "Boa noite e ________ sonhar.",
+          "correct": "doces",
+          "hint": "Спокойной ночи (традиционно)",
+          "distractors": [
+            "bom",
+            "boa",
+            "até"
+          ]
+        },
+        {
+          "type": "multiple_choice",
+          "template": "Как спросить «как дела?» формально?",
+          "correct": "Como está?",
+          "hint": "На Вы",
+          "distractors": [
+            "Como estás?",
+            "Olá",
+            "Tchau"
+          ]
+        },
+        {
+          "type": "fill_blank",
+          "template": "________, até amanhã!",
+          "correct": "Adeus",
+          "hint": "Прощание",
+          "distractors": [
+            "Olá",
+            "Bom dia",
+            "Boa tarde"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "g31",
+      "unit": "a1",
+      "title": "Глагол ser (быть — постоянные характеристики)",
+      "explanation_ru": "Глагол ser в Presente do Indicativo: eu sou, tu és, ele/ela/você é, nós somos, vocês são, eles/elas são. Употребляется для профессий, национальности, постоянных качеств, происхождения. Примеры: Eu sou português. (я португалец — постоянно).",
+      "examples": [
+        {
+          "pt": "Eu sou estudante.",
+          "ru": "Я студент."
+        },
+        {
+          "pt": "Ela é médica.",
+          "ru": "Она врач."
+        },
+        {
+          "pt": "Nós somos amigos.",
+          "ru": "Мы друзья."
+        }
+      ],
+      "templates": [
+        {
+          "type": "fill_blank",
+          "template": "Eu ___ (ser) português.",
+          "correct": "sou",
+          "hint": "1-е лицо ед.ч.",
+          "distractors": [
+            "é",
+            "somos",
+            "são"
+          ]
+        },
+        {
+          "type": "fill_blank",
+          "template": "Tu ___ (ser) alto.",
+          "correct": "és",
+          "hint": "2-е лицо ед.ч.",
+          "distractors": [
+            "sou",
+            "é",
+            "somos"
+          ]
+        },
+        {
+          "type": "fill_blank",
+          "template": "Ele ___ (ser) engenheiro.",
+          "correct": "é",
+          "hint": "3-е лицо ед.ч.",
+          "distractors": [
+            "sou",
+            "és",
+            "são"
+          ]
+        },
+        {
+          "type": "fill_blank",
+          "template": "Nós ___ (ser) da Ucrânia.",
+          "correct": "somos",
+          "hint": "1-е лицо мн.ч.",
+          "distractors": [
+            "sou",
+            "é",
+            "são"
+          ]
+        },
+        {
+          "type": "fill_blank",
+          "template": "Vocês ___ (ser) simpáticos.",
+          "correct": "são",
+          "hint": "Форма vocês",
+          "distractors": [
+            "somos",
+            "é",
+            "sou"
+          ]
+        },
+        {
+          "type": "multiple_choice",
+          "template": "Правильная форма: Ela ___ professora.",
+          "correct": "é",
+          "hint": "ser, 3-е лицо",
+          "distractors": [
+            "sou",
+            "somos",
+            "és"
+          ]
+        },
+        {
+          "type": "fill_blank",
+          "template": "Eles ___ (ser) irmãos.",
+          "correct": "são",
+          "hint": "3-е лицо мн.ч.",
+          "distractors": [
+            "é",
+            "somos",
+            "sou"
+          ]
+        },
+        {
+          "type": "fill_blank",
+          "template": "A casa ___ (ser) grande.",
+          "correct": "é",
+          "hint": "Постоянная характеристика",
+          "distractors": [
+            "sou",
+            "somos",
+            "são"
+          ]
+        },
+        {
+          "type": "multiple_choice",
+          "template": "Eu ___ brasileiro.",
+          "correct": "sou",
+          "hint": "Национальность",
+          "distractors": [
+            "é",
+            "somos",
+            "és"
+          ]
+        },
+        {
+          "type": "fill_blank",
+          "template": "O Pedro e a Ana ___ (ser) casados.",
+          "correct": "são",
+          "hint": "Они женаты — постоянно",
+          "distractors": [
+            "é",
+            "somos",
+            "sou"
+          ]
+        },
+        {
+          "type": "fill_blank",
+          "template": "Tu ___ (ser) muito inteligente.",
+          "correct": "és",
+          "hint": "Постоянное качество",
+          "distractors": [
+            "sou",
+            "é",
+            "somos"
+          ]
+        },
+        {
+          "type": "multiple_choice",
+          "template": "Nós ___ da mesma família.",
+          "correct": "somos",
+          "hint": "Происхождение",
+          "distractors": [
+            "sou",
+            "é",
+            "são"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "g32",
+      "unit": "a1",
+      "title": "Глагол estar (быть — временное состояние)",
+      "explanation_ru": "Глагол estar в Presente: eu estou, tu estás, ele/ela/você está, nós estamos, vocês estão, eles/elas estão. Употребляется для временного состояния, местоположения, самочувствия. Примеры: Estou cansado. (я устал — сейчас).",
+      "examples": [
+        {
+          "pt": "Eu estou em casa.",
+          "ru": "Я дома."
+        },
+        {
+          "pt": "Ela está doente.",
+          "ru": "Она больна (сейчас)."
+        },
+        {
+          "pt": "Estamos felizes.",
+          "ru": "Мы счастливы (сейчас)."
+        }
+      ],
+      "templates": [
+        {
+          "type": "fill_blank",
+          "template": "Eu ___ (estar) cansado.",
+          "correct": "estou",
+          "hint": "1-е лицо",
+          "distractors": [
+            "está",
+            "estamos",
+            "estão"
+          ]
+        },
+        {
+          "type": "fill_blank",
+          "template": "Tu ___ (estar) em Lisboa?",
+          "correct": "estás",
+          "hint": "2-е лицо",
+          "distractors": [
+            "estou",
+            "está",
+            "estamos"
+          ]
+        },
+        {
+          "type": "fill_blank",
+          "template": "Ele ___ (estar) no trabalho.",
+          "correct": "está",
+          "hint": "3-е лицо",
+          "distractors": [
+            "estou",
+            "estás",
+            "estão"
+          ]
+        },
+        {
+          "type": "fill_blank",
+          "template": "Nós ___ (estar) bem.",
+          "correct": "estamos",
+          "hint": "1-е мн.ч.",
+          "distractors": [
+            "estou",
+            "está",
+            "estão"
+          ]
+        },
+        {
+          "type": "fill_blank",
+          "template": "Vocês ___ (estar) ocupados.",
+          "correct": "estão",
+          "hint": "Форма vocês",
+          "distractors": [
+            "estamos",
+            "está",
+            "estou"
+          ]
+        },
+        {
+          "type": "multiple_choice",
+          "template": "Ela ___ em Portugal agora.",
+          "correct": "está",
+          "hint": "Местоположение сейчас",
+          "distractors": [
+            "é",
+            "estamos",
+            "estou"
+          ]
+        },
+        {
+          "type": "fill_blank",
+          "template": "Eles ___ (estar) contentes.",
+          "correct": "estão",
+          "hint": "Временное чувство",
+          "distractors": [
+            "está",
+            "estamos",
+            "estou"
+          ]
+        },
+        {
+          "type": "fill_blank",
+          "template": "Eu ___ (estar) com fome.",
+          "correct": "estou",
+          "hint": "Временное состояние",
+          "distractors": [
+            "está",
+            "estamos",
+            "estão"
+          ]
+        },
+        {
+          "type": "multiple_choice",
+          "template": "Estamos ___ casa.",
+          "correct": "em",
+          "hint": "estar + в",
+          "distractors": [
+            "a",
+            "de",
+            "no"
+          ]
+        },
+        {
+          "type": "fill_blank",
+          "template": "O bebé ___ (estar) a dormir.",
+          "correct": "está",
+          "hint": "Временное действие",
+          "distractors": [
+            "estou",
+            "estamos",
+            "estão"
+          ]
+        },
+        {
+          "type": "fill_blank",
+          "template": "Tu ___ (estar) triste hoje?",
+          "correct": "estás",
+          "hint": "Временное чувство",
+          "distractors": [
+            "estou",
+            "está",
+            "estamos"
+          ]
+        },
+        {
+          "type": "multiple_choice",
+          "template": "Como ___ vocês hoje?",
+          "correct": "estão",
+          "hint": "Самочувствие",
+          "distractors": [
+            "são",
+            "somos",
+            "é"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "g33",
+      "unit": "a1",
+      "title": "Ser vs Estar",
+      "explanation_ru": "Ser — постоянные характеристики (профессия, национальность, материал): Eu sou professor (всегда). Estar — временные состояния, местоположение, самочувствие: Estou doente (сейчас). Формы ser: sou, és, é, somos, são. Формы estar: estou, estás, está, estamos, estão.",
+      "examples": [
+        {
+          "pt": "Eu sou casado.",
+          "ru": "Я женат (постоянно)."
+        },
+        {
+          "pt": "Eu estou casado agora.",
+          "ru": "Я сейчас занят (временное состояние)."
+        },
+        {
+          "pt": "Lisboa é grande.",
+          "ru": "Лиссабон большой (всегда)."
+        },
+        {
+          "pt": "Lisboa está cheia de turistas.",
+          "ru": "Лиссабон полон туристов (сейчас)."
+        }
+      ],
+      "templates": [
+        {
+          "type": "multiple_choice",
+          "template": "Профессия — используем:",
+          "correct": "ser",
+          "hint": "Постоянно",
+          "distractors": [
+            "estar"
+          ]
+        },
+        {
+          "type": "fill_blank",
+          "template": "Eu ___ (ser) português.",
+          "correct": "sou",
+          "hint": "Национальность — ser",
+          "distractors": [
+            "estou"
+          ]
+        },
+        {
+          "type": "fill_blank",
+          "template": "Agora eu ___ (estar) cansado.",
+          "correct": "estou",
+          "hint": "Временное состояние",
+          "distractors": [
+            "sou"
+          ]
+        },
+        {
+          "type": "multiple_choice",
+          "template": "O tempo ___ bom hoje. (погода сейчас)",
+          "correct": "está",
+          "hint": "Временное",
+          "distractors": [
+            "é"
+          ]
+        },
+        {
+          "type": "fill_blank",
+          "template": "A casa ___ (ser) de madeira.",
+          "correct": "é",
+          "hint": "Материал — ser",
+          "distractors": [
+            "está"
+          ]
+        },
+        {
+          "type": "multiple_choice",
+          "template": "Ele ___ muito simpático. (характер)",
+          "correct": "é",
+          "hint": "Постоянное качество",
+          "distractors": [
+            "está"
+          ]
+        },
+        {
+          "type": "fill_blank",
+          "template": "Nós ___ (estar) em Portugal.",
+          "correct": "estamos",
+          "hint": "Местоположение сейчас",
+          "distractors": [
+            "somos"
+          ]
+        },
+        {
+          "type": "fill_blank",
+          "template": "Vocês ___ (ser) da mesma família?",
+          "correct": "são",
+          "hint": "Происхождение",
+          "distractors": [
+            "estão"
+          ]
+        },
+        {
+          "type": "multiple_choice",
+          "template": "Como ___ você hoje?",
+          "correct": "está",
+          "hint": "Самочувствие",
+          "distractors": [
+            "é"
+          ]
+        },
+        {
+          "type": "fill_blank",
+          "template": "O médico ___ (ser) muito bom.",
+          "correct": "é",
+          "hint": "Постоянная характеристика",
+          "distractors": [
+            "está"
+          ]
+        },
+        {
+          "type": "fill_blank",
+          "template": "A comida ___ (estar) quente.",
+          "correct": "está",
+          "hint": "Временное состояние",
+          "distractors": [
+            "é"
+          ]
+        },
+        {
+          "type": "multiple_choice",
+          "template": "Eu ___ estudante. (всегда)",
+          "correct": "sou",
+          "hint": "Профессия/роль",
+          "distractors": [
+            "estou"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "g34",
+      "unit": "a1",
+      "title": "Часы и время суток",
+      "explanation_ru": "Время: É uma hora (1:00), São duas/três... horas (2:00 и далее). Половина: e meia. Четверть: e um quarto / e três quartos. Утро — da manhã, день — da tarde, вечер/ночь — da noite. Вопрос: Que horas são?",
+      "examples": [
+        {
+          "pt": "São sete horas da manhã.",
+          "ru": "Семь часов утра."
+        },
+        {
+          "pt": "É meio-dia e meia.",
+          "ru": "Половина первого дня."
+        },
+        {
+          "pt": "São dez da noite.",
+          "ru": "Десять вечера."
+        }
+      ],
+      "templates": [
+        {
+          "type": "fill_blank",
+          "template": "São ________ horas.",
+          "correct": "duas",
+          "hint": "2:00",
+          "distractors": [
+            "uma",
+            "três",
+            "meia"
+          ]
+        },
+        {
+          "type": "multiple_choice",
+          "template": "1:00 — это:",
+          "correct": "É uma hora",
+          "hint": "Особая форма для 1",
+          "distractors": [
+            "São uma hora",
+            "É uma horas"
+          ]
+        },
+        {
+          "type": "fill_blank",
+          "template": "São sete e ________.",
+          "correct": "meia",
+          "hint": "7:30",
+          "distractors": [
+            "quarto",
+            "três",
+            "da manhã"
+          ]
+        },
+        {
+          "type": "fill_blank",
+          "template": "Às oito ________ manhã.",
+          "correct": "da",
+          "hint": "Утро",
+          "distractors": [
+            "de",
+            "da",
+            "no"
+          ]
+        },
+        {
+          "type": "multiple_choice",
+          "template": "9:15 — это:",
+          "correct": "São nove e um quarto",
+          "hint": "Четверть",
+          "distractors": [
+            "São nove e meia",
+            "É nove horas"
+          ]
+        },
+        {
+          "type": "fill_blank",
+          "template": "São onze ________ noite.",
+          "correct": "da",
+          "hint": "Вечер",
+          "distractors": [
+            "da",
+            "de",
+            "a"
+          ]
+        },
+        {
+          "type": "multiple_choice",
+          "template": "12:00 день — это:",
+          "correct": "É meio-dia",
+          "hint": "Полдень",
+          "distractors": [
+            "São doze horas",
+            "É uma hora"
+          ]
+        },
+        {
+          "type": "fill_blank",
+          "template": "Falta um ________ para as dez.",
+          "correct": "quarto",
+          "hint": "9:45",
+          "distractors": [
+            "meia",
+            "hora",
+            "três"
+          ]
+        },
+        {
+          "type": "multiple_choice",
+          "template": "Как спросить время?",
+          "correct": "Que horas são?",
+          "hint": "Стандартный вопрос",
+          "distractors": [
+            "Que hora é?",
+            "São horas?"
+          ]
+        },
+        {
+          "type": "fill_blank",
+          "template": "São três ________ tarde.",
+          "correct": "da",
+          "hint": "День",
+          "distractors": [
+            "da",
+            "de",
+            "no"
+          ]
+        },
+        {
+          "type": "fill_blank",
+          "template": "Acordo às sete e ________.",
+          "correct": "meia",
+          "hint": "7:30",
+          "distractors": [
+            "quarto",
+            "uma",
+            "da manhã"
+          ]
+        },
+        {
+          "type": "multiple_choice",
+          "template": "00:00 ночь — это:",
+          "correct": "É meia-noite",
+          "hint": "Полночь",
+          "distractors": [
+            "São doze da noite",
+            "É uma hora"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "g35",
+      "unit": "a1",
+      "title": "Дни недели",
+      "explanation_ru": "Дни недели: segunda-feira, terça-feira, quarta-feira, quinta-feira, sexta-feira, sábado, domingo. Предлоги: na segunda-feira, ao sábado (для субботы и воскресенья часто ao). Вопрос: Que dia é hoje?",
+      "examples": [
+        {
+          "pt": "Hoje é segunda-feira.",
+          "ru": "Сегодня понедельник."
+        },
+        {
+          "pt": "Na quarta-feira estudo português.",
+          "ru": "В среду я учу португальский."
+        },
+        {
+          "pt": "Ao domingo descanso.",
+          "ru": "В воскресенье я отдыхаю."
+        }
+      ],
+      "templates": [
+        {
+          "type": "multiple_choice",
+          "template": "Первый день недели в Португалии:",
+          "correct": "segunda-feira",
+          "hint": "Понедельник",
+          "distractors": [
+            "domingo",
+            "sábado"
+          ]
+        },
+        {
+          "type": "fill_blank",
+          "template": "Hoje é ________-feira.",
+          "correct": "quarta",
+          "hint": "Среда",
+          "distractors": [
+            "segunda",
+            "sexta",
+            "terça"
+          ]
+        },
+        {
+          "type": "fill_blank",
+          "template": "Ao ________ descanso.",
+          "correct": "sábado",
+          "hint": "Суббота — ao",
+          "distractors": [
+            "domingo",
+            "segunda",
+            "sexta"
+          ]
+        },
+        {
+          "type": "multiple_choice",
+          "template": "Последний день недели:",
+          "correct": "domingo",
+          "hint": "Воскресенье",
+          "distractors": [
+            "sábado",
+            "segunda-feira"
+          ]
+        },
+        {
+          "type": "fill_blank",
+          "template": "Na ________-feira vou ao médico.",
+          "correct": "terça",
+          "hint": "Вторник",
+          "distractors": [
+            "quinta",
+            "quarta",
+            "sexta"
+          ]
+        },
+        {
+          "type": "fill_blank",
+          "template": "________ é dia de trabalho.",
+          "correct": "Sexta-feira",
+          "hint": "Пятница",
+          "distractors": [
+            "Sábado",
+            "Domingo",
+            "Segunda-feira"
+          ]
+        },
+        {
+          "type": "multiple_choice",
+          "template": "Предлог перед sábado:",
+          "correct": "ao",
+          "hint": "Особый случай",
+          "distractors": [
+            "na",
+            "em",
+            "de"
+          ]
+        },
+        {
+          "type": "fill_blank",
+          "template": "Que dia é ________?",
+          "correct": "hoje",
+          "hint": "Вопрос",
+          "distractors": [
+            "amanhã",
+            "ontem",
+            "agora"
+          ]
+        },
+        {
+          "type": "multiple_choice",
+          "template": "День перед sexta-feira:",
+          "correct": "quinta-feira",
+          "hint": "Четверг",
+          "distractors": [
+            "quarta-feira",
+            "sábado"
+          ]
+        },
+        {
+          "type": "fill_blank",
+          "template": "Na sexta-feira é o meu dia ________.",
+          "correct": "favorito",
+          "hint": "Контекст",
+          "distractors": [
+            "trabalho",
+            "descanso",
+            "estudo"
+          ]
+        },
+        {
+          "type": "fill_blank",
+          "template": "Ao ________ reunimo-nos em família.",
+          "correct": "domingo",
+          "hint": "Воскресенье",
+          "distractors": [
+            "sábado",
+            "segunda",
+            "terça"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "g36",
+      "unit": "a1",
+      "title": "Артикли o/a/os/as",
+      "explanation_ru": "Определённые артикли: o (м.р. ед.ч.), a (ж.р. ед.ч.), os (м.р. мн.ч.), as (ж.р. мн.ч.). Сливаются с предлогами: de + o = do, em + o = no, a + a = à и т.д. Примеры: o pai, a mãe, os filhos, as filhas.",
+      "examples": [
+        {
+          "pt": "O pai trabalha.",
+          "ru": "Папа работает."
+        },
+        {
+          "pt": "A mãe cozinha.",
+          "ru": "Мама готовит."
+        },
+        {
+          "pt": "Os irmãos jogam.",
+          "ru": "Братья играют."
+        }
+      ],
+      "templates": [
+        {
+          "type": "fill_blank",
+          "template": "___ pai",
+          "correct": "O",
+          "hint": "м.р. ед.ч.",
+          "distractors": [
+            "A",
+            "Os",
+            "As"
+          ]
+        },
+        {
+          "type": "fill_blank",
+          "template": "___ mãe",
+          "correct": "A",
+          "hint": "ж.р. ед.ч.",
+          "distractors": [
+            "O",
+            "Os",
+            "As"
+          ]
+        },
+        {
+          "type": "fill_blank",
+          "template": "___ filhos",
+          "correct": "Os",
+          "hint": "м.р. мн.ч.",
+          "distractors": [
+            "O",
+            "A",
+            "As"
+          ]
+        },
+        {
+          "type": "fill_blank",
+          "template": "___ filhas",
+          "correct": "As",
+          "hint": "ж.р. мн.ч.",
+          "distractors": [
+            "Os",
+            "O",
+            "A"
+          ]
+        },
+        {
+          "type": "multiple_choice",
+          "template": "___ casa de banho",
+          "correct": "a",
+          "hint": "ж.р.",
+          "distractors": [
+            "o",
+            "os",
+            "as"
+          ]
+        },
+        {
+          "type": "fill_blank",
+          "template": "Vou ___ banco.",
+          "correct": "ao",
+          "hint": "a + o",
+          "distractors": [
+            "no",
+            "do",
+            "à"
+          ]
+        },
+        {
+          "type": "fill_blank",
+          "template": "Moro ___ casa grande.",
+          "correct": "numa",
+          "hint": "em + uma",
+          "distractors": [
+            "no",
+            "na",
+            "num"
+          ]
+        },
+        {
+          "type": "multiple_choice",
+          "template": "___ olhos",
+          "correct": "os",
+          "hint": "м.р. мн.ч.",
+          "distractors": [
+            "as",
+            "o",
+            "a"
+          ]
+        },
+        {
+          "type": "fill_blank",
+          "template": "Compro pão ___ padaria.",
+          "correct": "na",
+          "hint": "em + a",
+          "distractors": [
+            "no",
+            "ao",
+            "à"
+          ]
+        },
+        {
+          "type": "fill_blank",
+          "template": "O livro é ___ Maria.",
+          "correct": "da",
+          "hint": "de + a",
+          "distractors": [
+            "do",
+            "dos",
+            "das"
+          ]
+        },
+        {
+          "type": "multiple_choice",
+          "template": "___ pernas",
+          "correct": "as",
+          "hint": "ж.р. мн.ч.",
+          "distractors": [
+            "os",
+            "o",
+            "a"
+          ]
+        },
+        {
+          "type": "fill_blank",
+          "template": "Vivo ___ Portugal.",
+          "correct": "em",
+          "hint": "Без артикля перед страной",
+          "distractors": [
+            "no",
+            "na",
+            "ao"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "g37",
+      "unit": "a1",
+      "title": "Выражение боли и самочувствия",
+      "explanation_ru": "Конструкция doer: Dói-me a cabeça (у меня болит голова, досл. голова болит мне). Глагол estar: Estou doente, Estou bem. Также: Tenho dor de cabeça, Tenho fome.",
+      "examples": [
+        {
+          "pt": "Dói-me a cabeça.",
+          "ru": "У меня болит голова."
+        },
+        {
+          "pt": "Tenho dor de dentes.",
+          "ru": "У меня болят зубы."
+        },
+        {
+          "pt": "Estou com gripe.",
+          "ru": "У меня грипп."
+        }
+      ],
+      "templates": [
+        {
+          "type": "fill_blank",
+          "template": "Dói-me ___ cabeça.",
+          "correct": "a",
+          "hint": "Артикль",
+          "distractors": [
+            "o",
+            "as",
+            "os"
+          ]
+        },
+        {
+          "type": "multiple_choice",
+          "template": "У меня болит горло:",
+          "correct": "Dói-me a garganta",
+          "hint": "Стандартная конструкция",
+          "distractors": [
+            "Tenho garganta",
+            "Estou garganta"
+          ]
+        },
+        {
+          "type": "fill_blank",
+          "template": "___ dor de estômago.",
+          "correct": "Tenho",
+          "hint": "Конструкция с ter",
+          "distractors": [
+            "Dói-me",
+            "Estou",
+            "Sou"
+          ]
+        },
+        {
+          "type": "fill_blank",
+          "template": "Estou ___ fome.",
+          "correct": "com",
+          "hint": "com + чувство",
+          "distractors": [
+            "de",
+            "a",
+            "em"
+          ]
+        },
+        {
+          "type": "multiple_choice",
+          "template": "Я чувствую себя хорошо:",
+          "correct": "Estou bem",
+          "hint": "Самочувствие",
+          "distractors": [
+            "Sou bem",
+            "Tenho bem"
+          ]
+        },
+        {
+          "type": "fill_blank",
+          "template": "Dói-me ___ perna.",
+          "correct": "a",
+          "hint": "ж.р.",
+          "distractors": [
+            "o",
+            "as",
+            "os"
+          ]
+        },
+        {
+          "type": "fill_blank",
+          "template": "___ com febre.",
+          "correct": "Estou",
+          "hint": "Временное состояние",
+          "distractors": [
+            "Tenho",
+            "Dói-me",
+            "Sou"
+          ]
+        },
+        {
+          "type": "multiple_choice",
+          "template": "У меня температура:",
+          "correct": "Tenho febre",
+          "hint": "ter febre",
+          "distractors": [
+            "Dói-me febre",
+            "Estou febre"
+          ]
+        },
+        {
+          "type": "fill_blank",
+          "template": "Tenho dor ___ costas.",
+          "correct": "de",
+          "hint": "dor de",
+          "distractors": [
+            "a",
+            "em",
+            "com"
+          ]
+        },
+        {
+          "type": "fill_blank",
+          "template": "Estou ___ sede.",
+          "correct": "com",
+          "hint": "Хочу пить",
+          "distractors": [
+            "de",
+            "a",
+            "tenho"
+          ]
+        },
+        {
+          "type": "multiple_choice",
+          "template": "Болит живот:",
+          "correct": "Dói-me a barriga",
+          "hint": "doer",
+          "distractors": [
+            "Tenho barriga",
+            "Estou barriga"
+          ]
+        },
+        {
+          "type": "fill_blank",
+          "template": "Não me sinto ___ hoje.",
+          "correct": "bem",
+          "hint": "Самочувствие",
+          "distractors": [
+            "doente",
+            "cansado",
+            "feliz"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "g38",
+      "unit": "a1",
+      "title": "Повседневная рутина (рефлексивные глаголы)",
+      "explanation_ru": "Рефлексивные глаголы: acordar-se (просыпаться), levantar-se (вставать), lavar-se (умываться), vestir-se (одеваться), deitar-se (ложиться). Спряжение как обычные + местоимение: Eu acordo-me, mas обычно acordar без -se в этом значении. Часто: acordo, levanto-me, lavo-me и т.д.",
+      "examples": [
+        {
+          "pt": "Acordo às sete.",
+          "ru": "Просыпаюсь в семь."
+        },
+        {
+          "pt": "Levanto-me e tomo banho.",
+          "ru": "Встаю и принимаю душ."
+        },
+        {
+          "pt": "Deito-me cedo.",
+          "ru": "Ложусь рано."
+        }
+      ],
+      "templates": [
+        {
+          "type": "fill_blank",
+          "template": "Eu acordo às sete e ________-me.",
+          "correct": "levanto",
+          "hint": "levantar-se",
+          "distractors": [
+            "acordo",
+            "deito",
+            "visto"
+          ]
+        },
+        {
+          "type": "fill_blank",
+          "template": "Depois lavo ___ cara.",
+          "correct": "a",
+          "hint": "lavar a cara",
+          "distractors": [
+            "me",
+            "o",
+            "as"
+          ]
+        },
+        {
+          "type": "multiple_choice",
+          "template": "Одеваюсь:",
+          "correct": "Visto-me",
+          "hint": "Рефлексивный",
+          "distractors": [
+            "Visto",
+            "Acordo-me",
+            "Deito-me"
+          ]
+        },
+        {
+          "type": "fill_blank",
+          "template": "À noite ________-me às onze.",
+          "correct": "deito",
+          "hint": "deitar-se",
+          "distractors": [
+            "levanto",
+            "acordo",
+            "visto"
+          ]
+        },
+        {
+          "type": "fill_blank",
+          "template": "Primeiro ________ as mãos.",
+          "correct": "lavo",
+          "hint": "lavar-se",
+          "distractors": [
+            "visto",
+            "acordo",
+            "deito"
+          ]
+        },
+        {
+          "type": "multiple_choice",
+          "template": "Просыпаюсь:",
+          "correct": "Acordo",
+          "hint": "Без -se обычно",
+          "distractors": [
+            "Acordo-me",
+            "Levanto-me"
+          ]
+        },
+        {
+          "type": "fill_blank",
+          "template": "Depois do jantar ________-me.",
+          "correct": "deito",
+          "hint": "Ложусь спать",
+          "distractors": [
+            "levanto",
+            "acordo",
+            "visto"
+          ]
+        },
+        {
+          "type": "fill_blank",
+          "template": "Todos os dias ________ rapidamente.",
+          "correct": "visto-me",
+          "hint": "vestir-se",
+          "distractors": [
+            "levanto-me",
+            "acordo",
+            "deito-me"
+          ]
+        },
+        {
+          "type": "multiple_choice",
+          "template": "Умываюсь:",
+          "correct": "Lavo-me",
+          "hint": "Рефлексивный",
+          "distractors": [
+            "Acordo-me",
+            "Deito-me",
+            "Visto-me"
+          ]
+        },
+        {
+          "type": "fill_blank",
+          "template": "Às sete horas ________.",
+          "correct": "acordo",
+          "hint": "Просыпаюсь",
+          "distractors": [
+            "levanto-me",
+            "deito-me",
+            "visto-me"
+          ]
+        },
+        {
+          "type": "fill_blank",
+          "template": "Depois do banho ________ roupa.",
+          "correct": "visto",
+          "hint": "vestir roupa",
+          "distractors": [
+            "lavo",
+            "acordo",
+            "deito"
+          ]
+        },
+        {
+          "type": "multiple_choice",
+          "template": "Ложусь спать:",
+          "correct": "Deito-me",
+          "hint": "Рефлексивный",
+          "distractors": [
+            "Acordo-me",
+            "Levanto-me",
+            "Visto-me"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "g39",
+      "unit": "a1",
+      "title": "Предлоги места и направления",
+      "explanation_ru": "Em — в (местоположение): em casa, em Portugal. A — к/в (направление): vou a casa, a Lisboa. De — из/от: venho de Ucrânia. Para — для/в (цель): vou para o trabalho.",
+      "examples": [
+        {
+          "pt": "Moro em Lisboa.",
+          "ru": "Живу в Лиссабоне."
+        },
+        {
+          "pt": "Vou para o supermercado.",
+          "ru": "Иду в супермаркет."
+        },
+        {
+          "pt": "Venho da farmácia.",
+          "ru": "Иду из аптеки."
+        }
+      ],
+      "templates": [
+        {
+          "type": "multiple_choice",
+          "template": "Живу ___ Portugal.",
+          "correct": "em",
+          "hint": "Местоположение",
+          "distractors": [
+            "a",
+            "de",
+            "para"
+          ]
+        },
+        {
+          "type": "fill_blank",
+          "template": "Vou ___ casa.",
+          "correct": "a",
+          "hint": "Направление домой",
+          "distractors": [
+            "em",
+            "de",
+            "para"
+          ]
+        },
+        {
+          "type": "fill_blank",
+          "template": "Sou ___ Brasil.",
+          "correct": "do",
+          "hint": "de + o",
+          "distractors": [
+            "ao",
+            "no",
+            "da"
+          ]
+        },
+        {
+          "type": "multiple_choice",
+          "template": "Иду ___ работу:",
+          "correct": "para o trabalho",
+          "hint": "Цель/направление",
+          "distractors": [
+            "ao trabalho",
+            "no trabalho",
+            "em trabalho"
+          ]
+        },
+        {
+          "type": "fill_blank",
+          "template": "Trabalho ___ banco.",
+          "correct": "no",
+          "hint": "em + o",
+          "distractors": [
+            "ao",
+            "para o",
+            "de"
+          ]
+        },
+        {
+          "type": "fill_blank",
+          "template": "Volto ___ casa às seis.",
+          "correct": "para",
+          "hint": "Домой",
+          "distractors": [
+            "a",
+            "em",
+            "de"
+          ]
+        },
+        {
+          "type": "multiple_choice",
+          "template": "Приезжаю ___ Украины:",
+          "correct": "da",
+          "hint": "de + a",
+          "distractors": [
+            "a",
+            "em",
+            "para"
+          ]
+        },
+        {
+          "type": "fill_blank",
+          "template": "O comboio vai ___ Porto.",
+          "correct": "para o",
+          "hint": "Направление",
+          "distractors": [
+            "ao",
+            "no",
+            "em o"
+          ]
+        },
+        {
+          "type": "fill_blank",
+          "template": "Estou ___ correios.",
+          "correct": "nos",
+          "hint": "em + os",
+          "distractors": [
+            "aos",
+            "para os",
+            "dos"
+          ]
+        },
+        {
+          "type": "multiple_choice",
+          "template": "Иду ___ аптеку:",
+          "correct": "à farmácia",
+          "hint": "a + a",
+          "distractors": [
+            "na farmácia",
+            "para farmácia"
+          ]
+        },
+        {
+          "type": "fill_blank",
+          "template": "Venho ___ hospital.",
+          "correct": "do",
+          "hint": "de + o",
+          "distractors": [
+            "ao",
+            "no",
+            "para o"
+          ]
+        },
+        {
+          "type": "fill_blank",
+          "template": "Vivo ___ Portugal há dois anos.",
+          "correct": "em",
+          "hint": "Местоположение",
+          "distractors": [
+            "a",
+            "de",
+            "para"
+          ]
+        }
+      ]
     }
   ]
 }
