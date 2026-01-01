@@ -45,10 +45,23 @@ export const useMaterialsStore = defineStore('materials', () => {
       ])
 
 
-      vocabulary.value = vocabData.vocabulary || []
-      grammar.value = grammarData.grammar || []
+      const normalizeTag = (t) => (typeof t === 'string' ? t.trim().toLowerCase() : t)
+      const normalizeUnitId = (u) => (typeof u === 'string' ? u.trim().toLowerCase() : u)
+
+      vocabulary.value = (vocabData.vocabulary || []).map(v => {
+        if (!v || !Array.isArray(v.tags)) return v
+        return { ...v, tags: v.tags.map(normalizeTag) }
+      })
+
+      grammar.value = (grammarData.grammar || []).map(g => {
+        if (!g) return g
+        return { ...g, unit: normalizeUnitId(g.unit) }
+      })
       templates.value = templatesData.templates || []
-      texts.value = textsData.texts || []
+      texts.value = (textsData.texts || []).map(t => {
+        if (!t) return t
+        return { ...t, unit: normalizeUnitId(t.unit) }
+      })
 
       loaded.value = true
     } catch (e) {
@@ -61,17 +74,20 @@ export const useMaterialsStore = defineStore('materials', () => {
 
   // Геттеры - словарь по юниту
   const getVocabularyByUnit = computed(() => (unitId) => {
-    return vocabulary.value.filter(v => v.tags.includes(unitId))
+    const uid = String(unitId || '').trim().toLowerCase()
+    return vocabulary.value.filter(v => (v.tags || []).includes(uid))
   })
 
   // Геттеры - грамматика по юниту
   const getGrammarByUnit = computed(() => (unitId) => {
-    return grammar.value.filter(g => g.unit === unitId)
+    const uid = String(unitId || '').trim().toLowerCase()
+    return grammar.value.filter(g => String(g.unit || '').trim().toLowerCase() === uid)
   })
 
   // Геттеры - тексты по юниту
   const getTextsByUnit = computed(() => (unitId) => {
-    return texts.value.filter(t => t.unit === unitId)
+    const uid = String(unitId || '').trim().toLowerCase()
+    return texts.value.filter(t => String(t.unit || '').trim().toLowerCase() === uid)
   })
 
   // Получить слово по ID
@@ -133,7 +149,17 @@ export const useMaterialsStore = defineStore('materials', () => {
       }
     })
     
-    return Array.from(unitMap.values()).sort((a, b) => a.id.localeCompare(b.id))
+    const toUnitNumber = (unitId) => {
+      const m = String(unitId || '').match(/unit(\d+)/i)
+      return m ? Number(m[1]) : Number.POSITIVE_INFINITY
+    }
+
+    return Array.from(unitMap.values()).sort((a, b) => {
+      const an = toUnitNumber(a.id)
+      const bn = toUnitNumber(b.id)
+      if (an !== bn) return an - bn
+      return String(a.id).localeCompare(String(b.id))
+    })
   })
 
   /**

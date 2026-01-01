@@ -96,7 +96,7 @@ import { useProgressStore } from '@/stores/progressStore'
 
 // Роутер нужен для корректной SPA-навигации после завершения спринта
 const router = useRouter()
-import { generateSprintExercises } from '@/utils/exerciseGenerator'
+import { generateSprintExercises, generateVocabularyTagSprintExercises } from '@/utils/exerciseGenerator'
 import { generateTextSprintExercises } from '@/utils/exerciseGenerator'
 import { calculateSprintStats, formatSprintResult, analyzeExerciseTypes, generateSprintFeedback } from '@/utils/sprintLogic'
 import { planSprint, identifyErrorProneItems, getStudyRecommendation } from '@/utils/sprintPlanning'
@@ -152,6 +152,7 @@ onMounted(async () => {
 
     const route = useRoute()
     const forcedTextId = route.query.textId || route.params.textId
+    const forcedVocabTag = route.query.vocabTag || route.params.vocabTag
 
     // Если запрошен повтор спринта через route param replayId
     const replayId = route.params.replayId || route.query.replayId
@@ -404,6 +405,53 @@ onMounted(async () => {
       return
     }
     // ===== КОНЕЦ режима текстового спринта =====
+
+    // ===== НОВОЕ: режим словарного спринта по теме (vocabTag) =====
+    if (forcedVocabTag) {
+      console.log('🗣️ [SprintView] Режим словарного спринта. vocabTag:', forcedVocabTag)
+
+      const unitId = progressStore.currentUnit?.value ?? progressStore.currentUnit
+      const unitVocab = (materialsStore.vocabulary || []).filter(v => {
+        if (!v || !Array.isArray(v.tags)) return false
+        return v.tags.includes(unitId) && v.tags.includes(forcedVocabTag)
+      })
+
+      if (unitVocab.length === 0) {
+        error.value = `Не найдены слова для темы "${String(forcedVocabTag)}" в ${String(unitId)}`
+        console.error('❌ [SprintView] vocab sprint: пустой набор слов', { unitId, forcedVocabTag })
+        return
+      }
+
+      const lines = unitVocab
+        .slice(0, 40)
+        .map(v => `- ${v.word} — ${v.translation_ru}`)
+        .join('\n')
+      const more = unitVocab.length > 40 ? `\n\n(и ещё ${unitVocab.length - 40}…)` : ''
+
+      currentTheory.value = {
+        title: `Слова: ${String(forcedVocabTag)}`,
+        explanation_ru: `Тема: ${String(forcedVocabTag)}\n\nСлова:\n${lines}${more}`,
+        examples: null,
+        vocabTag: String(forcedVocabTag),
+        unit: String(unitId)
+      }
+      showingTheory.value = true
+
+      exercises.value = generateVocabularyTagSprintExercises(unitVocab, String(forcedVocabTag), 10)
+      if (!Array.isArray(exercises.value) || exercises.value.length === 0) {
+        error.value = 'Не удалось сгенерировать упражнения для словарного спринта'
+        console.error('❌ [SprintView] vocab sprint: генератор вернул пусто')
+        return
+      }
+
+      // Запускаем таймер
+      timerInterval.value = setInterval(() => {
+        elapsedSeconds.value++
+      }, 1000)
+      console.log('⏱️ [SprintView] Таймер запущен (vocab sprint)')
+      return
+    }
+    // ===== КОНЕЦ режима словарного спринта =====
 
     // ===== НОВОЕ: Планирование спринта (7.2) =====
     console.log('📋 [SprintView] Планирование спринта...')
@@ -712,7 +760,9 @@ const handleAnswer = async (result) => {
       grammarTitle: currentExerciseData.grammarTitle || null,
       // Мета для идентификации текста (text sprint)
       textId: currentExerciseData.textId || null,
-      textTitle: currentExerciseData.textTitle || null
+      textTitle: currentExerciseData.textTitle || null,
+      // Мета для идентификации словарного спринта (vocab sprint)
+      vocabTag: currentExerciseData.vocabTag || null
     }
   })
 

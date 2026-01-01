@@ -7,7 +7,7 @@
 
     <div v-if="loading" class="loading">Загрузка...</div>
 
-    <div v-else-if="grammars.length === 0 && texts.length === 0" class="empty">Материалы не найдены для этого юнита</div>
+    <div v-else-if="grammars.length === 0 && vocabTopics.length === 0 && texts.length === 0" class="empty">Материалы не найдены для этого юнита</div>
 
     <div v-else>
       <div v-if="grammars.length > 0" class="sprints-grid">
@@ -24,6 +24,26 @@
           <div class="card-actions">
             <button @click="startGrammarSprint(g.id)" class="btn-start">▶️ Начать спринт</button>
             <button @click="viewGrammar(g.id)" class="btn-view">👀 Просмотр</button>
+          </div>
+        </div>
+      </div>
+
+      <div v-if="vocabTopics.length > 0" class="texts-section">
+        <h3 class="section-title">🗣️ Слова</h3>
+        <div class="sprints-grid">
+          <div v-for="topic in vocabTopics" :key="topic.tag" class="grammar-card">
+            <div class="card-header">
+              <h3 class="grammar-title">{{ topic.tag }}</h3>
+              <div class="meta">
+                <span>📦 {{ topic.count }}</span>
+                <span v-if="statsByVocabTag[topic.tag]">⏱️ {{ statsByVocabTag[topic.tag].timesPracticed }}×</span>
+                <span v-if="statsByVocabTag[topic.tag]">📊 {{ statsByVocabTag[topic.tag].lastAccuracy || '—' }}%</span>
+              </div>
+            </div>
+
+            <div class="card-actions">
+              <button @click="startVocabSprint(topic.tag)" class="btn-start">▶️ Начать спринт</button>
+            </div>
           </div>
         </div>
       </div>
@@ -73,9 +93,11 @@ const unitId = computed(() => {
 
 const loading = ref(true)
 const grammars = ref([])
+const vocabTopics = ref([])
 const texts = ref([])
 const unitInfo = ref(null)
 const statsByGrammar = ref({})
+const statsByVocabTag = ref({})
 const statsByText = ref({})
 
 const load = async () => {
@@ -101,6 +123,36 @@ const load = async () => {
     }
 
     grammars.value = list
+
+    // vocabulary topics for unit
+    let unitVocab = []
+    try {
+      const getter = materialsStore.getVocabularyByUnit
+      if (getter && typeof getter.value === 'function') {
+        unitVocab = getter.value(unit) || []
+      } else {
+        unitVocab = (materialsStore.vocabulary || []).filter(v => v.tags?.includes(unit))
+      }
+    } catch (e) {
+      console.warn('[UnitSprints] Ошибка при получении словаря через getter:', e)
+      unitVocab = (materialsStore.vocabulary || []).filter(v => v.tags?.includes(unit))
+    }
+
+    const topicCounts = new Map()
+    for (const v of unitVocab) {
+      const tags = Array.isArray(v?.tags) ? v.tags : []
+      for (const tag of tags) {
+        if (!tag) continue
+        if (tag === unit) continue
+        // не считаем системные tags формата unitN как темы
+        if (/^unit\d+$/i.test(tag)) continue
+        topicCounts.set(tag, (topicCounts.get(tag) || 0) + 1)
+      }
+    }
+
+    vocabTopics.value = Array.from(topicCounts.entries())
+      .map(([tag, count]) => ({ tag, count }))
+      .sort((a, b) => String(a.tag).localeCompare(String(b.tag)))
     // texts for unit
     let textList = []
     try {
@@ -154,6 +206,23 @@ const load = async () => {
     }
 
     statsByGrammar.value = map
+
+    // stats for vocab-tag sprints
+    const vocabMap = {}
+    for (const topic of vocabTopics.value) {
+      const related = history.filter(s =>
+        s.exerciseResults && s.exerciseResults.some(er => er.snapshot && er.snapshot.vocabTag === topic.tag)
+      )
+
+      const timesPracticed = related.length
+      const lastAccuracy = related.length > 0 && related[related.length - 1]?.stats
+        ? related[related.length - 1].stats.accuracy
+        : null
+
+      vocabMap[topic.tag] = { timesPracticed, lastAccuracy }
+    }
+
+    statsByVocabTag.value = vocabMap
 
     // stats for text sprints
     const textMap = {}
@@ -220,6 +289,15 @@ const startTextSprint = async (textId) => {
     await router.push({ name: 'Sprint', query: { textId } })
   } catch (e) {
     console.error('[UnitSprints] Navigation error (startTextSprint):', e)
+  }
+}
+
+const startVocabSprint = async (tag) => {
+  await progressStore.setCurrentUnit(unitId.value)
+  try {
+    await router.push({ name: 'Sprint', query: { vocabTag: tag } })
+  } catch (e) {
+    console.error('[UnitSprints] Navigation error (startVocabSprint):', e)
   }
 }
 

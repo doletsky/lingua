@@ -23,23 +23,23 @@
         <div
           v-for="(unit, index) in units"
           :key="index"
-          @click="selectUnit(index + 1)"
+          @click="selectUnit(unit.unitId)"
           :class="['unit-card', {
-            'unit-active': currentUnit === `unit${index + 1}`,
-            'unit-locked': !isUnitUnlocked(index + 1),
-            'unit-completed': isUnitCompleted(index + 1)
+            'unit-active': currentUnit === unit.unitId,
+            'unit-locked': !isUnitUnlocked(unit.unitId),
+            'unit-completed': isUnitCompleted(unit.unitId)
           }]"
         >
           <!-- Иконка статуса -->
           <div class="unit-status">
-            <span v-if="isUnitCompleted(index + 1)" class="status-badge">✅</span>
-            <span v-else-if="currentUnit === index + 1" class="status-badge active">📍</span>
-            <span v-else-if="!isUnitUnlocked(index + 1)" class="status-badge">🔒</span>
+            <span v-if="isUnitCompleted(unit.unitId)" class="status-badge">✅</span>
+            <span v-else-if="currentUnit === unit.unitId" class="status-badge active">📍</span>
+            <span v-else-if="!isUnitUnlocked(unit.unitId)" class="status-badge">🔒</span>
           </div>
 
           <!-- Номер и название юнита -->
           <div class="unit-info">
-            <h3 class="unit-title">Юнит {{ index + 1 }}</h3>
+            <h3 class="unit-title">Юнит {{ unit.number }}</h3>
             <p class="unit-name">{{ unit.name }}</p>
           </div>
 
@@ -65,10 +65,6 @@
             </span>
           </div>
 
-          <!-- Рекомендация для следующего -->
-          <div v-if="shouldRecommend(index + 1)" class="recommendation">
-            ⭐ Рекомендуется
-          </div>
         </div>
       </div>
 
@@ -160,27 +156,42 @@ const fetchUnitData = async () => {
   }
 
   // Сконструируем юниты локально аналогично логике стора
+  const normalizeUnitId = (id) => String(id || '').trim().toLowerCase()
+  const toUnitNumber = (unitId) => {
+    const m = String(unitId || '').match(/unit(\d+)/i)
+    return m ? Number(m[1]) : Number.POSITIVE_INFINITY
+  }
+
   const unitMap = new Map()
   grammarArr.forEach(item => {
-    if (!unitMap.has(item.unit)) {
-      unitMap.set(item.unit, { id: item.unit, grammarCount: 0, vocabCount: 0, textCount: 0 })
+    const unitId = normalizeUnitId(item.unit)
+    if (!unitId) return
+    if (!unitMap.has(unitId)) {
+      unitMap.set(unitId, { id: unitId, grammarCount: 0, vocabCount: 0, textCount: 0 })
     }
-    unitMap.get(item.unit).grammarCount++
+    unitMap.get(unitId).grammarCount++
   })
   vocabularyArr.forEach(item => {
     item.tags?.forEach(tag => {
-      if (!/^unit\d+$/i.test(tag)) return // ignore non-unit tags
-      if (!unitMap.has(tag)) {
-        unitMap.set(tag, { id: tag, grammarCount: 0, vocabCount: 0, textCount: 0 })
+      const t = normalizeUnitId(tag)
+      if (!/^unit\d+$/i.test(t)) return // ignore non-unit tags
+      if (!unitMap.has(t)) {
+        unitMap.set(t, { id: t, grammarCount: 0, vocabCount: 0, textCount: 0 })
       }
-      unitMap.get(tag).vocabCount++
+      unitMap.get(t).vocabCount++
     })
   })
   const textsArr = unwrap(materialsStore?.texts) || []
   textsArr.forEach(item => {
-    if (unitMap.has(item.unit)) unitMap.get(item.unit).textCount++
+    const unitId = normalizeUnitId(item.unit)
+    if (unitMap.has(unitId)) unitMap.get(unitId).textCount++
   })
-  const units = Array.from(unitMap.values()).sort((a, b) => String(a.id).localeCompare(String(b.id)))
+  const units = Array.from(unitMap.values()).sort((a, b) => {
+    const an = toUnitNumber(a.id)
+    const bn = toUnitNumber(b.id)
+    if (an !== bn) return an - bn
+    return String(a.id).localeCompare(String(b.id))
+  })
   if (!units || units.length === 0) {
     throw new Error('В материалах не найдены юниты')
   }
@@ -188,22 +199,29 @@ const fetchUnitData = async () => {
   // Асинхронное получение данных о юнитах
   const unitPromises = units.map(async (unit, index) => {
     try {
+      const unitId = normalizeUnitId(unit.id)
+
+      // Не показываем "фантомные" юниты без корректного формата unitN
+      if (!/^unit\d+$/i.test(unitId)) {
+        return null
+      }
+
       // Получаем статистику по юниту (через геттеры стора)
       const vocabularyItems = (getVocabularyByUnit && getVocabularyByUnit.value)
-        ? getVocabularyByUnit.value(unit.id)
-        : (materialsStore?.vocabulary?.value || []).filter(v => v.tags?.includes(unit.id))
+        ? getVocabularyByUnit.value(unitId)
+        : (materialsStore?.vocabulary?.value || []).filter(v => (v.tags || []).map(t => String(t || '').trim().toLowerCase()).includes(unitId))
       const grammarItems = (getGrammarByUnit && getGrammarByUnit.value)
-        ? getGrammarByUnit.value(unit.id)
-        : (materialsStore?.grammar?.value || []).filter(g => g.unit === unit.id)
+        ? getGrammarByUnit.value(unitId)
+        : (materialsStore?.grammar?.value || []).filter(g => normalizeUnitId(g.unit) === unitId)
       const allItems = [...vocabularyItems, ...grammarItems]
 
       let unitStats = { total: 0, learned: 0, percentage: 0 }
       if (progressStore.getUnitStats) {
         let stats = null
         if (typeof progressStore.getUnitStats === 'function') {
-          stats = progressStore.getUnitStats(unit.id, allItems)
+          stats = progressStore.getUnitStats(unitId, allItems)
         } else if (progressStore.getUnitStats.value) {
-          stats = progressStore.getUnitStats.value(unit.id, allItems)
+          stats = progressStore.getUnitStats.value(unitId, allItems)
         }
         if (stats) unitStats = stats
       }
@@ -211,7 +229,7 @@ const fetchUnitData = async () => {
       // Получаем последнюю точность из истории спринтов
       let sprintHistory = []
       if (progressStore.getSprintHistoryByUnit) {
-        const history = await progressStore.getSprintHistoryByUnit(unit.id)
+        const history = await progressStore.getSprintHistoryByUnit(unitId)
         if (Array.isArray(history)) sprintHistory = history
       }
       const lastSprintAccuracy = sprintHistory.length > 0 && sprintHistory[sprintHistory.length - 1]?.stats
@@ -220,8 +238,15 @@ const fetchUnitData = async () => {
 
       return {
         id: index + 1,
-        unitId: unit.id,
-        name: `Юнит ${index + 1}`,
+        unitId,
+        number: (() => {
+          const m = String(unitId || '').match(/unit(\d+)/i)
+          return m ? Number(m[1]) : null
+        })(),
+        name: (() => {
+          const m = String(unitId || '').match(/unit(\d+)/i)
+          return m ? `Юнит ${Number(m[1])}` : unitId
+        })(),
         totalItems: unitStats.total,
         learnedItems: unitStats.learned,
         sprintsCompleted: sprintHistory.length,
@@ -231,12 +256,22 @@ const fetchUnitData = async () => {
     } catch (error) {
       console.error(`Ошибка при загрузке данных юнита ${unit.id}:`, error)
       // Возвращаем базовые данные даже при ошибке
+      const unitId = normalizeUnitId(unit.id)
+      if (!/^unit\d+$/i.test(unitId)) {
+        return null
+      }
       return {
         id: index + 1,
-        unitId: unit.id,
-        name: `Юнит ${index + 1}`,
-        totalItems: (vocabulary.filter(v => v.tags?.includes(unit.id)).length) + 
-                    (grammar.filter(g => g.unit === unit.id).length),
+        unitId,
+        number: (() => {
+          const m = String(unitId || '').match(/unit(\d+)/i)
+          return m ? Number(m[1]) : null
+        })(),
+        name: (() => {
+          const m = String(unitId || '').match(/unit(\d+)/i)
+          return m ? `Юнит ${Number(m[1])}` : unitId
+        })(),
+        totalItems: 0,
         learnedItems: 0,
         sprintsCompleted: 0,
         lastAccuracy: null,
@@ -245,7 +280,8 @@ const fetchUnitData = async () => {
     }
   })
 
-  return Promise.all(unitPromises)
+  const resolved = await Promise.all(unitPromises)
+  return resolved.filter(Boolean)
 }
 
 // Метод повторной загрузки
@@ -276,10 +312,16 @@ const retryLoading = async () => {
 // Генерируем список юнитов с использованием progressStore
 const units = computed(() => {
   // Проверяем, что данные загружены
-  if (isLoading.value) {
-    return []
-  }
-  return unitData.value.sort((a, b) => a.id - b.id)
+  if (!unitData.value) return []
+  return unitData.value
+    .filter(u => u && /^unit\d+$/i.test(String(u.unitId || '')))
+    .slice()
+    .sort((a, b) => {
+      const an = typeof a.number === 'number' ? a.number : Number.POSITIVE_INFINITY
+      const bn = typeof b.number === 'number' ? b.number : Number.POSITIVE_INFINITY
+      if (an !== bn) return an - bn
+      return String(a.unitId).localeCompare(String(b.unitId))
+    })
 })
 
 // Инициализация данных при монтировании компонента
@@ -292,32 +334,26 @@ const completedUnits = computed(() => {
 
 const averageProgress = computed(() => {
   const sum = units.value.reduce((acc, u) => acc + u.percentage, 0)
-  return Math.round(sum / units.value.length)
+  return units.value.length > 0 ? Math.round(sum / units.value.length) : 0
 })
 
 // Методы
 const isUnitUnlocked = (unitId) => {
-  // Юнит разблокирован если это первый юнит или если предыдущий завершен на 80%+
-  // Также учитываем ситуации, когда пользователь прошёл спринты предыдущего юнита
-  // (например, когда элементы были усилены через SRS и процент ещё не дотянул до 80).
-  if (unitId === 1) return true
-  const prevUnit = units.value[unitId - 2]
+  // Требование: следующий по списку юнит открывается после
+  // завершения 1-го спринта предыдущего юнита.
+  const m = String(unitId || '').match(/unit(\d+)/i)
+  const n = m ? Number(m[1]) : null
+  if (!n || n <= 1) return true
+
+  const prevId = `unit${n - 1}`
+  const prevUnit = (units.value || []).find(u => u.unitId === prevId)
   if (!prevUnit) return false
-  // Разблокировать если процент >= 80, или если предыдущий юнит завершён на 100%,
-  // или если для него есть хотя бы один пройденный спринт.
-  return prevUnit.percentage >= 80 || prevUnit.percentage === 100 || (prevUnit.sprintsCompleted && prevUnit.sprintsCompleted > 0)
+  return (prevUnit.sprintsCompleted && prevUnit.sprintsCompleted > 0) || prevUnit.percentage === 100
 }
 
 const isUnitCompleted = (unitId) => {
-  const unit = units.value[unitId - 1]
+  const unit = (units.value || []).find(u => u.unitId === unitId)
   return unit && unit.percentage === 100
-}
-
-const shouldRecommend = (unitId) => {
-  // Рекомендуем текущий юнит или тот, что нужно пройти следующим
-  if (unitId === props.currentUnit && !isUnitCompleted(unitId)) return true
-  const unit = units.value[unitId - 1]
-  return unit && unit.percentage < 80 && unitId === props.currentUnit + 1
 }
 
 const getUnitColor = (percentage) => {
@@ -329,12 +365,13 @@ const getUnitColor = (percentage) => {
 
 const selectUnit = (unitId) => {
   if (!isUnitUnlocked(unitId)) {
-    alert(`Юнит ${unitId} заблокирован. Завершите предыдущий юнит (80%+ или пройдите хотя бы один спринт).`)
+    const list = units.value || []
+    const idx = list.findIndex(u => u.unitId === unitId)
+    const label = idx !== -1 ? (list[idx].number || (idx + 1)) : unitId
+    alert(`Юнит ${label} заблокирован. Завершите хотя бы один спринт в предыдущем юните.`)
     return
   }
-  // Преобразуем число в строку формата 'unitN'
-  const unitString = `unit${unitId}`
-  emit('select-unit', unitString)
+  emit('select-unit', unitId)
 }
 </script>
 

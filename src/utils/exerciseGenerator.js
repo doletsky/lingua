@@ -137,6 +137,54 @@ function shuffleArray(array) {
 }
 
 /**
+ * Генерация упражнений для словарного спринта по теме (tag).
+ * Спринт состоит только из слов: matching + несколько translation.
+ */
+export function generateVocabularyTagSprintExercises(vocabItems = [], vocabTag, count = 10) {
+  const items = Array.isArray(vocabItems) ? vocabItems.filter(v => v && v.id && v.word && v.translation_ru) : []
+  if (items.length === 0) return []
+
+  const maxCount = Math.max(2, Number(count) || 10)
+  const chosen = shuffleArray(items)
+
+  const exercises = []
+
+  // 1) Matching (до 6 пар)
+  const pairItems = chosen.slice(0, Math.min(6, chosen.length))
+  if (pairItems.length >= 2) {
+    exercises.push({
+      id: generateExerciseId(),
+      type: 'matching',
+      pairs: pairItems.map(v => ({ pt: v.word, ru: v.translation_ru })),
+      itemIds: pairItems.map(v => v.id),
+      vocabTag: vocabTag || null
+    })
+  }
+
+  // 2) Translation (каждое слово максимум по разу)
+  const remainingSlots = maxCount - exercises.length
+  const translationItems = chosen.slice(0, Math.min(remainingSlots, chosen.length))
+  for (const v of translationItems) {
+    const direction = Math.random() < 0.5 ? 'pt-ru' : 'ru-pt'
+    const question = direction === 'pt-ru' ? v.word : v.translation_ru
+    const correct = direction === 'pt-ru' ? v.translation_ru : v.word
+
+    exercises.push({
+      id: generateExerciseId(),
+      type: 'translation',
+      direction,
+      question,
+      correct,
+      hint: v.example_pt || '',
+      itemId: v.id,
+      vocabTag: vocabTag || null
+    })
+  }
+
+  return exercises.slice(0, maxCount)
+}
+
+/**
  * Генерация упражнений по одному тексту из texts.json
  * Поддерживает вопросы типов: multiple_choice, short_answer
  * Возвращает упражнения совместимые с существующими компонентами.

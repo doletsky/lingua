@@ -49,10 +49,13 @@ export function formatSprintResult(stats, unitId, exerciseResults = []) {
   // Если в снимках есть grammarId — используем его как ключ спринта (чтобы повторные прогoны того же набора перезаписывали запись)
   const grammarId = (exerciseResults || []).find(er => er.snapshot && (er.snapshot.grammarId || er.snapshot.grammarId === 0))?.snapshot?.grammarId
   const textId = (exerciseResults || []).find(er => er.snapshot && (er.snapshot.textId || er.snapshot.textId === 0))?.snapshot?.textId
+  const vocabTag = (exerciseResults || []).find(er => er.snapshot && er.snapshot.vocabTag)?.snapshot?.vocabTag
   const id = (grammarId !== undefined && grammarId !== null)
     ? `grammar_${String(unitId || '')}_${String(grammarId)}`
     : (textId !== undefined && textId !== null)
       ? `text_${String(unitId || '')}_${String(textId)}`
+      : (vocabTag !== undefined && vocabTag !== null && String(vocabTag).trim() !== '')
+        ? `vocab_${String(unitId || '')}_${String(vocabTag)}`
       : `sprint_${Date.now()}`
 
   return {
