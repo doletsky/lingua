@@ -465,354 +465,787 @@
       ]
     },
     {
-      "id": "t20",
-      "unit": "unit3",
-      "text": "No transporte público, valido o bilhete. Há linhas diferentes no metro. O comboio vai para outras cidades. Em Portugal, migrantes recebem cartão de transporte para descontos.",
+      "id": "t29",
+      "unit": "unit5",
+      "text": "Chamo-me Ivan e sou de Ucrânia. Vim para Portugal há dois anos. Procuro emprego na construção porque há muito trabalho neste sector. Enviei o meu currículo para várias empresas e tive uma entrevista na semana passada. O chefe perguntou qual é a minha experiência profissional. Eu tenho cinco anos de experiência como pedreiro. Assinei o contrato full-time e começo na próxima segunda-feira. Trabalho das 8 às 17 horas, com pausa para almoço. O salário é bom e tenho direito a 22 dias de férias por ano. Estou muito feliz com o novo emprego.",
       "questions": [
         {
-          "q": "Что делают с билетом?",
-          "a": "Valido",
+          "q": "Откуда Иван?",
+          "a": "De Ucrânia",
+          "type": "short_answer",
+          "options": null
+        },
+        {
+          "q": "В каком секторе он ищет работу?",
+          "a": "na construção",
+          "type": "short_answer",
+          "options": null
+        },
+        {
+          "q": "Сколько лет опыта у Ивана?",
+          "a": "cinco anos",
+          "type": "short_answer",
+          "options": null
+        },
+        {
+          "q": "Какой у него контракт?",
+          "options": [
+            "part-time",
+            "full-time",
+            "temporário",
+            "remoto"
+          ],
+          "a": "full-time",
+          "type": "multiple_choice"
+        },
+        {
+          "q": "Сколько дней отпуска в год?",
+          "a": "22 dias",
+          "type": "short_answer",
+          "options": null
+        }
+      ]
+    },
+    {
+      "id": "t30",
+      "unit": "unit5",
+      "text": "Em Portugal, todos os trabalhadores têm direitos importantes. Tens direito a salário mínimo, que é 820 euros em 2025. Podes trabalhar no máximo 40 horas por semana. Há pausa para almoço e descanso semanal obrigatório. Se estás doente, recebes subsídio de doença. As mulheres têm licença de maternidade. Não há discriminação por nacionalidade, género ou idade. O sindicato ajuda a defender os direitos. Se há problemas no trabalho, podes denunciar à autoridade competente. O trabalho digno é um direito de todos.",
+      "questions": [
+        {
+          "q": "Какова минимальная зарплата в 2025 году?",
+          "a": "820 euros",
+          "type": "short_answer",
+          "options": null
+        },
+        {
+          "q": "Сколько максимум часов в неделю?",
+          "a": "40 horas",
+          "type": "short_answer",
+          "options": null
+        },
+        {
+          "q": "Дискриминация на работе разрешена?",
+          "options": [
+            "Sim",
+            "Não",
+            "Às vezes",
+            "Não sei"
+          ],
+          "a": "Não",
+          "type": "multiple_choice"
+        },
+        {
+          "q": "Кто помогает защищать права?",
+          "a": "o sindicato",
+          "type": "short_answer",
+          "options": null
+        },
+        {
+          "q": "Что делать, если есть проблемы на работе?",
+          "a": "denunciar",
+          "type": "short_answer",
+          "options": null
+        }
+      ]
+    },
+    {
+      "id": "t31",
+      "unit": "unit5",
+      "text": "Maria é brasileira e trabalha como empregada de limpeza num hotel em Lisboa. O seu horário é part-time, das 9 às 14 horas. Ganha 600 euros por mês. Tem contrato legal e paga à segurança social. Os colegas são simpáticos e há bom ambiente no trabalho. Maria quer progredir e faz formação profissional à noite. O IEFP oferece cursos gratuitos para imigrantes. No futuro, quer ser recepcionista no mesmo hotel. Está motivada e aprende português todos os dias.",
+      "questions": [
+        {
+          "q": "Где работает Мария?",
+          "a": "num hotel",
+          "type": "short_answer",
+          "options": null
+        },
+        {
+          "q": "Какой у неё график?",
+          "options": [
+            "full-time",
+            "part-time",
+            "noite",
+            "remoto"
+          ],
+          "a": "part-time",
+          "type": "multiple_choice"
+        },
+        {
+          "q": "Сколько она зарабатывает в месяц?",
+          "a": "600 euros",
+          "type": "short_answer",
+          "options": null
+        },
+        {
+          "q": "Что она хочет в будущем?",
+          "a": "ser recepcionista",
+          "type": "short_answer",
+          "options": null
+        },
+        {
+          "q": "Где она проходит обучение?",
+          "a": "IEFP",
+          "type": "short_answer",
+          "options": null
+        }
+      ]
+    },
+    {
+      "id": "t32",
+      "unit": "unit5",
+      "text": "Procura emprego? Vai ao centro de emprego ou consulta sites como Indeed ou Net-Empregos. Prepara o teu currículo e carta de apresentação. Destaca as tuas competências e experiência. Muitos imigrantes encontram trabalho na agricultura, construção, turismo e restauração. Há também empregos qualificados em tecnologia. Em Portugal, o desemprego está baixo e há oportunidades. Não aceites trabalho ilegal porque é perigoso e não tens direitos. Boa sorte na tua procura!",
+      "questions": [
+        {
+          "q": "Куда идти искать работу?",
+          "a": "centro de emprego",
+          "type": "short_answer",
+          "options": null
+        },
+        {
+          "q": "Что нужно подготовить?",
+          "options": [
+            "currículo e carta de apresentação",
+            "só currículo",
+            "só foto",
+            "nada"
+          ],
+          "a": "currículo e carta de apresentação",
+          "type": "multiple_choice"
+        },
+        {
+          "q": "В каких секторах много работы для иммигрантов?",
+          "a": "agricultura, construção, turismo, restauração",
+          "type": "short_answer",
+          "options": null
+        },
+        {
+          "q": "Можно принимать незаконную работу?",
+          "options": [
+            "Sim",
+            "Não",
+            "Às vezes",
+            "Sempre"
+          ],
+          "a": "Não",
+          "type": "multiple_choice"
+        },
+        {
+          "q": "Как ситуация с безработицей?",
+          "a": "está baixo",
+          "type": "short_answer",
+          "options": null
+        }
+      ]
+    },
+    {
+      "id": "t33",
+      "unit": "unit5",
+      "text": "Trabalho como programador numa empresa em Porto. O meu trabalho é remoto, por isso fico em casa. Começo às 9 e termino às 18, com flexibilidade. Tenho reuniões online todos os dias. Ganhamos bem na área de tecnologia. A empresa oferece formação e oportunidades de progressão. Estou satisfeito e tenho equilíbrio entre trabalho e vida pessoal. Recomendo esta profissão para quem gosta de computadores.",
+      "questions": [
+        {
+          "q": "Где работает автор?",
+          "a": "em Porto",
+          "type": "short_answer",
+          "options": null
+        },
+        {
+          "q": "Какой тип работы?",
+          "options": [
+            "presencial",
+            "remoto",
+            "part-time",
+            "noite"
+          ],
+          "a": "remoto",
+          "type": "multiple_choice"
+        },
+        {
+          "q": "Есть ли гибкость в графике?",
+          "options": [
+            "Sim",
+            "Não"
+          ],
+          "a": "Sim",
+          "type": "multiple_choice"
+        },
+        {
+          "q": "Что предлагает компания?",
+          "a": "formação e progressão",
+          "type": "short_answer",
+          "options": null
+        },
+        {
+          "q": "Доволен ли он работой?",
+          "options": [
+            "Sim",
+            "Não",
+            "Não sei"
+          ],
+          "a": "Sim",
+          "type": "multiple_choice"
+        }
+      ]
+    },
+    {
+      "id": "t34",
+      "unit": "unit5",
+      "text": "Sou autónomo e trabalho como motorista de Uber em Lisboa. Emito recibos verdes todos os meses. O horário é flexível, trabalho quando quero. Ganho dependendo das horas. Pago IVA e segurança social. É bom porque sou o meu próprio chefe, mas não tenho férias pagas nem subsídio de doença. Muitos preferem contrato fixo por causa da estabilidade. Eu gosto da liberdade.",
+      "questions": [
+        {
+          "q": "Какая профессия автора?",
+          "a": "motorista de Uber",
+          "type": "short_answer",
+          "options": null
+        },
+        {
+          "q": "Он самозанятый?",
+          "options": [
+            "Sim",
+            "Não"
+          ],
+          "a": "Sim",
+          "type": "multiple_choice"
+        },
+        {
+          "q": "Что он выдаёт каждый месяц?",
+          "a": "recibos verdes",
+          "type": "short_answer",
+          "options": null
+        },
+        {
+          "q": "Есть ли у него оплачиваемый отпуск?",
+          "options": [
+            "Sim",
+            "Não"
+          ],
+          "a": "Não",
+          "type": "multiple_choice"
+        },
+        {
+          "q": "Что ему нравится?",
+          "a": "liberdade",
+          "type": "short_answer",
+          "options": null
+        }
+      ]
+    },
+    {
+      "id": "t35",
+      "unit": "unit5",
+      "text": "Na minha empresa há colegas de muitos países: Brasil, Índia, Roménia, Angola. Trabalhamos juntos e há solidariedade. Aprendemos uns com os outros. A empresa promove igualdade e não há discriminação. Todos temos os mesmos direitos e oportunidades de promoção. É bom trabalhar num ambiente multicultural em Portugal.",
+      "questions": [
+        {
+          "q": "Откуда коллеги?",
+          "a": "Brasil, Índia, Roménia, Angola",
+          "type": "short_answer",
+          "options": null
+        },
+        {
+          "q": "Есть ли солидарность?",
+          "options": [
+            "Sim",
+            "Não"
+          ],
+          "a": "Sim",
+          "type": "multiple_choice"
+        },
+        {
+          "q": "Есть ли дискриминация?",
+          "options": [
+            "Sim",
+            "Não"
+          ],
+          "a": "Não",
+          "type": "multiple_choice"
+        },
+        {
+          "q": "Все ли имеют одинаковые права?",
+          "options": [
+            "Sim",
+            "Não"
+          ],
+          "a": "Sim",
+          "type": "multiple_choice"
+        },
+        {
+          "q": "Какой среды работы?",
+          "a": "multicultural",
+          "type": "short_answer",
+          "options": null
+        }
+      ]
+    },
+    {
+      "id": "t36",
+      "unit": "unit6",
+      "text": "A minha biografia é simples. Nasci em uma pequena cidade no Brasil há 30 anos. Cresci com os meus pais e dois irmãos. Antes, eu era muito tímido e jogava futebol com amigos. Estudava na escola local e tinha notas boas. Aos 18 anos, mudei para São Paulo para estudar engenharia. Lá, conheci novas pessoas e mudei muito. Agora, vivo em Portugal, trabalho como engenheiro e sinto-me feliz. A vida agora é mais agitada que antes, mas melhor.",
+      "questions": [
+        {
+          "q": "Где родился автор?",
+          "a": "В маленьком городе в Бразилии",
           "type": "short_answer"
         },
         {
-          "q": "Куда идет поезд?",
-          "a": "Para outras cidades",
+          "q": "Сколько лет автору?",
+          "a": "30",
+          "type": "short_answer"
+        },
+        {
+          "q": "Что автор делал в детстве?",
+          "a": "Играл в футбол с друзьями",
           "type": "multiple_choice",
-          "options": [
-            "Para outras cidades",
-            "Para o médico",
-            "Para o banco",
-            "Para a farmácia"
-          ]
+          "options": ["Играл в футбол", "Учился в университете", "Работал инженером", "Жил в Португалии"]
+        },
+        {
+          "q": "Почему автор переехал в Сан-Паулу?",
+          "a": "Чтобы изучать инженерию",
+          "type": "multiple_choice",
+          "options": ["Чтобы работать", "Чтобы изучать инженерию", "Чтобы играть в футбол", "Чтобы жить с родителями"]
+        },
+        {
+          "q": "Как автор чувствует себя сейчас?",
+          "a": "Счастливым",
+          "type": "short_answer"
         }
       ]
     },
     {
-      "id": "t21",
-      "unit": "a1",
-      "text": "Chamo-me Ana e sou de Portugal. Moro em Lisboa com a minha família. Todos os dias acordo às sete horas da manhã. Levanto-me, tomo banho e escovo os dentes. Depois tomo o pequeno-almoço na cozinha: pão com queijo e café. Vou para o trabalho de metro. Trabalho num banco no centro da cidade. Almoço às doze e meia. À noite chego a casa às seis, janto com a família e vejo televisão. Deito-me às onze da noite. Aos fins de semana descanso e passeio com os amigos.",
+      "id": "t37",
+      "unit": "unit6",
+      "text": "Antes, a minha vida era calma. Morava numa vila, costumava acordar cedo e ajudar na fazenda. Tinha poucos amigos, mas éramos muito unidos. Sentia-me contente com a simplicidade. Há cinco anos, mudei para Lisboa por causa do trabalho. Agora, a cidade é mais barulhenta que a vila, tenho mais responsabilidades e sinto-me às vezes cansado. No entanto, aprendi muito e cresci como pessoa. O presente é diferente do passado, mas ambos têm valor.",
       "questions": [
         {
-          "q": "Как зовут девушку?",
-          "a": "Ana",
-          "type": "short_answer",
-          "options": []
+          "q": "Какой была жизнь автора раньше?",
+          "a": "Спокойной",
+          "type": "short_answer"
         },
         {
-          "q": "Где она живёт?",
-          "a": "Em Lisboa",
+          "q": "Что автор делал в деревне?",
+          "a": "Помогал на ферме",
           "type": "multiple_choice",
-          "options": [
-            "Em Lisboa",
-            "Em Porto",
-            "Em Coimbra",
-            "No Brasil"
-          ]
+          "options": ["Помогал на ферме", "Работал в городе", "Учился в Лиссабоне", "Играл в компьютер"]
         },
         {
-          "q": "Во сколько она просыпается?",
-          "a": "Às sete horas da manhã",
-          "type": "short_answer",
-          "options": []
+          "q": "Почему автор переехал в Лиссабон?",
+          "a": "Из-за работы",
+          "type": "short_answer"
         },
         {
-          "q": "Как она едет на работу?",
-          "a": "de metro",
+          "q": "Как автор чувствует себя иногда сейчас?",
+          "a": "Усталым",
           "type": "multiple_choice",
-          "options": [
-            "de metro",
-            "de carro",
-            "a pé",
-            "de autocarro"
-          ]
+          "options": ["Счастливым", "Усталым", "Тиммидным", "Спокойным"]
         },
         {
-          "q": "Где она работает?",
-          "a": "num banco",
-          "type": "short_answer",
-          "options": []
+          "q": "Что автор думает о прошлом и настоящем?",
+          "a": "Оба имеют ценность",
+          "type": "short_answer"
         }
       ]
     },
     {
-      "id": "t22",
-      "unit": "a1",
-      "text": "Olá! Sou o Pedro e tenho uma família grande. O meu pai chama-se João e a minha mãe chama-se Maria. Tenho dois irmãos e uma irmã. Vivemos todos juntos numa casa grande. A casa tem quatro quartos, uma sala, uma cozinha e duas casas de banho. De manhã tomo o pequeno-almoço com a família. Gosto muito de pão com manteiga. Depois vou para a escola de autocarro. À tarde faço os trabalhos de casa e jogo futebol com os amigos. Aos domingos vamos à missa e almoçamos com os avós.",
+      "id": "t38",
+      "unit": "unit6",
+      "text": "Eu nasci em Portugal, mas cresci no estrangeiro. Antes, vivia na França com a família. Costumava falar francês em casa e português só com os avós. Sentia-me confuso com as duas culturas. Há dez anos, voltei para Portugal. Agora, sinto-me mais português que antes, trabalho em turismo e adoro compartilhar histórias. O passado me ensinou a valorizar as diferenças, e o presente é cheio de oportunidades.",
       "questions": [
         {
-          "q": "Сколько братьев и сестёр у Педру?",
-          "a": "três",
-          "type": "short_answer",
-          "options": []
+          "q": "Где автор вырос?",
+          "a": "За границей (во Франции)",
+          "type": "short_answer"
         },
         {
-          "q": "Как зовут маму?",
-          "a": "Maria",
+          "q": "Какие языки автор использовал раньше?",
+          "a": "Французский дома, португальский с бабушкой и дедушкой",
           "type": "multiple_choice",
-          "options": [
-            "Maria",
-            "Ana",
-            "Joana",
-            "Carla"
-          ]
+          "options": ["Только португальский", "Французский и португальский", "Только французский", "Английский"]
         },
         {
-          "q": "Что он любит на завтрак?",
-          "a": "pão com manteiga",
-          "type": "short_answer",
-          "options": []
+          "q": "Как автор чувствовал себя в детстве?",
+          "a": "Смущенным",
+          "type": "short_answer"
         },
         {
-          "q": "Что он делает по воскресеньям?",
-          "a": "vão à missa e almoçam com os avós",
+          "q": "Чем автор занимается сейчас?",
+          "a": "Работает в туризме",
           "type": "multiple_choice",
-          "options": [
-            "vão à missa e almoçam com os avós",
-            "jogam futebol",
-            "vão ao cinema",
-            "ficam em casa"
-          ]
+          "options": ["Работает в туризме", "Учится", "Живет во Франции", "Говорит только французский"]
         },
         {
-          "q": "Как он ездит в школу?",
-          "a": "de autocarro",
-          "type": "short_answer",
-          "options": []
+          "q": "Что прошлое научило автора?",
+          "a": "Ценить различия",
+          "type": "short_answer"
         }
       ]
     },
     {
-      "id": "t23",
-      "unit": "a1",
-      "text": "Hoje não me sinto bem. Dói-me a cabeça e tenho febre. De manhã fui à farmácia e comprei medicamentos. O farmacêutico disse para tomar o medicamento três vezes por dia. Agora estou em casa e descanso. Bebo muita água e chá. A minha mãe faz sopa para o almoço. Espero melhorar amanhã porque na quarta-feira tenho consulta no médico. Em Portugal podemos marcar consulta no centro de saúde.",
+      "id": "t39",
+      "unit": "unit6",
+      "text": "No passado, eu era professor numa escola pequena. Tinha alunos dedicados e sentia-me realizado. Costumava preparar aulas com entusiasmo. Há três anos, mudei de carreira e agora sou escritor. Escrevo sobre experiências de vida e sinto-me criativo. Antes, a rotina era previsível, agora é mais livre. Ambas as fases foram importantes para o meu crescimento pessoal.",
       "questions": [
         {
-          "q": "Что болит у героя?",
-          "a": "a cabeça",
+          "q": "Кем был автор в прошлом?",
+          "a": "Учителем",
+          "type": "short_answer"
+        },
+        {
+          "q": "Как автор чувствовал себя как учитель?",
+          "a": "Реализованным",
           "type": "multiple_choice",
-          "options": [
-            "a cabeça",
-            "a perna",
-            "o estômago",
-            "os dentes"
-          ]
+          "options": ["Реализованным", "Усталым", "Скучающим", "Тревожным"]
         },
         {
-          "q": "Что он купил в аптеке?",
-          "a": "medicamentos",
-          "type": "short_answer",
-          "options": []
+          "q": "Почему автор изменил карьеру?",
+          "a": "Не указано явно, но теперь он писатель",
+          "type": "short_answer"
         },
         {
-          "q": "Сколько раз в день принимать лекарство?",
-          "a": "três vezes",
-          "type": "short_answer",
-          "options": []
-        },
-        {
-          "q": "Что готовит мама?",
-          "a": "sopa",
+          "q": "Какова рутина автора сейчас?",
+          "a": "Более свободная",
           "type": "multiple_choice",
-          "options": [
-            "sopa",
-            "arroz",
-            "bacalhau",
-            "pastel de nata"
-          ]
+          "options": ["Предсказуемая", "Более свободная", "Скучная", "Тяжелая"]
         },
         {
-          "q": "Когда у него приём у врача?",
-          "a": "na quarta-feira",
-          "type": "short_answer",
-          "options": []
+          "q": "Что автор думает о обеих фазах?",
+          "a": "Обе важны для роста",
+          "type": "short_answer"
         }
       ]
     },
     {
-      "id": "t24",
-      "unit": "a1",
-      "text": "Em Portugal gostamos muito de comer bem. No pequeno-almoço tomamos café com leite e um pastel de nata ou torrada. Ao almoço comemos pratos como bacalhau, sardinha assada ou feijoada. À noite o jantar é mais leve: sopa, salada e fruta. Aos domingos muitas famílias comem cozido à portuguesa. Nas festas tradicionais há doces típicos. Eu adoro pastel de nata e bebo um café depois do almoço todos os dias.",
+      "id": "t40",
+      "unit": "unit6",
+      "text": "A minha infância foi feliz. Nasci numa família grande e cresci brincando com irmãos. Antes, sentia-me aventureiro e explorava a natureza. Tinha hábitos simples como ler livros velhos. Há quinze anos, mudei para a cidade grande. Agora, trabalho em tecnologia, sinto-me ambicioso e a vida é mais rápida que antes. Comparando, o passado era calmo, o presente é excitante.",
       "questions": [
         {
-          "q": "Что типично на завтрак в Португалии?",
-          "a": "café com leite e pastel de nata ou torrada",
-          "type": "short_answer",
-          "options": []
+          "q": "Какой была детство автора?",
+          "a": "Счастливым",
+          "type": "short_answer"
         },
         {
-          "q": "Какое известное блюдо упоминается?",
-          "a": "bacalhau",
+          "q": "Что автор делал в детстве?",
+          "a": "Играл с братьями, исследовал природу",
           "type": "multiple_choice",
-          "options": [
-            "bacalhau",
-            "pizza",
-            "sushi",
-            "hamburguer"
-          ]
+          "options": ["Работал в технологии", "Играл с братьями", "Жил в городе", "Читал новые книги"]
         },
         {
-          "q": "Что едят по воскресеньям многие семьи?",
-          "a": "cozido à portuguesa",
-          "type": "short_answer",
-          "options": []
+          "q": "Как автор чувствовал себя раньше?",
+          "a": "Авантюрным",
+          "type": "short_answer"
         },
         {
-          "q": "Какой десерт любит автор?",
-          "a": "pastel de nata",
+          "q": "Чем автор занимается сейчас?",
+          "a": "Работает в технологии",
           "type": "multiple_choice",
-          "options": [
-            "pastel de nata",
-            "gelado",
-            "bolo",
-            "chocolate"
-          ]
+          "options": ["Работает в технологии", "Играет с братьями", "Исследует природу", "Читает старые книги"]
         },
         {
-          "q": "Что пьёт автор после обеда?",
-          "a": "um café",
-          "type": "short_answer",
-          "options": []
+          "q": "Как автор сравнивает прошлое и настоящее?",
+          "a": "Прошлое спокойное, настоящее возбуждающее",
+          "type": "short_answer"
         }
       ]
     },
     {
-      "id": "t25",
-      "unit": "a1",
-      "text": "Vivo em Portugal há um ano e gosto muito do país. Todos os dias uso o transporte público: autocarro, metro ou comboio. Compro o bilhete mensal. Vou aos correios enviar cartas para a família no meu país. No banco abri uma conta e levanto dinheiro. Quando preciso de ajuda médica, marco consulta no centro de saúde. Em Portugal há muitos serviços para imigrantes. Aprendo português para me integrar melhor na sociedade.",
+      "id": "t41",
+      "unit": "unit6",
+      "text": "Antes de vir para Portugal, vivia na Ucrânia. Nasci lá e cresci aprendendo sobre a cultura local. Costumava celebrar festas tradicionais e sentia-me orgulhoso. Há quatro anos, mudei por razões de trabalho. Agora, em Lisboa, sinto-me integrado, mas às vezes saudosista. O passado me deu raízes, o presente me dá novas asas.",
       "questions": [
         {
-          "q": "Сколько времени автор живёт в Португалии?",
-          "a": "há um ano",
-          "type": "short_answer",
-          "options": []
+          "q": "Где автор жил раньше?",
+          "a": "В Украине",
+          "type": "short_answer"
         },
         {
-          "q": "Какой транспорт он использует?",
-          "a": "autocarro, metro ou comboio",
+          "q": "Что автор делал в Украине?",
+          "a": "Праздновал традиционные праздники",
           "type": "multiple_choice",
-          "options": [
-            "autocarro, metro ou comboio",
-            "carro",
-            "bicicleta",
-            "a pé"
-          ]
+          "options": ["Праздновал традиционные праздники", "Работал в Лиссабоне", "Учился в Португалии", "Чувствовал себя интегрированным"]
         },
         {
-          "q": "Что он делает на почте?",
-          "a": "enviar cartas",
-          "type": "short_answer",
-          "options": []
+          "q": "Почему автор переехал?",
+          "a": "По причинам работы",
+          "type": "short_answer"
         },
         {
-          "q": "Где он открыл счёт?",
-          "a": "no banco",
+          "q": "Как автор чувствует себя сейчас иногда?",
+          "a": "Ностальгическим",
           "type": "multiple_choice",
-          "options": [
-            "no banco",
-            "nos correios",
-            "no supermercado",
-            "no hospital"
-          ]
+          "options": ["Гордым", "Ностальгическим", "Авантюрным", "Спокойным"]
         },
         {
-          "q": "Зачем он учит португальский?",
-          "a": "para me integrar melhor",
-          "type": "short_answer",
-          "options": []
+          "q": "Что дает настоящее автору?",
+          "a": "Новые крылья",
+          "type": "short_answer"
         }
       ]
     },
     {
-      "id": "t26",
-      "unit": "a1",
-      "text": "A minha rotina aos fins de semana é diferente. No sábado acordo mais tarde, às nove horas. Tomo o pequeno-almoço lentamente e leio o jornal. Depois faço compras no supermercado. À tarde encontro-me com amigos num café. Falamos e bebemos um café ou uma cerveja. À noite vamos ao restaurante comer bacalhau ou outro prato típico. No domingo fico em casa com a família ou vou passear ao parque.",
+      "id": "t42",
+      "unit": "unit6",
+      "text": "Eu sou migrante em Portugal. No passado, na minha terra natal, tinha um emprego estável, mas sentia-me limitado. Costumava sonhar com melhores oportunidades. Há dois anos, cheguei aqui. Agora, estudo e trabalho, sinto-me mais livre que antes. A biografia continua, com capítulos de desafios e vitórias.",
       "questions": [
         {
-          "q": "Во сколько он просыпается в субботу?",
-          "a": "às nove horas",
-          "type": "short_answer",
-          "options": []
+          "q": "Кем является автор?",
+          "a": "Мигрантом в Португалии",
+          "type": "short_answer"
         },
         {
-          "q": "Что он делает после завтрака в субботу?",
-          "a": "leio o jornal",
+          "q": "Как автор чувствовал себя в родной стране?",
+          "a": "Ограниченным",
           "type": "multiple_choice",
-          "options": [
-            "leio o jornal",
-            "vou para o trabalho",
-            "tomo banho",
-            "janto"
-          ]
+          "options": ["Ограниченным", "Свободным", "Счастливым", "Усталым"]
         },
         {
-          "q": "Где он делает покупки?",
-          "a": "no supermercado",
-          "type": "short_answer",
-          "options": []
+          "q": "Что автор делал раньше?",
+          "a": "Мечтал о лучших возможностях",
+          "type": "short_answer"
         },
         {
-          "q": "Что они пьют с друзьями?",
-          "a": "um café ou uma cerveja",
+          "q": "Что автор делает сейчас?",
+          "a": "Учится и работает",
           "type": "multiple_choice",
-          "options": [
-            "um café ou uma cerveja",
-            "água",
-            "sumo",
-            "vinho"
-          ]
+          "options": ["Учится и работает", "Мечтает", "Имеет стабильную работу", "Чувствует себя ограниченным"]
         },
         {
-          "q": "Что он делает в воскресенье?",
-          "a": "fico em casa ou vou passear ao parque",
-          "type": "short_answer",
-          "options": []
+          "q": "Как автор описывает свою биографию?",
+          "a": "С главами вызовов и побед",
+          "type": "short_answer"
         }
       ]
     },
     {
-      "id": "t27",
-      "unit": "a1",
-      "text": "O corpo humano é incrível. Temos cabeça, braços, pernas, mãos e pés. Quando dói alguma parte vamos ao médico ou à farmácia. Em Portugal o sistema de saúde é bom. Podemos ir ao centro de saúde da nossa área. Lá o médico de família nos ajuda. Se precisamos de exames vamos ao hospital. É importante cuidar da saúde: comer bem, fazer exercício e dormir suficiente.",
+      "id": "t43",
+      "unit": "unit7",
+      "text": "Em Portugal, todos os cidadãos têm direitos e deveres. O direito mais importante é a liberdade de expressão: podemos dizer o que pensamos sem medo. Também temos o dever de respeitar os outros e as leis do país. Muitos imigrantes chegam a Portugal e querem integrar-se na sociedade. Para isso, é útil informar-se sobre a cultura portuguesa e os direitos dos residentes. Podemos ler jornais, ver televisão, ouvir rádio ou procurar informações na internet. Nas redes sociais, as pessoas discutem temas atuais, trocam opiniões e às vezes concordam ou discordam. O diálogo respeitoso é essencial para uma sociedade democrática e multicultural.",
       "questions": [
         {
-          "q": "Что делают, когда что-то болит?",
-          "a": "vamos ao médico ou à farmácia",
-          "type": "short_answer",
-          "options": []
+          "q": "Какое право названо в тексте самым важным?",
+          "a": "свобода выражения",
+          "type": "short_answer"
         },
         {
-          "q": "Кто помогает в центре здоровья?",
-          "a": "o médico de família",
+          "q": "Что является обязанностью граждан согласно тексту?",
+          "a": ["уважать других", "уважать законы", "уважать других и законы страны"],
+          "type": "short_answer"
+        },
+        {
+          "q": "Где люди могут обсуждать актуальные темы и обмениваться мнениями?",
+          "a": "в социальных сетях",
+          "type": "short_answer"
+        },
+        {
+          "q": "Диалог важен для демократического общества?",
+          "a": "Да",
           "type": "multiple_choice",
-          "options": [
-            "o médico de família",
-            "o farmacêutico",
-            "o dentista",
-            "o enfermeiro"
-          ]
+          "options": ["Да", "Нет"]
         },
         {
-          "q": "Куда идут на обследования?",
-          "a": "ao hospital",
-          "type": "short_answer",
-          "options": []
-        },
-        {
-          "q": "Что важно для здоровья?",
-          "a": "comer bem, fazer exercício e dormir suficiente",
+          "q": "Какой тип общества упоминается в конце текста?",
+          "a": ["демократическое", "мультикультурное", "демократическое и мультикультурное"],
           "type": "multiple_choice",
-          "options": [
-            "comer bem, fazer exercício e dormir suficiente",
-            "beber café",
-            "ver televisão",
-            "trabalhar muito"
-          ]
+          "options": ["демократическое и мультикультурное", "только демократическое", "только мультикультурное", "авторитарное"]
+        }
+      ]
+    },
+    {
+      "id": "t44",
+      "unit": "unit7",
+      "text": "Maria veio da Ucrânia e vive em Lisboa há três anos. Ela acha que Portugal é um país muito acolhedor. Todos os dias lê notícias no jornal Público e vê o telejornal na RTP. Aprendeu que, depois de cinco anos de residência legal, pode pedir a cidadania portuguesa. Para se preparar, Maria participa num curso de integração e numa associação de imigrantes. Lá discute com outras pessoas sobre direitos dos trabalhadores, estereótipos e diversidade cultural. Nem sempre concorda com tudo o que ouve, mas respeita as opiniões diferentes. Pensa que a tolerância é a chave para viver bem em sociedade.",
+      "questions": [
+        {
+          "q": "Откуда приехала Maria и сколько она живёт в Лиссабоне?",
+          "a": "из Украины, три года",
+          "type": "short_answer"
         },
         {
-          "q": "Как оценивается система здравоохранения в Португалии?",
-          "a": "é bom",
-          "type": "short_answer",
-          "options": []
+          "q": "Что Maria делает каждый день, чтобы быть в курсе новостей?",
+          "a": ["читает газету Público", "смотрит тележурнал на RTP", "читает газету и смотрит телевизор"],
+          "type": "multiple_choice",
+          "options": ["читает газету и смотрит телевизор", "только слушает радио", "только использует интернет", "ничего не делает"]
+        },
+        {
+          "q": "Сколько лет нужно прожить в Португалии, чтобы подать на гражданство?",
+          "a": "пять",
+          "type": "short_answer"
+        },
+        {
+          "q": "В чём участвует Maria для интеграции?",
+          "a": ["в курсе интеграции", "в ассоциации иммигрантов", "в курсе интеграции и ассоциации"],
+          "type": "multiple_choice",
+          "options": ["в курсе интеграции и ассоциации", "только в работе", "только в университете", "ни в чём"]
+        },
+        {
+          "q": "Что Maria считает ключом к хорошей жизни в обществе?",
+          "a": "толерантность",
+          "type": "short_answer"
+        }
+      ]
+    },
+    {
+      "id": "t45",
+      "unit": "unit7",
+      "text": "Os media em Portugal são muito diversos. Existem jornais nacionais como o Público e o Diário de Notícias, canais de televisão públicos e privados, muitas estações de rádio e milhares de sites na internet. As pessoas informam-se de formas diferentes: alguns preferem ler o jornal de manhã, outros ouvem rádio no carro, e muitos jovens leem notícias no telemóvel através das redes sociais. É importante verificar as fontes para não acreditar em fake news. Na democracia portuguesa, a liberdade de imprensa é um direito fundamental protegido pela Constituição.",
+      "questions": [
+        {
+          "q": "Назовите хотя бы два национальных журнала, упомянутых в тексте.",
+          "a": ["Público", "Diário de Notícias"],
+          "type": "short_answer"
+        },
+        {
+          "q": "Как молодые люди чаще всего читают новости?",
+          "a": "на мобильном телефоне через социальные сети",
+          "type": "short_answer"
+        },
+        {
+          "q": "Почему важно проверять источники?",
+          "a": "чтобы не верить фейковым новостям",
+          "type": "short_answer"
+        },
+        {
+          "q": "Свобода прессы в Португалии защищена Конституцией?",
+          "a": "Да",
+          "type": "multiple_choice",
+          "options": ["Да", "Нет"]
+        }
+      ]
+    },
+    {
+      "id": "t46",
+      "unit": "unit7",
+      "text": "Quando discutimos temas sociais, é normal ter opiniões diferentes. Eu acho que a integração dos imigrantes é uma responsabilidade de todos: do governo, das empresas e dos cidadãos. Outras pessoas pensam que os imigrantes devem fazer mais esforço sozinhos. Parece-me que a verdade está no meio. Concordo que é importante aprender a língua e respeitar a cultura local, mas discordo quando dizem que os imigrantes trazem só problemas. Na realidade, trazem diversidade, novas ideias e ajudam a economia. O respeito mútuo e o diálogo aberto são essenciais para reduzir estereótipos.",
+      "questions": [
+        {
+          "q": "Кто, по мнению автора, несёт ответственность за интеграцию иммигрантов?",
+          "a": ["правительство", "компании", "граждане", "все вместе"],
+          "type": "multiple_choice",
+          "options": ["все вместе", "только иммигранты", "только правительство", "никто"]
+        },
+        {
+          "q": "С чем автор не согласен?",
+          "a": "с тем, что иммигранты приносят только проблемы",
+          "type": "short_answer"
+        },
+        {
+          "q": "Что, по мнению автора, приносят иммигранты?",
+          "a": ["разнообразие", "новые идеи", "помощь экономике"],
+          "type": "short_answer"
+        },
+        {
+          "q": "Что необходимо для уменьшения стереотипов?",
+          "a": ["взаимное уважение", "открытый диалог", "взаимное уважение и открытый диалог"],
+          "type": "multiple_choice",
+          "options": ["взаимное уважение и открытый диалог", "закрытость", "игнорирование", "конфликты"]
+        }
+      ]
+    },
+    {
+      "id": "t47",
+      "unit": "unit7",
+      "text": "Ser cidadão português traz direitos e deveres. Entre os direitos estão: votar em eleições, ter proteção do Estado no estrangeiro, liberdade de expressão e de movimento dentro da União Europeia. Os deveres incluem: pagar impostos, respeitar a Constituição, cumprir as leis e, em alguns casos, defender o país. Muitos imigrantes que obtêm a cidadania sentem-se mais integrados. Participam mais na vida política, votam, candidatam-se a cargos públicos e ajudam a construir uma sociedade mais diversa e inclusiva.",
+      "questions": [
+        {
+          "q": "Назовите хотя бы два права португальского гражданина из текста.",
+          "a": ["голосовать на выборах", "защита государства за границей", "свобода выражения", "свобода передвижения в ЕС"],
+          "type": "short_answer"
+        },
+        {
+          "q": "Какой основной долг упоминается в тексте?",
+          "a": ["платить налоги", "уважать Конституцию", "соблюдать законы"],
+          "type": "short_answer"
+        },
+        {
+          "q": "Как иммигранты чувствуют себя после получения гражданства?",
+          "a": "более интегрированными",
+          "type": "short_answer"
+        },
+        {
+          "q": "Граждане могут баллотироваться на государственные должности?",
+          "a": "Да",
+          "type": "multiple_choice",
+          "options": ["Да", "Нет"]
+        }
+      ]
+    },
+    {
+      "id": "t48",
+      "unit": "unit7",
+      "text": "Nas redes sociais vemos muitas opiniões diferentes. Algumas pessoas publicam notícias verdadeiras, outras partilham informações falsas sem verificar. Quando leio algo controverso, pergunto-me: 'Será verdade?' Depois procuro em fontes confiáveis como jornais oficiais ou sites do governo. Acho que todos temos o dever de não espalhar boatos. A comunicação responsável ajuda a manter uma sociedade informada e evita conflitos desnecessários baseados em mal-entendidos.",
+      "questions": [
+        {
+          "q": "Что делают некоторые люди в социальных сетях без проверки?",
+          "a": "делятся ложной информацией",
+          "type": "short_answer"
+        },
+        {
+          "q": "Что делает автор, когда читает спорную информацию?",
+          "a": "проверяет в надёжных источниках",
+          "type": "short_answer"
+        },
+        {
+          "q": "Ответственная коммуникация помогает избежать чего?",
+          "a": "ненужных конфликтов",
+          "type": "short_answer"
+        },
+        {
+          "q": "Все ли имеют долг не распространять слухи, по мнению автора?",
+          "a": "Да",
+          "type": "multiple_choice",
+          "options": ["Да", "Нет"]
+        }
+      ]
+    },
+    {
+      "id": "t49",
+      "unit": "unit7",
+      "text": "A diversidade cultural em Portugal está a aumentar. Vêm pessoas de Brasil, Ucrânia, Índia, Angola, Cabo Verde e muitos outros países. Cada um traz a sua cultura, tradições, gastronomia e música. Celebramos essa diversidade em festas como o Festival Intercultura ou nos mercados multiculturais de Lisboa. Aceitar e respeitar as diferenças torna a sociedade mais rica e interessante. Os estereótipos negativos desaparecem quando conhecemos realmente as pessoas e as suas histórias.",
+      "questions": [
+        {
+          "q": "Из каких стран приезжают люди в Португалию (назовите хотя бы три)?",
+          "a": ["Бразилия", "Украина", "Индия", "Ангола", "Кабо-Верде"],
+          "type": "short_answer"
+        },
+        {
+          "q": "Где празднуют культурное разнообразие в Португалии?",
+          "a": ["на фестивале Intercultura", "на мультикультурных рынках в Лиссабоне"],
+          "type": "short_answer"
+        },
+        {
+          "q": "Что помогает исчезнуть негативным стереотипам?",
+          "a": "реальное знакомство с людьми и их историями",
+          "type": "short_answer"
+        },
+        {
+          "q": "Разнообразие делает общество более богатым и интересным?",
+          "a": "Да",
+          "type": "multiple_choice",
+          "options": ["Да", "Нет"]
+        }
+      ]
+    },
+    {
+      "id": "t50",
+      "unit": "unit7",
+      "text": "Num debate na televisão, dois especialistas discutiam os direitos dos imigrantes. Um dizia: 'Acho que Portugal deve acolher mais refugiados porque é um dever humanitário.' O outro respondia: 'Concordo com a ajuda, mas discordo quanto ao número ilimitado. Precisamos de regras claras.' No final, ambos concordaram que o mais importante é tratar todas as pessoas com dignidade e respeito, independentemente da origem. O moderador concluiu que o diálogo construtivo é a melhor forma de encontrar soluções em sociedade.",
+      "questions": [
+        {
+          "q": "О чём спорили два специалиста?",
+          "a": "о правах иммигрантов и приёме беженцев",
+          "type": "short_answer"
+        },
+        {
+          "q": "С чем согласился второй специалист?",
+          "a": "с помощью иммигрантам",
+          "type": "short_answer"
+        },
+        {
+          "q": "В чём оба специалиста согласились в конце?",
+          "a": "в важности достоинства и уважения ко всем людям",
+          "type": "short_answer"
+        },
+        {
+          "q": "Что ведущий назвал лучшим способом находить решения?",
+          "a": "конструктивный диалог",
+          "type": "short_answer"
         }
       ]
     }

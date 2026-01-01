@@ -2039,1394 +2039,464 @@
       ]
     },
     {
-      "id": "g30",
-      "unit": "a1",
-      "title": "Приветствия и прощания",
-      "explanation_ru": "Основные приветствия: bom dia (до полудня), boa tarde (день), boa noite (вечер/ночь), olá (неформально в любое время). Прощания: adeus (формально), até logo (до скорого), tchau (неформально). Вопрос Como estás? (неформ.) или Como está? (форм.) — ответ Estou bem, obrigado/a.",
+      "id": "g40",
+      "unit": "unit5",
+      "title": "Presente do Indicativo – регулярные глаголы на -ar, -er, -ir",
+      "explanation_ru": "В португальском языке большинство глаголов спрягаются регулярно в настоящем времени (Presente do Indicativo). Для глаголов на -ar: trabalho (eu), trabalhas (tu), trabalha (ele/ela/você), trabalhamos (nós), trabalham (eles/elas/vocês). Для глаголов на -er: como (eu como), comes (tu), come (ele/ela/você), comemos (nós), comem (eles/elas/vocês). Для глаголов на -ir: abro (eu abro), abres (tu), abre (ele/ela/você), abrimos (nós), abrem (eles/elas/vocês). Эти формы используются для описания текущей работы, привычек и фактов.",
       "examples": [
         {
-          "pt": "Bom dia! Como estás?",
-          "ru": "Доброе утро! Как дела?"
+          "pt": "Eu trabalho numa empresa.",
+          "ru": "Я работаю в компании."
         },
         {
-          "pt": "Olá, tudo bem?",
-          "ru": "Привет, всё хорошо?"
+          "pt": "Tu procuras emprego.",
+          "ru": "Ты ищешь работу."
         },
         {
-          "pt": "Adeus, até amanhã.",
-          "ru": "До свидания, до завтра."
+          "pt": "Ele ganha bem.",
+          "ru": "Он хорошо зарабатывает."
+        },
+        {
+          "pt": "Nós assinamos o contrato.",
+          "ru": "Мы подписываем контракт."
+        },
+        {
+          "pt": "Eles trabalham part-time.",
+          "ru": "Они работают неполный день."
         }
       ],
       "templates": [
         {
-          "type": "multiple_choice",
-          "template": "Как сказать «добрый вечер» по-португальски?",
-          "correct": "boa noite",
-          "hint": "Вечером и ночью",
+          "type": "fill_blank",
+          "template": "Eu ___ (trabalhar) em Lisboa.",
+          "correct": "trabalho",
+          "hint": "Eu – окончание -o для -ar",
           "distractors": [
-            "bom dia",
-            "boa tarde",
-            "olá"
+            "trabalhas",
+            "trabalha",
+            "trabalhamos"
           ]
         },
         {
           "type": "fill_blank",
-          "template": "________! Como estás?",
-          "correct": "Bom dia",
-          "hint": "Утреннее приветствие",
+          "template": "Tu ___ (procurar) um novo emprego.",
+          "correct": "procuras",
+          "hint": "Tu – окончание -as для -ar",
           "distractors": [
-            "Adeus",
-            "Olá",
-            "Tchau"
-          ]
-        },
-        {
-          "type": "multiple_choice",
-          "template": "Неформальное прощание:",
-          "correct": "tchau",
-          "hint": "Как «пока»",
-          "distractors": [
-            "adeus",
-            "até logo",
-            "boa noite"
+            "procuro",
+            "procura",
+            "procuram"
           ]
         },
         {
           "type": "fill_blank",
-          "template": "Olá, ________ bem?",
-          "correct": "tudo",
-          "hint": "Полный вопрос",
+          "template": "Ele ___ (ganhar) 1000 euros.",
+          "correct": "ganha",
+          "hint": "Ele/ela – окончание -a для -ar",
           "distractors": [
-            "como",
-            "estás",
-            "obrigado"
-          ]
-        },
-        {
-          "type": "multiple_choice",
-          "template": "Ответ на Como estás?",
-          "correct": "Estou bem, obrigado.",
-          "hint": "Для мужчины",
-          "distractors": [
-            "Adeus",
-            "Olá",
-            "Boa tarde"
+            "ganho",
+            "ganhas",
+            "ganhamos"
           ]
         },
         {
           "type": "fill_blank",
-          "template": "Boa ________, senhor.",
-          "correct": "tarde",
-          "hint": "Дневное приветствие",
+          "template": "Nós ___ (começar) às 9 horas.",
+          "correct": "começamos",
+          "hint": "Nós – окончание -amos для -ar",
           "distractors": [
-            "dia",
-            "noite",
-            "olá"
-          ]
-        },
-        {
-          "type": "multiple_choice",
-          "template": "Формальное прощание:",
-          "correct": "adeus",
-          "hint": "Более официальное",
-          "distractors": [
-            "tchau",
-            "olá",
-            "até logo"
+            "começo",
+            "começas",
+            "começam"
           ]
         },
         {
           "type": "fill_blank",
-          "template": "Até ________!",
-          "correct": "logo",
-          "hint": "До скорого",
+          "template": "Vocês ___ (assinar) o contrato.",
+          "correct": "assinam",
+          "hint": "Vocês – окончание -am для -ar",
           "distractors": [
-            "amanhã",
-            "noite",
-            "dia"
-          ]
-        },
-        {
-          "type": "multiple_choice",
-          "template": "Универсальное приветствие:",
-          "correct": "olá",
-          "hint": "В любое время",
-          "distractors": [
-            "bom dia",
-            "boa noite",
-            "adeus"
+            "assino",
+            "assinas",
+            "assinamos"
           ]
         },
         {
           "type": "fill_blank",
-          "template": "Boa noite e ________ sonhar.",
-          "correct": "doces",
-          "hint": "Спокойной ночи (традиционно)",
+          "template": "Eu ___ (comer) no escritório.",
+          "correct": "como",
+          "hint": "Eu – окончание -o для -er",
           "distractors": [
-            "bom",
-            "boa",
-            "até"
-          ]
-        },
-        {
-          "type": "multiple_choice",
-          "template": "Как спросить «как дела?» формально?",
-          "correct": "Como está?",
-          "hint": "На Вы",
-          "distractors": [
-            "Como estás?",
-            "Olá",
-            "Tchau"
+            "comes",
+            "come",
+            "comemos"
           ]
         },
         {
           "type": "fill_blank",
-          "template": "________, até amanhã!",
-          "correct": "Adeus",
-          "hint": "Прощание",
+          "template": "Ela ___ (abrir) a empresa às 8.",
+          "correct": "abre",
+          "hint": "Ele/ela – окончание -e для -ir",
           "distractors": [
-            "Olá",
-            "Bom dia",
-            "Boa tarde"
+            "abro",
+            "abres",
+            "abrimos"
           ]
+        },
+        {
+          "type": "fill_blank",
+          "template": "Nós ___ (receber) o salário no fim do mês.",
+          "correct": "recebemos",
+          "hint": "Nós – окончание -emos для -er",
+          "distractors": [
+            "recebo",
+            "recebes",
+            "recebem"
+          ]
+        },
+        {
+          "type": "fill_blank",
+          "template": "Eles ___ (partir) cedo do trabalho.",
+          "correct": "partem",
+          "hint": "Eles – окончание -em для -ir",
+          "distractors": [
+            "parto",
+            "partes",
+            "partimos"
+          ]
+        },
+        {
+          "type": "fill_blank",
+          "template": "Tu ___ (escrever) o currículo.",
+          "correct": "escreves",
+          "hint": "Tu – окончание -es для -er",
+          "distractors": [
+            "escrevo",
+            "escreve",
+            "escrevem"
+          ]
+        },
+        {
+          "type": "multiple_choice",
+          "template": "Qual a forma correta? Nós ___ o contrato.",
+          "options": [
+            "assinamos",
+            "assina",
+            "assinam",
+            "assino"
+          ],
+          "correct": "assinamos"
+        },
+        {
+          "type": "multiple_choice",
+          "template": "Eu ___ muito no trabalho.",
+          "options": [
+            "aprendo",
+            "aprendes",
+            "aprende",
+            "aprendem"
+          ],
+          "correct": "aprendo"
         }
       ]
     },
     {
-      "id": "g31",
-      "unit": "a1",
-      "title": "Глагол ser (быть — постоянные характеристики)",
-      "explanation_ru": "Глагол ser в Presente do Indicativo: eu sou, tu és, ele/ela/você é, nós somos, vocês são, eles/elas são. Употребляется для профессий, национальности, постоянных качеств, происхождения. Примеры: Eu sou português. (я португалец — постоянно).",
+      "id": "g41",
+      "unit": "unit5",
+      "title": "Глагол ter + право на что-то (ter direito a)",
+      "explanation_ru": "Глагол ter (иметь) в Presente: tenho (eu), tens (tu), tem (ele/ela/você), temos (nós), têm (eles/elas/vocês). Конструкция ter direito a означает 'иметь право на'. Примеры: Eu tenho direito a férias (я имею право на отпуск).",
       "examples": [
         {
-          "pt": "Eu sou estudante.",
-          "ru": "Я студент."
+          "pt": "Eu tenho direito a 22 dias de férias.",
+          "ru": "У меня право на 22 дня отпуска."
         },
         {
-          "pt": "Ela é médica.",
-          "ru": "Она врач."
+          "pt": "Nós temos direito a pausa.",
+          "ru": "У нас право на перерыв."
         },
         {
-          "pt": "Nós somos amigos.",
-          "ru": "Мы друзья."
+          "pt": "Tu tens direito a subsídio.",
+          "ru": "У тебя право на пособие."
+        },
+        {
+          "pt": "Eles têm direito a descanso semanal.",
+          "ru": "У них право на еженедельный отдых."
         }
       ],
       "templates": [
         {
           "type": "fill_blank",
-          "template": "Eu ___ (ser) português.",
-          "correct": "sou",
-          "hint": "1-е лицо ед.ч.",
+          "template": "Eu ___ direito a férias pagas.",
+          "correct": "tenho",
+          "hint": "Eu tenho",
           "distractors": [
-            "é",
-            "somos",
-            "são"
+            "tens",
+            "tem",
+            "temos"
           ]
         },
         {
           "type": "fill_blank",
-          "template": "Tu ___ (ser) alto.",
-          "correct": "és",
-          "hint": "2-е лицо ед.ч.",
+          "template": "Nós ___ direito a baixa médica.",
+          "correct": "temos",
+          "hint": "Nós temos",
           "distractors": [
-            "sou",
-            "é",
-            "somos"
+            "tenho",
+            "tens",
+            "têm"
           ]
         },
         {
           "type": "fill_blank",
-          "template": "Ele ___ (ser) engenheiro.",
-          "correct": "é",
-          "hint": "3-е лицо ед.ч.",
+          "template": "Tu ___ direito a subsídio de desemprego.",
+          "correct": "tens",
+          "hint": "Tu tens",
           "distractors": [
-            "sou",
-            "és",
-            "são"
+            "tenho",
+            "tem",
+            "têm"
           ]
         },
         {
           "type": "fill_blank",
-          "template": "Nós ___ (ser) da Ucrânia.",
-          "correct": "somos",
-          "hint": "1-е лицо мн.ч.",
+          "template": "Os trabalhadores ___ direito a salário mínimo.",
+          "correct": "têm",
+          "hint": "Eles têm",
           "distractors": [
-            "sou",
-            "é",
-            "são"
+            "tenho",
+            "tens",
+            "temos"
           ]
         },
         {
           "type": "fill_blank",
-          "template": "Vocês ___ (ser) simpáticos.",
-          "correct": "são",
-          "hint": "Форма vocês",
+          "template": "Ela ___ direito a licença de maternidade.",
+          "correct": "tem",
+          "hint": "Ele/ela tem",
           "distractors": [
-            "somos",
-            "é",
-            "sou"
+            "tenho",
+            "tens",
+            "têm"
           ]
         },
         {
           "type": "multiple_choice",
-          "template": "Правильная форма: Ela ___ professora.",
-          "correct": "é",
-          "hint": "ser, 3-е лицо",
+          "template": "Correta: Nós ___ direito a formação.",
+          "options": [
+            "temos",
+            "tem",
+            "tens",
+            "tenho"
+          ],
+          "correct": "temos"
+        },
+        {
+          "type": "multiple_choice",
+          "template": "Eu ___ direito a descanso.",
+          "options": [
+            "tenho",
+            "tens",
+            "tem",
+            "têm"
+          ],
+          "correct": "tenho"
+        },
+        {
+          "type": "fill_blank",
+          "template": "Vocês ___ direito a contrato legal.",
+          "correct": "têm",
+          "hint": "Vocês têm",
           "distractors": [
-            "sou",
-            "somos",
-            "és"
+            "tenho",
+            "tens",
+            "temos"
           ]
         },
         {
           "type": "fill_blank",
-          "template": "Eles ___ (ser) irmãos.",
-          "correct": "são",
-          "hint": "3-е лицо мн.ч.",
+          "template": "O trabalhador ___ direito a segurança.",
+          "correct": "tem",
+          "hint": "Ele tem",
           "distractors": [
-            "é",
-            "somos",
-            "sou"
+            "tens",
+            "temos",
+            "têm"
           ]
         },
         {
           "type": "fill_blank",
-          "template": "A casa ___ (ser) grande.",
-          "correct": "é",
-          "hint": "Постоянная характеристика",
+          "template": "Eu ___ direito a indemnização.",
+          "correct": "tenho",
+          "hint": "Eu tenho",
           "distractors": [
-            "sou",
-            "somos",
-            "são"
+            "tem",
+            "tens",
+            "têm"
           ]
         },
         {
           "type": "multiple_choice",
-          "template": "Eu ___ brasileiro.",
-          "correct": "sou",
-          "hint": "Национальность",
-          "distractors": [
-            "é",
-            "somos",
-            "és"
-          ]
-        },
-        {
-          "type": "fill_blank",
-          "template": "O Pedro e a Ana ___ (ser) casados.",
-          "correct": "são",
-          "hint": "Они женаты — постоянно",
-          "distractors": [
-            "é",
-            "somos",
-            "sou"
-          ]
-        },
-        {
-          "type": "fill_blank",
-          "template": "Tu ___ (ser) muito inteligente.",
-          "correct": "és",
-          "hint": "Постоянное качество",
-          "distractors": [
-            "sou",
-            "é",
-            "somos"
-          ]
+          "template": "Tu ___ direito a respeito.",
+          "options": [
+            "tens",
+            "tenho",
+            "tem",
+            "têm"
+          ],
+          "correct": "tens"
         },
         {
           "type": "multiple_choice",
-          "template": "Nós ___ da mesma família.",
-          "correct": "somos",
-          "hint": "Происхождение",
-          "distractors": [
-            "sou",
-            "é",
-            "são"
-          ]
+          "template": "Eles ___ direito a igualdade.",
+          "options": [
+            "têm",
+            "temos",
+            "tem",
+            "tenho"
+          ],
+          "correct": "têm"
         }
       ]
     },
     {
-      "id": "g32",
-      "unit": "a1",
-      "title": "Глагол estar (быть — временное состояние)",
-      "explanation_ru": "Глагол estar в Presente: eu estou, tu estás, ele/ela/você está, nós estamos, vocês estão, eles/elas estão. Употребляется для временного состояния, местоположения, самочувствия. Примеры: Estou cansado. (я устал — сейчас).",
+      "id": "g42",
+      "unit": "unit5",
+      "title": "Предлоги места и направления в контексте работы",
+      "explanation_ru": "Основные предлоги: em (в, на – для места), a (в, на – направление), de (из, с). Примеры: Trabalho em Lisboa (работаю в Лиссабоне), Vou a casa (иду домой), Venho de Ucrânia (приехал из Украины). С артиклями: no escritório (= em + o), na fábrica (= em + a), ao centro de emprego (= a + o).",
       "examples": [
         {
-          "pt": "Eu estou em casa.",
-          "ru": "Я дома."
+          "pt": "Trabalho numa empresa em Lisboa.",
+          "ru": "Я работаю в компании в Лиссабоне."
         },
         {
-          "pt": "Ela está doente.",
-          "ru": "Она больна (сейчас)."
+          "pt": "Vou ao escritório às 9.",
+          "ru": "Я иду в офис в 9."
         },
         {
-          "pt": "Estamos felizes.",
-          "ru": "Мы счастливы (сейчас)."
+          "pt": "Venho da fábrica.",
+          "ru": "Я прихожу с фабрики."
+        },
+        {
+          "pt": "Procuro emprego no centro.",
+          "ru": "Я ищу работу в центре."
         }
       ],
       "templates": [
         {
           "type": "fill_blank",
-          "template": "Eu ___ (estar) cansado.",
-          "correct": "estou",
-          "hint": "1-е лицо",
-          "distractors": [
-            "está",
-            "estamos",
-            "estão"
-          ]
-        },
-        {
-          "type": "fill_blank",
-          "template": "Tu ___ (estar) em Lisboa?",
-          "correct": "estás",
-          "hint": "2-е лицо",
-          "distractors": [
-            "estou",
-            "está",
-            "estamos"
-          ]
-        },
-        {
-          "type": "fill_blank",
-          "template": "Ele ___ (estar) no trabalho.",
-          "correct": "está",
-          "hint": "3-е лицо",
-          "distractors": [
-            "estou",
-            "estás",
-            "estão"
-          ]
-        },
-        {
-          "type": "fill_blank",
-          "template": "Nós ___ (estar) bem.",
-          "correct": "estamos",
-          "hint": "1-е мн.ч.",
-          "distractors": [
-            "estou",
-            "está",
-            "estão"
-          ]
-        },
-        {
-          "type": "fill_blank",
-          "template": "Vocês ___ (estar) ocupados.",
-          "correct": "estão",
-          "hint": "Форма vocês",
-          "distractors": [
-            "estamos",
-            "está",
-            "estou"
-          ]
-        },
-        {
-          "type": "multiple_choice",
-          "template": "Ela ___ em Portugal agora.",
-          "correct": "está",
-          "hint": "Местоположение сейчас",
-          "distractors": [
-            "é",
-            "estamos",
-            "estou"
-          ]
-        },
-        {
-          "type": "fill_blank",
-          "template": "Eles ___ (estar) contentes.",
-          "correct": "estão",
-          "hint": "Временное чувство",
-          "distractors": [
-            "está",
-            "estamos",
-            "estou"
-          ]
-        },
-        {
-          "type": "fill_blank",
-          "template": "Eu ___ (estar) com fome.",
-          "correct": "estou",
-          "hint": "Временное состояние",
-          "distractors": [
-            "está",
-            "estamos",
-            "estão"
-          ]
-        },
-        {
-          "type": "multiple_choice",
-          "template": "Estamos ___ casa.",
+          "template": "Trabalho ___ (em) uma empresa.",
           "correct": "em",
-          "hint": "estar + в",
+          "hint": "em для места",
           "distractors": [
             "a",
             "de",
-            "no"
+            "para"
           ]
         },
         {
           "type": "fill_blank",
-          "template": "O bebé ___ (estar) a dormir.",
-          "correct": "está",
-          "hint": "Временное действие",
+          "template": "Vou ___ (a) casa almoçar.",
+          "correct": "a",
+          "hint": "a для направления",
           "distractors": [
-            "estou",
-            "estamos",
-            "estão"
-          ]
-        },
-        {
-          "type": "fill_blank",
-          "template": "Tu ___ (estar) triste hoje?",
-          "correct": "estás",
-          "hint": "Временное чувство",
-          "distractors": [
-            "estou",
-            "está",
-            "estamos"
-          ]
-        },
-        {
-          "type": "multiple_choice",
-          "template": "Como ___ vocês hoje?",
-          "correct": "estão",
-          "hint": "Самочувствие",
-          "distractors": [
-            "são",
-            "somos",
-            "é"
-          ]
-        }
-      ]
-    },
-    {
-      "id": "g33",
-      "unit": "a1",
-      "title": "Ser vs Estar",
-      "explanation_ru": "Ser — постоянные характеристики (профессия, национальность, материал): Eu sou professor (всегда). Estar — временные состояния, местоположение, самочувствие: Estou doente (сейчас). Формы ser: sou, és, é, somos, são. Формы estar: estou, estás, está, estamos, estão.",
-      "examples": [
-        {
-          "pt": "Eu sou casado.",
-          "ru": "Я женат (постоянно)."
-        },
-        {
-          "pt": "Eu estou casado agora.",
-          "ru": "Я сейчас занят (временное состояние)."
-        },
-        {
-          "pt": "Lisboa é grande.",
-          "ru": "Лиссабон большой (всегда)."
-        },
-        {
-          "pt": "Lisboa está cheia de turistas.",
-          "ru": "Лиссабон полон туристов (сейчас)."
-        }
-      ],
-      "templates": [
-        {
-          "type": "multiple_choice",
-          "template": "Профессия — используем:",
-          "correct": "ser",
-          "hint": "Постоянно",
-          "distractors": [
-            "estar"
-          ]
-        },
-        {
-          "type": "fill_blank",
-          "template": "Eu ___ (ser) português.",
-          "correct": "sou",
-          "hint": "Национальность — ser",
-          "distractors": [
-            "estou"
-          ]
-        },
-        {
-          "type": "fill_blank",
-          "template": "Agora eu ___ (estar) cansado.",
-          "correct": "estou",
-          "hint": "Временное состояние",
-          "distractors": [
-            "sou"
-          ]
-        },
-        {
-          "type": "multiple_choice",
-          "template": "O tempo ___ bom hoje. (погода сейчас)",
-          "correct": "está",
-          "hint": "Временное",
-          "distractors": [
-            "é"
-          ]
-        },
-        {
-          "type": "fill_blank",
-          "template": "A casa ___ (ser) de madeira.",
-          "correct": "é",
-          "hint": "Материал — ser",
-          "distractors": [
-            "está"
-          ]
-        },
-        {
-          "type": "multiple_choice",
-          "template": "Ele ___ muito simpático. (характер)",
-          "correct": "é",
-          "hint": "Постоянное качество",
-          "distractors": [
-            "está"
-          ]
-        },
-        {
-          "type": "fill_blank",
-          "template": "Nós ___ (estar) em Portugal.",
-          "correct": "estamos",
-          "hint": "Местоположение сейчас",
-          "distractors": [
-            "somos"
-          ]
-        },
-        {
-          "type": "fill_blank",
-          "template": "Vocês ___ (ser) da mesma família?",
-          "correct": "são",
-          "hint": "Происхождение",
-          "distractors": [
-            "estão"
-          ]
-        },
-        {
-          "type": "multiple_choice",
-          "template": "Como ___ você hoje?",
-          "correct": "está",
-          "hint": "Самочувствие",
-          "distractors": [
-            "é"
-          ]
-        },
-        {
-          "type": "fill_blank",
-          "template": "O médico ___ (ser) muito bom.",
-          "correct": "é",
-          "hint": "Постоянная характеристика",
-          "distractors": [
-            "está"
-          ]
-        },
-        {
-          "type": "fill_blank",
-          "template": "A comida ___ (estar) quente.",
-          "correct": "está",
-          "hint": "Временное состояние",
-          "distractors": [
-            "é"
-          ]
-        },
-        {
-          "type": "multiple_choice",
-          "template": "Eu ___ estudante. (всегда)",
-          "correct": "sou",
-          "hint": "Профессия/роль",
-          "distractors": [
-            "estou"
-          ]
-        }
-      ]
-    },
-    {
-      "id": "g34",
-      "unit": "a1",
-      "title": "Часы и время суток",
-      "explanation_ru": "Время: É uma hora (1:00), São duas/três... horas (2:00 и далее). Половина: e meia. Четверть: e um quarto / e três quartos. Утро — da manhã, день — da tarde, вечер/ночь — da noite. Вопрос: Que horas são?",
-      "examples": [
-        {
-          "pt": "São sete horas da manhã.",
-          "ru": "Семь часов утра."
-        },
-        {
-          "pt": "É meio-dia e meia.",
-          "ru": "Половина первого дня."
-        },
-        {
-          "pt": "São dez da noite.",
-          "ru": "Десять вечера."
-        }
-      ],
-      "templates": [
-        {
-          "type": "fill_blank",
-          "template": "São ________ horas.",
-          "correct": "duas",
-          "hint": "2:00",
-          "distractors": [
-            "uma",
-            "três",
-            "meia"
-          ]
-        },
-        {
-          "type": "multiple_choice",
-          "template": "1:00 — это:",
-          "correct": "É uma hora",
-          "hint": "Особая форма для 1",
-          "distractors": [
-            "São uma hora",
-            "É uma horas"
-          ]
-        },
-        {
-          "type": "fill_blank",
-          "template": "São sete e ________.",
-          "correct": "meia",
-          "hint": "7:30",
-          "distractors": [
-            "quarto",
-            "três",
-            "da manhã"
-          ]
-        },
-        {
-          "type": "fill_blank",
-          "template": "Às oito ________ manhã.",
-          "correct": "da",
-          "hint": "Утро",
-          "distractors": [
-            "de",
-            "da",
-            "no"
-          ]
-        },
-        {
-          "type": "multiple_choice",
-          "template": "9:15 — это:",
-          "correct": "São nove e um quarto",
-          "hint": "Четверть",
-          "distractors": [
-            "São nove e meia",
-            "É nove horas"
-          ]
-        },
-        {
-          "type": "fill_blank",
-          "template": "São onze ________ noite.",
-          "correct": "da",
-          "hint": "Вечер",
-          "distractors": [
-            "da",
-            "de",
-            "a"
-          ]
-        },
-        {
-          "type": "multiple_choice",
-          "template": "12:00 день — это:",
-          "correct": "É meio-dia",
-          "hint": "Полдень",
-          "distractors": [
-            "São doze horas",
-            "É uma hora"
-          ]
-        },
-        {
-          "type": "fill_blank",
-          "template": "Falta um ________ para as dez.",
-          "correct": "quarto",
-          "hint": "9:45",
-          "distractors": [
-            "meia",
-            "hora",
-            "três"
-          ]
-        },
-        {
-          "type": "multiple_choice",
-          "template": "Как спросить время?",
-          "correct": "Que horas são?",
-          "hint": "Стандартный вопрос",
-          "distractors": [
-            "Que hora é?",
-            "São horas?"
-          ]
-        },
-        {
-          "type": "fill_blank",
-          "template": "São três ________ tarde.",
-          "correct": "da",
-          "hint": "День",
-          "distractors": [
-            "da",
-            "de",
-            "no"
-          ]
-        },
-        {
-          "type": "fill_blank",
-          "template": "Acordo às sete e ________.",
-          "correct": "meia",
-          "hint": "7:30",
-          "distractors": [
-            "quarto",
-            "uma",
-            "da manhã"
-          ]
-        },
-        {
-          "type": "multiple_choice",
-          "template": "00:00 ночь — это:",
-          "correct": "É meia-noite",
-          "hint": "Полночь",
-          "distractors": [
-            "São doze da noite",
-            "É uma hora"
-          ]
-        }
-      ]
-    },
-    {
-      "id": "g35",
-      "unit": "a1",
-      "title": "Дни недели",
-      "explanation_ru": "Дни недели: segunda-feira, terça-feira, quarta-feira, quinta-feira, sexta-feira, sábado, domingo. Предлоги: na segunda-feira, ao sábado (для субботы и воскресенья часто ao). Вопрос: Que dia é hoje?",
-      "examples": [
-        {
-          "pt": "Hoje é segunda-feira.",
-          "ru": "Сегодня понедельник."
-        },
-        {
-          "pt": "Na quarta-feira estudo português.",
-          "ru": "В среду я учу португальский."
-        },
-        {
-          "pt": "Ao domingo descanso.",
-          "ru": "В воскресенье я отдыхаю."
-        }
-      ],
-      "templates": [
-        {
-          "type": "multiple_choice",
-          "template": "Первый день недели в Португалии:",
-          "correct": "segunda-feira",
-          "hint": "Понедельник",
-          "distractors": [
-            "domingo",
-            "sábado"
-          ]
-        },
-        {
-          "type": "fill_blank",
-          "template": "Hoje é ________-feira.",
-          "correct": "quarta",
-          "hint": "Среда",
-          "distractors": [
-            "segunda",
-            "sexta",
-            "terça"
-          ]
-        },
-        {
-          "type": "fill_blank",
-          "template": "Ao ________ descanso.",
-          "correct": "sábado",
-          "hint": "Суббота — ao",
-          "distractors": [
-            "domingo",
-            "segunda",
-            "sexta"
-          ]
-        },
-        {
-          "type": "multiple_choice",
-          "template": "Последний день недели:",
-          "correct": "domingo",
-          "hint": "Воскресенье",
-          "distractors": [
-            "sábado",
-            "segunda-feira"
-          ]
-        },
-        {
-          "type": "fill_blank",
-          "template": "Na ________-feira vou ao médico.",
-          "correct": "terça",
-          "hint": "Вторник",
-          "distractors": [
-            "quinta",
-            "quarta",
-            "sexta"
-          ]
-        },
-        {
-          "type": "fill_blank",
-          "template": "________ é dia de trabalho.",
-          "correct": "Sexta-feira",
-          "hint": "Пятница",
-          "distractors": [
-            "Sábado",
-            "Domingo",
-            "Segunda-feira"
-          ]
-        },
-        {
-          "type": "multiple_choice",
-          "template": "Предлог перед sábado:",
-          "correct": "ao",
-          "hint": "Особый случай",
-          "distractors": [
-            "na",
             "em",
+            "de",
+            "no"
+          ]
+        },
+        {
+          "type": "fill_blank",
+          "template": "O escritório fica ___ (em + o) centro.",
+          "correct": "no",
+          "hint": "no = em + o",
+          "distractors": [
+            "ao",
+            "da",
+            "na"
+          ]
+        },
+        {
+          "type": "fill_blank",
+          "template": "Chego ___ (de + a) fábrica às 18.",
+          "correct": "da",
+          "hint": "da = de + a",
+          "distractors": [
+            "a",
+            "em",
+            "no"
+          ]
+        },
+        {
+          "type": "multiple_choice",
+          "template": "Trabalho ___ Portugal.",
+          "options": [
+            "em",
+            "a",
+            "de",
+            "para"
+          ],
+          "correct": "em"
+        },
+        {
+          "type": "multiple_choice",
+          "template": "Vou ___ centro de emprego.",
+          "options": [
+            "ao",
+            "no",
+            "da",
+            "na"
+          ],
+          "correct": "ao"
+        },
+        {
+          "type": "fill_blank",
+          "template": "Sou ___ (de) outro país.",
+          "correct": "de",
+          "hint": "de для происхождения",
+          "distractors": [
+            "em",
+            "a",
+            "para"
+          ]
+        },
+        {
+          "type": "fill_blank",
+          "template": "A empresa está ___ (em + a) cidade.",
+          "correct": "na",
+          "hint": "na = em + a",
+          "distractors": [
+            "no",
+            "a",
             "de"
           ]
         },
         {
           "type": "fill_blank",
-          "template": "Que dia é ________?",
-          "correct": "hoje",
-          "hint": "Вопрос",
+          "template": "Trabalho ___ (para) uma empresa grande.",
+          "correct": "para",
+          "hint": "para – для кого",
           "distractors": [
-            "amanhã",
-            "ontem",
-            "agora"
+            "em",
+            "a",
+            "de"
           ]
         },
         {
           "type": "multiple_choice",
-          "template": "День перед sexta-feira:",
-          "correct": "quinta-feira",
-          "hint": "Четверг",
-          "distractors": [
-            "quarta-feira",
-            "sábado"
-          ]
-        },
-        {
-          "type": "fill_blank",
-          "template": "Na sexta-feira é o meu dia ________.",
-          "correct": "favorito",
-          "hint": "Контекст",
-          "distractors": [
-            "trabalho",
-            "descanso",
-            "estudo"
-          ]
-        },
-        {
-          "type": "fill_blank",
-          "template": "Ao ________ reunimo-nos em família.",
-          "correct": "domingo",
-          "hint": "Воскресенье",
-          "distractors": [
-            "sábado",
-            "segunda",
-            "terça"
-          ]
-        }
-      ]
-    },
-    {
-      "id": "g36",
-      "unit": "a1",
-      "title": "Артикли o/a/os/as",
-      "explanation_ru": "Определённые артикли: o (м.р. ед.ч.), a (ж.р. ед.ч.), os (м.р. мн.ч.), as (ж.р. мн.ч.). Сливаются с предлогами: de + o = do, em + o = no, a + a = à и т.д. Примеры: o pai, a mãe, os filhos, as filhas.",
-      "examples": [
-        {
-          "pt": "O pai trabalha.",
-          "ru": "Папа работает."
-        },
-        {
-          "pt": "A mãe cozinha.",
-          "ru": "Мама готовит."
-        },
-        {
-          "pt": "Os irmãos jogam.",
-          "ru": "Братья играют."
-        }
-      ],
-      "templates": [
-        {
-          "type": "fill_blank",
-          "template": "___ pai",
-          "correct": "O",
-          "hint": "м.р. ед.ч.",
-          "distractors": [
-            "A",
-            "Os",
-            "As"
-          ]
-        },
-        {
-          "type": "fill_blank",
-          "template": "___ mãe",
-          "correct": "A",
-          "hint": "ж.р. ед.ч.",
-          "distractors": [
-            "O",
-            "Os",
-            "As"
-          ]
-        },
-        {
-          "type": "fill_blank",
-          "template": "___ filhos",
-          "correct": "Os",
-          "hint": "м.р. мн.ч.",
-          "distractors": [
-            "O",
-            "A",
-            "As"
-          ]
-        },
-        {
-          "type": "fill_blank",
-          "template": "___ filhas",
-          "correct": "As",
-          "hint": "ж.р. мн.ч.",
-          "distractors": [
-            "Os",
-            "O",
-            "A"
-          ]
-        },
-        {
-          "type": "multiple_choice",
-          "template": "___ casa de banho",
-          "correct": "a",
-          "hint": "ж.р.",
-          "distractors": [
-            "o",
-            "os",
-            "as"
-          ]
-        },
-        {
-          "type": "fill_blank",
-          "template": "Vou ___ banco.",
-          "correct": "ao",
-          "hint": "a + o",
-          "distractors": [
-            "no",
+          "template": "Venho ___ trabalho.",
+          "options": [
             "do",
-            "à"
-          ]
-        },
-        {
-          "type": "fill_blank",
-          "template": "Moro ___ casa grande.",
-          "correct": "numa",
-          "hint": "em + uma",
-          "distractors": [
-            "no",
-            "na",
-            "num"
-          ]
-        },
-        {
-          "type": "multiple_choice",
-          "template": "___ olhos",
-          "correct": "os",
-          "hint": "м.р. мн.ч.",
-          "distractors": [
-            "as",
-            "o",
-            "a"
-          ]
-        },
-        {
-          "type": "fill_blank",
-          "template": "Compro pão ___ padaria.",
-          "correct": "na",
-          "hint": "em + a",
-          "distractors": [
-            "no",
             "ao",
-            "à"
-          ]
-        },
-        {
-          "type": "fill_blank",
-          "template": "O livro é ___ Maria.",
-          "correct": "da",
-          "hint": "de + a",
-          "distractors": [
-            "do",
-            "dos",
-            "das"
-          ]
-        },
-        {
-          "type": "multiple_choice",
-          "template": "___ pernas",
-          "correct": "as",
-          "hint": "ж.р. мн.ч.",
-          "distractors": [
-            "os",
-            "o",
-            "a"
-          ]
-        },
-        {
-          "type": "fill_blank",
-          "template": "Vivo ___ Portugal.",
-          "correct": "em",
-          "hint": "Без артикля перед страной",
-          "distractors": [
-            "no",
-            "na",
-            "ao"
-          ]
-        }
-      ]
-    },
-    {
-      "id": "g37",
-      "unit": "a1",
-      "title": "Выражение боли и самочувствия",
-      "explanation_ru": "Конструкция doer: Dói-me a cabeça (у меня болит голова, досл. голова болит мне). Глагол estar: Estou doente, Estou bem. Также: Tenho dor de cabeça, Tenho fome.",
-      "examples": [
-        {
-          "pt": "Dói-me a cabeça.",
-          "ru": "У меня болит голова."
-        },
-        {
-          "pt": "Tenho dor de dentes.",
-          "ru": "У меня болят зубы."
-        },
-        {
-          "pt": "Estou com gripe.",
-          "ru": "У меня грипп."
-        }
-      ],
-      "templates": [
-        {
-          "type": "fill_blank",
-          "template": "Dói-me ___ cabeça.",
-          "correct": "a",
-          "hint": "Артикль",
-          "distractors": [
-            "o",
-            "as",
-            "os"
-          ]
-        },
-        {
-          "type": "multiple_choice",
-          "template": "У меня болит горло:",
-          "correct": "Dói-me a garganta",
-          "hint": "Стандартная конструкция",
-          "distractors": [
-            "Tenho garganta",
-            "Estou garganta"
-          ]
-        },
-        {
-          "type": "fill_blank",
-          "template": "___ dor de estômago.",
-          "correct": "Tenho",
-          "hint": "Конструкция с ter",
-          "distractors": [
-            "Dói-me",
-            "Estou",
-            "Sou"
-          ]
-        },
-        {
-          "type": "fill_blank",
-          "template": "Estou ___ fome.",
-          "correct": "com",
-          "hint": "com + чувство",
-          "distractors": [
-            "de",
-            "a",
-            "em"
-          ]
-        },
-        {
-          "type": "multiple_choice",
-          "template": "Я чувствую себя хорошо:",
-          "correct": "Estou bem",
-          "hint": "Самочувствие",
-          "distractors": [
-            "Sou bem",
-            "Tenho bem"
-          ]
-        },
-        {
-          "type": "fill_blank",
-          "template": "Dói-me ___ perna.",
-          "correct": "a",
-          "hint": "ж.р.",
-          "distractors": [
-            "o",
-            "as",
-            "os"
-          ]
-        },
-        {
-          "type": "fill_blank",
-          "template": "___ com febre.",
-          "correct": "Estou",
-          "hint": "Временное состояние",
-          "distractors": [
-            "Tenho",
-            "Dói-me",
-            "Sou"
-          ]
-        },
-        {
-          "type": "multiple_choice",
-          "template": "У меня температура:",
-          "correct": "Tenho febre",
-          "hint": "ter febre",
-          "distractors": [
-            "Dói-me febre",
-            "Estou febre"
-          ]
-        },
-        {
-          "type": "fill_blank",
-          "template": "Tenho dor ___ costas.",
-          "correct": "de",
-          "hint": "dor de",
-          "distractors": [
-            "a",
             "em",
-            "com"
-          ]
-        },
-        {
-          "type": "fill_blank",
-          "template": "Estou ___ sede.",
-          "correct": "com",
-          "hint": "Хочу пить",
-          "distractors": [
-            "de",
-            "a",
-            "tenho"
-          ]
-        },
-        {
-          "type": "multiple_choice",
-          "template": "Болит живот:",
-          "correct": "Dói-me a barriga",
-          "hint": "doer",
-          "distractors": [
-            "Tenho barriga",
-            "Estou barriga"
-          ]
-        },
-        {
-          "type": "fill_blank",
-          "template": "Não me sinto ___ hoje.",
-          "correct": "bem",
-          "hint": "Самочувствие",
-          "distractors": [
-            "doente",
-            "cansado",
-            "feliz"
-          ]
-        }
-      ]
-    },
-    {
-      "id": "g38",
-      "unit": "a1",
-      "title": "Повседневная рутина (рефлексивные глаголы)",
-      "explanation_ru": "Рефлексивные глаголы: acordar-se (просыпаться), levantar-se (вставать), lavar-se (умываться), vestir-se (одеваться), deitar-se (ложиться). Спряжение как обычные + местоимение: Eu acordo-me, mas обычно acordar без -se в этом значении. Часто: acordo, levanto-me, lavo-me и т.д.",
-      "examples": [
-        {
-          "pt": "Acordo às sete.",
-          "ru": "Просыпаюсь в семь."
-        },
-        {
-          "pt": "Levanto-me e tomo banho.",
-          "ru": "Встаю и принимаю душ."
-        },
-        {
-          "pt": "Deito-me cedo.",
-          "ru": "Ложусь рано."
-        }
-      ],
-      "templates": [
-        {
-          "type": "fill_blank",
-          "template": "Eu acordo às sete e ________-me.",
-          "correct": "levanto",
-          "hint": "levantar-se",
-          "distractors": [
-            "acordo",
-            "deito",
-            "visto"
-          ]
-        },
-        {
-          "type": "fill_blank",
-          "template": "Depois lavo ___ cara.",
-          "correct": "a",
-          "hint": "lavar a cara",
-          "distractors": [
-            "me",
-            "o",
-            "as"
-          ]
-        },
-        {
-          "type": "multiple_choice",
-          "template": "Одеваюсь:",
-          "correct": "Visto-me",
-          "hint": "Рефлексивный",
-          "distractors": [
-            "Visto",
-            "Acordo-me",
-            "Deito-me"
-          ]
-        },
-        {
-          "type": "fill_blank",
-          "template": "À noite ________-me às onze.",
-          "correct": "deito",
-          "hint": "deitar-se",
-          "distractors": [
-            "levanto",
-            "acordo",
-            "visto"
-          ]
-        },
-        {
-          "type": "fill_blank",
-          "template": "Primeiro ________ as mãos.",
-          "correct": "lavo",
-          "hint": "lavar-se",
-          "distractors": [
-            "visto",
-            "acordo",
-            "deito"
-          ]
-        },
-        {
-          "type": "multiple_choice",
-          "template": "Просыпаюсь:",
-          "correct": "Acordo",
-          "hint": "Без -se обычно",
-          "distractors": [
-            "Acordo-me",
-            "Levanto-me"
-          ]
-        },
-        {
-          "type": "fill_blank",
-          "template": "Depois do jantar ________-me.",
-          "correct": "deito",
-          "hint": "Ложусь спать",
-          "distractors": [
-            "levanto",
-            "acordo",
-            "visto"
-          ]
-        },
-        {
-          "type": "fill_blank",
-          "template": "Todos os dias ________ rapidamente.",
-          "correct": "visto-me",
-          "hint": "vestir-se",
-          "distractors": [
-            "levanto-me",
-            "acordo",
-            "deito-me"
-          ]
-        },
-        {
-          "type": "multiple_choice",
-          "template": "Умываюсь:",
-          "correct": "Lavo-me",
-          "hint": "Рефлексивный",
-          "distractors": [
-            "Acordo-me",
-            "Deito-me",
-            "Visto-me"
-          ]
-        },
-        {
-          "type": "fill_blank",
-          "template": "Às sete horas ________.",
-          "correct": "acordo",
-          "hint": "Просыпаюсь",
-          "distractors": [
-            "levanto-me",
-            "deito-me",
-            "visto-me"
-          ]
-        },
-        {
-          "type": "fill_blank",
-          "template": "Depois do banho ________ roupa.",
-          "correct": "visto",
-          "hint": "vestir roupa",
-          "distractors": [
-            "lavo",
-            "acordo",
-            "deito"
-          ]
-        },
-        {
-          "type": "multiple_choice",
-          "template": "Ложусь спать:",
-          "correct": "Deito-me",
-          "hint": "Рефлексивный",
-          "distractors": [
-            "Acordo-me",
-            "Levanto-me",
-            "Visto-me"
-          ]
-        }
-      ]
-    },
-    {
-      "id": "g39",
-      "unit": "a1",
-      "title": "Предлоги места и направления",
-      "explanation_ru": "Em — в (местоположение): em casa, em Portugal. A — к/в (направление): vou a casa, a Lisboa. De — из/от: venho de Ucrânia. Para — для/в (цель): vou para o trabalho.",
-      "examples": [
-        {
-          "pt": "Moro em Lisboa.",
-          "ru": "Живу в Лиссабоне."
-        },
-        {
-          "pt": "Vou para o supermercado.",
-          "ru": "Иду в супермаркет."
-        },
-        {
-          "pt": "Venho da farmácia.",
-          "ru": "Иду из аптеки."
-        }
-      ],
-      "templates": [
-        {
-          "type": "multiple_choice",
-          "template": "Живу ___ Portugal.",
-          "correct": "em",
-          "hint": "Местоположение",
-          "distractors": [
-            "a",
-            "de",
             "para"
-          ]
+          ],
+          "correct": "do"
         },
         {
           "type": "fill_blank",
-          "template": "Vou ___ casa.",
-          "correct": "a",
-          "hint": "Направление домой",
-          "distractors": [
-            "em",
-            "de",
-            "para"
-          ]
-        },
-        {
-          "type": "fill_blank",
-          "template": "Sou ___ Brasil.",
-          "correct": "do",
-          "hint": "de + o",
+          "template": "O chefe vai ___ (a + o) reunião.",
+          "correct": "à",
+          "hint": "à = a + a (reunião)",
           "distractors": [
             "ao",
             "no",
@@ -3435,100 +2505,4388 @@
         },
         {
           "type": "multiple_choice",
-          "template": "Иду ___ работу:",
-          "correct": "para o trabalho",
-          "hint": "Цель/направление",
+          "template": "Procuro trabalho ___ internet.",
+          "options": [
+            "na",
+            "a",
+            "em",
+            "de"
+          ],
+          "correct": "na"
+        }
+      ]
+    },
+    {
+      "id": "g43",
+      "unit": "unit5",
+      "title": "Притяжательные местоимения (meu, teu, seu, nosso)",
+      "explanation_ru": "Притяжательные: meu/minha/meus/minhas (мой), teu/tua/teus/tuas (твой), seu/sua/seus/suas (его/её/ваш), nosso/nossa/nossos/nossas (наш). Согласуются в роде и числе с существительным. Примеры: o meu trabalho, a minha profissão, os meus colegas, as nossas férias.",
+      "examples": [
+        {
+          "pt": "O meu trabalho é interessante.",
+          "ru": "Моя работа интересная."
+        },
+        {
+          "pt": "A tua profissão é difícil?",
+          "ru": "Твоя профессия трудная?"
+        },
+        {
+          "pt": "O seu salário é bom.",
+          "ru": "Его/её/ваша зарплата хорошая."
+        },
+        {
+          "pt": "Os nossos direitos são importantes.",
+          "ru": "Наши права важны."
+        }
+      ],
+      "templates": [
+        {
+          "type": "fill_blank",
+          "template": "___ (meu) chefe é simpático.",
+          "correct": "O meu",
+          "hint": "o meu для masculino singular",
           "distractors": [
-            "ao trabalho",
-            "no trabalho",
-            "em trabalho"
+            "A minha",
+            "Os meus",
+            "As minhas"
           ]
         },
         {
           "type": "fill_blank",
-          "template": "Trabalho ___ banco.",
-          "correct": "no",
-          "hint": "em + o",
+          "template": "___ (teu) currículo está pronto?",
+          "correct": "O teu",
+          "hint": "o teu для masculino singular",
           "distractors": [
-            "ao",
-            "para o",
+            "A tua",
+            "Os teus",
+            "O meu"
+          ]
+        },
+        {
+          "type": "fill_blank",
+          "template": "___ (seu) contrato é full-time.",
+          "correct": "O seu",
+          "hint": "o seu для masculino",
+          "distractors": [
+            "A sua",
+            "Os seus",
+            "O nosso"
+          ]
+        },
+        {
+          "type": "fill_blank",
+          "template": "___ (nosso) horário é flexível.",
+          "correct": "O nosso",
+          "hint": "o nosso для masculino",
+          "distractors": [
+            "A nossa",
+            "Os nossos",
+            "O seu"
+          ]
+        },
+        {
+          "type": "multiple_choice",
+          "template": "A ___ profissão é médica.",
+          "options": [
+            "minha",
+            "teu",
+            "seu",
+            "nosso"
+          ],
+          "correct": "minha"
+        },
+        {
+          "type": "multiple_choice",
+          "template": "Os ___ colegas são estrangeiros.",
+          "options": [
+            "meus",
+            "teus",
+            "seus",
+            "nossos"
+          ],
+          "correct": "meus"
+        },
+        {
+          "type": "fill_blank",
+          "template": "As ___ férias são em agosto.",
+          "correct": "minhas",
+          "hint": "minhas для feminino plural",
+          "distractors": [
+            "meus",
+            "teus",
+            "nossas"
+          ]
+        },
+        {
+          "type": "fill_blank",
+          "template": "A ___ empresa paga bem.",
+          "correct": "nossa",
+          "hint": "nossa для feminino",
+          "distractors": [
+            "nosso",
+            "seu",
+            "teu"
+          ]
+        },
+        {
+          "type": "fill_blank",
+          "template": "___ (seu) direitos são protegidos.",
+          "correct": "Os seus",
+          "hint": "os seus для masculino plural",
+          "distractors": [
+            "As suas",
+            "O seu",
+            "A sua"
+          ]
+        },
+        {
+          "type": "multiple_choice",
+          "template": "___ salário mínimo é 820 euros.",
+          "options": [
+            "O nosso",
+            "O meu",
+            "O teu",
+            "O seu"
+          ],
+          "correct": "O nosso"
+        },
+        {
+          "type": "fill_blank",
+          "template": "A ___ entrevista é amanhã.",
+          "correct": "tua",
+          "hint": "tua для feminino",
+          "distractors": [
+            "teu",
+            "seu",
+            "nosso"
+          ]
+        },
+        {
+          "type": "multiple_choice",
+          "template": "___ competências são importantes.",
+          "options": [
+            "As minhas",
+            "Os meus",
+            "A minha",
+            "O meu"
+          ],
+          "correct": "As minhas"
+        }
+      ]
+    },
+    {
+      "id": "g44",
+      "unit": "unit5",
+      "title": "Вопросительные слова: Qual? Quais? Quanto? Quantos?",
+      "explanation_ru": "Qual? / Quais? – какой? какие? (согласуется по числу). Quanto? / Quantos? – сколько? (quanto для неисчисляемого/денег, quantos для исчисляемого, согласуется). Примеры: Qual é a tua profissão? Quantos dias de férias tens? Quanto ganhas?",
+      "examples": [
+        {
+          "pt": "Qual é a tua profissão?",
+          "ru": "Какая у тебя профессия?"
+        },
+        {
+          "pt": "Quais são os teus direitos?",
+          "ru": "Какие у тебя права?"
+        },
+        {
+          "pt": "Quanto ganhas por mês?",
+          "ru": "Сколько ты зарабатываешь в месяц?"
+        },
+        {
+          "pt": "Quantas horas trabalhas?",
+          "ru": "Сколько часов ты работаешь?"
+        }
+      ],
+      "templates": [
+        {
+          "type": "fill_blank",
+          "template": "___ é o teu salário?",
+          "correct": "Quanto",
+          "hint": "Quanto для денег",
+          "distractors": [
+            "Qual",
+            "Quais",
+            "Quantos"
+          ]
+        },
+        {
+          "type": "fill_blank",
+          "template": "___ é a tua profissão?",
+          "correct": "Qual",
+          "hint": "Qual для singular",
+          "distractors": [
+            "Quais",
+            "Quanto",
+            "Quantas"
+          ]
+        },
+        {
+          "type": "fill_blank",
+          "template": "___ horas trabalhas por dia?",
+          "correct": "Quantas",
+          "hint": "Quantas для feminino plural (horas)",
+          "distractors": [
+            "Quantos",
+            "Quanto",
+            "Qual"
+          ]
+        },
+        {
+          "type": "fill_blank",
+          "template": "___ são os teus colegas?",
+          "correct": "Quais",
+          "hint": "Quais для plural",
+          "distractors": [
+            "Qual",
+            "Quanto",
+            "Quantos"
+          ]
+        },
+        {
+          "type": "multiple_choice",
+          "template": "___ dias de férias tens?",
+          "options": [
+            "Quantos",
+            "Quanto",
+            "Qual",
+            "Quais"
+          ],
+          "correct": "Quantos"
+        },
+        {
+          "type": "multiple_choice",
+          "template": "___ é o teu horário?",
+          "options": [
+            "Qual",
+            "Quais",
+            "Quantos",
+            "Quanto"
+          ],
+          "correct": "Qual"
+        },
+        {
+          "type": "fill_blank",
+          "template": "___ ganhas por hora?",
+          "correct": "Quanto",
+          "hint": "Quanto для денег",
+          "distractors": [
+            "Quantos",
+            "Qual",
+            "Quais"
+          ]
+        },
+        {
+          "type": "fill_blank",
+          "template": "___ competências tens?",
+          "correct": "Quais",
+          "hint": "Quais для plural",
+          "distractors": [
+            "Qual",
+            "Quanto",
+            "Quantas"
+          ]
+        },
+        {
+          "type": "multiple_choice",
+          "template": "___ euros é o salário mínimo?",
+          "options": [
+            "Quanto",
+            "Quantos",
+            "Qual",
+            "Quais"
+          ],
+          "correct": "Quanto"
+        },
+        {
+          "type": "fill_blank",
+          "template": "___ anos de experiência tens?",
+          "correct": "Quantos",
+          "hint": "Quantos для masculino plural (anos)",
+          "distractors": [
+            "Quantas",
+            "Quanto",
+            "Qual"
+          ]
+        },
+        {
+          "type": "multiple_choice",
+          "template": "___ são as condições de trabalho?",
+          "options": [
+            "Quais",
+            "Qual",
+            "Quantas",
+            "Quanto"
+          ],
+          "correct": "Quais"
+        },
+        {
+          "type": "fill_blank",
+          "template": "___ é o teu contrato?",
+          "correct": "Qual",
+          "hint": "Qual для типа",
+          "distractors": [
+            "Quais",
+            "Quanto",
+            "Quantos"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "g45",
+      "unit": "unit5",
+      "title": "Глагол querer + инфинитив (хотеть что-то делать)",
+      "explanation_ru": "Глагол querer (хотеть) в Presente: quero (eu), queres (tu), quer (ele/ela/você), queremos (nós), querem (eles/elas/vocês). За ним следует инфинитив другого глагола. Примеры: Quero trabalhar em Portugal. Queres mudar de emprego?",
+      "examples": [
+        {
+          "pt": "Quero trabalhar em Portugal.",
+          "ru": "Я хочу работать в Португалии."
+        },
+        {
+          "pt": "Queres procurar um novo emprego?",
+          "ru": "Ты хочешь искать новую работу?"
+        },
+        {
+          "pt": "Ele quer ganhar mais.",
+          "ru": "Он хочет зарабатывать больше."
+        },
+        {
+          "pt": "Queremos ter melhores condições.",
+          "ru": "Мы хотим лучшие условия."
+        }
+      ],
+      "templates": [
+        {
+          "type": "fill_blank",
+          "template": "Eu ___ (querer) mudar de profissão.",
+          "correct": "quero",
+          "hint": "Eu quero",
+          "distractors": [
+            "queres",
+            "quer",
+            "queremos"
+          ]
+        },
+        {
+          "type": "fill_blank",
+          "template": "Tu ___ (querer) trabalhar remoto?",
+          "correct": "queres",
+          "hint": "Tu queres",
+          "distractors": [
+            "quero",
+            "quer",
+            "querem"
+          ]
+        },
+        {
+          "type": "fill_blank",
+          "template": "Nós ___ (querer) progredir na carreira.",
+          "correct": "queremos",
+          "hint": "Nós queremos",
+          "distractors": [
+            "quero",
+            "queres",
+            "quer"
+          ]
+        },
+        {
+          "type": "fill_blank",
+          "template": "Eles ___ (querer) ter direito a mais férias.",
+          "correct": "querem",
+          "hint": "Eles querem",
+          "distractors": [
+            "quero",
+            "queres",
+            "quer"
+          ]
+        },
+        {
+          "type": "multiple_choice",
+          "template": "Ela ___ encontrar um bom emprego.",
+          "options": [
+            "quer",
+            "quero",
+            "queres",
+            "queremos"
+          ],
+          "correct": "quer"
+        },
+        {
+          "type": "fill_blank",
+          "template": "Eu ___ (querer) aprender novas competências.",
+          "correct": "quero",
+          "hint": "quero + инфинитив",
+          "distractors": [
+            "queres",
+            "quer",
+            "querem"
+          ]
+        },
+        {
+          "type": "fill_blank",
+          "template": "Vocês ___ (querer) assinar o contrato?",
+          "correct": "querem",
+          "hint": "Vocês querem",
+          "distractors": [
+            "quero",
+            "queres",
+            "queremos"
+          ]
+        },
+        {
+          "type": "multiple_choice",
+          "template": "Nós ___ melhorar o nosso português.",
+          "options": [
+            "queremos",
+            "quer",
+            "queres",
+            "quero"
+          ],
+          "correct": "queremos"
+        },
+        {
+          "type": "fill_blank",
+          "template": "O chefe ___ (querer) uma reunião.",
+          "correct": "quer",
+          "hint": "Ele quer",
+          "distractors": [
+            "quero",
+            "queres",
+            "queremos"
+          ]
+        },
+        {
+          "type": "fill_blank",
+          "template": "Eu ___ (querer) realizar-me profissionalmente.",
+          "correct": "quero",
+          "hint": "quero + инфинитив",
+          "distractors": [
+            "quer",
+            "queres",
+            "querem"
+          ]
+        },
+        {
+          "type": "multiple_choice",
+          "template": "Tu ___ contribuir para a empresa?",
+          "options": [
+            "queres",
+            "quero",
+            "quer",
+            "querem"
+          ],
+          "correct": "queres"
+        },
+        {
+          "type": "fill_blank",
+          "template": "Eles ___ (querer) superar os desafios.",
+          "correct": "querem",
+          "hint": "querem + инфинитив",
+          "distractors": [
+            "quero",
+            "queres",
+            "queremos"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "g46",
+      "unit": "unit5",
+      "title": "Выражения времени: às + час, das ... às ..., por + период",
+      "explanation_ru": "Для точного времени: às 9 horas (в 9 часов). Для диапазона: das 9 às 18 (с 9 до 18). Для длительности: por semana (в неделю), por mês (в месяц).",
+      "examples": [
+        {
+          "pt": "Trabalho das 9 às 18.",
+          "ru": "Я работаю с 9 до 18."
+        },
+        {
+          "pt": "Começo às 8 horas.",
+          "ru": "Я начинаю в 8 часов."
+        },
+        {
+          "pt": "Tenho 40 horas por semana.",
+          "ru": "У меня 40 часов в неделю."
+        },
+        {
+          "pt": "Recebo o salário por mês.",
+          "ru": "Я получаю зарплату в месяц."
+        }
+      ],
+      "templates": [
+        {
+          "type": "fill_blank",
+          "template": "Trabalho ___ 9 ___ 17 horas.",
+          "correct": "das/às",
+          "hint": "das ... às ...",
+          "distractors": [
+            "às/das",
+            "por/por",
+            "de/a"
+          ]
+        },
+        {
+          "type": "fill_blank",
+          "template": "A entrevista é ___ 10 horas.",
+          "correct": "às",
+          "hint": "às для точного времени",
+          "distractors": [
+            "das",
+            "por",
             "de"
           ]
         },
         {
           "type": "fill_blank",
-          "template": "Volto ___ casa às seis.",
-          "correct": "para",
-          "hint": "Домой",
+          "template": "Trabalho 8 horas ___ dia.",
+          "correct": "por",
+          "hint": "por для длительности",
           "distractors": [
-            "a",
+            "às",
+            "das",
+            "em"
+          ]
+        },
+        {
+          "type": "fill_blank",
+          "template": "Tenho 22 dias de férias ___ ano.",
+          "correct": "por",
+          "hint": "por ano",
+          "distractors": [
+            "às",
+            "das",
+            "em"
+          ]
+        },
+        {
+          "type": "multiple_choice",
+          "template": "A pausa é ___ 12 ___ 13.",
+          "options": [
+            "das/às",
+            "às/das",
+            "por/por",
+            "em/em"
+          ],
+          "correct": "das/às"
+        },
+        {
+          "type": "multiple_choice",
+          "template": "Reunião ___ 15 horas.",
+          "options": [
+            "às",
+            "das",
+            "por",
+            "em"
+          ],
+          "correct": "às"
+        },
+        {
+          "type": "fill_blank",
+          "template": "Ganho 1000 euros ___ mês.",
+          "correct": "por",
+          "hint": "por mês",
+          "distractors": [
+            "às",
+            "das",
+            "em"
+          ]
+        },
+        {
+          "type": "fill_blank",
+          "template": "Trabalho ___ manhã.",
+          "correct": "de",
+          "hint": "de manhã",
+          "distractors": [
+            "à",
+            "por",
+            "das"
+          ]
+        },
+        {
+          "type": "multiple_choice",
+          "template": "40 horas ___ semana.",
+          "options": [
+            "por",
+            "às",
+            "das",
+            "em"
+          ],
+          "correct": "por"
+        },
+        {
+          "type": "fill_blank",
+          "template": "Termino ___ 18 horas.",
+          "correct": "às",
+          "hint": "às для конца",
+          "distractors": [
+            "das",
+            "por",
+            "de"
+          ]
+        },
+        {
+          "type": "fill_blank",
+          "template": "Das 8 ___ 12 trabalho sem pausa.",
+          "correct": "às",
+          "hint": "das ... às",
+          "distractors": [
+            "por",
             "em",
             "de"
           ]
         },
         {
           "type": "multiple_choice",
-          "template": "Приезжаю ___ Украины:",
-          "correct": "da",
-          "hint": "de + a",
+          "template": "Salário ___ hora.",
+          "options": [
+            "por",
+            "às",
+            "das",
+            "em"
+          ],
+          "correct": "por"
+        }
+      ]
+    },
+    {
+      "id": "g47",
+      "unit": "unit5",
+      "title": "Модальный глагол poder (мочь, иметь возможность)",
+      "explanation_ru": "Глагол poder в Presente: posso (eu), podes (tu), pode (ele/ela/você), podemos (nós), podem (eles/elas/vocês). За ним инфинитив. Используется для прав и возможностей на работе.",
+      "examples": [
+        {
+          "pt": "Posso trabalhar remoto.",
+          "ru": "Я могу работать удалённо."
+        },
+        {
+          "pt": "Podes pedir aumento.",
+          "ru": "Ты можешь попросить повышение."
+        },
+        {
+          "pt": "Não pode discriminar.",
+          "ru": "Нельзя дискриминировать."
+        },
+        {
+          "pt": "Podemos denunciar problemas.",
+          "ru": "Мы можем сообщить о проблемах."
+        }
+      ],
+      "templates": [
+        {
+          "type": "fill_blank",
+          "template": "Eu ___ (poder) trabalhar part-time.",
+          "correct": "posso",
+          "hint": "Eu posso",
           "distractors": [
-            "a",
+            "podes",
+            "pode",
+            "podemos"
+          ]
+        },
+        {
+          "type": "fill_blank",
+          "template": "Tu ___ (poder) escolher o horário.",
+          "correct": "podes",
+          "hint": "Tu podes",
+          "distractors": [
+            "posso",
+            "pode",
+            "podem"
+          ]
+        },
+        {
+          "type": "fill_blank",
+          "template": "Ele ___ (poder) despedir sem motivo? Não ___ .",
+          "correct": "pode/pode",
+          "hint": "pode + не pode",
+          "distractors": [
+            "posso/posso",
+            "podemos/podemos"
+          ]
+        },
+        {
+          "type": "fill_blank",
+          "template": "Nós ___ (poder) ter formação gratuita.",
+          "correct": "podemos",
+          "hint": "Nós podemos",
+          "distractors": [
+            "posso",
+            "podes",
+            "pode"
+          ]
+        },
+        {
+          "type": "multiple_choice",
+          "template": "Vocês ___ denunciar exploração.",
+          "options": [
+            "podem",
+            "posso",
+            "podes",
+            "podemos"
+          ],
+          "correct": "podem"
+        },
+        {
+          "type": "fill_blank",
+          "template": "Eu não ___ (poder) trabalhar ilegal.",
+          "correct": "posso",
+          "hint": "Não posso",
+          "distractors": [
+            "podes",
+            "pode",
+            "podem"
+          ]
+        },
+        {
+          "type": "multiple_choice",
+          "template": "A empresa ___ pagar o salário mínimo.",
+          "options": [
+            "pode",
+            "posso",
+            "podes",
+            "podemos"
+          ],
+          "correct": "pode"
+        },
+        {
+          "type": "fill_blank",
+          "template": "Os trabalhadores ___ (poder) ter direitos.",
+          "correct": "podem",
+          "hint": "podem + инфинитив",
+          "distractors": [
+            "posso",
+            "podes",
+            "podemos"
+          ]
+        },
+        {
+          "type": "fill_blank",
+          "template": "Tu ___ (poder) aproveitar a oportunidade.",
+          "correct": "podes",
+          "hint": "podes + инфинитив",
+          "distractors": [
+            "posso",
+            "pode",
+            "podem"
+          ]
+        },
+        {
+          "type": "multiple_choice",
+          "template": "Não ___ explorar trabalhadores.",
+          "options": [
+            "pode",
+            "posso",
+            "podes",
+            "podemos"
+          ],
+          "correct": "pode"
+        },
+        {
+          "type": "fill_blank",
+          "template": "Eu ___ (poder) progredir na carreira.",
+          "correct": "posso",
+          "hint": "posso + инфинитив",
+          "distractors": [
+            "podes",
+            "pode",
+            "podemos"
+          ]
+        },
+        {
+          "type": "multiple_choice",
+          "template": "Nós ___ mudar de emprego.",
+          "options": [
+            "podemos",
+            "posso",
+            "podes",
+            "pode"
+          ],
+          "correct": "podemos"
+        }
+      ]
+    },
+    {
+      "id": "g48",
+      "unit": "unit5",
+      "title": "Есть/нет работы: há / não há",
+      "explanation_ru": "Конструкция há (есть, имеется) и não há (нет) используется для наличия работы, вакансий. Há muitos empregos na construção. Não há discriminação.",
+      "examples": [
+        {
+          "pt": "Há trabalho na agricultura.",
+          "ru": "Есть работа в сельском хозяйстве."
+        },
+        {
+          "pt": "Não há desemprego alto.",
+          "ru": "Нет высокой безработицы."
+        },
+        {
+          "pt": "Há oportunidades para imigrantes.",
+          "ru": "Есть возможности для иммигрантов."
+        },
+        {
+          "pt": "Não há exploração no meu trabalho.",
+          "ru": "Нет эксплуатации на моей работе."
+        }
+      ],
+      "templates": [
+        {
+          "type": "fill_blank",
+          "template": "___ muitos empregos em Portugal.",
+          "correct": "Há",
+          "hint": "Há для наличия",
+          "distractors": [
+            "Não há",
+            "Tem",
+            "Têm"
+          ]
+        },
+        {
+          "type": "fill_blank",
+          "template": "___ discriminação no trabalho.",
+          "correct": "Não há",
+          "hint": "Não há для отсутствия",
+          "distractors": [
+            "Há",
+            "Tem",
+            "Não tem"
+          ]
+        },
+        {
+          "type": "fill_blank",
+          "template": "___ oportunidades na minha área.",
+          "correct": "Há",
+          "hint": "Há oportunidades",
+          "distractors": [
+            "Não há",
+            "Tem",
+            "Têm"
+          ]
+        },
+        {
+          "type": "fill_blank",
+          "template": "___ trabalho ilegal.",
+          "correct": "Não há",
+          "hint": "Não há (в хорошем контексте)",
+          "distractors": [
+            "Há",
+            "Tem",
+            "Não tem"
+          ]
+        },
+        {
+          "type": "multiple_choice",
+          "template": "___ formação profissional gratuita.",
+          "options": [
+            "Há",
+            "Não há",
+            "Tem",
+            "Não tem"
+          ],
+          "correct": "Há"
+        },
+        {
+          "type": "multiple_choice",
+          "template": "___ stress no meu emprego.",
+          "options": [
+            "Não há",
+            "Há",
+            "Tem",
+            "Não tem"
+          ],
+          "correct": "Não há"
+        },
+        {
+          "type": "fill_blank",
+          "template": "___ direitos para todos.",
+          "correct": "Há",
+          "hint": "Há direitos",
+          "distractors": [
+            "Não há",
+            "Tem",
+            "Têm"
+          ]
+        },
+        {
+          "type": "fill_blank",
+          "template": "___ igualdade de género.",
+          "correct": "Há",
+          "hint": "Há igualdade",
+          "distractors": [
+            "Não há",
+            "Tem",
+            "Não tem"
+          ]
+        },
+        {
+          "type": "multiple_choice",
+          "template": "___ desafios no mercado de trabalho.",
+          "options": [
+            "Há",
+            "Não há",
+            "Tem",
+            "Têm"
+          ],
+          "correct": "Há"
+        },
+        {
+          "type": "fill_blank",
+          "template": "___ subsídio de desemprego.",
+          "correct": "Há",
+          "hint": "Há subsídio",
+          "distractors": [
+            "Não há",
+            "Tem",
+            "Não tem"
+          ]
+        },
+        {
+          "type": "multiple_choice",
+          "template": "___ respeito entre colegas.",
+          "options": [
+            "Há",
+            "Não há",
+            "Tem",
+            "Não tem"
+          ],
+          "correct": "Há"
+        },
+        {
+          "type": "fill_blank",
+          "template": "___ solidariedade no sindicato.",
+          "correct": "Há",
+          "hint": "Há solidariedade",
+          "distractors": [
+            "Não há",
+            "Tem",
+            "Têm"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "g49",
+      "unit": "unit5",
+      "title": "Прилагательные с сер/эстар в контексте работы",
+      "explanation_ru": "Ser для постоянных характеристик (профессия, условия): Sou qualificado (я квалифицированный – постоянно). Estar для временного состояния: Estou cansado (я устал – сейчас). Estou satisfeito (я доволен – сейчас).",
+      "examples": [
+        {
+          "pt": "Sou trabalhador qualificado.",
+          "ru": "Я квалифицированный работник (постоянно)."
+        },
+        {
+          "pt": "Estou cansado depois do trabalho.",
+          "ru": "Я устал после работы (сейчас)."
+        },
+        {
+          "pt": "O horário é flexível.",
+          "ru": "График гибкий (характеристика)."
+        },
+        {
+          "pt": "Estou motivado hoje.",
+          "ru": "Я мотивирован сегодня."
+        }
+      ],
+      "templates": [
+        {
+          "type": "multiple_choice",
+          "template": "Eu ___ qualificado para o emprego.",
+          "options": [
+            "sou",
+            "estou"
+          ],
+          "correct": "sou"
+        },
+        {
+          "type": "multiple_choice",
+          "template": "Hoje ___ cansado do trabalho.",
+          "options": [
+            "estou",
+            "sou"
+          ],
+          "correct": "estou"
+        },
+        {
+          "type": "multiple_choice",
+          "template": "O salário ___ bom.",
+          "options": [
+            "é",
+            "está"
+          ],
+          "correct": "é"
+        },
+        {
+          "type": "multiple_choice",
+          "template": "___ satisfeito com o contrato.",
+          "options": [
+            "Estou",
+            "Sou"
+          ],
+          "correct": "Estou"
+        },
+        {
+          "type": "fill_blank",
+          "template": "A empresa ___ grande.",
+          "correct": "é",
+          "hint": "ser для характеристики",
+          "distractors": [
+            "está"
+          ]
+        },
+        {
+          "type": "fill_blank",
+          "template": "Eu ___ orgulhoso do meu trabalho.",
+          "correct": "estou",
+          "hint": "estar для чувства",
+          "distractors": [
+            "sou"
+          ]
+        },
+        {
+          "type": "multiple_choice",
+          "template": "O trabalho ___ interessante.",
+          "options": [
+            "é",
+            "está"
+          ],
+          "correct": "é"
+        },
+        {
+          "type": "multiple_choice",
+          "template": "___ feliz no novo emprego.",
+          "options": [
+            "Estou",
+            "Sou"
+          ],
+          "correct": "Estou"
+        },
+        {
+          "type": "fill_blank",
+          "template": "Os colegas ___ simpáticos.",
+          "correct": "são",
+          "hint": "ser для постоянного",
+          "distractors": [
+            "estão"
+          ]
+        },
+        {
+          "type": "fill_blank",
+          "template": "Hoje ___ stressado.",
+          "correct": "estou",
+          "hint": "estar для временного",
+          "distractors": [
+            "sou"
+          ]
+        },
+        {
+          "type": "multiple_choice",
+          "template": "O contrato ___ legal.",
+          "options": [
+            "é",
+            "está"
+          ],
+          "correct": "é"
+        },
+        {
+          "type": "multiple_choice",
+          "template": "___ motivado para aprender.",
+          "options": [
+            "Estou",
+            "Sou"
+          ],
+          "correct": "Estou"
+        }
+      ]
+    },
+    {
+      "id": "g50",
+      "unit": "unit6",
+      "title": "Pretérito Perfeito Simples",
+      "explanation_ru": "Pretérito Perfeito Simples используется для описания завершенных действий в прошлом. Для регулярных глаголов: -ar: eu falei, tu falaste, ele/ela falou, nós falamos, vós falastes, eles/elas falaram (от falar); -er: eu comi, tu comeste, ele/ela comeu, nós comemos, vós comestes, eles/elas comeram (от comer); -ir: eu parti, tu partiste, ele/ela partiu, nós partimos, vós partistes, eles/elas partiram (от partir). Для неправильных: ser/ir: eu fui, tu foste, ele/ela foi, nós fomos, vós fostes, eles/elas foram; ter: eu tive, tu tiveste, ele/ela teve, nós tivemos, vós tivestes, eles/elas tiveram.",
+      "examples": [
+        {
+          "pt": "Eu falei com o meu amigo ontem.",
+          "ru": "Я поговорил с другом вчера."
+        },
+        {
+          "pt": "Nós comemos no restaurante.",
+          "ru": "Мы поели в ресторане."
+        },
+        {
+          "pt": "Eles partiram para a viagem.",
+          "ru": "Они уехали в поездку."
+        },
+        {
+          "pt": "Eu fui ao mercado.",
+          "ru": "Я пошел на рынок."
+        },
+        {
+          "pt": "Ela teve uma ideia.",
+          "ru": "У нее была идея."
+        }
+      ],
+      "templates": [
+        {
+          "type": "fill_blank",
+          "template": "Eu ___ (falar) sobre o passado.",
+          "correct": "falei",
+          "hint": "Pretérito Perfeito для eu",
+          "distractors": [
+            "falo",
+            "falava"
+          ]
+        },
+        {
+          "type": "fill_blank",
+          "template": "Tu ___ (comer) a fruta.",
+          "correct": "comeste",
+          "hint": "Pretérito Perfeito для tu",
+          "distractors": [
+            "comes",
+            "comia"
+          ]
+        },
+        {
+          "type": "fill_blank",
+          "template": "Ele ___ (partir) cedo.",
+          "correct": "partiu",
+          "hint": "Pretérito Perfeito для ele",
+          "distractors": [
+            "parte",
+            "partia"
+          ]
+        },
+        {
+          "type": "fill_blank",
+          "template": "Nós ___ (ir) à festa.",
+          "correct": "fomos",
+          "hint": "Pretérito Perfeito для nós",
+          "distractors": [
+            "vamos",
+            "íamos"
+          ]
+        },
+        {
+          "type": "fill_blank",
+          "template": "Eles ___ (ter) problemas.",
+          "correct": "tiveram",
+          "hint": "Pretérito Perfeito для eles",
+          "distractors": [
+            "têm",
+            "tinham"
+          ]
+        },
+        {
+          "type": "multiple_choice",
+          "template": "Ontem, eu ___ para casa.",
+          "correct": "fui",
+          "options": [
+            "fui",
+            "vou",
+            "ia"
+          ]
+        },
+        {
+          "type": "multiple_choice",
+          "template": "Ela ___ o livro.",
+          "correct": "leu",
+          "options": [
+            "leu",
+            "lê",
+            "lia"
+          ]
+        },
+        {
+          "type": "transform",
+          "template": "Eu como agora. (ontem)",
+          "correct": "Eu comi ontem."
+        },
+        {
+          "type": "transform",
+          "template": "Nós falamos hoje. (no passado)",
+          "correct": "Nós falamos no passado."
+        },
+        {
+          "type": "translate",
+          "template": "Я жил в Португалии.",
+          "correct": "Eu vivi em Portugal."
+        },
+        {
+          "type": "match",
+          "template": "Eu ___ (nascer) em 1990.",
+          "correct": "nasci"
+        },
+        {
+          "type": "fill_blank",
+          "template": "Tu ___ (crescer) rápido.",
+          "correct": "crescente",
+          "hint": "Нет, используй Pretérito Perfeito: cresceste",
+          "distractors": [
+            "cresces",
+            "crescia"
+          ]
+        },
+        {
+          "type": "multiple_choice",
+          "template": "Eles ___ a casa.",
+          "correct": "compraram",
+          "options": [
+            "compraram",
+            "compram",
+            "compravam"
+          ]
+        },
+        {
+          "type": "transform",
+          "template": "Ele estuda agora. (в прошлом)",
+          "correct": "Ele estudou no passado."
+        },
+        {
+          "type": "translate",
+          "template": "Мы работали вчера.",
+          "correct": "Nós trabalhamos ontem."
+        }
+      ]
+    },
+    {
+      "id": "g51",
+      "unit": "unit6",
+      "title": "Pretérito Imperfeito",
+      "explanation_ru": "Pretérito Imperfeito описывает привычки, состояния или незавершенные действия в прошлом. Для -ar: eu falava, tu falavas, ele/ela falava, nós falávamos, vós faláveis, eles/elas falavam (от falar); -er: eu comia, tu comias, ele/ela comia, nós comíamos, vós comíeis, eles/elas comiam (от comer); -ir: eu partia, tu partias, ele/ela partia, nós partíamos, vós partíeis, eles/elas partiam (от partir). Неправильные: ser: eu era, tu eras, ele/ela era, nós éramos, vós éreis, eles/elas eram; ter: eu tinha, tu tinhas, ele/ela tinha, nós tínhamos, vós tínheis, eles/elas tinham.",
+      "examples": [
+        {
+          "pt": "Eu falava português todos os dias.",
+          "ru": "Я говорил по-португальски каждый день."
+        },
+        {
+          "pt": "Nós comíamos juntos.",
+          "ru": "Мы ели вместе."
+        },
+        {
+          "pt": "Eles partiam cedo.",
+          "ru": "Они уезжали рано."
+        },
+        {
+          "pt": "Eu era feliz.",
+          "ru": "Я был счастлив."
+        },
+        {
+          "pt": "Ela tinha um carro.",
+          "ru": "У нее была машина."
+        }
+      ],
+      "templates": [
+        {
+          "type": "fill_blank",
+          "template": "Eu ___ (falar) com amigos.",
+          "correct": "falava",
+          "hint": "Imperfeito для привычек",
+          "distractors": [
+            "falei",
+            "falo"
+          ]
+        },
+        {
+          "type": "fill_blank",
+          "template": "Tu ___ (comer) frutas.",
+          "correct": "comias",
+          "hint": "Imperfeito для tu",
+          "distractors": [
+            "comeste",
+            "comes"
+          ]
+        },
+        {
+          "type": "fill_blank",
+          "template": "Ele ___ (partir) às 8h.",
+          "correct": "partia",
+          "hint": "Imperfeito для повторяющихся действий",
+          "distractors": [
+            "partiu",
+            "parte"
+          ]
+        },
+        {
+          "type": "fill_blank",
+          "template": "Nós ___ (ser) crianças.",
+          "correct": "éramos",
+          "hint": "Imperfeito для состояний",
+          "distractors": [
+            "fomos",
+            "somos"
+          ]
+        },
+        {
+          "type": "fill_blank",
+          "template": "Eles ___ (ter) tempo.",
+          "correct": "tinham",
+          "hint": "Imperfeito для eles",
+          "distractors": [
+            "tiveram",
+            "têm"
+          ]
+        },
+        {
+          "type": "multiple_choice",
+          "template": "Quando criança, eu ___ futebol.",
+          "correct": "jogava",
+          "options": [
+            "jogava",
+            "joguei",
+            "jogo"
+          ]
+        },
+        {
+          "type": "multiple_choice",
+          "template": "Ela ___ livros.",
+          "correct": "lia",
+          "options": [
+            "lia",
+            "leu",
+            "lê"
+          ]
+        },
+        {
+          "type": "transform",
+          "template": "Eu falo agora. (в прошлом привычка)",
+          "correct": "Eu falava no passado."
+        },
+        {
+          "type": "transform",
+          "template": "Nós comemos hoje. (в прошлом регулярно)",
+          "correct": "Nós comíamos no passado."
+        },
+        {
+          "type": "translate",
+          "template": "Я жил в деревне.",
+          "correct": "Eu morava na aldeia."
+        },
+        {
+          "type": "match",
+          "template": "Eu ___ (crescer) no campo.",
+          "correct": "crescia"
+        },
+        {
+          "type": "fill_blank",
+          "template": "Tu ___ (estudar) muito.",
+          "correct": "estudavas",
+          "hint": "Imperfeito",
+          "distractors": [
+            "estudaste",
+            "estudas"
+          ]
+        },
+        {
+          "type": "multiple_choice",
+          "template": "Eles ___ amigos.",
+          "correct": "eram",
+          "options": [
+            "eram",
+            "foram",
+            "são"
+          ]
+        },
+        {
+          "type": "transform",
+          "template": "Ele tem agora. (в прошлом)",
+          "correct": "Ele tinha no passado."
+        },
+        {
+          "type": "translate",
+          "template": "Мы были счастливы.",
+          "correct": "Nós éramos felizes."
+        }
+      ]
+    },
+    {
+      "id": "g52",
+      "unit": "unit6",
+      "title": "Comparativos de superioridade",
+      "explanation_ru": "Comparativos de superioridade образуются с mais + прилагательное + que. Примеры: mais alto que (выше чем), mais grande que (больше чем), mais inteligente que (умнее чем). Для неправильных: melhor que (лучше чем, от bom), pior que (хуже чем, от mau), maior que (больше чем, от grande), menor que (меньше чем, от pequeno).",
+      "examples": [
+        {
+          "pt": "Ele é mais alto que eu.",
+          "ru": "Он выше меня."
+        },
+        {
+          "pt": "Esta casa é mais grande que a outra.",
+          "ru": "Этот дом больше другого."
+        },
+        {
+          "pt": "Ela é mais inteligente que o irmão.",
+          "ru": "Она умнее брата."
+        },
+        {
+          "pt": "Este é melhor que aquele.",
+          "ru": "Этот лучше того."
+        },
+        {
+          "pt": "O tempo está pior que ontem.",
+          "ru": "Погода хуже, чем вчера."
+        }
+      ],
+      "templates": [
+        {
+          "type": "fill_blank",
+          "template": "Ele é ___ alto ___ eu.",
+          "correct": "mais que",
+          "hint": "Comparativo superioridade",
+          "distractors": [
+            "tão como",
+            "menos que"
+          ]
+        },
+        {
+          "type": "fill_blank",
+          "template": "A cidade é ___ grande ___ a vila.",
+          "correct": "mais que",
+          "hint": "mais ... que",
+          "distractors": [
+            "tão como",
+            "menos que"
+          ]
+        },
+        {
+          "type": "multiple_choice",
+          "template": "Este livro é ___ que o outro.",
+          "correct": "melhor",
+          "options": [
+            "melhor",
+            "bom",
+            "mais bom"
+          ]
+        },
+        {
+          "type": "multiple_choice",
+          "template": "O filme foi ___ que esperava.",
+          "correct": "pior",
+          "options": [
+            "pior",
+            "mau",
+            "mais mau"
+          ]
+        },
+        {
+          "type": "transform",
+          "template": "Ele é alto. (сравни с мной)",
+          "correct": "Ele é mais alto que eu."
+        },
+        {
+          "type": "transform",
+          "template": "A casa é grande. (больше другой)",
+          "correct": "A casa é mais grande que a outra."
+        },
+        {
+          "type": "translate",
+          "template": "Она старше меня.",
+          "correct": "Ela é mais velha que eu."
+        },
+        {
+          "type": "translate",
+          "template": "Это хуже.",
+          "correct": "Isto é pior."
+        },
+        {
+          "type": "match",
+          "template": "mais inteligente ___",
+          "correct": "que"
+        },
+        {
+          "type": "fill_blank",
+          "template": "O carro é ___ rápido ___ o trem.",
+          "correct": "mais que",
+          "hint": "superioridade",
+          "distractors": [
+            "tão como",
+            "menos que"
+          ]
+        },
+        {
+          "type": "multiple_choice",
+          "template": "A montanha é ___ que a colina.",
+          "correct": "maior",
+          "options": [
+            "maior",
+            "grande",
+            "mais grande"
+          ]
+        },
+        {
+          "type": "multiple_choice",
+          "template": "O quarto é ___ que a sala.",
+          "correct": "menor",
+          "options": [
+            "menor",
+            "pequeno",
+            "mais pequeno"
+          ]
+        },
+        {
+          "type": "transform",
+          "template": "Bom que aquilo.",
+          "correct": "Melhor que aquilo."
+        },
+        {
+          "type": "translate",
+          "template": "Больше, чем раньше.",
+          "correct": "Mais que antes."
+        },
+        {
+          "type": "fill_blank",
+          "template": "Ela é ___ bonita ___ a amiga.",
+          "correct": "mais que",
+          "hint": "comparativo"
+        }
+      ]
+    },
+    {
+      "id": "g53",
+      "unit": "unit6",
+      "title": "Comparativos de igualdade",
+      "explanation_ru": "Comparativos de равенства образуются с tão + прилагательное + como. Примеры: tão alto como (такой же высокий как), tão grande como (такой же большой как), tão inteligente como (такой же умный как). Для существительных: tanto/tanta/tantos/tantas + noun + como.",
+      "examples": [
+        {
+          "pt": "Ele é tão alto como eu.",
+          "ru": "Он такой же высокий, как я."
+        },
+        {
+          "pt": "Esta casa é tão grande como a outra.",
+          "ru": "Этот дом такой же большой, как другой."
+        },
+        {
+          "pt": "Ela é tão inteligente como o irmão.",
+          "ru": "Она такая же умная, как брат."
+        },
+        {
+          "pt": "Tenho tanto dinheiro como você.",
+          "ru": "У меня столько же денег, сколько у тебя."
+        },
+        {
+          "pt": "Há tantas pessoas como ontem.",
+          "ru": "Здесь столько же людей, сколько вчера."
+        }
+      ],
+      "templates": [
+        {
+          "type": "fill_blank",
+          "template": "Ele é ___ alto ___ eu.",
+          "correct": "tão como",
+          "hint": "Comparativo равенства",
+          "distractors": [
+            "mais que",
+            "menos que"
+          ]
+        },
+        {
+          "type": "fill_blank",
+          "template": "A casa é ___ grande ___ a outra.",
+          "correct": "tão como",
+          "hint": "tão ... como",
+          "distractors": [
+            "mais que",
+            "menos que"
+          ]
+        },
+        {
+          "type": "multiple_choice",
+          "template": "O livro é ___ interessante ___ o filme.",
+          "correct": "tão como",
+          "options": [
+            "tão como",
+            "mais que",
+            "menos que"
+          ]
+        },
+        {
+          "type": "multiple_choice",
+          "template": "Tenho ___ amigos ___ você.",
+          "correct": "tantos como",
+          "options": [
+            "tantos como",
+            "mais que",
+            "menos que"
+          ]
+        },
+        {
+          "type": "transform",
+          "template": "Ele é alto. (как я)",
+          "correct": "Ele é tão alto como eu."
+        },
+        {
+          "type": "transform",
+          "template": "A casa é grande. (как другая)",
+          "correct": "A casa é tão grande como a outra."
+        },
+        {
+          "type": "translate",
+          "template": "Она такая же старая, как я.",
+          "correct": "Ela é tão velha como eu."
+        },
+        {
+          "type": "translate",
+          "template": "Столько же книг, сколько фильмов.",
+          "correct": "Tantos livros como filmes."
+        },
+        {
+          "type": "match",
+          "template": "tão inteligente ___",
+          "correct": "como"
+        },
+        {
+          "type": "fill_blank",
+          "template": "O carro é ___ rápido ___ o trem.",
+          "correct": "tão como",
+          "hint": "равенство",
+          "distractors": [
+            "mais que",
+            "menos que"
+          ]
+        },
+        {
+          "type": "multiple_choice",
+          "template": "A montanha é ___ alta ___ o edifício.",
+          "correct": "tão como",
+          "options": [
+            "tão como",
+            "mais que",
+            "menos que"
+          ]
+        },
+        {
+          "type": "transform",
+          "template": "Bom como aquilo.",
+          "correct": "Tão bom como aquilo."
+        },
+        {
+          "type": "translate",
+          "template": "Так же, как раньше.",
+          "correct": "Tão como antes."
+        },
+        {
+          "type": "fill_blank",
+          "template": "Ela é ___ bonita ___ a amiga.",
+          "correct": "tão como",
+          "hint": "равенство"
+        },
+        {
+          "type": "multiple_choice",
+          "template": "Há ___ água ___ necessário.",
+          "correct": "tanta como",
+          "options": [
+            "tanta como",
+            "mais que",
+            "menos que"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "g54",
+      "unit": "unit6",
+      "title": "Costumar + infinitivo",
+      "explanation_ru": "Costumar + infinitivo выражает привычки. Спряжение: eu costumo, tu costumas, ele/ela costuma, nós costumamos, vós costumais, eles/elas costumam. Используется в настоящем для текущих привычек или в imperfeito для прошлых: costumava etc.",
+      "examples": [
+        {
+          "pt": "Eu costumo ler antes de dormir.",
+          "ru": "Я имею обыкновение читать перед сном."
+        },
+        {
+          "pt": "Ela costuma correr de manhã.",
+          "ru": "Она обычно бегает утром."
+        },
+        {
+          "pt": "Nós costumamos viajar no verão.",
+          "ru": "Мы обычно путешествуем летом."
+        },
+        {
+          "pt": "No passado, eu costumava fumar.",
+          "ru": "В прошлом я курил (привычка)."
+        },
+        {
+          "pt": "Eles costumavam jogar futebol.",
+          "ru": "Они обычно играли в футбол."
+        }
+      ],
+      "templates": [
+        {
+          "type": "fill_blank",
+          "template": "Eu ___ (costumar) acordar cedo.",
+          "correct": "costumo",
+          "hint": "Для настоящих привычек",
+          "distractors": [
+            "costumava",
+            "costumarei"
+          ]
+        },
+        {
+          "type": "fill_blank",
+          "template": "Tu ___ (costumar) estudar à noite.",
+          "correct": "costumas",
+          "hint": "costumar для tu",
+          "distractors": [
+            "costumavas",
+            "costuma"
+          ]
+        },
+        {
+          "type": "fill_blank",
+          "template": "No passado, ele ___ (costumar) trabalhar muito.",
+          "correct": "costumava",
+          "hint": "Imperfeito для прошлых привычек",
+          "distractors": [
+            "costuma",
+            "costumou"
+          ]
+        },
+        {
+          "type": "multiple_choice",
+          "template": "Nós ___ sair aos fins de semana.",
+          "correct": "costumamos",
+          "options": [
+            "costumamos",
+            "costumávamos",
+            "costumamos"
+          ]
+        },
+        {
+          "type": "multiple_choice",
+          "template": "Eles ___ comer fora.",
+          "correct": "costumam",
+          "options": [
+            "costumam",
+            "costumavam",
+            "costumaram"
+          ]
+        },
+        {
+          "type": "transform",
+          "template": "Я читаю. (привычка)",
+          "correct": "Eu costumo ler."
+        },
+        {
+          "type": "transform",
+          "template": "Она бегает. (обычно)",
+          "correct": "Ela costuma correr."
+        },
+        {
+          "type": "translate",
+          "template": "Я обычно пью кофе.",
+          "correct": "Eu costumo beber café."
+        },
+        {
+          "type": "translate",
+          "template": "В прошлом мы ходили в кино.",
+          "correct": "No passado, nós costumávamos ir ao cinema."
+        },
+        {
+          "type": "match",
+          "template": "costumar + ___",
+          "correct": "infinitivo"
+        },
+        {
+          "type": "fill_blank",
+          "template": "Ela ___ (costumar) dançar.",
+          "correct": "costuma",
+          "hint": "настоящее"
+        },
+        {
+          "type": "multiple_choice",
+          "template": "No infância, eu ___ brincar fora.",
+          "correct": "costumava",
+          "options": [
+            "costumava",
+            "costumo",
+            "costumei"
+          ]
+        },
+        {
+          "type": "transform",
+          "template": "Они играют. (привычка в прошлом)",
+          "correct": "Eles costumavam jogar."
+        },
+        {
+          "type": "translate",
+          "template": "Ты обычно спишь поздно.",
+          "correct": "Tu costumas dormir tarde."
+        },
+        {
+          "type": "fill_blank",
+          "template": "Nós ___ (costumar) visitar a família.",
+          "correct": "costumamos",
+          "hint": "привычка"
+        }
+      ]
+    },
+    {
+      "id": "g55",
+      "unit": "unit6",
+      "title": "Sentir-se + adjective",
+      "explanation_ru": "Sentir-se + прилагательное выражает чувства. Спряжение sentir-se: eu sinto-me, tu sentes-te, ele/ela sente-se, nós sentimos-nos, vós sentis-vos, eles/elas sentem-se. Прилагательные согласуются: feliz, triste, cansado и т.д. В прошлом: sentia-me etc.",
+      "examples": [
+        {
+          "pt": "Eu sinto-me feliz hoje.",
+          "ru": "Я чувствую себя счастливым сегодня."
+        },
+        {
+          "pt": "Ela sente-se triste.",
+          "ru": "Она чувствует себя грустной."
+        },
+        {
+          "pt": "Nós sentimos-nos cansados.",
+          "ru": "Мы чувствуем себя уставшими."
+        },
+        {
+          "pt": "No passado, eu sentia-me ansioso.",
+          "ru": "В прошлом я чувствовал себя тревожным."
+        },
+        {
+          "pt": "Eles sentem-se alegres.",
+          "ru": "Они чувствуют себя веселыми."
+        }
+      ],
+      "templates": [
+        {
+          "type": "fill_blank",
+          "template": "Eu ___-me feliz.",
+          "correct": "sinto",
+          "hint": "sentir-se для eu",
+          "distractors": [
+            "sente",
+            "sentia"
+          ]
+        },
+        {
+          "type": "fill_blank",
+          "template": "Tu ___-te cansado.",
+          "correct": "sentes",
+          "hint": "sentir-se для tu",
+          "distractors": [
+            "sente",
+            "sentias"
+          ]
+        },
+        {
+          "type": "fill_blank",
+          "template": "Ele ___-se triste.",
+          "correct": "sente",
+          "hint": "sentir-se для ele",
+          "distractors": [
+            "sinto",
+            "sentia"
+          ]
+        },
+        {
+          "type": "multiple_choice",
+          "template": "Nós ___-nos contentes.",
+          "correct": "sentimos",
+          "options": [
+            "sentimos",
+            "sentíamos",
+            "sentiremos"
+          ]
+        },
+        {
+          "type": "multiple_choice",
+          "template": "Eles ___-se nervosos.",
+          "correct": "sentem",
+          "options": [
+            "sentem",
+            "sentiam",
+            "sentiram"
+          ]
+        },
+        {
+          "type": "transform",
+          "template": "Я счастлив. (чувствую себя)",
+          "correct": "Eu sinto-me feliz."
+        },
+        {
+          "type": "transform",
+          "template": "Она грустная. (чувствует себя)",
+          "correct": "Ela sente-se triste."
+        },
+        {
+          "type": "translate",
+          "template": "Мы чувствуем себя уставшими.",
+          "correct": "Nós sentimos-nos cansados."
+        },
+        {
+          "type": "translate",
+          "template": "В прошлом он чувствовал себя спокойным.",
+          "correct": "No passado, ele sentia-se calmo."
+        },
+        {
+          "type": "match",
+          "template": "sentir-se + ___",
+          "correct": "adjective"
+        },
+        {
+          "type": "fill_blank",
+          "template": "Ela ___-se ansiosa.",
+          "correct": "sente",
+          "hint": "настоящее"
+        },
+        {
+          "type": "multiple_choice",
+          "template": "Na infância, eu ___-me alegre.",
+          "correct": "sentia",
+          "options": [
+            "sentia",
+            "sinto",
+            "senti"
+          ]
+        },
+        {
+          "type": "transform",
+          "template": "Они веселые. (чувствуют себя)",
+          "correct": "Eles sentem-se alegres."
+        },
+        {
+          "type": "translate",
+          "template": "Ты чувствуешь себя расслабленным.",
+          "correct": "Tu sentes-te relaxado."
+        },
+        {
+          "type": "fill_blank",
+          "template": "Nós ___-nos orgulhosos.",
+          "correct": "sentimos",
+          "hint": "чувства"
+        }
+      ]
+    },
+    {
+      "id": "g56",
+      "unit": "unit6",
+      "title": "Adverbos de frequência",
+      "explanation_ru": "Адвербы частоты: sempre (всегда), nunca (никогда), às vezes (иногда), frequentemente (часто), raramente (редко), normalmente (обычно), geralmente (в общем). Они ставятся перед глаголом или после ser/estar.",
+      "examples": [
+        {
+          "pt": "Eu sempre como fruta.",
+          "ru": "Я всегда ем фрукты."
+        },
+        {
+          "pt": "Ela nunca chega atrasada.",
+          "ru": "Она никогда не опаздывает."
+        },
+        {
+          "pt": "Nós às vezes vamos ao cinema.",
+          "ru": "Мы иногда ходим в кино."
+        },
+        {
+          "pt": "Eles frequentemente viajam.",
+          "ru": "Они часто путешествуют."
+        },
+        {
+          "pt": "Eu raramente bebo álcool.",
+          "ru": "Я редко пью алкоголь."
+        }
+      ],
+      "templates": [
+        {
+          "type": "fill_blank",
+          "template": "Eu ___ como café da manhã.",
+          "correct": "sempre",
+          "hint": "всегда",
+          "distractors": [
+            "nunca",
+            "às vezes"
+          ]
+        },
+        {
+          "type": "fill_blank",
+          "template": "Tu ___ fumas.",
+          "correct": "nunca",
+          "hint": "никогда",
+          "distractors": [
+            "sempre",
+            "frequentemente"
+          ]
+        },
+        {
+          "type": "multiple_choice",
+          "template": "Ela ___ sai à noite.",
+          "correct": "raramente",
+          "options": [
+            "raramente",
+            "sempre",
+            "nunca"
+          ]
+        },
+        {
+          "type": "multiple_choice",
+          "template": "Nós ___ comemos fora.",
+          "correct": "às vezes",
+          "options": [
+            "às vezes",
+            "sempre",
+            "nunca"
+          ]
+        },
+        {
+          "type": "transform",
+          "template": "Я ем. (всегда)",
+          "correct": "Eu sempre como."
+        },
+        {
+          "type": "transform",
+          "template": "Она опаздывает. (никогда)",
+          "correct": "Ela nunca chega atrasada."
+        },
+        {
+          "type": "translate",
+          "template": "Мы часто путешествуем.",
+          "correct": "Nós frequentemente viajamos."
+        },
+        {
+          "type": "translate",
+          "template": "Они обычно приходят рано.",
+          "correct": "Eles normalmente chegam cedo."
+        },
+        {
+          "type": "match",
+          "template": "___ (часто)",
+          "correct": "frequentemente"
+        },
+        {
+          "type": "fill_blank",
+          "template": "Ele ___ lê livros.",
+          "correct": "geralmente",
+          "hint": "в общем"
+        },
+        {
+          "type": "multiple_choice",
+          "template": "No passado, eu ___ fumava.",
+          "correct": "raramente",
+          "options": [
+            "raramente",
+            "sempre",
+            "nunca"
+          ]
+        },
+        {
+          "type": "transform",
+          "template": "Они путешествуют. (часто)",
+          "correct": "Eles frequentemente viajam."
+        },
+        {
+          "type": "translate",
+          "template": "Ты иногда звонишь.",
+          "correct": "Tu às vezes ligas."
+        },
+        {
+          "type": "fill_blank",
+          "template": "Nós ___ vamos à praia.",
+          "correct": "frequentemente",
+          "hint": "часто"
+        },
+        {
+          "type": "multiple_choice",
+          "template": "Ela é ___ pontual.",
+          "correct": "sempre",
+          "options": [
+            "sempre",
+            "nunca",
+            "às vezes"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "g57",
+      "unit": "unit6",
+      "title": "Há + time для прошлого",
+      "explanation_ru": "Há + период времени означает 'назад' для прошедшего времени. Примеры: há dois anos (два года назад), há uma semana (неделю назад), há muito tempo (давно). Это impersonally, не спрягается.",
+      "examples": [
+        {
+          "pt": "Eu mudei há dois anos.",
+          "ru": "Я переехал два года назад."
+        },
+        {
+          "pt": "Ela chegou há uma hora.",
+          "ru": "Она приехала час назад."
+        },
+        {
+          "pt": "Nós viajamos há um mês.",
+          "ru": "Мы путешествовали месяц назад."
+        },
+        {
+          "pt": "O evento foi há muito tempo.",
+          "ru": "Событие было давно."
+        },
+        {
+          "pt": "Eles se conheceram há três dias.",
+          "ru": "Они познакомились три дня назад."
+        }
+      ],
+      "templates": [
+        {
+          "type": "fill_blank",
+          "template": "Eu nasci ___ vinte anos.",
+          "correct": "há",
+          "hint": "назад",
+          "distractors": [
             "em",
             "para"
           ]
         },
         {
           "type": "fill_blank",
-          "template": "O comboio vai ___ Porto.",
-          "correct": "para o",
-          "hint": "Направление",
+          "template": "A mudança aconteceu ___ um ano.",
+          "correct": "há",
+          "hint": "há + time",
           "distractors": [
-            "ao",
-            "no",
-            "em o"
-          ]
-        },
-        {
-          "type": "fill_blank",
-          "template": "Estou ___ correios.",
-          "correct": "nos",
-          "hint": "em + os",
-          "distractors": [
-            "aos",
-            "para os",
-            "dos"
+            "em",
+            "durante"
           ]
         },
         {
           "type": "multiple_choice",
-          "template": "Иду ___ аптеку:",
-          "correct": "à farmácia",
-          "hint": "a + a",
+          "template": "Ele partiu ___ duas semanas.",
+          "correct": "há",
+          "options": [
+            "há",
+            "em",
+            "para"
+          ]
+        },
+        {
+          "type": "multiple_choice",
+          "template": "Nós nos encontramos ___ muito tempo.",
+          "correct": "há",
+          "options": [
+            "há",
+            "em",
+            "de"
+          ]
+        },
+        {
+          "type": "transform",
+          "template": "Я переехал. (два года назад)",
+          "correct": "Eu mudei há dois anos."
+        },
+        {
+          "type": "transform",
+          "template": "Она приехала. (час назад)",
+          "correct": "Ela chegou há uma hora."
+        },
+        {
+          "type": "translate",
+          "template": "Мы путешествовали месяц назад.",
+          "correct": "Nós viajamos há um mês."
+        },
+        {
+          "type": "translate",
+          "template": "Событие было давно.",
+          "correct": "O evento foi há muito tempo."
+        },
+        {
+          "type": "match",
+          "template": "___ três dias",
+          "correct": "há"
+        },
+        {
+          "type": "fill_blank",
+          "template": "O filme começou ___ cinco minutos.",
+          "correct": "há",
+          "hint": "назад"
+        },
+        {
+          "type": "multiple_choice",
+          "template": "Eu estudei ___ um ano.",
+          "correct": "há",
+          "options": [
+            "há",
+            "em",
+            "para"
+          ]
+        },
+        {
+          "type": "transform",
+          "template": "Они познакомились. (три дня назад)",
+          "correct": "Eles se conheceram há três dias."
+        },
+        {
+          "type": "translate",
+          "template": "Я родился 30 лет назад.",
+          "correct": "Eu nasci há trinta anos."
+        },
+        {
+          "type": "fill_blank",
+          "template": "A festa foi ___ uma semana.",
+          "correct": "há",
+          "hint": "прошлое"
+        },
+        {
+          "type": "multiple_choice",
+          "template": "Tudo mudou ___ pouco tempo.",
+          "correct": "há",
+          "options": [
+            "há",
+            "em",
+            "de"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "g58",
+      "unit": "unit6",
+      "title": "Antes e Agora",
+      "explanation_ru": "Antes (прежде, раньше) и agora (сейчас) используются для сравнения прошлого и настоящего. Они не спрягаются, ставятся в начале предложения или после глагола.",
+      "examples": [
+        {
+          "pt": "Antes, eu morava no Brasil, agora vivo em Portugal.",
+          "ru": "Раньше я жил в Бразилии, сейчас живу в Португалии."
+        },
+        {
+          "pt": "Antes era difícil, agora é fácil.",
+          "ru": "Раньше было трудно, сейчас легко."
+        },
+        {
+          "pt": "Ela antes estudava, agora trabalha.",
+          "ru": "Раньше она училась, сейчас работает."
+        },
+        {
+          "pt": "Antes tínhamos tempo, agora não.",
+          "ru": "Раньше у нас было время, сейчас нет."
+        },
+        {
+          "pt": "Agora sinto-me melhor que antes.",
+          "ru": "Сейчас я чувствую себя лучше, чем раньше."
+        }
+      ],
+      "templates": [
+        {
+          "type": "fill_blank",
+          "template": "___, eu era estudante, ___ sou professor.",
+          "correct": "Antes agora",
+          "hint": "сравнение времени",
           "distractors": [
-            "na farmácia",
-            "para farmácia"
+            "Agora antes",
+            "Durante após"
           ]
         },
         {
           "type": "fill_blank",
-          "template": "Venho ___ hospital.",
-          "correct": "do",
-          "hint": "de + o",
+          "template": "___ era pobre, ___ sou rico.",
+          "correct": "Antes agora",
+          "hint": "antes ... agora",
           "distractors": [
-            "ao",
+            "Agora antes",
+            "Ontem hoje"
+          ]
+        },
+        {
+          "type": "multiple_choice",
+          "template": "___ vivia sozinho, ___ tenho família.",
+          "correct": "Antes agora",
+          "options": [
+            "Antes agora",
+            "Agora antes",
+            "Há durante"
+          ]
+        },
+        {
+          "type": "multiple_choice",
+          "template": "Ela ___ trabalhava, ___ estuda.",
+          "correct": "antes agora",
+          "options": [
+            "antes agora",
+            "agora antes",
+            "em após"
+          ]
+        },
+        {
+          "type": "transform",
+          "template": "Раньше жил в Бразилии. (сейчас в Португалии)",
+          "correct": "Antes morava no Brasil, agora vivo em Portugal."
+        },
+        {
+          "type": "transform",
+          "template": "Было трудно. (сейчас легко)",
+          "correct": "Antes era difícil, agora é fácil."
+        },
+        {
+          "type": "translate",
+          "template": "Раньше училась, сейчас работает.",
+          "correct": "Antes estudava, agora trabalha."
+        },
+        {
+          "type": "translate",
+          "template": "Сейчас лучше, чем раньше.",
+          "correct": "Agora é melhor que antes."
+        },
+        {
+          "type": "match",
+          "template": "___ (раньше)",
+          "correct": "antes"
+        },
+        {
+          "type": "fill_blank",
+          "template": "___ sinto-me feliz.",
+          "correct": "Agora",
+          "hint": "сейчас"
+        },
+        {
+          "type": "multiple_choice",
+          "template": "___ era criança, ___ sou adulto.",
+          "correct": "Antes agora",
+          "options": [
+            "Antes agora",
+            "Agora antes",
+            "Há em"
+          ]
+        },
+        {
+          "type": "transform",
+          "template": "Имели время. (раньше, сейчас нет)",
+          "correct": "Antes tínhamos tempo, agora não."
+        },
+        {
+          "type": "translate",
+          "template": "Раньше было плохо, сейчас хорошо.",
+          "correct": "Antes era mau, agora é bom."
+        },
+        {
+          "type": "fill_blank",
+          "template": "___, tudo era diferente.",
+          "correct": "Antes",
+          "hint": "прошлое"
+        },
+        {
+          "type": "multiple_choice",
+          "template": "___ a vida é melhor.",
+          "correct": "Agora",
+          "options": [
+            "Agora",
+            "Antes",
+            "Há"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "g59",
+      "unit": "unit6",
+      "title": "Ter no passado",
+      "explanation_ru": "Ter в прошлом: Pretérito Perfeito: eu tive, tu tiveste, ele/ela teve, nós tivemos, vós tivestes, eles/elas tiveram; Imperfeito: eu tinha, tu tinhas, ele/ela tinha, nós tínhamos, vós tínheis, eles/elas tinham. Используется для обладания в прошлом.",
+      "examples": [
+        {
+          "pt": "Eu tive um carro.",
+          "ru": "У меня была машина (завершенно)."
+        },
+        {
+          "pt": "Ela tinha muitos amigos.",
+          "ru": "У нее было много друзей (привычка)."
+        },
+        {
+          "pt": "Nós tivemos uma reunião.",
+          "ru": "У нас была встреча."
+        },
+        {
+          "pt": "Eles tinham tempo.",
+          "ru": "У них было время."
+        },
+        {
+          "pt": "Tu tiveste sorte.",
+          "ru": "Тебе повезло."
+        }
+      ],
+      "templates": [
+        {
+          "type": "fill_blank",
+          "template": "Eu ___ um sonho ontem.",
+          "correct": "tive",
+          "hint": "Perfeito",
+          "distractors": [
+            "tenho",
+            "tinha"
+          ]
+        },
+        {
+          "type": "fill_blank",
+          "template": "Tu ___ dinheiro no passado.",
+          "correct": "tinhas",
+          "hint": "Imperfeito",
+          "distractors": [
+            "tiveste",
+            "tens"
+          ]
+        },
+        {
+          "type": "multiple_choice",
+          "template": "Ele ___ uma ideia.",
+          "correct": "teve",
+          "options": [
+            "teve",
+            "tem",
+            "tinha"
+          ]
+        },
+        {
+          "type": "multiple_choice",
+          "template": "Nós ___ problemas.",
+          "correct": "tivemos",
+          "options": [
+            "tivemos",
+            "temos",
+            "tínhamos"
+          ]
+        },
+        {
+          "type": "transform",
+          "template": "У меня есть машина. (была завершенно)",
+          "correct": "Eu tive um carro."
+        },
+        {
+          "type": "transform",
+          "template": "У нее есть друзья. (были регулярно)",
+          "correct": "Ela tinha amigos."
+        },
+        {
+          "type": "translate",
+          "template": "У нас была встреча.",
+          "correct": "Nós tivemos uma reunião."
+        },
+        {
+          "type": "translate",
+          "template": "У них было время.",
+          "correct": "Eles tinham tempo."
+        },
+        {
+          "type": "match",
+          "template": "___ (имел завершенно)",
+          "correct": "tive"
+        },
+        {
+          "type": "fill_blank",
+          "template": "Ela ___ sorte.",
+          "correct": "teve",
+          "hint": "прошлое"
+        },
+        {
+          "type": "multiple_choice",
+          "template": "No infância, eu ___ brinquedos.",
+          "correct": "tinha",
+          "options": [
+            "tinha",
+            "tive",
+            "tenho"
+          ]
+        },
+        {
+          "type": "transform",
+          "template": "Тебе есть удача. (была)",
+          "correct": "Tu tiveste sorte."
+        },
+        {
+          "type": "translate",
+          "template": "Я имел дом.",
+          "correct": "Eu tive uma casa."
+        },
+        {
+          "type": "fill_blank",
+          "template": "Eles ___ casas grandes.",
+          "correct": "tinham",
+          "hint": "imperfeito"
+        },
+        {
+          "type": "multiple_choice",
+          "template": "Ontem, nós ___ uma festa.",
+          "correct": "tivemos",
+          "options": [
+            "tivemos",
+            "tínhamos",
+            "temos"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "g60",
+      "unit": "unit6",
+      "title": "Nascer e Crescer",
+      "explanation_ru": "Nascer (рождаться): eu nasci, tu nasceste, ele/ela nasceu, nós nascemos, vós nascestes, eles/elas nasceram (Perfeito). Crescer (расти): eu cresci, tu cresceste, ele/ela cresceu, nós crescemos, vós crescestes, eles/elas cresceram (Perfeito); imperfeito: crescia etc.",
+      "examples": [
+        {
+          "pt": "Eu nasci em Lisboa.",
+          "ru": "Я родился в Лиссабоне."
+        },
+        {
+          "pt": "Ela cresceu no campo.",
+          "ru": "Она выросла в деревне."
+        },
+        {
+          "pt": "Nós nascemos no mesmo ano.",
+          "ru": "Мы родились в одном году."
+        },
+        {
+          "pt": "Eles cresceram juntos.",
+          "ru": "Они выросли вместе."
+        },
+        {
+          "pt": "Tu cresceste rápido.",
+          "ru": "Ты вырос быстро."
+        }
+      ],
+      "templates": [
+        {
+          "type": "fill_blank",
+          "template": "Eu ___ em 1990.",
+          "correct": "nasci",
+          "hint": "nascer Perfeito",
+          "distractors": [
+            "nasço",
+            "nascia"
+          ]
+        },
+        {
+          "type": "fill_blank",
+          "template": "Tu ___ na cidade.",
+          "correct": "cresceste",
+          "hint": "crescer Perfeito",
+          "distractors": [
+            "cresces",
+            "crescias"
+          ]
+        },
+        {
+          "type": "multiple_choice",
+          "template": "Ele ___ em Portugal.",
+          "correct": "nasceu",
+          "options": [
+            "nasceu",
+            "nasce",
+            "nascia"
+          ]
+        },
+        {
+          "type": "multiple_choice",
+          "template": "Nós ___ no verão.",
+          "correct": "nascemos",
+          "options": [
+            "nascemos",
+            "nascemos",
+            "nascíamos"
+          ]
+        },
+        {
+          "type": "transform",
+          "template": "Рождаюсь в Лиссабоне. (прошлое)",
+          "correct": "Nascei em Lisboa."
+        },
+        {
+          "type": "transform",
+          "template": "Расту в деревне. (прошлое)",
+          "correct": "Cresci no campo."
+        },
+        {
+          "type": "translate",
+          "template": "Мы родились в одном году.",
+          "correct": "Nós nascemos no mesmo ano."
+        },
+        {
+          "type": "translate",
+          "template": "Они выросли вместе.",
+          "correct": "Eles cresceram juntos."
+        },
+        {
+          "type": "match",
+          "template": "___ (родился)",
+          "correct": "nasci"
+        },
+        {
+          "type": "fill_blank",
+          "template": "Ela ___ rápido.",
+          "correct": "cresceu",
+          "hint": "прошлое"
+        },
+        {
+          "type": "multiple_choice",
+          "template": "Na infância, eu ___ devagar.",
+          "correct": "crescia",
+          "options": [
+            "crescia",
+            "cresci",
+            "cresco"
+          ]
+        },
+        {
+          "type": "transform",
+          "template": "Ты растешь быстро. (прошлое)",
+          "correct": "Tu cresceste rápido."
+        },
+        {
+          "type": "translate",
+          "template": "Я родился в 1980.",
+          "correct": "Eu nasci em 1980."
+        },
+        {
+          "type": "fill_blank",
+          "template": "Eles ___ no hospital.",
+          "correct": "nasceram",
+          "hint": "nascer"
+        },
+        {
+          "type": "multiple_choice",
+          "template": "A criança ___ bem.",
+          "correct": "cresceu",
+          "options": [
+            "cresceu",
+            "cresce",
+            "crescia"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "g61",
+      "unit": "unit7",
+      "title": "Выражение мнения: achar que / pensar que / parecer-me que",
+      "explanation_ru": "Для выражения личного мнения используются три основные конструкции. 1) Achar que (думать, считать): спряжение в presente do indicativo — eu acho, tu achas, ele/ela acha, nós achamos, vós achais, eles/elas acham (от глагола achar). 2) Pensar que (считать, полагать): eu penso, tu pensas, ele/ela pensa, nós pensamos, vós pensais, eles/elas pensam (от глагола pensar). 3) Parecer-me que (мне кажется): используется только форма parece-me que (3-е лицо единственного числа от parecer + местоимение me). После всех конструкций следует предложение с глаголом в indicativo.",
+      "examples": [
+        {
+          "pt": "Acho que a integração é importante.",
+          "ru": "Я думаю, что интеграция важна."
+        },
+        {
+          "pt": "Penso que todos têm direitos iguais.",
+          "ru": "Я считаю, что у всех равные права."
+        },
+        {
+          "pt": "Parece-me que a diversidade enriquece a sociedade.",
+          "ru": "Мне кажется, что разнообразие обогащает общество."
+        },
+        {
+          "pt": "Nós achamos que os media influenciam a opinião pública.",
+          "ru": "Мы думаем, что СМИ влияют на общественное мнение."
+        }
+      ],
+      "templates": [
+        {
+          "type": "fill_blank",
+          "template": "Eu ___ que a liberdade de expressão é essencial.",
+          "correct": "acho",
+          "hint": "achar que — eu acho",
+          "distractors": [
+            "penso",
+            "parece-me",
+            "achamos"
+          ]
+        },
+        {
+          "type": "fill_blank",
+          "template": "Tu ___ que votar é um dever?",
+          "correct": "achas",
+          "hint": "achar — tu achas",
+          "distractors": [
+            "pensas",
+            "penso",
+            "acha"
+          ]
+        },
+        {
+          "type": "fill_blank",
+          "template": "Eles ___ que a tolerância é a chave.",
+          "correct": "pensam",
+          "hint": "pensar — eles pensam",
+          "distractors": [
+            "acham",
+            "penso",
+            "parece-me"
+          ]
+        },
+        {
+          "type": "fill_blank",
+          "template": "___ que Portugal é um país multicultural.",
+          "correct": "Parece-me",
+          "hint": "Только parece-me que для 'мне кажется'",
+          "distractors": [
+            "Acho",
+            "Penso",
+            "Achamos"
+          ]
+        },
+        {
+          "type": "multiple_choice",
+          "template": "Правильная форма: Nós ___ que os estereótipos são negativos.",
+          "options": [
+            "achamos",
+            "pensamos",
+            "parece-nos",
+            "acham"
+          ],
+          "correct": [
+            "achamos",
+            "pensamos"
+          ]
+        },
+        {
+          "type": "fill_blank",
+          "template": "Ela ___ que a comunicação é importante.",
+          "correct": "pensa",
+          "hint": "pensar — ela pensa",
+          "distractors": [
+            "acha",
+            "parece-me",
+            "pensamos"
+          ]
+        },
+        {
+          "type": "fill_blank",
+          "template": "Vocês ___ que a cidadania é um processo longo?",
+          "correct": "achais",
+          "hint": "achar — vós achais",
+          "distractors": [
+            "pensais",
+            "acham",
+            "parece-me"
+          ]
+        },
+        {
+          "type": "fill_blank",
+          "template": "Eu não ___ que as notícias na internet sejam sempre verdadeiras.",
+          "correct": "penso",
+          "hint": "pensar que",
+          "distractors": [
+            "acho",
+            "parece-me",
+            "pensamos"
+          ]
+        },
+        {
+          "type": "multiple_choice",
+          "template": "Как сказать «Мне кажется, что уважение необходимо»?",
+          "options": [
+            "Acho que o respeito é necessário.",
+            "Penso que o respeito é necessário.",
+            "Parece-me que o respeito é necessário.",
+            "Pareço que o respeito é necessário."
+          ],
+          "correct": "Parece-me que o respeito é necessário."
+        },
+        {
+          "type": "fill_blank",
+          "template": "Nós ___ que participar na sociedade é um direito e um dever.",
+          "correct": "achamos",
+          "hint": "achar — nós achamos",
+          "distractors": [
+            "pensamos",
+            "parece-nos",
+            "acham"
+          ]
+        },
+        {
+          "type": "fill_blank",
+          "template": "___ que a diversidade cultural é positiva.",
+          "correct": "Penso",
+          "hint": "pensar que",
+          "distractors": [
+            "Acho",
+            "Parece-me",
+            "Pensamos"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "g62",
+      "unit": "unit7",
+      "title": "Согласие и несогласие: concordar com / discordar de",
+      "explanation_ru": "Concordar com alguém/algo — соглашаться с кем-то/чем-то. Спряжение в presente: eu concordo, tu concordas, ele/ela concorda, nós concordamos, vós concordais, eles/elas concordam (от глагола concordar). Discordar de alguém/algo — не соглашаться. Спряжение: eu discordo, tu discordas, ele/ela discorda, nós discordamos, vós discordais, eles/elas discordam (от глагола discordar). После com и de ставится существительное, местоимение или инфитив.",
+      "examples": [
+        {
+          "pt": "Concordo completamente contigo.",
+          "ru": "Я полностью с тобой согласен."
+        },
+        {
+          "pt": "Discordo desta opinião sobre estereótipos.",
+          "ru": "Я не согласен с этим мнением о стереотипах."
+        },
+        {
+          "pt": "Nós concordamos com as novas leis.",
+          "ru": "Мы согласны с новыми законами."
+        },
+        {
+          "pt": "Ela discorda de algumas ideias.",
+          "ru": "Она не согласна с некоторыми идеями."
+        }
+      ],
+      "templates": [
+        {
+          "type": "fill_blank",
+          "template": "Eu ___ com a ideia de tolerância zero para discriminação.",
+          "correct": "concordo",
+          "hint": "concordar com — eu concordo",
+          "distractors": [
+            "discordo",
+            "concordas",
+            "discordamos"
+          ]
+        },
+        {
+          "type": "fill_blank",
+          "template": "Tu ___ desta afirmação sobre direitos humanos?",
+          "correct": "discorda",
+          "hint": "discordar de — tu discordas",
+          "distractors": [
+            "concordas",
+            "discordo",
+            "concorda"
+          ]
+        },
+        {
+          "type": "fill_blank",
+          "template": "Eles ___ com o governo nesta questão.",
+          "correct": "discordam",
+          "hint": "discordar — eles discordam",
+          "distractors": [
+            "concordam",
+            "concordo",
+            "discordo"
+          ]
+        },
+        {
+          "type": "multiple_choice",
+          "template": "Как сказать «Я не согласен с тобой»?",
+          "options": [
+            "Concordo contigo.",
+            "Discordo de ti.",
+            "Concordo de ti.",
+            "Discordo contigo."
+          ],
+          "correct": "Discordo de ti."
+        },
+        {
+          "type": "fill_blank",
+          "template": "Nós ___ com a importância da diversidade.",
+          "correct": "concordamos",
+          "hint": "concordar — nós concordamos",
+          "distractors": [
+            "discordamos",
+            "concorda",
+            "discordam"
+          ]
+        },
+        {
+          "type": "fill_blank",
+          "template": "Vocês ___ da cultura de integração obrigatória?",
+          "correct": "discordais",
+          "hint": "discordar — vós discordais",
+          "distractors": [
+            "concordais",
+            "concordam",
+            "discordo"
+          ]
+        },
+        {
+          "type": "fill_blank",
+          "template": "Ela não ___ com estereótipos negativos.",
+          "correct": "concorda",
+          "hint": "concordar com",
+          "distractors": [
+            "discorda",
+            "concordam",
+            "discordamos"
+          ]
+        },
+        {
+          "type": "multiple_choice",
+          "template": "Правильная форма: O cidadão ___ com as leis democráticas.",
+          "options": [
+            "concorda",
+            "discorda",
+            "concordam",
+            "discordais"
+          ],
+          "correct": "concorda"
+        },
+        {
+          "type": "fill_blank",
+          "template": "Eu ___ completamente com esta opinião.",
+          "correct": "concordo",
+          "hint": "concordar com",
+          "distractors": [
+            "discordo",
+            "concordas",
+            "discordam"
+          ]
+        },
+        {
+          "type": "fill_blank",
+          "template": "Nós não ___ de participar em debates.",
+          "correct": "discordamos",
+          "hint": "discordar de + инфитив",
+          "distractors": [
+            "concordamos",
+            "concordo",
+            "discordo"
+          ]
+        },
+        {
+          "type": "fill_blank",
+          "template": "Tu ___ com a minha opinião sobre cidadania?",
+          "correct": "concordas",
+          "hint": "concordar com",
+          "distractors": [
+            "discorda",
+            "concorda",
+            "discordas"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "g63",
+      "unit": "unit7",
+      "title": "Предлоги со средствами коммуникации",
+      "explanation_ru": "Говорить/смотреть/слушать/искать через разные СМИ требует определённых предлогов: falar pelo telemóvel / por telefone (по телефону), ver na televisão (по телевизору), ouvir no rádio (по радио), ler no jornal (в газете), procurar/leia na internet (в интернете), enviar por email (по email), nas redes sociais (в социальных сетях). Артикль обязателен: na televisão, no rádio, na internet, no telemóvel, no jornal.",
+      "examples": [
+        {
+          "pt": "Vejo as notícias na televisão.",
+          "ru": "Я смотрю новости по телевизору."
+        },
+        {
+          "pt": "Ouço rádio no carro.",
+          "ru": "Я слушаю радио в машине."
+        },
+        {
+          "pt": "Procuro informações na internet.",
+          "ru": "Я ищу информацию в интернете."
+        },
+        {
+          "pt": "Falo com amigos pelo telemóvel.",
+          "ru": "Я говорю с друзьями по мобильному."
+        }
+      ],
+      "templates": [
+        {
+          "type": "multiple_choice",
+          "template": "Правильный предлог: Vejo o jogo ___ televisão.",
+          "options": [
+            "na",
             "no",
-            "para o"
+            "por",
+            "em"
+          ],
+          "correct": "na"
+        },
+        {
+          "type": "fill_blank",
+          "template": "Leio notícias ___ jornal todas as manhãs.",
+          "correct": "no",
+          "hint": "газета — no jornal",
+          "distractors": [
+            "na",
+            "por",
+            "pelo"
           ]
         },
         {
           "type": "fill_blank",
-          "template": "Vivo ___ Portugal há dois anos.",
-          "correct": "em",
-          "hint": "Местоположение",
+          "template": "Ouço música ___ rádio.",
+          "correct": "no",
+          "hint": "радио — no rádio",
           "distractors": [
+            "na",
+            "por",
+            "em"
+          ]
+        },
+        {
+          "type": "fill_blank",
+          "template": "Envio mensagens ___ email.",
+          "correct": "por",
+          "hint": "по email — por email",
+          "distractors": [
+            "na",
+            "no",
+            "pelo"
+          ]
+        },
+        {
+          "type": "multiple_choice",
+          "template": "Falo com a família ___ telemóvel.",
+          "options": [
+            "pelo",
+            "no",
+            "na",
+            "por"
+          ],
+          "correct": "pelo"
+        },
+        {
+          "type": "fill_blank",
+          "template": "Discuto política ___ redes sociais.",
+          "correct": "nas",
+          "hint": "в социальных сетях — nas redes sociais",
+          "distractors": [
+            "nos",
+            "na",
+            "por"
+          ]
+        },
+        {
+          "type": "fill_blank",
+          "template": "Procuro trabalho ___ internet.",
+          "correct": "na",
+          "hint": "в интернете — na internet",
+          "distractors": [
+            "no",
+            "por",
+            "pela"
+          ]
+        },
+        {
+          "type": "multiple_choice",
+          "template": "Как правильно: Leio livros ___ telemóvel.",
+          "options": [
+            "no",
+            "na",
+            "pelo",
+            "por"
+          ],
+          "correct": "no"
+        },
+        {
+          "type": "fill_blank",
+          "template": "Vejo filmes ___ televisão.",
+          "correct": "na",
+          "hint": "по телевизору — na televisão",
+          "distractors": [
+            "no",
+            "pela",
+            "por"
+          ]
+        },
+        {
+          "type": "fill_blank",
+          "template": "Mando documentos ___ email.",
+          "correct": "por",
+          "hint": "по email",
+          "distractors": [
+            "na",
+            "no",
+            "nas"
+          ]
+        },
+        {
+          "type": "multiple_choice",
+          "template": "Правильно: Partilho fotos ___ redes sociais.",
+          "options": [
+            "nas",
+            "nos",
+            "na",
+            "por"
+          ],
+          "correct": "nas"
+        }
+      ]
+    },
+    {
+      "id": "g64",
+      "unit": "unit7",
+      "title": "Права (direitos) и обязанности (deveres) граждан",
+      "explanation_ru": "В португальском права выражаются как ter (o) direito de + инфитив или a/o direito a + существительное. Примеры: tenho o direito de votar, todos têm direito à liberdade. Обязанности — ter (o) dever de + инфитив или é (o) dever de alguém + инфитив. Примеры: temos o dever de respeitar as leis, é dever do cidadão pagar impostos.",
+      "examples": [
+        {
+          "pt": "Todos têm o direito de expressão.",
+          "ru": "У всех есть право на выражение."
+        },
+        {
+          "pt": "Tenho direito a férias pagas.",
+          "ru": "У меня есть право на оплачиваемый отпуск."
+        },
+        {
+          "pt": "É dever do cidadão votar.",
+          "ru": "Обязанность гражданина — голосовать."
+        },
+        {
+          "pt": "Temos o dever de pagar impostos.",
+          "ru": "Мы обязаны платить налоги."
+        }
+      ],
+      "templates": [
+        {
+          "type": "fill_blank",
+          "template": "Todos ___ o direito de viver em paz.",
+          "correct": "têm",
+          "hint": "ter o direito de",
+          "distractors": [
+            "tem",
+            "tenho",
+            "temos"
+          ]
+        },
+        {
+          "type": "multiple_choice",
+          "template": "Правильно: Os imigrantes ___ direito à educação.",
+          "options": [
+            "têm",
+            "tem",
+            "tenho",
+            "temos"
+          ],
+          "correct": "têm"
+        },
+        {
+          "type": "fill_blank",
+          "template": "É ___ do cidadão respeitar a Constituição.",
+          "correct": "dever",
+          "hint": "é dever do...",
+          "distractors": [
+            "direito",
+            "deveres",
+            "direitos"
+          ]
+        },
+        {
+          "type": "fill_blank",
+          "template": "Eu ___ o dever de ajudar os outros.",
+          "correct": "tenho",
+          "hint": "ter o dever de",
+          "distractors": [
+            "tem",
+            "têm",
+            "temos"
+          ]
+        },
+        {
+          "type": "multiple_choice",
+          "template": "Как сказать «У всех есть право на равенство»?",
+          "options": [
+            "Todos têm o direito à igualdade.",
+            "Todos tem direito de igualdade.",
+            "Todos temos direito à igualdade.",
+            "Todo tem direito a igualdade."
+          ],
+          "correct": "Todos têm o direito à igualdade."
+        },
+        {
+          "type": "fill_blank",
+          "template": "___ dever dos pais educar os filhos.",
+          "correct": "É",
+          "hint": "É dever dos...",
+          "distractors": [
+            "Tem",
+            "Têm",
+            "Tenho"
+          ]
+        },
+        {
+          "type": "fill_blank",
+          "template": "Os cidadãos ___ direito a proteção social.",
+          "correct": "têm",
+          "hint": "ter direito a",
+          "distractors": [
+            "tem",
+            "tenho",
+            "temos"
+          ]
+        },
+        {
+          "type": "fill_blank",
+          "template": "Nós ___ o dever de proteger o ambiente.",
+          "correct": "temos",
+          "hint": "ter o dever de",
+          "distractors": [
+            "tem",
+            "têm",
+            "tenho"
+          ]
+        },
+        {
+          "type": "multiple_choice",
+          "template": "Правильно: É meu dever ___ as leis.",
+          "options": [
+            "respeitar",
+            "respeito",
+            "respeitei",
+            "respeitamos"
+          ],
+          "correct": "respeitar"
+        },
+        {
+          "type": "fill_blank",
+          "template": "Todos ___ direito à liberdade de opinião.",
+          "correct": "têm",
+          "hint": "ter direito à",
+          "distractors": [
+            "tem",
+            "tenho",
+            "temos"
+          ]
+        },
+        {
+          "type": "fill_blank",
+          "template": "___ dever de todos combater a discriminação.",
+          "correct": "É",
+          "hint": "É dever de todos",
+          "distractors": [
+            "Tem",
+            "Têm",
+            "Tenho"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "g65",
+      "unit": "unit7",
+      "title": "Глагол participar em (участвовать в)",
+      "explanation_ru": "Глагол participar требует предлога em перед существительным: participar em eventos, participar em associações, participar em debates. Спряжение в presente: eu participo, tu participas, ele/ela participa, nós participamos, vós participais, eles/elas participam (от глагола participar).",
+      "examples": [
+        {
+          "pt": "Participo em cursos de integração.",
+          "ru": "Я участвую в курсах интеграции."
+        },
+        {
+          "pt": "Participamos em eventos culturais.",
+          "ru": "Мы участвуем в культурных мероприятиях."
+        },
+        {
+          "pt": "Ela participa numa associação de imigrantes.",
+          "ru": "Она участвует в ассоциации иммигрантов."
+        }
+      ],
+      "templates": [
+        {
+          "type": "fill_blank",
+          "template": "Eu ___ em debates sobre cidadania.",
+          "correct": "participo",
+          "hint": "participar — eu participo",
+          "distractors": [
+            "participas",
+            "participa",
+            "participamos"
+          ]
+        },
+        {
+          "type": "fill_blank",
+          "template": "Nós ___ em festas multiculturais.",
+          "correct": "participamos",
+          "hint": "participar — nós participamos",
+          "distractors": [
+            "participo",
+            "participais",
+            "participa"
+          ]
+        },
+        {
+          "type": "multiple_choice",
+          "template": "Правильно: Vocês ___ em associações?",
+          "options": [
+            "participais",
+            "participam",
+            "participo",
+            "participamos"
+          ],
+          "correct": "participais"
+        },
+        {
+          "type": "fill_blank",
+          "template": "Eles ___ em manifestações pacíficas.",
+          "correct": "participam",
+          "hint": "participar — eles participam",
+          "distractors": [
+            "participo",
+            "participas",
+            "participamos"
+          ]
+        },
+        {
+          "type": "fill_blank",
+          "template": "Tu ___ em eventos da comunidade?",
+          "correct": "participas",
+          "hint": "participar — tu participas",
+          "distractors": [
+            "participo",
+            "participa",
+            "participam"
+          ]
+        },
+        {
+          "type": "fill_blank",
+          "template": "Ela ___ em projetos voluntários.",
+          "correct": "participa",
+          "hint": "participar — ela participa",
+          "distractors": [
+            "participo",
+            "participas",
+            "participamos"
+          ]
+        },
+        {
+          "type": "multiple_choice",
+          "template": "Предлог обязателен: Participo ___ reuniões.",
+          "options": [
+            "em",
             "a",
             "de",
             "para"
+          ],
+          "correct": "em"
+        },
+        {
+          "type": "fill_blank",
+          "template": "___ em atividades culturais é importante.",
+          "correct": "Participar",
+          "hint": "инфинитив после 'é importante'",
+          "distractors": [
+            "Participo",
+            "Participamos",
+            "Participa"
+          ]
+        },
+        {
+          "type": "fill_blank",
+          "template": "Os cidadãos ___ em eleições.",
+          "correct": "participam",
+          "hint": "participar em",
+          "distractors": [
+            "participo",
+            "participas",
+            "participamos"
+          ]
+        },
+        {
+          "type": "fill_blank",
+          "template": "Quero ___ em associações de ajuda.",
+          "correct": "participar",
+          "hint": "инфинитив после querer",
+          "distractors": [
+            "participo",
+            "participas",
+            "participa"
+          ]
+        },
+        {
+          "type": "multiple_choice",
+          "template": "Правильно: Nós participamos ___ vida política.",
+          "options": [
+            "na",
+            "em",
+            "a",
+            "de"
+          ],
+          "correct": "na"
+        }
+      ]
+    },
+    {
+      "id": "g66",
+      "unit": "unit7",
+      "title": "Прилагательные для описания общества и культуры",
+      "explanation_ru": "Основные прилагательные: multicultural (мультикультурный), diverso (разнообразный), tolerante (толерантный), inclusivo (инклюзивный), democrático (демократический), acolhedor (гостеприимный). Согласование по роду и числу: multicultural — multicultural (inv.), diverso/a/os/as, tolerante (inv.), inclusivo/a/os/as, democrático/a/os/as, acolhedor/a/es/as.",
+      "examples": [
+        {
+          "pt": "Portugal é um país multicultural.",
+          "ru": "Португалия — мультикультурная страна."
+        },
+        {
+          "pt": "Lisboa é uma cidade diversa.",
+          "ru": "Лиссабон — разнообразный город."
+        },
+        {
+          "pt": "A sociedade portuguesa é tolerante.",
+          "ru": "Португальское общество толерантно."
+        },
+        {
+          "pt": "Queremos uma sociedade inclusiva.",
+          "ru": "Мы хотим инклюзивное общество."
+        }
+      ],
+      "templates": [
+        {
+          "type": "fill_blank",
+          "template": "Portugal é um país ___ .",
+          "correct": "multicultural",
+          "hint": "invariable",
+          "distractors": [
+            "multiculturais",
+            "multicultura",
+            "multiculturo"
+          ]
+        },
+        {
+          "type": "fill_blank",
+          "template": "As cidades portuguesas são ___ .",
+          "correct": "diversas",
+          "hint": "diverso — жен. мн.ч.",
+          "distractors": [
+            "diversos",
+            "diverso",
+            "diversa"
+          ]
+        },
+        {
+          "type": "multiple_choice",
+          "template": "Правильно: A sociedade é ___ .",
+          "options": [
+            "tolerante",
+            "tolerantes",
+            "toleranta",
+            "toleranto"
+          ],
+          "correct": "tolerante"
+        },
+        {
+          "type": "fill_blank",
+          "template": "Queremos escolas ___ para todos.",
+          "correct": "inclusivas",
+          "hint": "inclusivo — жен. мн.ч.",
+          "distractors": [
+            "inclusivos",
+            "inclusivo",
+            "inclusiva"
+          ]
+        },
+        {
+          "type": "fill_blank",
+          "template": "O sistema é ___ .",
+          "correct": "democrático",
+          "hint": "муж. ед.ч.",
+          "distractors": [
+            "democrática",
+            "democráticos",
+            "democráticas"
+          ]
+        },
+        {
+          "type": "fill_blank",
+          "template": "Os portugueses são muito ___ .",
+          "correct": "acolhedores",
+          "hint": "acolhedor — муж. мн.ч.",
+          "distractors": [
+            "acolhedoras",
+            "acolhedor",
+            "acolhedora"
+          ]
+        },
+        {
+          "type": "multiple_choice",
+          "template": "Правильно: Lisboa é uma cidade ___ e ___ .",
+          "options": [
+            "diversa / acolhedora",
+            "diverso / acolhedor",
+            "diversos / acolhedores",
+            "diversas / acolhedoras"
+          ],
+          "correct": [
+            "diversa / acolhedora"
+          ]
+        },
+        {
+          "type": "fill_blank",
+          "template": "A cultura portuguesa é ___ .",
+          "correct": "diversa",
+          "hint": "жен. ед.ч.",
+          "distractors": [
+            "diverso",
+            "diversos",
+            "diversas"
+          ]
+        },
+        {
+          "type": "fill_blank",
+          "template": "Precisamos de políticas ___ .",
+          "correct": "inclusivas",
+          "hint": "жен. мн.ч.",
+          "distractors": [
+            "inclusivos",
+            "inclusivo",
+            "inclusiva"
+          ]
+        },
+        {
+          "type": "fill_blank",
+          "template": "O povo é ___ e respeitador.",
+          "correct": "tolerante",
+          "hint": "invariable",
+          "distractors": [
+            "tolerantes",
+            "toleranta",
+            "toleranto"
+          ]
+        },
+        {
+          "type": "multiple_choice",
+          "template": "Правильно: Queremos um país ___ .",
+          "options": [
+            "acolhedor",
+            "acolhedora",
+            "acolhedores",
+            "acolhedoras"
+          ],
+          "correct": "acolhedor"
+        }
+      ]
+    },
+    {
+      "id": "g67",
+      "unit": "unit7",
+      "title": "Глаголы общения: discutir, debater, opinar",
+      "explanation_ru": "Discutir algo / com alguém (обсуждать что-то / с кем-то): eu discuto, tu discutes, ele discute, nós discutimos, vós discutis, eles discutem. Debater algo (дебатировать): eu debato, tu debates, ele debate, nós debatemos, vós debateis, eles debatem. Opinar (высказывать мнение): eu opino, tu opinas, ele opina, nós opinamos, vós opinais, eles opinam.",
+      "examples": [
+        {
+          "pt": "Discutimos política na aula.",
+          "ru": "Мы обсуждаем политику на уроке."
+        },
+        {
+          "pt": "Debato temas atuais com amigos.",
+          "ru": "Я дебатирую актуальные темы с друзьями."
+        },
+        {
+          "pt": "Posso opinar sobre este assunto?",
+          "ru": "Можно высказать мнение по этому вопросу?"
+        }
+      ],
+      "templates": [
+        {
+          "type": "fill_blank",
+          "template": "Nós ___ direitos humanos na associação.",
+          "correct": "discutimos",
+          "hint": "discutir — nós discutimos",
+          "distractors": [
+            "debateis",
+            "opinamos",
+            "discute"
+          ]
+        },
+        {
+          "type": "fill_blank",
+          "template": "Tu ___ muito bem estes temas.",
+          "correct": "debates",
+          "hint": "debater — tu debates",
+          "distractors": [
+            "discutes",
+            "opinas",
+            "debate"
+          ]
+        },
+        {
+          "type": "multiple_choice",
+          "template": "Правильно: Eles ___ sobre integração.",
+          "options": [
+            "discutem",
+            "debate",
+            "opinam",
+            "opina"
+          ],
+          "correct": "discutem"
+        },
+        {
+          "type": "fill_blank",
+          "template": "Eu ___ que todos devem participar.",
+          "correct": "opino",
+          "hint": "opinar — eu opino",
+          "distractors": [
+            "discuto",
+            "debato",
+            "opinas"
+          ]
+        },
+        {
+          "type": "fill_blank",
+          "template": "Vocês ___ assuntos sociais?",
+          "correct": "discutis",
+          "hint": "discutir — vós discutis",
+          "distractors": [
+            "debateis",
+            "opinais",
+            "discutem"
+          ]
+        },
+        {
+          "type": "fill_blank",
+          "template": "Ela ___ com colegas sobre notícias.",
+          "correct": "discute",
+          "hint": "discutir — ela discute",
+          "distractors": [
+            "debate",
+            "opina",
+            "discutimos"
+          ]
+        },
+        {
+          "type": "multiple_choice",
+          "template": "Можно сказать: Quero ___ a minha opinião.",
+          "options": [
+            "opinar",
+            "discutir",
+            "debater",
+            "falar"
+          ],
+          "correct": "opinar"
+        },
+        {
+          "type": "fill_blank",
+          "template": "Na televisão ___ temas polémicos.",
+          "correct": "debatem",
+          "hint": "debater — eles debatem",
+          "distractors": [
+            "discutem",
+            "opinam",
+            "debate"
+          ]
+        },
+        {
+          "type": "fill_blank",
+          "template": "Posso ___ sobre cidadania?",
+          "correct": "opinar",
+          "hint": "opinar sobre",
+          "distractors": [
+            "discutir",
+            "debater",
+            "falar"
+          ]
+        },
+        {
+          "type": "fill_blank",
+          "template": "Os jovens ___ muito nas redes sociais.",
+          "correct": "debatem",
+          "hint": "debater",
+          "distractors": [
+            "discutem",
+            "opinam",
+            "debate"
+          ]
+        },
+        {
+          "type": "multiple_choice",
+          "template": "Правильно: Discutimos ___ professor.",
+          "options": [
+            "com o",
+            "o",
+            "ao",
+            "para o"
+          ],
+          "correct": "com o"
+        }
+      ]
+    },
+    {
+      "id": "g68",
+      "unit": "unit7",
+      "title": "Рефлексивный глагол integrar-se (интегрироваться)",
+      "explanation_ru": "Глагол integrar-se (интегрироваться) всегда рефлексивный. Спряжение в presente: eu integro-me, tu integras-te, ele/ela integra-se, nós integramo-nos, vós integrais-vos, eles/elas integram-se. Часто используется с querer, precisar, ser importante + integrar-se na sociedade.",
+      "examples": [
+        {
+          "pt": "Quero integrar-me na sociedade portuguesa.",
+          "ru": "Я хочу интегрироваться в португальское общество."
+        },
+        {
+          "pt": "Os imigrantes integram-se rapidamente.",
+          "ru": "Иммигранты быстро интегрируются."
+        },
+        {
+          "pt": "É importante integrarmo-nos na comunidade.",
+          "ru": "Важно интегрироваться в сообщество."
+        }
+      ],
+      "templates": [
+        {
+          "type": "fill_blank",
+          "template": "Eu ___ na cultura local o mais rápido possível.",
+          "correct": "integro-me",
+          "hint": "integrar-se — eu integro-me",
+          "distractors": [
+            "integro",
+            "integras-te",
+            "integramo-nos"
+          ]
+        },
+        {
+          "type": "fill_blank",
+          "template": "Nós ___ na sociedade através do trabalho.",
+          "correct": "integramo-nos",
+          "hint": "integrar-se — nós integramo-nos",
+          "distractors": [
+            "integro-me",
+            "integrais-vos",
+            "integra-se"
+          ]
+        },
+        {
+          "type": "multiple_choice",
+          "template": "Правильно: Eles ___ na comunidade.",
+          "options": [
+            "integram-se",
+            "integro-me",
+            "integras-te",
+            "integramo-nos"
+          ],
+          "correct": "integram-se"
+        },
+        {
+          "type": "fill_blank",
+          "template": "Tu ___ participando em eventos.",
+          "correct": "integras-te",
+          "hint": "integrar-se — tu integras-te",
+          "distractors": [
+            "integro-me",
+            "integra-se",
+            "integram-se"
+          ]
+        },
+        {
+          "type": "fill_blank",
+          "template": "É difícil ___ no início.",
+          "correct": "integrar-se",
+          "hint": "инфинитив рефлексивный",
+          "distractors": [
+            "integrar",
+            "integro-me",
+            "integras-te"
+          ]
+        },
+        {
+          "type": "fill_blank",
+          "template": "Os novos residentes ___ rapidamente.",
+          "correct": "integram-se",
+          "hint": "eles integram-se",
+          "distractors": [
+            "integro-me",
+            "integras-te",
+            "integramo-nos"
+          ]
+        },
+        {
+          "type": "multiple_choice",
+          "template": "Предлог: integrar-se ___ sociedade.",
+          "options": [
+            "na",
+            "em",
+            "a",
+            "de"
+          ],
+          "correct": "na"
+        },
+        {
+          "type": "fill_blank",
+          "template": "Quero ___ na vida cultural.",
+          "correct": "integrar-me",
+          "hint": "integrar-se после querer",
+          "distractors": [
+            "integrar",
+            "integras-te",
+            "integra-se"
+          ]
+        },
+        {
+          "type": "fill_blank",
+          "template": "Vocês ___ através da língua.",
+          "correct": "integrais-vos",
+          "hint": "vós integrais-vos",
+          "distractors": [
+            "integram-se",
+            "integro-me",
+            "integramo-nos"
+          ]
+        },
+        {
+          "type": "fill_blank",
+          "template": "Ela ___ participando em associações.",
+          "correct": "integra-se",
+          "hint": "ela integra-se",
+          "distractors": [
+            "integro-me",
+            "integras-te",
+            "integramo-nos"
+          ]
+        },
+        {
+          "type": "multiple_choice",
+          "template": "Правильно: Precisamos ___ na comunidade local.",
+          "options": [
+            "integrarmo-nos",
+            "integrar-nos",
+            "integrar-se",
+            "integrarmo"
+          ],
+          "correct": [
+            "integrarmo-nos"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "g69",
+      "unit": "unit7",
+      "title": "Глаголы respeitar и aceitar (уважать и принимать)",
+      "explanation_ru": "Respeitar alguém/algo (уважать): eu respeito, tu respeitas, ele/ela respeita, nós respeitamos, vós respeitais, eles/elas respeitam. Aceitar alguém/algo (принимать): eu aceito, tu aceitas, ele/ela aceita, nós aceitamos, vós aceitais, eles/elas aceitam. Оба глагола регулярные, 1-е спряжение.",
+      "examples": [
+        {
+          "pt": "Respeito as diferenças culturais.",
+          "ru": "Я уважаю культурные различия."
+        },
+        {
+          "pt": "Aceito pessoas de todas as origens.",
+          "ru": "Я принимаю людей всех происхождений."
+        },
+        {
+          "pt": "Devemos respeitar as opiniões dos outros.",
+          "ru": "Мы должны уважать мнения других."
+        }
+      ],
+      "templates": [
+        {
+          "type": "fill_blank",
+          "template": "Eu ___ as tradições dos outros países.",
+          "correct": "respeito",
+          "hint": "respeitar — eu respeito",
+          "distractors": [
+            "aceito",
+            "respeitas",
+            "aceitas"
+          ]
+        },
+        {
+          "type": "fill_blank",
+          "template": "Nós ___ todas as culturas.",
+          "correct": "aceitamos",
+          "hint": "aceitar — nós aceitamos",
+          "distractors": [
+            "respeitamos",
+            "aceito",
+            "respeito"
+          ]
+        },
+        {
+          "type": "multiple_choice",
+          "template": "Правильно: Eles ___ as regras da sociedade.",
+          "options": [
+            "respeitam",
+            "aceitam",
+            "respeito",
+            "aceito"
+          ],
+          "correct": [
+            "respeitam",
+            "aceitam"
+          ]
+        },
+        {
+          "type": "fill_blank",
+          "template": "Tu ___ opiniões diferentes?",
+          "correct": "aceitas",
+          "hint": "aceitar — tu aceitas",
+          "distractors": [
+            "respeitas",
+            "aceito",
+            "respeito"
+          ]
+        },
+        {
+          "type": "fill_blank",
+          "template": "É importante ___ as leis.",
+          "correct": "respeitar",
+          "hint": "инфинитив respeitar",
+          "distractors": [
+            "aceitar",
+            "respeito",
+            "aceito"
+          ]
+        },
+        {
+          "type": "fill_blank",
+          "template": "Os cidadãos ___ os direitos humanos.",
+          "correct": "respeitam",
+          "hint": "respeitar — eles respeitam",
+          "distractors": [
+            "aceitam",
+            "respeito",
+            "aceito"
+          ]
+        },
+        {
+          "type": "multiple_choice",
+          "template": "Мы ___ культурное разнообразие.",
+          "options": [
+            "aceitamos",
+            "respeitamos",
+            "aceito",
+            "respeito"
+          ],
+          "correct": [
+            "aceitamos",
+            "respeitamos"
+          ]
+        },
+        {
+          "type": "fill_blank",
+          "template": "Ela ___ imigrantes de todos os países.",
+          "correct": "aceita",
+          "hint": "aceitar — ela aceita",
+          "distractors": [
+            "respeita",
+            "aceito",
+            "respeito"
+          ]
+        },
+        {
+          "type": "fill_blank",
+          "template": "Vocês ___ as diferenças?",
+          "correct": "respeitais",
+          "hint": "respeitar — vós respeitais",
+          "distractors": [
+            "aceitais",
+            "respeitam",
+            "aceitam"
+          ]
+        },
+        {
+          "type": "fill_blank",
+          "template": "Todos devem ___ os outros.",
+          "correct": "respeitar",
+          "hint": "инфинитив",
+          "distractors": [
+            "aceitar",
+            "respeito",
+            "aceito"
+          ]
+        },
+        {
+          "type": "multiple_choice",
+          "template": "Правильно: Aceito a tua opinião, mas ___ a minha.",
+          "options": [
+            "respeito",
+            "aceito",
+            "respeitas",
+            "aceitas"
+          ],
+          "correct": "respeito"
+        }
+      ]
+    },
+    {
+      "id": "g70",
+      "unit": "unit7",
+      "title": "Конструкция é importante + инфитив",
+      "explanation_ru": "Для выражения важности используется безличная конструкция É importante + инфитив (с или без рефлексивного местоимения): É importante respeitar os outros, É importante integrar-se na sociedade, É importante informar-se sobre os direitos. Глагол после всегда в инфинитиве.",
+      "examples": [
+        {
+          "pt": "É importante respeitar as diferenças.",
+          "ru": "Важно уважать различия."
+        },
+        {
+          "pt": "É importante integrar-se na comunidade.",
+          "ru": "Важно интегрироваться в сообщество."
+        },
+        {
+          "pt": "É importante informar-se sobre as leis.",
+          "ru": "Важно информировать себя о законах."
+        },
+        {
+          "pt": "É importante participar na vida social.",
+          "ru": "Важно участвовать в общественной жизни."
+        }
+      ],
+      "templates": [
+        {
+          "type": "fill_blank",
+          "template": "___ importante respeitar as opiniões diferentes.",
+          "correct": "É",
+          "hint": "Фиксированное начало",
+          "distractors": [
+            "Estão",
+            "São",
+            "Tem"
+          ]
+        },
+        {
+          "type": "fill_blank",
+          "template": "É importante ___ na sociedade o mais rápido possível.",
+          "correct": "integrar-se",
+          "hint": "рефлексивный инфинитив",
+          "distractors": [
+            "integrar",
+            "integro-me",
+            "integras-te"
+          ]
+        },
+        {
+          "type": "multiple_choice",
+          "template": "Правильно: É importante ___ as notícias.",
+          "options": [
+            "verificar",
+            "verifico",
+            "verifica",
+            "verificamos"
+          ],
+          "correct": "verificar"
+        },
+        {
+          "type": "fill_blank",
+          "template": "___ importante participar em eventos culturais.",
+          "correct": "É",
+          "hint": "É importante",
+          "distractors": [
+            "São",
+            "Estão",
+            "Tem"
+          ]
+        },
+        {
+          "type": "fill_blank",
+          "template": "É importante ___ sobre os direitos dos cidadãos.",
+          "correct": "informar-se",
+          "hint": "рефлексивный informar-se",
+          "distractors": [
+            "informar",
+            "informo-me",
+            "informa-se"
+          ]
+        },
+        {
+          "type": "fill_blank",
+          "template": "___ importante aceitar a diversidade.",
+          "correct": "É",
+          "hint": "É importante",
+          "distractors": [
+            "São",
+            "Estão",
+            "Tem"
+          ]
+        },
+        {
+          "type": "multiple_choice",
+          "template": "Правильно: É importante ___ as leis.",
+          "options": [
+            "respeitar",
+            "respeito",
+            "respeitas",
+            "respeitamos"
+          ],
+          "correct": "respeitar"
+        },
+        {
+          "type": "fill_blank",
+          "template": "É importante ___ com pessoas de outras culturas.",
+          "correct": "comunicar",
+          "hint": "инфинитив comunicar",
+          "distractors": [
+            "comunico",
+            "comunicas",
+            "comunicamos"
+          ]
+        },
+        {
+          "type": "fill_blank",
+          "template": "___ importante aprender a língua do país.",
+          "correct": "É",
+          "hint": "É importante",
+          "distractors": [
+            "São",
+            "Estão",
+            "Tem"
+          ]
+        },
+        {
+          "type": "fill_blank",
+          "template": "É importante ___ estereótipos negativos.",
+          "correct": "combater",
+          "hint": "инфинитив combater",
+          "distractors": [
+            "combato",
+            "combate",
+            "combatemos"
+          ]
+        },
+        {
+          "type": "multiple_choice",
+          "template": "Правильно: É importante ___ na democracia.",
+          "options": [
+            "participar",
+            "participo",
+            "participas",
+            "participamos"
+          ],
+          "correct": "participar"
+        }
+      ]
+    },
+    {
+      "id": "g71",
+      "unit": "unit7",
+      "title": "Вопросительные слова в контексте общения",
+      "explanation_ru": "Основные вопросительные слова: O que pensas sobre…? (Что ты думаешь о…?), Qual é a tua opinião sobre…? (Каково твоё мнение о…?), Concordas com…? (Согласен ли с…?), Porque…? (Почему…?), Como te informas sobre…? (Как ты информируешься о…?)?",
+      "examples": [
+        {
+          "pt": "O que achas da integração dos imigrantes?",
+          "ru": "Что ты думаешь об интеграции иммигрантов?"
+        },
+        {
+          "pt": "Concordas com esta lei nova?",
+          "ru": "Согласен с этим новым законом?"
+        },
+        {
+          "pt": "Como te informas sobre os teus direitos?",
+          "ru": "Как ты информируешься о своих правах?"
+        }
+      ],
+      "templates": [
+        {
+          "type": "fill_blank",
+          "template": "___ achas da diversidade cultural?",
+          "correct": "O que",
+          "hint": "O que achas de...?",
+          "distractors": [
+            "Qual",
+            "Como",
+            "Porque"
+          ]
+        },
+        {
+          "type": "fill_blank",
+          "template": "___ é a tua opinião sobre cidadania?",
+          "correct": "Qual",
+          "hint": "Qual é a tua opinião sobre...?",
+          "distractors": [
+            "O que",
+            "Como",
+            "Quem"
+          ]
+        },
+        {
+          "type": "multiple_choice",
+          "template": "Вопрос: Ты согласен с этим?",
+          "options": [
+            "Concordas com isto?",
+            "Discordas com isto?",
+            "Achais com isto?",
+            "Pensais com isto?"
+          ],
+          "correct": "Concordas com isto?"
+        },
+        {
+          "type": "fill_blank",
+          "template": "___ te informas sobre as notícias?",
+          "correct": "Como",
+          "hint": "Como te informas sobre...?",
+          "distractors": [
+            "O que",
+            "Qual",
+            "Onde"
+          ]
+        },
+        {
+          "type": "fill_blank",
+          "template": "___ todos têm os mesmos direitos?",
+          "correct": "Porque",
+          "hint": "Porque = почему",
+          "distractors": [
+            "Como",
+            "O que",
+            "Qual"
+          ]
+        },
+        {
+          "type": "multiple_choice",
+          "template": "Правильно: ___ pensas sobre os media?",
+          "options": [
+            "O que",
+            "Qual",
+            "Quem",
+            "Onde"
+          ],
+          "correct": "O que"
+        },
+        {
+          "type": "fill_blank",
+          "template": "___ é importante respeitar os outros?",
+          "correct": "Porque",
+          "hint": "Porque в вопросе",
+          "distractors": [
+            "Como",
+            "O que",
+            "Qual"
+          ]
+        },
+        {
+          "type": "fill_blank",
+          "template": "___ é o teu dever como cidadão?",
+          "correct": "Qual",
+          "hint": "Qual é...",
+          "distractors": [
+            "O que",
+            "Como",
+            "Porque"
+          ]
+        },
+        {
+          "type": "multiple_choice",
+          "template": "Вопрос: Как ты участвуешь в обществе?",
+          "options": [
+            "Como participas na sociedade?",
+            "O que participas na sociedade?",
+            "Qual participas na sociedade?",
+            "Porque participas na sociedade?"
+          ],
+          "correct": "Como participas na sociedade?"
+        },
+        {
+          "type": "fill_blank",
+          "template": "___ acham os portugueses dos imigrantes?",
+          "correct": "O que",
+          "hint": "O que acham...?",
+          "distractors": [
+            "Qual",
+            "Como",
+            "Porque"
+          ]
+        },
+        {
+          "type": "fill_blank",
+          "template": "___ é a tua opinião sobre tolerância?",
+          "correct": "Qual",
+          "hint": "Qual é a tua opinião",
+          "distractors": [
+            "O que",
+            "Como",
+            "Porque"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "g72",
+      "unit": "unit7",
+      "title": "Сложносочинённые предложения с mas, e, porque",
+      "explanation_ru": "Соединительные союзы: e (и), mas (но), porque (потому что). Примеры: Concordo com a ideia, mas discordo do método. Quero integrar-me e participar na sociedade. Informo-me na internet porque é rápido.",
+      "examples": [
+        {
+          "pt": "Gosto da diversidade, mas às vezes há conflitos.",
+          "ru": "Мне нравится разнообразие, но иногда бывают конфликты."
+        },
+        {
+          "pt": "Leio jornais e vejo televisão.",
+          "ru": "Я читаю газеты и смотрю телевизор."
+        },
+        {
+          "pt": "Participo em associações porque quero ajudar.",
+          "ru": "Я участвую в ассоциациях, потому что хочу помогать."
+        }
+      ],
+      "templates": [
+        {
+          "type": "multiple_choice",
+          "template": "Соедини: Quero cidadania ___ preciso de esperar cinco anos.",
+          "options": [
+            "mas",
+            "e",
+            "porque",
+            "ou"
+          ],
+          "correct": "mas"
+        },
+        {
+          "type": "fill_blank",
+          "template": "Vejo notícias na televisão ___ ouço rádio.",
+          "correct": "e",
+          "hint": "и",
+          "distractors": [
+            "mas",
+            "porque",
+            "ou"
+          ]
+        },
+        {
+          "type": "fill_blank",
+          "template": "Respeito as diferenças ___ rejeito discriminação.",
+          "correct": "e",
+          "hint": "и",
+          "distractors": [
+            "mas",
+            "porque",
+            "ou"
+          ]
+        },
+        {
+          "type": "multiple_choice",
+          "template": "Соедини: Acho que é importante ___ às vezes é difícil.",
+          "options": [
+            "mas",
+            "e",
+            "porque",
+            "ou"
+          ],
+          "correct": "mas"
+        },
+        {
+          "type": "fill_blank",
+          "template": "Informo-me na internet ___ é mais rápido.",
+          "correct": "porque",
+          "hint": "потому что",
+          "distractors": [
+            "mas",
+            "e",
+            "ou"
+          ]
+        },
+        {
+          "type": "fill_blank",
+          "template": "Concordo com a liberdade ___ discordo da violência.",
+          "correct": "mas",
+          "hint": "но",
+          "distractors": [
+            "e",
+            "porque",
+            "ou"
+          ]
+        },
+        {
+          "type": "multiple_choice",
+          "template": "Правильно: Participo em eventos ___ conheço pessoas novas.",
+          "options": [
+            "porque",
+            "mas",
+            "e",
+            "ou"
+          ],
+          "correct": "porque"
+        },
+        {
+          "type": "fill_blank",
+          "template": "A sociedade é multicultural ___ acolhedora.",
+          "correct": "e",
+          "hint": "и",
+          "distractors": [
+            "mas",
+            "porque",
+            "ou"
+          ]
+        },
+        {
+          "type": "fill_blank",
+          "template": "Quero integrar-me ___ preciso aprender a língua.",
+          "correct": "mas",
+          "hint": "но",
+          "distractors": [
+            "e",
+            "porque",
+            "ou"
+          ]
+        },
+        {
+          "type": "multiple_choice",
+          "template": "Соедини: Leio notícias ___ quero estar informado.",
+          "options": [
+            "porque",
+            "mas",
+            "e",
+            "ou"
+          ],
+          "correct": "porque"
+        },
+        {
+          "type": "fill_blank",
+          "template": "Aceito opiniões diferentes ___ respeito todas.",
+          "correct": "e",
+          "hint": "и",
+          "distractors": [
+            "mas",
+            "porque",
+            "ou"
           ]
         }
       ]

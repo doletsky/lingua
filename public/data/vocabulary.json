@@ -4605,1153 +4605,5153 @@
       ]
     },
     {
-      "id": "v411",
-      "word": "bom dia",
-      "translation_ru": "доброе утро",
-      "example_pt": "Bom dia! Como estás?",
-      "example_ru": "Доброе утро! Как дела?",
+      "id": "v506",
+      "word": "o trabalho",
+      "translation_ru": "работа",
+      "example_pt": "Eu tenho um trabalho novo.",
+      "example_ru": "У меня новая работа.",
       "tags": [
-        "a1",
-        "unit4",
-        "greetings"
+        "unit5",
+        "work"
       ]
     },
     {
-      "id": "v412",
-      "word": "boa tarde",
-      "translation_ru": "добрый день",
-      "example_pt": "Boa tarde, senhor.",
-      "example_ru": "Добрый день, господин.",
+      "id": "v507",
+      "word": "o emprego",
+      "translation_ru": "занятость, работа",
+      "example_pt": "Procuro emprego em Lisboa.",
+      "example_ru": "Я ищу работу в Лиссабоне.",
       "tags": [
-        "a1",
-        "unit4",
-        "greetings"
+        "unit5",
+        "work"
       ]
     },
     {
-      "id": "v413",
-      "word": "boa noite",
-      "translation_ru": "добрый вечер / спокойной ночи",
-      "example_pt": "Boa noite a todos.",
-      "example_ru": "Добрый вечер всем.",
+      "id": "v508",
+      "word": "a profissão",
+      "translation_ru": "профессия",
+      "example_pt": "Qual é a tua profissão?",
+      "example_ru": "Какая у тебя профессия?",
       "tags": [
-        "a1",
-        "unit4",
-        "greetings"
+        "unit5",
+        "professions"
       ]
     },
     {
-      "id": "v414",
-      "word": "olá",
-      "translation_ru": "привет",
-      "example_pt": "Olá, sou o Pedro.",
-      "example_ru": "Привет, я Педру.",
+      "id": "v509",
+      "word": "o currículo",
+      "translation_ru": "резюме",
+      "example_pt": "Enviei o meu currículo por email.",
+      "example_ru": "Я отправил своё резюме по электронной почте.",
       "tags": [
-        "a1",
-        "unit4",
-        "greetings"
+        "unit5",
+        "job_search"
       ]
     },
     {
-      "id": "v415",
-      "word": "adeus",
-      "translation_ru": "до свидания",
-      "example_pt": "Adeus, até amanhã!",
-      "example_ru": "До свидания, до завтра!",
+      "id": "v510",
+      "word": "a entrevista",
+      "translation_ru": "собеседование",
+      "example_pt": "Tenho uma entrevista amanhã.",
+      "example_ru": "У меня завтра собеседование.",
       "tags": [
-        "a1",
-        "unit4",
-        "greetings"
+        "unit5",
+        "job_search"
       ]
     },
     {
-      "id": "v416",
-      "word": "a família",
-      "translation_ru": "семья",
-      "example_pt": "A minha família é grande.",
-      "example_ru": "Моя семья большая.",
+      "id": "v511",
+      "word": "o contrato",
+      "translation_ru": "контракт, договор",
+      "example_pt": "Assinei o contrato de trabalho.",
+      "example_ru": "Я подписал трудовой договор.",
       "tags": [
-        "a1",
-        "unit4",
-        "family"
+        "unit5",
+        "work_conditions"
       ]
     },
     {
-      "id": "v417",
-      "word": "o pai",
-      "translation_ru": "папа",
-      "example_pt": "O meu pai trabalha muito.",
-      "example_ru": "Мой папа много работает.",
+      "id": "v512",
+      "word": "o salário",
+      "translation_ru": "зарплата",
+      "example_pt": "O salário mínimo em Portugal é 820 euros.",
+      "example_ru": "Минимальная зарплата в Португалии — 820 евро.",
       "tags": [
-        "a1",
-        "unit4",
-        "family"
+        "unit5",
+        "work_conditions"
       ]
     },
     {
-      "id": "v418",
-      "word": "a mãe",
-      "translation_ru": "мама",
-      "example_pt": "A mãe cozinha bem.",
-      "example_ru": "Мама хорошо готовит.",
+      "id": "v513",
+      "word": "as horas de trabalho",
+      "translation_ru": "рабочие часы",
+      "example_pt": "Trabalho 40 horas por semana.",
+      "example_ru": "Я работаю 40 часов в неделю.",
       "tags": [
-        "a1",
-        "unit4",
-        "family"
+        "unit5",
+        "work_conditions"
       ]
     },
     {
-      "id": "v419",
-      "word": "o irmão",
-      "translation_ru": "брат",
-      "example_pt": "Tenho um irmão mais novo.",
-      "example_ru": "У меня есть младший брат.",
+      "id": "v514",
+      "word": "as férias",
+      "translation_ru": "отпуск",
+      "example_pt": "Tenho direito a 22 dias de férias.",
+      "example_ru": "У меня право на 22 дня отпуска.",
       "tags": [
-        "a1",
-        "unit4",
-        "family"
+        "unit5",
+        "rights"
       ]
     },
     {
-      "id": "v420",
-      "word": "a irmã",
-      "translation_ru": "сестра",
-      "example_pt": "A minha irmã estuda medicina.",
-      "example_ru": "Моя сестра изучает медицину.",
+      "id": "v515",
+      "word": "o horário",
+      "translation_ru": "график работы",
+      "example_pt": "O meu horário é das 9 às 18.",
+      "example_ru": "Мой график с 9 до 18.",
       "tags": [
-        "a1",
-        "unit4",
-        "family"
+        "unit5",
+        "work_conditions"
       ]
     },
     {
-      "id": "v421",
-      "word": "o filho",
-      "translation_ru": "сын",
-      "example_pt": "O filho joga futebol.",
-      "example_ru": "Сын играет в футбол.",
+      "id": "v516",
+      "word": "o turno",
+      "translation_ru": "смена",
+      "example_pt": "Trabalho no turno da noite.",
+      "example_ru": "Я работаю в ночную смену.",
       "tags": [
-        "a1",
-        "unit4",
-        "family"
+        "unit5",
+        "work_conditions"
       ]
     },
     {
-      "id": "v422",
-      "word": "a filha",
-      "translation_ru": "дочь",
-      "example_pt": "A filha gosta de ler.",
-      "example_ru": "Дочь любит читать.",
+      "id": "v517",
+      "word": "o chefe",
+      "translation_ru": "начальник",
+      "example_pt": "O meu chefe é muito simpático.",
+      "example_ru": "Мой начальник очень симпатичный.",
       "tags": [
-        "a1",
-        "unit4",
-        "family"
+        "unit5",
+        "work"
       ]
     },
     {
-      "id": "v423",
-      "word": "a casa",
-      "translation_ru": "дом",
-      "example_pt": "Moro numa casa grande.",
-      "example_ru": "Я живу в большом доме.",
+      "id": "v518",
+      "word": "o colega",
+      "translation_ru": "коллега (м.)",
+      "example_pt": "Os meus colegas são de vários países.",
+      "example_ru": "Мои коллеги из разных стран.",
       "tags": [
-        "a1",
-        "unit4",
-        "home"
+        "unit5",
+        "work"
       ]
     },
     {
-      "id": "v424",
-      "word": "o quarto",
-      "translation_ru": "комната / спальня",
-      "example_pt": "O meu quarto é pequeno.",
-      "example_ru": "Моя комната маленькая.",
+      "id": "v519",
+      "word": "a colega",
+      "translation_ru": "коллега (ж.)",
+      "example_pt": "A colega nova é brasileira.",
+      "example_ru": "Новая коллега — бразильянка.",
       "tags": [
-        "a1",
-        "unit4",
-        "home"
+        "unit5",
+        "work"
       ]
     },
     {
-      "id": "v425",
-      "word": "a cozinha",
-      "translation_ru": "кухня",
-      "example_pt": "Faço o pequeno-almoço na cozinha.",
-      "example_ru": "Я готовлю завтрак на кухне.",
+      "id": "v520",
+      "word": "a empresa",
+      "translation_ru": "компания, предприятие",
+      "example_pt": "Trabalho numa empresa de construção.",
+      "example_ru": "Я работаю в строительной компании.",
       "tags": [
-        "a1",
-        "unit4",
-        "home"
+        "unit5",
+        "work"
       ]
     },
     {
-      "id": "v426",
-      "word": "a sala",
-      "translation_ru": "гостиная",
-      "example_pt": "Vemos televisão na sala.",
-      "example_ru": "Мы смотрим телевизор в гостиной.",
+      "id": "v521",
+      "word": "o escritório",
+      "translation_ru": "офис",
+      "example_pt": "O escritório fica no centro.",
+      "example_ru": "Офис находится в центре.",
       "tags": [
-        "a1",
-        "unit4",
-        "home"
+        "unit5",
+        "work"
       ]
     },
     {
-      "id": "v427",
-      "word": "a casa de banho",
-      "translation_ru": "ванная комната",
-      "example_pt": "Tomo banho na casa de banho.",
-      "example_ru": "Я принимаю душ в ванной.",
+      "id": "v522",
+      "word": "a fábrica",
+      "translation_ru": "фабрика",
+      "example_pt": "A fábrica produz têxteis.",
+      "example_ru": "Фабрика производит текстиль.",
       "tags": [
-        "a1",
-        "unit4",
-        "home"
+        "unit5",
+        "work"
       ]
     },
     {
-      "id": "v428",
-      "word": "acordar",
-      "translation_ru": "просыпаться",
-      "example_pt": "Acordo às sete horas.",
-      "example_ru": "Я просыпаюсь в семь часов.",
-      "tags": [
-        "a1",
-        "unit4",
-        "routine",
-        "verbs"
-      ]
-    },
-    {
-      "id": "v429",
-      "word": "levantar-se",
-      "translation_ru": "вставать",
-      "example_pt": "Levanto-me cedo.",
-      "example_ru": "Я встаю рано.",
-      "tags": [
-        "a1",
-        "unit4",
-        "routine",
-        "verbs"
-      ]
-    },
-    {
-      "id": "v430",
-      "word": "tomar banho",
-      "translation_ru": "принимать душ",
-      "example_pt": "Tomo banho de manhã.",
-      "example_ru": "Я принимаю душ утром.",
-      "tags": [
-        "a1",
-        "unit4",
-        "routine"
-      ]
-    },
-    {
-      "id": "v431",
-      "word": "escovar os dentes",
-      "translation_ru": "чистить зубы",
-      "example_pt": "Escovo os dentes duas vezes por dia.",
-      "example_ru": "Я чищу зубы два раза в день.",
-      "tags": [
-        "a1",
-        "unit4",
-        "routine"
-      ]
-    },
-    {
-      "id": "v432",
-      "word": "vestir-se",
-      "translation_ru": "одеваться",
-      "example_pt": "Visto-me rapidamente.",
-      "example_ru": "Я одеваюсь быстро.",
-      "tags": [
-        "a1",
-        "unit4",
-        "routine",
-        "verbs"
-      ]
-    },
-    {
-      "id": "v433",
-      "word": "tomar o pequeno-almoço",
-      "translation_ru": "завтракать",
-      "example_pt": "Tomo o pequeno-almoço na cozinha.",
-      "example_ru": "Я завтракаю на кухне.",
-      "tags": [
-        "a1",
-        "unit4",
-        "routine"
-      ]
-    },
-    {
-      "id": "v434",
-      "word": "ir para o trabalho",
-      "translation_ru": "идти на работу",
-      "example_pt": "Vou para o trabalho de autocarro.",
-      "example_ru": "Я еду на работу на автобусе.",
-      "tags": [
-        "a1",
-        "unit4",
-        "routine"
-      ]
-    },
-    {
-      "id": "v435",
-      "word": "almoçar",
-      "translation_ru": "обедать",
-      "example_pt": "Almoço às doze horas.",
-      "example_ru": "Я обедаю в двенадцать часов.",
-      "tags": [
-        "a1",
-        "unit4",
-        "routine",
-        "verbs"
-      ]
-    },
-    {
-      "id": "v436",
-      "word": "jantar",
-      "translation_ru": "ужинать",
-      "example_pt": "Jantamos juntos às oito.",
-      "example_ru": "Мы ужинаем вместе в восемь.",
-      "tags": [
-        "a1",
-        "unit4",
-        "routine",
-        "verbs"
-      ]
-    },
-    {
-      "id": "v437",
-      "word": "deitar-se",
-      "translation_ru": "ложиться спать",
-      "example_pt": "Deito-me às onze da noite.",
-      "example_ru": "Я ложусь спать в одиннадцать вечера.",
-      "tags": [
-        "a1",
-        "unit4",
-        "routine",
-        "verbs"
-      ]
-    },
-    {
-      "id": "v438",
-      "word": "segunda-feira",
-      "translation_ru": "понедельник",
-      "example_pt": "Na segunda-feira vou ao ginásio.",
-      "example_ru": "В понедельник я хожу в спортзал.",
-      "tags": [
-        "a1",
-        "unit4",
-        "days"
-      ]
-    },
-    {
-      "id": "v439",
-      "word": "terça-feira",
-      "translation_ru": "вторник",
-      "example_pt": "Terça-feira é dia de reunião.",
-      "example_ru": "Вторник — день собрания.",
-      "tags": [
-        "a1",
-        "unit4",
-        "days"
-      ]
-    },
-    {
-      "id": "v440",
-      "word": "quarta-feira",
-      "translation_ru": "среда",
-      "example_pt": "Quarta-feira estudo português.",
-      "example_ru": "В среду я учу португальский.",
-      "tags": [
-        "a1",
-        "unit4",
-        "days"
-      ]
-    },
-    {
-      "id": "v441",
-      "word": "quinta-feira",
-      "translation_ru": "четверг",
-      "example_pt": "À quinta-feira faço compras.",
-      "example_ru": "В четверг я делаю покупки.",
-      "tags": [
-        "a1",
-        "unit4",
-        "days"
-      ]
-    },
-    {
-      "id": "v442",
-      "word": "sexta-feira",
-      "translation_ru": "пятница",
-      "example_pt": "Sexta-feira é o meu dia favorito.",
-      "example_ru": "Пятница — мой любимый день.",
-      "tags": [
-        "a1",
-        "unit4",
-        "days"
-      ]
-    },
-    {
-      "id": "v443",
-      "word": "sábado",
-      "translation_ru": "суббота",
-      "example_pt": "Ao sábado descanso.",
-      "example_ru": "В субботу я отдыхаю.",
-      "tags": [
-        "a1",
-        "unit4",
-        "days"
-      ]
-    },
-    {
-      "id": "v444",
-      "word": "domingo",
-      "translation_ru": "воскресенье",
-      "example_pt": "Domingo é dia de família.",
-      "example_ru": "Воскресенье — семейный день.",
-      "tags": [
-        "a1",
-        "unit4",
-        "days"
-      ]
-    },
-    {
-      "id": "v445",
-      "word": "uma hora",
-      "translation_ru": "один час",
-      "example_pt": "São duas horas.",
-      "example_ru": "Два часа.",
-      "tags": [
-        "a1",
-        "unit4",
-        "time"
-      ]
-    },
-    {
-      "id": "v446",
-      "word": "meia hora",
-      "translation_ru": "полчаса",
-      "example_pt": "Falta meia hora.",
-      "example_ru": "Осталось полчаса.",
-      "tags": [
-        "a1",
-        "unit4",
-        "time"
-      ]
-    },
-    {
-      "id": "v447",
-      "word": "um quarto de hora",
-      "translation_ru": "четверть часа",
-      "example_pt": "Chego num quarto de hora.",
-      "example_ru": "Я приеду через четверть часа.",
-      "tags": [
-        "a1",
-        "unit4",
-        "time"
-      ]
-    },
-    {
-      "id": "v448",
-      "word": "às sete horas",
-      "translation_ru": "в семь часов",
-      "example_pt": "Acordo às sete horas.",
-      "example_ru": "Я просыпаюсь в семь часов.",
-      "tags": [
-        "a1",
-        "unit4",
-        "time"
-      ]
-    },
-    {
-      "id": "v449",
-      "word": "da manhã",
-      "translation_ru": "утра",
-      "example_pt": "Às oito da manhã.",
-      "example_ru": "В восемь утра.",
-      "tags": [
-        "a1",
-        "unit4",
-        "time"
-      ]
-    },
-    {
-      "id": "v450",
-      "word": "da tarde",
-      "translation_ru": "дня (после полудня)",
-      "example_pt": "Às três da tarde.",
-      "example_ru": "В три часа дня.",
-      "tags": [
-        "a1",
-        "unit4",
-        "time"
-      ]
-    },
-    {
-      "id": "v451",
-      "word": "da noite",
-      "translation_ru": "вечера / ночи",
-      "example_pt": "Às dez da noite.",
-      "example_ru": "В десять вечера.",
-      "tags": [
-        "a1",
-        "unit4",
-        "time"
-      ]
-    },
-    {
-      "id": "v452",
-      "word": "o corpo",
-      "translation_ru": "тело",
-      "example_pt": "O corpo humano tem muitos ossos.",
-      "example_ru": "Человеческое тело имеет много костей.",
-      "tags": [
-        "a1",
-        "unit4",
-        "body"
-      ]
-    },
-    {
-      "id": "v453",
-      "word": "a cabeça",
-      "translation_ru": "голова",
-      "example_pt": "Dói-me a cabeça.",
-      "example_ru": "У меня болит голова.",
-      "tags": [
-        "a1",
-        "unit4",
-        "body"
-      ]
-    },
-    {
-      "id": "v454",
-      "word": "o cabelo",
-      "translation_ru": "волосы",
-      "example_pt": "Tenho cabelo castanho.",
-      "example_ru": "У меня каштановые волосы.",
-      "tags": [
-        "a1",
-        "unit4",
-        "body"
-      ]
-    },
-    {
-      "id": "v455",
-      "word": "o olho",
-      "translation_ru": "глаз",
-      "example_pt": "Os olhos são azuis.",
-      "example_ru": "Глаза голубые.",
-      "tags": [
-        "a1",
-        "unit4",
-        "body"
-      ]
-    },
-    {
-      "id": "v456",
-      "word": "o nariz",
-      "translation_ru": "нос",
-      "example_pt": "O nariz está entupido.",
-      "example_ru": "Нос заложило.",
-      "tags": [
-        "a1",
-        "unit4",
-        "body"
-      ]
-    },
-    {
-      "id": "v457",
-      "word": "a boca",
-      "translation_ru": "рот",
-      "example_pt": "Abro a boca no dentista.",
-      "example_ru": "Я открываю рот у стоматолога.",
-      "tags": [
-        "a1",
-        "unit4",
-        "body"
-      ]
-    },
-    {
-      "id": "v458",
-      "word": "o dente",
-      "translation_ru": "зуб",
-      "example_pt": "Escovo os dentes.",
-      "example_ru": "Я чищу зубы.",
-      "tags": [
-        "a1",
-        "unit4",
-        "body"
-      ]
-    },
-    {
-      "id": "v459",
-      "word": "a mão",
-      "translation_ru": "рука / кисть",
-      "example_pt": "Lavo as mãos.",
-      "example_ru": "Я мою руки.",
-      "tags": [
-        "a1",
-        "unit4",
-        "body"
-      ]
-    },
-    {
-      "id": "v460",
-      "word": "o braço",
-      "translation_ru": "рука (от плеча)",
-      "example_pt": "O braço direito dói.",
-      "example_ru": "Болит правая рука.",
-      "tags": [
-        "a1",
-        "unit4",
-        "body"
-      ]
-    },
-    {
-      "id": "v461",
-      "word": "a perna",
-      "translation_ru": "нога",
-      "example_pt": "A perna está cansada.",
-      "example_ru": "Нога устала.",
-      "tags": [
-        "a1",
-        "unit4",
-        "body"
-      ]
-    },
-    {
-      "id": "v462",
-      "word": "o pé",
-      "translation_ru": "ступня / нога",
-      "example_pt": "Os pés estão frios.",
-      "example_ru": "Ноги холодные.",
-      "tags": [
-        "a1",
-        "unit4",
-        "body"
-      ]
-    },
-    {
-      "id": "v463",
-      "word": "doer",
-      "translation_ru": "болеть",
-      "example_pt": "Dói-me a cabeça.",
-      "example_ru": "У меня болит голова.",
-      "tags": [
-        "a1",
-        "unit4",
-        "health",
-        "verbs"
-      ]
-    },
-    {
-      "id": "v464",
-      "word": "estar doente",
-      "translation_ru": "болеть",
-      "example_pt": "Estou doente hoje.",
-      "example_ru": "Я сегодня болею.",
-      "tags": [
-        "a1",
-        "unit4",
-        "health"
-      ]
-    },
-    {
-      "id": "v465",
-      "word": "a saúde",
-      "translation_ru": "здоровье",
-      "example_pt": "A saúde é importante.",
-      "example_ru": "Здоровье важно.",
-      "tags": [
-        "a1",
-        "unit4",
-        "health"
-      ]
-    },
-    {
-      "id": "v466",
-      "word": "o médico",
-      "translation_ru": "врач (муж.)",
-      "example_pt": "Vou ao médico amanhã.",
-      "example_ru": "Я иду к врачу завтра.",
-      "tags": [
-        "a1",
-        "unit4",
-        "health"
-      ]
-    },
-    {
-      "id": "v467",
-      "word": "a médica",
-      "translation_ru": "врач (жен.)",
-      "example_pt": "A médica é muito boa.",
-      "example_ru": "Врач очень хорошая.",
-      "tags": [
-        "a1",
-        "unit4",
-        "health"
-      ]
-    },
-    {
-      "id": "v468",
-      "word": "o hospital",
-      "translation_ru": "больница",
-      "example_pt": "O hospital fica perto.",
-      "example_ru": "Больница находится рядом.",
-      "tags": [
-        "a1",
-        "unit4",
-        "health"
-      ]
-    },
-    {
-      "id": "v469",
-      "word": "a farmácia",
-      "translation_ru": "аптека",
-      "example_pt": "Compro medicamentos na farmácia.",
-      "example_ru": "Я покупаю лекарства в аптеке.",
-      "tags": [
-        "a1",
-        "unit4",
-        "health"
-      ]
-    },
-    {
-      "id": "v470",
-      "word": "o medicamento",
-      "translation_ru": "лекарство",
-      "example_pt": "Tomo o medicamento duas vezes.",
-      "example_ru": "Я принимаю лекарство два раза.",
-      "tags": [
-        "a1",
-        "unit4",
-        "health"
-      ]
-    },
-    {
-      "id": "v471",
-      "word": "os correios",
-      "translation_ru": "почта",
-      "example_pt": "Envio a carta nos correios.",
-      "example_ru": "Я отправляю письмо на почте.",
-      "tags": [
-        "a1",
-        "unit4",
-        "services"
-      ]
-    },
-    {
-      "id": "v472",
-      "word": "a carta",
-      "translation_ru": "письмо",
-      "example_pt": "Escrevo uma carta à família.",
-      "example_ru": "Я пишу письмо семье.",
-      "tags": [
-        "a1",
-        "unit4",
-        "services"
-      ]
-    },
-    {
-      "id": "v473",
-      "word": "o envelope",
-      "translation_ru": "конверт",
-      "example_pt": "Coloco a carta no envelope.",
-      "example_ru": "Я кладу письмо в конверт.",
-      "tags": [
-        "a1",
-        "unit4",
-        "services"
-      ]
-    },
-    {
-      "id": "v474",
-      "word": "o selo",
-      "translation_ru": "марка",
-      "example_pt": "Compro um selo nos correios.",
-      "example_ru": "Я покупаю марку на почте.",
-      "tags": [
-        "a1",
-        "unit4",
-        "services"
-      ]
-    },
-    {
-      "id": "v475",
-      "word": "o banco",
-      "translation_ru": "банк",
-      "example_pt": "Abro conta no banco.",
-      "example_ru": "Я открываю счёт в банке.",
-      "tags": [
-        "a1",
-        "unit4",
-        "services"
-      ]
-    },
-    {
-      "id": "v476",
-      "word": "o dinheiro",
-      "translation_ru": "деньги",
-      "example_pt": "Levanto dinheiro no banco.",
-      "example_ru": "Я снимаю деньги в банке.",
-      "tags": [
-        "a1",
-        "unit4",
-        "services"
-      ]
-    },
-    {
-      "id": "v477",
-      "word": "a conta",
-      "translation_ru": "счёт",
-      "example_pt": "Pago a conta no banco.",
-      "example_ru": "Я плачу по счёту в банке.",
-      "tags": [
-        "a1",
-        "unit4",
-        "services"
-      ]
-    },
-    {
-      "id": "v478",
-      "word": "o autocarro",
-      "translation_ru": "автобус",
-      "example_pt": "Apanho o autocarro às oito.",
-      "example_ru": "Я сажусь на автобус в восемь.",
-      "tags": [
-        "a1",
-        "unit4",
-        "transport"
-      ]
-    },
-    {
-      "id": "v479",
-      "word": "o comboio",
-      "translation_ru": "поезд",
-      "example_pt": "Vou de comboio para Lisboa.",
-      "example_ru": "Я еду поездом в Лиссабон.",
-      "tags": [
-        "a1",
-        "unit4",
-        "transport"
-      ]
-    },
-    {
-      "id": "v480",
-      "word": "o metro",
-      "translation_ru": "метро",
-      "example_pt": "Uso o metro todos os dias.",
-      "example_ru": "Я пользуюсь метро каждый день.",
-      "tags": [
-        "a1",
-        "unit4",
-        "transport"
-      ]
-    },
-    {
-      "id": "v481",
-      "word": "o bilhete",
-      "translation_ru": "билет",
-      "example_pt": "Compro o bilhete na estação.",
-      "example_ru": "Я покупаю билет на станции.",
-      "tags": [
-        "a1",
-        "unit4",
-        "transport"
-      ]
-    },
-    {
-      "id": "v482",
-      "word": "o carro",
-      "translation_ru": "машина",
-      "example_pt": "Vou de carro para o trabalho.",
-      "example_ru": "Я еду на работу на машине.",
-      "tags": [
-        "a1",
-        "unit4",
-        "transport"
-      ]
-    },
-    {
-      "id": "v483",
-      "word": "a comida",
-      "translation_ru": "еда",
-      "example_pt": "Gosto de comida portuguesa.",
-      "example_ru": "Мне нравится португальская еда.",
-      "tags": [
-        "a1",
-        "unit4",
-        "food"
-      ]
-    },
-    {
-      "id": "v484",
-      "word": "o pão",
-      "translation_ru": "хлеб",
-      "example_pt": "Compro pão todos os dias.",
-      "example_ru": "Я покупаю хлеб каждый день.",
-      "tags": [
-        "a1",
-        "unit4",
-        "food"
-      ]
-    },
-    {
-      "id": "v485",
-      "word": "o queijo",
-      "translation_ru": "сыр",
-      "example_pt": "O queijo português é ótimo.",
-      "example_ru": "Португальский сыр отличный.",
-      "tags": [
-        "a1",
-        "unit4",
-        "food"
-      ]
-    },
-    {
-      "id": "v486",
-      "word": "o arroz",
-      "translation_ru": "рис",
-      "example_pt": "Como arroz com feijão.",
-      "example_ru": "Я ем рис с фасолью.",
-      "tags": [
-        "a1",
-        "unit4",
-        "food"
-      ]
-    },
-    {
-      "id": "v487",
-      "word": "a fruta",
-      "translation_ru": "фрукты",
-      "example_pt": "Como fruta todos os dias.",
-      "example_ru": "Я ем фрукты каждый день.",
-      "tags": [
-        "a1",
-        "unit4",
-        "food"
-      ]
-    },
-    {
-      "id": "v488",
-      "word": "a água",
-      "translation_ru": "вода",
-      "example_pt": "Bebo muita água.",
-      "example_ru": "Я пью много воды.",
-      "tags": [
-        "a1",
-        "unit4",
-        "food"
-      ]
-    },
-    {
-      "id": "v489",
-      "word": "o café",
-      "translation_ru": "кофе",
-      "example_pt": "Tomo um café de manhã.",
-      "example_ru": "Я пью кофе утром.",
-      "tags": [
-        "a1",
-        "unit4",
-        "food"
-      ]
-    },
-    {
-      "id": "v490",
-      "word": "o supermercado",
-      "translation_ru": "супермаркет",
-      "example_pt": "Faço compras no supermercado.",
-      "example_ru": "Я делаю покупки в супермаркете.",
-      "tags": [
-        "a1",
-        "unit4",
-        "shopping"
-      ]
-    },
-    {
-      "id": "v491",
-      "word": "comprar",
-      "translation_ru": "покупать",
-      "example_pt": "Compro frutas frescas.",
-      "example_ru": "Я покупаю свежие фрукты.",
-      "tags": [
-        "a1",
-        "unit4",
-        "shopping",
-        "verbs"
-      ]
-    },
-    {
-      "id": "v492",
-      "word": "pagar",
-      "translation_ru": "платить",
-      "example_pt": "Pago com cartão.",
-      "example_ru": "Я плачу картой.",
-      "tags": [
-        "a1",
-        "unit4",
-        "shopping",
-        "verbs"
-      ]
-    },
-    {
-      "id": "v493",
+      "id": "v523",
       "word": "o restaurante",
       "translation_ru": "ресторан",
-      "example_pt": "Vamos ao restaurante hoje.",
-      "example_ru": "Мы идём в ресторан сегодня.",
+      "example_pt": "Trabalho como cozinheiro num restaurante.",
+      "example_ru": "Я работаю поваром в ресторане.",
       "tags": [
-        "a1",
-        "unit4",
-        "food"
+        "unit5",
+        "professions"
       ]
     },
     {
-      "id": "v494",
-      "word": "o empregado de mesa",
+      "id": "v524",
+      "word": "o hotel",
+      "translation_ru": "отель",
+      "example_pt": "Limpo quartos num hotel.",
+      "example_ru": "Я убираю номера в отеле.",
+      "tags": [
+        "unit5",
+        "professions"
+      ]
+    },
+    {
+      "id": "v525",
+      "word": "a construção",
+      "translation_ru": "строительство",
+      "example_pt": "Muitos imigrantes trabalham na construção.",
+      "example_ru": "Многие иммигранты работают в строительстве.",
+      "tags": [
+        "unit5",
+        "professions"
+      ]
+    },
+    {
+      "id": "v526",
+      "word": "a agricultura",
+      "translation_ru": "сельское хозяйство",
+      "example_pt": "Na agricultura há trabalho sazonal.",
+      "example_ru": "В сельском хозяйстве есть сезонная работа.",
+      "tags": [
+        "unit5",
+        "professions"
+      ]
+    },
+    {
+      "id": "v527",
+      "word": "programador",
+      "translation_ru": "программист",
+      "example_pt": "Quero ser programador.",
+      "example_ru": "Я хочу стать программистом.",
+      "tags": [
+        "unit5",
+        "professions"
+      ]
+    },
+    {
+      "id": "v528",
+      "word": "médico",
+      "translation_ru": "врач (м.)",
+      "example_pt": "O médico trabalha no hospital.",
+      "example_ru": "Врач работает в больнице.",
+      "tags": [
+        "unit5",
+        "professions"
+      ]
+    },
+    {
+      "id": "v529",
+      "word": "enfermeiro",
+      "translation_ru": "медбрат",
+      "example_pt": "O enfermeiro cuida dos doentes.",
+      "example_ru": "Медбрат ухаживает за больными.",
+      "tags": [
+        "unit5",
+        "professions"
+      ]
+    },
+    {
+      "id": "v530",
+      "word": "professor",
+      "translation_ru": "учитель (м.)",
+      "example_pt": "O professor ensina português.",
+      "example_ru": "Учитель преподаёт португальский.",
+      "tags": [
+        "unit5",
+        "professions"
+      ]
+    },
+    {
+      "id": "v531",
+      "word": "motorista",
+      "translation_ru": "водитель",
+      "example_pt": "Sou motorista de autocarro.",
+      "example_ru": "Я водитель автобуса.",
+      "tags": [
+        "unit5",
+        "professions"
+      ]
+    },
+    {
+      "id": "v532",
+      "word": "empregado de limpeza",
+      "translation_ru": "уборщик",
+      "example_pt": "Trabalho como empregado de limpeza.",
+      "example_ru": "Я работаю уборщиком.",
+      "tags": [
+        "unit5",
+        "professions"
+      ]
+    },
+    {
+      "id": "v533",
+      "word": "cozinheiro",
+      "translation_ru": "повар (м.)",
+      "example_pt": "O cozinheiro prepara comida portuguesa.",
+      "example_ru": "Повар готовит португальскую еду.",
+      "tags": [
+        "unit5",
+        "professions"
+      ]
+    },
+    {
+      "id": "v534",
+      "word": "empregado de mesa",
       "translation_ru": "официант",
-      "example_pt": "O empregado traz o menu.",
-      "example_ru": "Официант приносит меню.",
+      "example_pt": "O empregado de mesa serve os clientes.",
+      "example_ru": "Официант обслуживает клиентов.",
       "tags": [
-        "a1",
-        "unit4",
-        "food"
+        "unit5",
+        "professions"
       ]
     },
     {
-      "id": "v495",
-      "word": "a ementa",
-      "translation_ru": "меню",
-      "example_pt": "Peço a ementa.",
-      "example_ru": "Я прошу меню.",
+      "id": "v535",
+      "word": "segurança",
+      "translation_ru": "охранник",
+      "example_pt": "Trabalho como segurança num centro comercial.",
+      "example_ru": "Я работаю охранником в торговом центре.",
       "tags": [
-        "a1",
-        "unit4",
-        "food"
+        "unit5",
+        "professions"
       ]
     },
     {
-      "id": "v496",
+      "id": "v536",
+      "word": "o desemprego",
+      "translation_ru": "безработица",
+      "example_pt": "O desemprego está a baixar em Portugal.",
+      "example_ru": "Безработица в Португалии снижается.",
+      "tags": [
+        "unit5",
+        "work"
+      ]
+    },
+    {
+      "id": "v537",
+      "word": "o subsídio de desemprego",
+      "translation_ru": "пособие по безработице",
+      "example_pt": "Recebo subsídio de desemprego.",
+      "example_ru": "Я получаю пособие по безработице.",
+      "tags": [
+        "unit5",
+        "rights"
+      ]
+    },
+    {
+      "id": "v538",
+      "word": "o sindicato",
+      "translation_ru": "профсоюз",
+      "example_pt": "O sindicato defende os direitos dos trabalhadores.",
+      "example_ru": "Профсоюз защищает права работников.",
+      "tags": [
+        "unit5",
+        "rights"
+      ]
+    },
+    {
+      "id": "v539",
+      "word": "os direitos dos trabalhadores",
+      "translation_ru": "права работников",
+      "example_pt": "Em Portugal há muitos direitos dos trabalhadores.",
+      "example_ru": "В Португалии много прав работников.",
+      "tags": [
+        "unit5",
+        "rights"
+      ]
+    },
+    {
+      "id": "v540",
+      "word": "a segurança social",
+      "translation_ru": "социальное обеспечение",
+      "example_pt": "Pago à segurança social todos os meses.",
+      "example_ru": "Я плачу в социальное обеспечение каждый месяц.",
+      "tags": [
+        "unit5",
+        "rights"
+      ]
+    },
+    {
+      "id": "v541",
+      "word": "full-time",
+      "translation_ru": "полный рабочий день",
+      "example_pt": "Tenho contrato full-time.",
+      "example_ru": "У меня контракт на полный рабочий день.",
+      "tags": [
+        "unit5",
+        "work_conditions"
+      ]
+    },
+    {
+      "id": "v542",
+      "word": "part-time",
+      "translation_ru": "неполный рабочий день",
+      "example_pt": "Procuro trabalho part-time.",
+      "example_ru": "Я ищу работу на неполный день.",
+      "tags": [
+        "unit5",
+        "work_conditions"
+      ]
+    },
+    {
+      "id": "v543",
+      "word": "a experiência profissional",
+      "translation_ru": "опыт работы",
+      "example_pt": "Tenho 5 anos de experiência profissional.",
+      "example_ru": "У меня 5 лет опыта работы.",
+      "tags": [
+        "unit5",
+        "job_search"
+      ]
+    },
+    {
+      "id": "v544",
+      "word": "as competências",
+      "translation_ru": "навыки, компетенции",
+      "example_pt": "As minhas competências incluem línguas.",
+      "example_ru": "Мои навыки включают языки.",
+      "tags": [
+        "unit5",
+        "job_search"
+      ]
+    },
+    {
+      "id": "v545",
+      "word": "o anúncio de emprego",
+      "translation_ru": "объявление о вакансии",
+      "example_pt": "Vi um anúncio de emprego no jornal.",
+      "example_ru": "Я увидел объявление о вакансии в газете.",
+      "tags": [
+        "unit5",
+        "job_search"
+      ]
+    },
+    {
+      "id": "v546",
+      "word": "o centro de emprego",
+      "translation_ru": "центр занятости",
+      "example_pt": "Fui ao centro de emprego registar-me.",
+      "example_ru": "Я пошёл в центр занятости зарегистрироваться.",
+      "tags": [
+        "unit5",
+        "job_search"
+      ]
+    },
+    {
+      "id": "v547",
+      "word": "trabalhar",
+      "translation_ru": "работать",
+      "example_pt": "Eu trabalho em Lisboa.",
+      "example_ru": "Я работаю в Лиссабоне.",
+      "tags": [
+        "unit5",
+        "verbs"
+      ]
+    },
+    {
+      "id": "v548",
+      "word": "procurar",
+      "translation_ru": "искать",
+      "example_pt": "Procuro trabalho na minha área.",
+      "example_ru": "Я ищу работу в своей области.",
+      "tags": [
+        "unit5",
+        "verbs"
+      ]
+    },
+    {
+      "id": "v549",
+      "word": "encontrar",
+      "translation_ru": "находить",
+      "example_pt": "Encontrei um bom emprego.",
+      "example_ru": "Я нашёл хорошую работу.",
+      "tags": [
+        "unit5",
+        "verbs"
+      ]
+    },
+    {
+      "id": "v550",
+      "word": "começar",
+      "translation_ru": "начинать",
+      "example_pt": "Começo o novo trabalho na segunda-feira.",
+      "example_ru": "Я начинаю новую работу в понедельник.",
+      "tags": [
+        "unit5",
+        "verbs"
+      ]
+    },
+    {
+      "id": "v551",
+      "word": "terminar",
+      "translation_ru": "заканчивать",
+      "example_pt": "Termino às 17 horas.",
+      "example_ru": "Я заканчиваю в 17 часов.",
+      "tags": [
+        "unit5",
+        "verbs"
+      ]
+    },
+    {
+      "id": "v552",
+      "word": "ganhar",
+      "translation_ru": "зарабатывать",
+      "example_pt": "Ganho 1000 euros por mês.",
+      "example_ru": "Я зарабатываю 1000 евро в месяц.",
+      "tags": [
+        "unit5",
+        "verbs"
+      ]
+    },
+    {
+      "id": "v553",
+      "word": "pagar",
+      "translation_ru": "платить",
+      "example_pt": "A empresa paga bem.",
+      "example_ru": "Компания хорошо платит.",
+      "tags": [
+        "unit5",
+        "verbs"
+      ]
+    },
+    {
+      "id": "v554",
+      "word": "assinar",
+      "translation_ru": "подписывать",
+      "example_pt": "Assinei o contrato ontem.",
+      "example_ru": "Я подписал контракт вчера.",
+      "tags": [
+        "unit5",
+        "verbs"
+      ]
+    },
+    {
+      "id": "v555",
       "word": "pedir",
-      "translation_ru": "заказывать / просить",
-      "example_pt": "Peço bacalhau.",
-      "example_ru": "Я заказываю треску.",
+      "translation_ru": "просить",
+      "example_pt": "Pedi um aumento de salário.",
+      "example_ru": "Я попросил повышение зарплаты.",
       "tags": [
-        "a1",
-        "unit4",
-        "food",
+        "unit5",
         "verbs"
       ]
     },
     {
-      "id": "v497",
-      "word": "o bacalhau",
-      "translation_ru": "треска",
-      "example_pt": "O bacalhau é típico em Portugal.",
-      "example_ru": "Треска типична для Португалии.",
+      "id": "v556",
+      "word": "ter direito a",
+      "translation_ru": "иметь право на",
+      "example_pt": "Tenho direito a férias pagas.",
+      "example_ru": "У меня право на оплачиваемый отпуск.",
       "tags": [
-        "a1",
-        "unit4",
-        "food"
+        "unit5",
+        "rights"
       ]
     },
     {
-      "id": "v498",
-      "word": "gostar de",
-      "translation_ru": "нравиться",
-      "example_pt": "Gosto muito de pastel de nata.",
-      "example_ru": "Мне очень нравится паштел де ната.",
+      "id": "v557",
+      "word": "a pausa",
+      "translation_ru": "перерыв",
+      "example_pt": "Faço uma pausa para o almoço.",
+      "example_ru": "Я делаю перерыв на обед.",
       "tags": [
-        "a1",
-        "unit4",
+        "unit5",
+        "work_conditions"
+      ]
+    },
+    {
+      "id": "v558",
+      "word": "o dia útil",
+      "translation_ru": "рабочий день",
+      "example_pt": "Trabalho cinco dias úteis.",
+      "example_ru": "Я работаю пять рабочих дней.",
+      "tags": [
+        "unit5",
+        "work_conditions"
+      ]
+    },
+    {
+      "id": "v559",
+      "word": "o fim de semana",
+      "translation_ru": "выходные",
+      "example_pt": "Descanso ao fim de semana.",
+      "example_ru": "Я отдыхаю на выходных.",
+      "tags": [
+        "unit5",
+        "work"
+      ]
+    },
+    {
+      "id": "v560",
+      "word": "a formação profissional",
+      "translation_ru": "профессиональное обучение",
+      "example_pt": "Faço formação profissional gratuita.",
+      "example_ru": "Я прохожу бесплатное профессиональное обучение.",
+      "tags": [
+        "unit5",
+        "rights"
+      ]
+    },
+    {
+      "id": "v561",
+      "word": "o estágio",
+      "translation_ru": "стажировка",
+      "example_pt": "Faço um estágio numa empresa.",
+      "example_ru": "Я прохожу стажировку в компании.",
+      "tags": [
+        "unit5",
+        "work"
+      ]
+    },
+    {
+      "id": "v562",
+      "word": "remoto",
+      "translation_ru": "удалённый",
+      "example_pt": "Trabalho remoto de casa.",
+      "example_ru": "Я работаю удалённо из дома.",
+      "tags": [
+        "unit5",
+        "work_conditions"
+      ]
+    },
+    {
+      "id": "v563",
+      "word": "presencial",
+      "translation_ru": "очный",
+      "example_pt": "O trabalho é presencial.",
+      "example_ru": "Работа очная.",
+      "tags": [
+        "unit5",
+        "work_conditions"
+      ]
+    },
+    {
+      "id": "v564",
+      "word": "flexível",
+      "translation_ru": "гибкий",
+      "example_pt": "O horário é flexível.",
+      "example_ru": "График гибкий.",
+      "tags": [
+        "unit5",
+        "work_conditions"
+      ]
+    },
+    {
+      "id": "v565",
+      "word": "a licença de maternidade",
+      "translation_ru": "декретный отпуск",
+      "example_pt": "Tenho direito a licença de maternidade.",
+      "example_ru": "У меня право на декретный отпуск.",
+      "tags": [
+        "unit5",
+        "rights"
+      ]
+    },
+    {
+      "id": "v566",
+      "word": "o teletrabalho",
+      "translation_ru": "удалённая работа",
+      "example_pt": "O teletrabalho é cada vez mais comum.",
+      "example_ru": "Удалённая работа становится всё более распространённой.",
+      "tags": [
+        "unit5",
+        "work_conditions"
+      ]
+    },
+    {
+      "id": "v567",
+      "word": "o trabalhador",
+      "translation_ru": "работник (м.)",
+      "example_pt": "Sou trabalhador estrangeiro.",
+      "example_ru": "Я иностранный работник.",
+      "tags": [
+        "unit5",
+        "work"
+      ]
+    },
+    {
+      "id": "v568",
+      "word": "a trabalhadora",
+      "translation_ru": "работница (ж.)",
+      "example_pt": "A trabalhadora tem os mesmos direitos.",
+      "example_ru": "Работница имеет те же права.",
+      "tags": [
+        "unit5",
+        "work"
+      ]
+    },
+    {
+      "id": "v569",
+      "word": "legal",
+      "translation_ru": "законный",
+      "example_pt": "Tenho contrato legal.",
+      "example_ru": "У меня законный контракт.",
+      "tags": [
+        "unit5",
+        "rights"
+      ]
+    },
+    {
+      "id": "v570",
+      "word": "ilegal",
+      "translation_ru": "незаконный",
+      "example_pt": "Trabalho ilegal é perigoso.",
+      "example_ru": "Незаконная работа опасна.",
+      "tags": [
+        "unit5",
+        "rights"
+      ]
+    },
+    {
+      "id": "v571",
+      "word": "exploração",
+      "translation_ru": "эксплуатация",
+      "example_pt": "A exploração no trabalho é proibida.",
+      "example_ru": "Эксплуатация на работе запрещена.",
+      "tags": [
+        "unit5",
+        "rights"
+      ]
+    },
+    {
+      "id": "v572",
+      "word": "denunciar",
+      "translation_ru": "сообщать, denunciar",
+      "example_pt": "Posso denunciar problemas no trabalho.",
+      "example_ru": "Я могу сообщить о проблемах на работе.",
+      "tags": [
+        "unit5",
         "verbs"
       ]
     },
     {
-      "id": "v499",
-      "word": "o tempo livre",
-      "translation_ru": "свободное время",
-      "example_pt": "No tempo livre leio livros.",
-      "example_ru": "В свободное время я читаю книги.",
+      "id": "v573",
+      "word": "o IEFP",
+      "translation_ru": "Институт занятости и профессионального обучения",
+      "example_pt": "O IEFP ajuda a encontrar emprego.",
+      "example_ru": "IEFP помогает найти работу.",
       "tags": [
-        "a1",
-        "unit4",
-        "leisure"
+        "unit5",
+        "job_search"
       ]
     },
     {
-      "id": "v500",
-      "word": "o hobby",
-      "translation_ru": "хобби",
-      "example_pt": "O meu hobby é cozinhar.",
-      "example_ru": "Моё хобби — готовить.",
+      "id": "v574",
+      "word": "a candidatura",
+      "translation_ru": "заявка на работу",
+      "example_pt": "Enviei a candidatura online.",
+      "example_ru": "Я отправил заявку онлайн.",
       "tags": [
-        "a1",
-        "unit4",
-        "leisure"
+        "unit5",
+        "job_search"
       ]
     },
     {
-      "id": "v501",
-      "word": "o Natal",
-      "translation_ru": "Рождество",
-      "example_pt": "No Natal reunimo-nos em família.",
-      "example_ru": "На Рождество мы собираемся семьёй.",
+      "id": "v575",
+      "word": "a carta de apresentação",
+      "translation_ru": "сопроводительное письмо",
+      "example_pt": "Escrevi uma carta de apresentação.",
+      "example_ru": "Я написал сопроводительное письмо.",
       "tags": [
-        "a1",
-        "unit4",
-        "holidays"
+        "unit5",
+        "job_search"
       ]
     },
     {
-      "id": "v502",
-      "word": "o Ano Novo",
-      "translation_ru": "Новый год",
-      "example_pt": "No Ano Novo há fogos de artifício.",
-      "example_ru": "В Новый год бывают фейерверки.",
+      "id": "v576",
+      "word": "qualificado",
+      "translation_ru": "квалифицированный",
+      "example_pt": "Sou trabalhador qualificado.",
+      "example_ru": "Я квалифицированный работник.",
       "tags": [
-        "a1",
-        "unit4",
-        "holidays"
+        "unit5",
+        "work"
       ]
     },
     {
-      "id": "v503",
+      "id": "v577",
+      "word": "não qualificado",
+      "translation_ru": "неквалифицированный",
+      "example_pt": "Há empregos para trabalhadores não qualificados.",
+      "example_ru": "Есть работы для неквалифицированных работников.",
+      "tags": [
+        "unit5",
+        "work"
+      ]
+    },
+    {
+      "id": "v578",
+      "word": "a promoção",
+      "translation_ru": "повышение",
+      "example_pt": "Recebi uma promoção.",
+      "example_ru": "Я получил повышение.",
+      "tags": [
+        "unit5",
+        "work"
+      ]
+    },
+    {
+      "id": "v579",
+      "word": "o aumento",
+      "translation_ru": "повышение (зарплаты)",
+      "example_pt": "Pedi um aumento de salário.",
+      "example_ru": "Я попросил повышение зарплаты.",
+      "tags": [
+        "unit5",
+        "work"
+      ]
+    },
+    {
+      "id": "v580",
+      "word": "despedir",
+      "translation_ru": "увольнять",
+      "example_pt": "Não me podem despedir sem motivo.",
+      "example_ru": "Меня не могут уволить без причины.",
+      "tags": [
+        "unit5",
+        "verbs"
+      ]
+    },
+    {
+      "id": "v581",
+      "word": "demissão",
+      "translation_ru": "увольнение",
+      "example_pt": "Recebi indemnização por demissão.",
+      "example_ru": "Я получил компенсацию при увольнении.",
+      "tags": [
+        "unit5",
+        "rights"
+      ]
+    },
+    {
+      "id": "v582",
+      "word": "o descanso semanal",
+      "translation_ru": "еженедельный отдых",
+      "example_pt": "Tenho direito a descanso semanal.",
+      "example_ru": "У меня право на еженедельный отдых.",
+      "tags": [
+        "unit5",
+        "rights"
+      ]
+    },
+    {
+      "id": "v583",
+      "word": "a baixa médica",
+      "translation_ru": "больничный",
+      "example_pt": "Estou de baixa médica.",
+      "example_ru": "Я на больничном.",
+      "tags": [
+        "unit5",
+        "rights"
+      ]
+    },
+    {
+      "id": "v584",
+      "word": "o subsídio de doença",
+      "translation_ru": "пособие по болезни",
+      "example_pt": "Recebo subsídio de doença.",
+      "example_ru": "Я получаю пособие по болезни.",
+      "tags": [
+        "unit5",
+        "rights"
+      ]
+    },
+    {
+      "id": "v585",
+      "word": "discriminação",
+      "translation_ru": "дискриминация",
+      "example_pt": "A discriminação no trabalho é ilegal.",
+      "example_ru": "Дискриминация на работе незаконна.",
+      "tags": [
+        "unit5",
+        "rights"
+      ]
+    },
+    {
+      "id": "v586",
+      "word": "igualdade",
+      "translation_ru": "равенство",
+      "example_pt": "Há igualdade de género no trabalho.",
+      "example_ru": "Есть гендерное равенство на работе.",
+      "tags": [
+        "unit5",
+        "rights"
+      ]
+    },
+    {
+      "id": "v587",
+      "word": "a reconversão profissional",
+      "translation_ru": "переподготовка",
+      "example_pt": "Faço reconversão profissional.",
+      "example_ru": "Я прохожу переподготовку.",
+      "tags": [
+        "unit5",
+        "work"
+      ]
+    },
+    {
+      "id": "v588",
+      "word": "o trabalho temporário",
+      "translation_ru": "временная работа",
+      "example_pt": "Tenho contrato de trabalho temporário.",
+      "example_ru": "У меня контракт на временную работу.",
+      "tags": [
+        "unit5",
+        "work_conditions"
+      ]
+    },
+    {
+      "id": "v589",
+      "word": "a agência de emprego",
+      "translation_ru": "агентство по трудоустройству",
+      "example_pt": "A agência de emprego encontrou-me trabalho.",
+      "example_ru": "Агентство по трудоустройству нашло мне работу.",
+      "tags": [
+        "unit5",
+        "job_search"
+      ]
+    },
+    {
+      "id": "v590",
+      "word": "autónomo",
+      "translation_ru": "самозанятый",
+      "example_pt": "Trabalho como autónomo.",
+      "example_ru": "Я работаю как самозанятый.",
+      "tags": [
+        "unit5",
+        "work"
+      ]
+    },
+    {
+      "id": "v591",
+      "word": "os recibos verdes",
+      "translation_ru": "зелёные квитанции (для фрилансеров)",
+      "example_pt": "Emite recibos verdes todos os meses.",
+      "example_ru": "Он выдаёт зелёные квитанции каждый месяц.",
+      "tags": [
+        "unit5",
+        "work"
+      ]
+    },
+    {
+      "id": "v592",
+      "word": "o IVA",
+      "translation_ru": "НДС",
+      "example_pt": "Pago IVA nos meus serviços.",
+      "example_ru": "Я плачу НДС за свои услуги.",
+      "tags": [
+        "unit5",
+        "work"
+      ]
+    },
+    {
+      "id": "v593",
+      "word": "a factura",
+      "translation_ru": "счёт-фактура",
+      "example_pt": "Emito factura aos clientes.",
+      "example_ru": "Я выставляю счёт-фактуру клиентам.",
+      "tags": [
+        "unit5",
+        "work"
+      ]
+    },
+    {
+      "id": "v594",
+      "word": "o cliente",
+      "translation_ru": "клиент",
+      "example_pt": "Tenho muitos clientes.",
+      "example_ru": "У меня много клиентов.",
+      "tags": [
+        "unit5",
+        "work"
+      ]
+    },
+    {
+      "id": "v595",
+      "word": "o projecto",
+      "translation_ru": "проект",
+      "example_pt": "Trabalho num projecto grande.",
+      "example_ru": "Я работаю над большим проектом.",
+      "tags": [
+        "unit5",
+        "work"
+      ]
+    },
+    {
+      "id": "v596",
+      "word": "a reunião",
+      "translation_ru": "совещание",
+      "example_pt": "Tenho uma reunião às 10 horas.",
+      "example_ru": "У меня совещание в 10 часов.",
+      "tags": [
+        "unit5",
+        "work"
+      ]
+    },
+    {
+      "id": "v597",
+      "word": "o email",
+      "translation_ru": "электронное письмо",
+      "example_pt": "Envio emails todos os dias.",
+      "example_ru": "Я отправляю письма каждый день.",
+      "tags": [
+        "unit5",
+        "work"
+      ]
+    },
+    {
+      "id": "v598",
+      "word": "o telemóvel",
+      "translation_ru": "мобильный телефон",
+      "example_pt": "Uso o telemóvel para trabalho.",
+      "example_ru": "Я использую мобильный телефон для работы.",
+      "tags": [
+        "unit5",
+        "work"
+      ]
+    },
+    {
+      "id": "v599",
+      "word": "o computador",
+      "translation_ru": "компьютер",
+      "example_pt": "Trabalho no computador.",
+      "example_ru": "Я работаю за компьютером.",
+      "tags": [
+        "unit5",
+        "work"
+      ]
+    },
+    {
+      "id": "v600",
+      "word": "a internet",
+      "translation_ru": "интернет",
+      "example_pt": "Preciso de internet para o meu trabalho.",
+      "example_ru": "Мне нужен интернет для работы.",
+      "tags": [
+        "unit5",
+        "work"
+      ]
+    },
+    {
+      "id": "v601",
+      "word": "responsável",
+      "translation_ru": "ответственный",
+      "example_pt": "Sou responsável pelo sector.",
+      "example_ru": "Я отвечаю за сектор.",
+      "tags": [
+        "unit5",
+        "work"
+      ]
+    },
+    {
+      "id": "v602",
+      "word": "pontual",
+      "translation_ru": "пунктуальный",
+      "example_pt": "Sou muito pontual no trabalho.",
+      "example_ru": "Я очень пунктуален на работе.",
+      "tags": [
+        "unit5",
+        "work"
+      ]
+    },
+    {
+      "id": "v603",
+      "word": "dinâmico",
+      "translation_ru": "динамичный",
+      "example_pt": "Procuro pessoa dinâmica para o emprego.",
+      "example_ru": "Ищу динамичного человека на работу.",
+      "tags": [
+        "unit5",
+        "work"
+      ]
+    },
+    {
+      "id": "v604",
+      "word": "motivado",
+      "translation_ru": "мотивированный",
+      "example_pt": "Estou muito motivado para começar.",
+      "example_ru": "Я очень мотивирован начать.",
+      "tags": [
+        "unit5",
+        "work"
+      ]
+    },
+    {
+      "id": "v605",
+      "word": "a motivação",
+      "translation_ru": "мотивация",
+      "example_pt": "A motivação é importante no trabalho.",
+      "example_ru": "Мотивация важна на работе.",
+      "tags": [
+        "unit5",
+        "work"
+      ]
+    },
+    {
+      "id": "v606",
+      "word": "o stress",
+      "translation_ru": "стресс",
+      "example_pt": "Tenho muito stress no trabalho.",
+      "example_ru": "У меня много стресса на работе.",
+      "tags": [
+        "unit5",
+        "work"
+      ]
+    },
+    {
+      "id": "v607",
+      "word": "equilíbrio",
+      "translation_ru": "баланс",
+      "example_pt": "Procuro equilíbrio entre trabalho e vida pessoal.",
+      "example_ru": "Я ищу баланс между работой и личной жизнью.",
+      "tags": [
+        "unit5",
+        "work"
+      ]
+    },
+    {
+      "id": "v608",
+      "word": "a carreira",
+      "translation_ru": "карьера",
+      "example_pt": "Quero fazer carreira nesta empresa.",
+      "example_ru": "Я хочу сделать карьеру в этой компании.",
+      "tags": [
+        "unit5",
+        "work"
+      ]
+    },
+    {
+      "id": "v609",
+      "word": "o futuro",
+      "translation_ru": "будущее",
+      "example_pt": "Penso no meu futuro profissional.",
+      "example_ru": "Я думаю о своём профессиональном будущем.",
+      "tags": [
+        "unit5",
+        "work"
+      ]
+    },
+    {
+      "id": "v610",
+      "word": "realizar-se",
+      "translation_ru": "реализоваться",
+      "example_pt": "Quero realizar-me profissionalmente.",
+      "example_ru": "Я хочу реализоваться профессионально.",
+      "tags": [
+        "unit5",
+        "verbs"
+      ]
+    },
+    {
+      "id": "v611",
+      "word": "contribuir",
+      "translation_ru": "вносить вклад",
+      "example_pt": "Quero contribuir para a empresa.",
+      "example_ru": "Я хочу внести вклад в компанию.",
+      "tags": [
+        "unit5",
+        "verbs"
+      ]
+    },
+    {
+      "id": "v612",
+      "word": "aprender",
+      "translation_ru": "учиться",
+      "example_pt": "Aprendo coisas novas todos os dias no trabalho.",
+      "example_ru": "Я учусь чему-то новому каждый день на работе.",
+      "tags": [
+        "unit5",
+        "verbs"
+      ]
+    },
+    {
+      "id": "v613",
+      "word": "desenvolver",
+      "translation_ru": "развивать",
+      "example_pt": "A empresa ajuda a desenvolver competências.",
+      "example_ru": "Компания помогает развивать навыки.",
+      "tags": [
+        "unit5",
+        "verbs"
+      ]
+    },
+    {
+      "id": "v614",
+      "word": "progredir",
+      "translation_ru": "прогрессировать",
+      "example_pt": "Quero progredir na minha carreira.",
+      "example_ru": "Я хочу прогрессировать в карьере.",
+      "tags": [
+        "unit5",
+        "verbs"
+      ]
+    },
+    {
+      "id": "v615",
+      "word": "o objectivo",
+      "translation_ru": "цель",
+      "example_pt": "O meu objectivo é encontrar um bom emprego.",
+      "example_ru": "Моя цель — найти хорошую работу.",
+      "tags": [
+        "unit5",
+        "work"
+      ]
+    },
+    {
+      "id": "v616",
+      "word": "conseguir",
+      "translation_ru": "добиваться, получать",
+      "example_pt": "Consegui o emprego que queria.",
+      "example_ru": "Я добился той работы, которую хотел.",
+      "tags": [
+        "unit5",
+        "verbs"
+      ]
+    },
+    {
+      "id": "v617",
+      "word": "melhorar",
+      "translation_ru": "улучшать",
+      "example_pt": "Quero melhorar o meu português para trabalhar.",
+      "example_ru": "Я хочу улучшить свой португальский для работы.",
+      "tags": [
+        "unit5",
+        "verbs"
+      ]
+    },
+    {
+      "id": "v618",
+      "word": "integrar",
+      "translation_ru": "интегрироваться",
+      "example_pt": "Quero integrar-me no mercado de trabalho.",
+      "example_ru": "Я хочу интегрироваться на рынок труда.",
+      "tags": [
+        "unit5",
+        "verbs"
+      ]
+    },
+    {
+      "id": "v619",
+      "word": "o mercado de trabalho",
+      "translation_ru": "рынок труда",
+      "example_pt": "O mercado de trabalho em Portugal é dinâmico.",
+      "example_ru": "Рынок труда в Португалии динамичный.",
+      "tags": [
+        "unit5",
+        "work"
+      ]
+    },
+    {
+      "id": "v620",
+      "word": "a oportunidade",
+      "translation_ru": "возможность",
+      "example_pt": "Há muitas oportunidades para imigrantes.",
+      "example_ru": "Есть много возможностей для иммигрантов.",
+      "tags": [
+        "unit5",
+        "work"
+      ]
+    },
+    {
+      "id": "v621",
+      "word": "aproveitar",
+      "translation_ru": "воспользоваться",
+      "example_pt": "Quero aproveitar esta oportunidade.",
+      "example_ru": "Я хочу воспользоваться этой возможностью.",
+      "tags": [
+        "unit5",
+        "verbs"
+      ]
+    },
+    {
+      "id": "v622",
+      "word": "o desafio",
+      "translation_ru": "вызов",
+      "example_pt": "Encontrar trabalho é um desafio.",
+      "example_ru": "Найти работу — это вызов.",
+      "tags": [
+        "unit5",
+        "work"
+      ]
+    },
+    {
+      "id": "v623",
+      "word": "superar",
+      "translation_ru": "преодолевать",
+      "example_pt": "Superei todas as dificuldades.",
+      "example_ru": "Я преодолел все трудности.",
+      "tags": [
+        "unit5",
+        "verbs"
+      ]
+    },
+    {
+      "id": "v624",
+      "word": "orgulhoso",
+      "translation_ru": "гордый",
+      "example_pt": "Estou orgulhoso do meu novo emprego.",
+      "example_ru": "Я горжусь своей новой работой.",
+      "tags": [
+        "unit5",
+        "work"
+      ]
+    },
+    {
+      "id": "v625",
+      "word": "feliz",
+      "translation_ru": "счастливый",
+      "example_pt": "Sou feliz no meu trabalho.",
+      "example_ru": "Я счастлив на своей работе.",
+      "tags": [
+        "unit5",
+        "work"
+      ]
+    },
+    {
+      "id": "v626",
+      "word": "cansado",
+      "translation_ru": "усталый",
+      "example_pt": "Chego a casa cansado do trabalho.",
+      "example_ru": "Я прихожу домой уставший с работы.",
+      "tags": [
+        "unit5",
+        "work"
+      ]
+    },
+    {
+      "id": "v627",
+      "word": "satisfeito",
+      "translation_ru": "удовлетворённый",
+      "example_pt": "Estou satisfeito com o salário.",
+      "example_ru": "Я удовлетворён зарплатой.",
+      "tags": [
+        "unit5",
+        "work"
+      ]
+    },
+    {
+      "id": "v628",
+      "word": "insatisfeito",
+      "translation_ru": "недовольный",
+      "example_pt": "Estou insatisfeito com as condições.",
+      "example_ru": "Я недоволен условиями.",
+      "tags": [
+        "unit5",
+        "work"
+      ]
+    },
+    {
+      "id": "v629",
+      "word": "mudar",
+      "translation_ru": "менять",
+      "example_pt": "Quero mudar de emprego.",
+      "example_ru": "Я хочу сменить работу.",
+      "tags": [
+        "unit5",
+        "verbs"
+      ]
+    },
+    {
+      "id": "v630",
+      "word": "renunciar",
+      "translation_ru": "увольняться",
+      "example_pt": "Renunciei ao emprego antigo.",
+      "example_ru": "Я уволился со старой работы.",
+      "tags": [
+        "unit5",
+        "verbs"
+      ]
+    },
+    {
+      "id": "v631",
+      "word": "o aviso prévio",
+      "translation_ru": "предупреждение об увольнении",
+      "example_pt": "Tenho de dar aviso prévio.",
+      "example_ru": "Я должен предупредить заранее.",
+      "tags": [
+        "unit5",
+        "rights"
+      ]
+    },
+    {
+      "id": "v632",
+      "word": "a indemnização",
+      "translation_ru": "компенсация",
+      "example_pt": "Recebi indemnização.",
+      "example_ru": "Я получил компенсацию.",
+      "tags": [
+        "unit5",
+        "rights"
+      ]
+    },
+    {
+      "id": "v633",
+      "word": "o trabalho digno",
+      "translation_ru": "достойный труд",
+      "example_pt": "Todos têm direito a trabalho digno.",
+      "example_ru": "Все имеют право на достойный труд.",
+      "tags": [
+        "unit5",
+        "rights"
+      ]
+    },
+    {
+      "id": "v634",
+      "word": "respeito",
+      "translation_ru": "уважение",
+      "example_pt": "Há respeito no local de trabalho.",
+      "example_ru": "Есть уважение на рабочем месте.",
+      "tags": [
+        "unit5",
+        "rights"
+      ]
+    },
+    {
+      "id": "v635",
+      "word": "solidariedade",
+      "translation_ru": "солидарность",
+      "example_pt": "Há solidariedade entre colegas.",
+      "example_ru": "Есть солидарность между коллегами.",
+      "tags": [
+        "unit5",
+        "work"
+      ]
+    },
+    {
+      "id": "v636",
+      "word": "o passado",
+      "translation_ru": "прошлое",
+      "example_pt": "No passado, eu morava em outra cidade.",
+      "example_ru": "В прошлом я жил в другом городе.",
+      "tags": [
+        "unit6",
+        "nouns",
+        "time"
+      ]
+    },
+    {
+      "id": "v637",
+      "word": "o presente",
+      "translation_ru": "настоящее",
+      "example_pt": "No presente, eu trabalho em Lisboa.",
+      "example_ru": "В настоящем я работаю в Лиссабоне.",
+      "tags": [
+        "unit6",
+        "nouns",
+        "time"
+      ]
+    },
+    {
+      "id": "v638",
+      "word": "a biografia",
+      "translation_ru": "биография",
+      "example_pt": "Eu escrevi a minha biografia para o emprego.",
+      "example_ru": "Я написал свою биографию для работы.",
+      "tags": [
+        "unit6",
+        "nouns",
+        "personal"
+      ]
+    },
+    {
+      "id": "v639",
+      "word": "nascer",
+      "translation_ru": "рождаться",
+      "example_pt": "Eu nasci em 1990.",
+      "example_ru": "Я родился в 1990 году.",
+      "tags": [
+        "unit6",
+        "verbs",
+        "biography"
+      ]
+    },
+    {
+      "id": "v640",
+      "word": "crescer",
+      "translation_ru": "расти",
+      "example_pt": "Eu cresci numa vila pequena.",
+      "example_ru": "Я вырос в маленькой деревне.",
+      "tags": [
+        "unit6",
+        "verbs",
+        "biography"
+      ]
+    },
+    {
+      "id": "v641",
+      "word": "estudar",
+      "translation_ru": "учиться",
+      "example_pt": "No passado, eu estudei engenharia.",
+      "example_ru": "В прошлом я учился на инженера.",
+      "tags": [
+        "unit6",
+        "verbs",
+        "biography"
+      ]
+    },
+    {
+      "id": "v642",
+      "word": "trabalhar",
+      "translation_ru": "работать",
+      "example_pt": "Agora, eu trabalho como professor.",
+      "example_ru": "Сейчас я работаю учителем.",
+      "tags": [
+        "unit6",
+        "verbs",
+        "present"
+      ]
+    },
+    {
+      "id": "v643",
+      "word": "mudar",
+      "translation_ru": "менять",
+      "example_pt": "Eu mudei de país há dois anos.",
+      "example_ru": "Я переехал в другую страну два года назад.",
+      "tags": [
+        "unit6",
+        "verbs",
+        "past"
+      ]
+    },
+    {
+      "id": "v644",
+      "word": "antes",
+      "translation_ru": "прежде",
+      "example_pt": "Antes, eu vivia sozinho.",
+      "example_ru": "Прежде я жил один.",
+      "tags": [
+        "unit6",
+        "adverbs",
+        "time"
+      ]
+    },
+    {
+      "id": "v645",
+      "word": "agora",
+      "translation_ru": "сейчас",
+      "example_pt": "Agora, eu tenho uma família.",
+      "example_ru": "Сейчас у меня есть семья.",
+      "tags": [
+        "unit6",
+        "adverbs",
+        "time"
+      ]
+    },
+    {
+      "id": "v646",
+      "word": "mais",
+      "translation_ru": "более",
+      "example_pt": "Esta casa é mais grande que a anterior.",
+      "example_ru": "Этот дом больше, чем предыдущий.",
+      "tags": [
+        "unit6",
+        "adverbs",
+        "comparisons"
+      ]
+    },
+    {
+      "id": "v647",
+      "word": "que",
+      "translation_ru": "чем",
+      "example_pt": "Ele é mais alto que eu.",
+      "example_ru": "Он выше, чем я.",
+      "tags": [
+        "unit6",
+        "conjunctions",
+        "comparisons"
+      ]
+    },
+    {
+      "id": "v648",
+      "word": "tão",
+      "translation_ru": "такой",
+      "example_pt": "Ela é tão inteligente como o irmão.",
+      "example_ru": "Она такая же умная, как брат.",
+      "tags": [
+        "unit6",
+        "adverbs",
+        "comparisons"
+      ]
+    },
+    {
+      "id": "v649",
+      "word": "como",
+      "translation_ru": "как",
+      "example_pt": "Eu corro como um profissional.",
+      "example_ru": "Я бегу как профессионал.",
+      "tags": [
+        "unit6",
+        "conjunctions",
+        "comparisons"
+      ]
+    },
+    {
+      "id": "v650",
+      "word": "o hábito",
+      "translation_ru": "привычка",
+      "example_pt": "Eu tenho o hábito de ler todos os dias.",
+      "example_ru": "У меня есть привычка читать каждый день.",
+      "tags": [
+        "unit6",
+        "nouns",
+        "habits"
+      ]
+    },
+    {
+      "id": "v651",
+      "word": "costumar",
+      "translation_ru": "иметь обыкновение",
+      "example_pt": "Eu costumo acordar cedo.",
+      "example_ru": "Я имею обыкновение просыпаться рано.",
+      "tags": [
+        "unit6",
+        "verbs",
+        "habits"
+      ]
+    },
+    {
+      "id": "v652",
+      "word": "sempre",
+      "translation_ru": "всегда",
+      "example_pt": "Eu sempre como fruta.",
+      "example_ru": "Я всегда ем фрукты.",
+      "tags": [
+        "unit6",
+        "adverbs",
+        "habits"
+      ]
+    },
+    {
+      "id": "v653",
+      "word": "nunca",
+      "translation_ru": "никогда",
+      "example_pt": "Eu nunca fumo.",
+      "example_ru": "Я никогда не курю.",
+      "tags": [
+        "unit6",
+        "adverbs",
+        "habits"
+      ]
+    },
+    {
+      "id": "v654",
+      "word": "às vezes",
+      "translation_ru": "иногда",
+      "example_pt": "Às vezes, eu vou ao cinema.",
+      "example_ru": "Иногда я хожу в кино.",
+      "tags": [
+        "unit6",
+        "adverbs",
+        "habits"
+      ]
+    },
+    {
+      "id": "v655",
+      "word": "o sentimento",
+      "translation_ru": "чувство",
+      "example_pt": "Eu tenho um sentimento de felicidade.",
+      "example_ru": "У меня чувство счастья.",
+      "tags": [
+        "unit6",
+        "nouns",
+        "feelings"
+      ]
+    },
+    {
+      "id": "v656",
+      "word": "feliz",
+      "translation_ru": "счастливый",
+      "example_pt": "Eu estou feliz com a minha vida.",
+      "example_ru": "Я счастлив своей жизнью.",
+      "tags": [
+        "unit6",
+        "adjectives",
+        "feelings"
+      ]
+    },
+    {
+      "id": "v657",
+      "word": "triste",
+      "translation_ru": "грустный",
+      "example_pt": "Ela ficou triste ontem.",
+      "example_ru": "Она загрустила вчера.",
+      "tags": [
+        "unit6",
+        "adjectives",
+        "feelings"
+      ]
+    },
+    {
+      "id": "v658",
+      "word": "zangado",
+      "translation_ru": "злой",
+      "example_pt": "Ele está zangado com o amigo.",
+      "example_ru": "Он зол на друга.",
+      "tags": [
+        "unit6",
+        "adjectives",
+        "feelings"
+      ]
+    },
+    {
+      "id": "v659",
+      "word": "cansado",
+      "translation_ru": "усталый",
+      "example_pt": "Depois do trabalho, eu fico cansado.",
+      "example_ru": "После работы я устаю.",
+      "tags": [
+        "unit6",
+        "adjectives",
+        "feelings"
+      ]
+    },
+    {
+      "id": "v660",
+      "word": "alegre",
+      "translation_ru": "веселый",
+      "example_pt": "As crianças estão alegres no parque.",
+      "example_ru": "Дети веселы в парке.",
+      "tags": [
+        "unit6",
+        "adjectives",
+        "feelings"
+      ]
+    },
+    {
+      "id": "v661",
+      "word": "sentir-se",
+      "translation_ru": "чувствовать себя",
+      "example_pt": "Eu me sinto bem hoje.",
+      "example_ru": "Я чувствую себя хорошо сегодня.",
+      "tags": [
+        "unit6",
+        "verbs",
+        "feelings"
+      ]
+    },
+    {
+      "id": "v662",
+      "word": "a infância",
+      "translation_ru": "детство",
+      "example_pt": "Na minha infância, eu brincava muito.",
+      "example_ru": "В моем детстве я много играл.",
+      "tags": [
+        "unit6",
+        "nouns",
+        "biography"
+      ]
+    },
+    {
+      "id": "v663",
+      "word": "a adolescência",
+      "translation_ru": "подростковый возраст",
+      "example_pt": "Durante a adolescência, eu estudei muito.",
+      "example_ru": "В подростковом возрасте я много учился.",
+      "tags": [
+        "unit6",
+        "nouns",
+        "biography"
+      ]
+    },
+    {
+      "id": "v664",
+      "word": "a vida adulta",
+      "translation_ru": "взрослая жизнь",
+      "example_pt": "Na vida adulta, há mais responsabilidades.",
+      "example_ru": "Во взрослой жизни больше обязанностей.",
+      "tags": [
+        "unit6",
+        "nouns",
+        "biography"
+      ]
+    },
+    {
+      "id": "v665",
+      "word": "o evento",
+      "translation_ru": "событие",
+      "example_pt": "Um evento importante na minha vida foi o casamento.",
+      "example_ru": "Важным событием в моей жизни была свадьба.",
+      "tags": [
+        "unit6",
+        "nouns",
+        "biography"
+      ]
+    },
+    {
+      "id": "v666",
+      "word": "lembrar",
+      "translation_ru": "помнить",
+      "example_pt": "Eu lembro do meu primeiro dia de escola.",
+      "example_ru": "Я помню свой первый день в школе.",
+      "tags": [
+        "unit6",
+        "verbs",
+        "past"
+      ]
+    },
+    {
+      "id": "v667",
+      "word": "esquecer",
+      "translation_ru": "забывать",
+      "example_pt": "Eu esqueci o meu aniversário no ano passado.",
+      "example_ru": "Я забыл свой день рождения в прошлом году.",
+      "tags": [
+        "unit6",
+        "verbs",
+        "past"
+      ]
+    },
+    {
+      "id": "v668",
+      "word": "comparar",
+      "translation_ru": "сравнивать",
+      "example_pt": "Eu comparo o passado com o presente.",
+      "example_ru": "Я сравниваю прошлое с настоящим.",
+      "tags": [
+        "unit6",
+        "verbs",
+        "comparisons"
+      ]
+    },
+    {
+      "id": "v669",
+      "word": "melhor",
+      "translation_ru": "лучше",
+      "example_pt": "Agora é melhor que antes.",
+      "example_ru": "Сейчас лучше, чем раньше.",
+      "tags": [
+        "unit6",
+        "adjectives",
+        "comparisons"
+      ]
+    },
+    {
+      "id": "v670",
+      "word": "pior",
+      "translation_ru": "хуже",
+      "example_pt": "O tempo estava pior ontem.",
+      "example_ru": "Погода была хуже вчера.",
+      "tags": [
+        "unit6",
+        "adjectives",
+        "comparisons"
+      ]
+    },
+    {
+      "id": "v671",
+      "word": "o mesmo",
+      "translation_ru": "тот же самый",
+      "example_pt": "É o mesmo carro que eu tinha.",
+      "example_ru": "Это та же машина, что у меня была.",
+      "tags": [
+        "unit6",
+        "adjectives",
+        "comparisons"
+      ]
+    },
+    {
+      "id": "v672",
+      "word": "diferente",
+      "translation_ru": "разный",
+      "example_pt": "A vida agora é diferente.",
+      "example_ru": "Жизнь сейчас другая.",
+      "tags": [
+        "unit6",
+        "adjectives",
+        "comparisons"
+      ]
+    },
+    {
+      "id": "v673",
+      "word": "usar",
+      "translation_ru": "использовать",
+      "example_pt": "Eu uso óculos para ler.",
+      "example_ru": "Я использую очки для чтения.",
+      "tags": [
+        "unit6",
+        "verbs",
+        "habits"
+      ]
+    },
+    {
+      "id": "v674",
+      "word": "frequente",
+      "translation_ru": "частый",
+      "example_pt": "Viagens frequentes são o meu hábito.",
+      "example_ru": "Частые поездки - моя привычка.",
+      "tags": [
+        "unit6",
+        "adjectives",
+        "habits"
+      ]
+    },
+    {
+      "id": "v675",
+      "word": "raro",
+      "translation_ru": "редкий",
+      "example_pt": "É raro eu sair à noite.",
+      "example_ru": "Редко я выхожу вечером.",
+      "tags": [
+        "unit6",
+        "adjectives",
+        "habits"
+      ]
+    },
+    {
+      "id": "v676",
+      "word": "a emoção",
+      "translation_ru": "эмоция",
+      "example_pt": "A emoção foi grande no concerto.",
+      "example_ru": "Эмоция была сильной на концерте.",
+      "tags": [
+        "unit6",
+        "nouns",
+        "feelings"
+      ]
+    },
+    {
+      "id": "v677",
+      "word": "ansioso",
+      "translation_ru": "тревожный",
+      "example_pt": "Eu estou ansioso pelo futuro.",
+      "example_ru": "Я тревожусь о будущем.",
+      "tags": [
+        "unit6",
+        "adjectives",
+        "feelings"
+      ]
+    },
+    {
+      "id": "v678",
+      "word": "calmo",
+      "translation_ru": "спокойный",
+      "example_pt": "Ele permanece calmo em situações difíceis.",
+      "example_ru": "Он остается спокойным в трудных ситуациях.",
+      "tags": [
+        "unit6",
+        "adjectives",
+        "feelings"
+      ]
+    },
+    {
+      "id": "v679",
+      "word": "surpreendido",
+      "translation_ru": "удивленный",
+      "example_pt": "Fiquei surpreendido com a notícia.",
+      "example_ru": "Я был удивлен новостью.",
+      "tags": [
+        "unit6",
+        "adjectives",
+        "feelings"
+      ]
+    },
+    {
+      "id": "v680",
+      "word": "aborrecido",
+      "translation_ru": "раздраженный",
+      "example_pt": "Estou aborrecido com o atraso.",
+      "example_ru": "Я раздражен задержкой.",
+      "tags": [
+        "unit6",
+        "adjectives",
+        "feelings"
+      ]
+    },
+    {
+      "id": "v681",
+      "word": "o nascimento",
+      "translation_ru": "рождение",
+      "example_pt": "O nascimento do bebê foi em maio.",
+      "example_ru": "Рождение ребенка было в мае.",
+      "tags": [
+        "unit6",
+        "nouns",
+        "biography"
+      ]
+    },
+    {
+      "id": "v682",
+      "word": "a mudança",
+      "translation_ru": "перемена",
+      "example_pt": "A mudança de casa foi difícil.",
+      "example_ru": "Переезд был трудным.",
+      "tags": [
+        "unit6",
+        "nouns",
+        "past"
+      ]
+    },
+    {
+      "id": "v683",
+      "word": "o casamento",
+      "translation_ru": "свадьба",
+      "example_pt": "O casamento aconteceu no verão.",
+      "example_ru": "Свадьба произошла летом.",
+      "tags": [
+        "unit6",
+        "nouns",
+        "biography"
+      ]
+    },
+    {
+      "id": "v684",
+      "word": "o divórcio",
+      "translation_ru": "развод",
+      "example_pt": "O divórcio foi amigável.",
+      "example_ru": "Развод был дружеским.",
+      "tags": [
+        "unit6",
+        "nouns",
+        "biography"
+      ]
+    },
+    {
+      "id": "v685",
+      "word": "a formatura",
+      "translation_ru": "выпуск",
+      "example_pt": "A formatura foi um momento feliz.",
+      "example_ru": "Выпуск был счастливым моментом.",
+      "tags": [
+        "unit6",
+        "nouns",
+        "biography"
+      ]
+    },
+    {
+      "id": "v686",
+      "word": "ontem",
+      "translation_ru": "вчера",
+      "example_pt": "Ontem, eu visitei os meus pais.",
+      "example_ru": "Вчера я посетил своих родителей.",
+      "tags": [
+        "unit6",
+        "adverbs",
+        "time"
+      ]
+    },
+    {
+      "id": "v687",
+      "word": "hoje",
+      "translation_ru": "сегодня",
+      "example_pt": "Hoje, eu tenho uma reunião.",
+      "example_ru": "Сегодня у меня встреча.",
+      "tags": [
+        "unit6",
+        "adverbs",
+        "time"
+      ]
+    },
+    {
+      "id": "v688",
+      "word": "amanhã",
+      "translation_ru": "завтра",
+      "example_pt": "Amanhã, vou viajar.",
+      "example_ru": "Завтра я поеду в поездку.",
+      "tags": [
+        "unit6",
+        "adverbs",
+        "time"
+      ]
+    },
+    {
+      "id": "v689",
+      "word": "há",
+      "translation_ru": "назад",
+      "example_pt": "Há três anos, eu mudei para Portugal.",
+      "example_ru": "Три года назад я переехал в Португалию.",
+      "tags": [
+        "unit6",
+        "prepositions",
+        "time"
+      ]
+    },
+    {
+      "id": "v690",
+      "word": "durante",
+      "translation_ru": "во время",
+      "example_pt": "Durante a infância, eu morei no campo.",
+      "example_ru": "Во время детства я жил в деревне.",
+      "tags": [
+        "unit6",
+        "prepositions",
+        "time"
+      ]
+    },
+    {
+      "id": "v691",
+      "word": "maior",
+      "translation_ru": "больший",
+      "example_pt": "Ele é maior que o irmão.",
+      "example_ru": "Он больше брата.",
+      "tags": [
+        "unit6",
+        "adjectives",
+        "comparisons"
+      ]
+    },
+    {
+      "id": "v692",
+      "word": "menor",
+      "translation_ru": "меньший",
+      "example_pt": "Esta sala é menor que a outra.",
+      "example_ru": "Эта комната меньше другой.",
+      "tags": [
+        "unit6",
+        "adjectives",
+        "comparisons"
+      ]
+    },
+    {
+      "id": "v693",
+      "word": "mais velho",
+      "translation_ru": "старше",
+      "example_pt": "Eu sou mais velho que você.",
+      "example_ru": "Я старше тебя.",
+      "tags": [
+        "unit6",
+        "adjectives",
+        "comparisons"
+      ]
+    },
+    {
+      "id": "v694",
+      "word": "mais novo",
+      "translation_ru": "моложе",
+      "example_pt": "Ela é mais nova que a irmã.",
+      "example_ru": "Она моложе сестры.",
+      "tags": [
+        "unit6",
+        "adjectives",
+        "comparisons"
+      ]
+    },
+    {
+      "id": "v695",
+      "word": "igualmente",
+      "translation_ru": "равно",
+      "example_pt": "Nós trabalhamos igualmente.",
+      "example_ru": "Мы работаем равно.",
+      "tags": [
+        "unit6",
+        "adverbs",
+        "comparisons"
+      ]
+    },
+    {
+      "id": "v696",
+      "word": "normalmente",
+      "translation_ru": "обычно",
+      "example_pt": "Normalmente, eu bebo café pela manhã.",
+      "example_ru": "Обычно я пью кофе утром.",
+      "tags": [
+        "unit6",
+        "adverbs",
+        "habits"
+      ]
+    },
+    {
+      "id": "v697",
+      "word": "geralmente",
+      "translation_ru": "в общем",
+      "example_pt": "Geralmente, chove no inverno.",
+      "example_ru": "В общем, идет дождь зимой.",
+      "tags": [
+        "unit6",
+        "adverbs",
+        "habits"
+      ]
+    },
+    {
+      "id": "v698",
+      "word": "raramente",
+      "translation_ru": "редко",
+      "example_pt": "Raramente vejo televisão.",
+      "example_ru": "Редко смотрю телевизор.",
+      "tags": [
+        "unit6",
+        "adverbs",
+        "habits"
+      ]
+    },
+    {
+      "id": "v699",
+      "word": "frequentemente",
+      "translation_ru": "часто",
+      "example_pt": "Eu viajo frequentemente.",
+      "example_ru": "Я путешествую часто.",
+      "tags": [
+        "unit6",
+        "adverbs",
+        "habits"
+      ]
+    },
+    {
+      "id": "v700",
+      "word": "orgulhoso",
+      "translation_ru": "гордый",
+      "example_pt": "Estou orgulhoso dos meus filhos.",
+      "example_ru": "Я горжусь своими детьми.",
+      "tags": [
+        "unit6",
+        "adjectives",
+        "feelings"
+      ]
+    },
+    {
+      "id": "v701",
+      "word": "envergonhado",
+      "translation_ru": "стыдливый",
+      "example_pt": "Fiquei envergonhado com o erro.",
+      "example_ru": "Я устыдился ошибки.",
+      "tags": [
+        "unit6",
+        "adjectives",
+        "feelings"
+      ]
+    },
+    {
+      "id": "v702",
+      "word": "contente",
+      "translation_ru": "довольный",
+      "example_pt": "Estou contente com o resultado.",
+      "example_ru": "Я доволен результатом.",
+      "tags": [
+        "unit6",
+        "adjectives",
+        "feelings"
+      ]
+    },
+    {
+      "id": "v703",
+      "word": "decepcionado",
+      "translation_ru": "разочарованный",
+      "example_pt": "Fiquei decepcionado com o filme.",
+      "example_ru": "Я разочаровался в фильме.",
+      "tags": [
+        "unit6",
+        "adjectives",
+        "feelings"
+      ]
+    },
+    {
+      "id": "v704",
+      "word": "nervoso",
+      "translation_ru": "нервный",
+      "example_pt": "Antes do exame, estou nervoso.",
+      "example_ru": "Перед экзаменом я нервничаю.",
+      "tags": [
+        "unit6",
+        "adjectives",
+        "feelings"
+      ]
+    },
+    {
+      "id": "v705",
+      "word": "relaxado",
+      "translation_ru": "расслабленный",
+      "example_pt": "Nas férias, fico relaxado.",
+      "example_ru": "В отпуске я расслабляюсь.",
+      "tags": [
+        "unit6",
+        "adjectives",
+        "feelings"
+      ]
+    },
+    {
+      "id": "v706",
+      "word": "a memória",
+      "translation_ru": "память",
+      "example_pt": "Tenho boa memória para datas.",
+      "example_ru": "У меня хорошая память на даты.",
+      "tags": [
+        "unit6",
+        "nouns",
+        "past"
+      ]
+    },
+    {
+      "id": "v707",
+      "word": "o sonho",
+      "translation_ru": "сон",
+      "example_pt": "O meu sonho era ser médico.",
+      "example_ru": "Моя мечта была стать врачом.",
+      "tags": [
+        "unit6",
+        "nouns",
+        "biography"
+      ]
+    },
+    {
+      "id": "v708",
+      "word": "a realização",
+      "translation_ru": "реализация",
+      "example_pt": "A realização do sonho veio depois.",
+      "example_ru": "Реализация мечты пришла позже.",
+      "tags": [
+        "unit6",
+        "nouns",
+        "biography"
+      ]
+    },
+    {
+      "id": "v709",
+      "word": "o desafio",
+      "translation_ru": "вызов",
+      "example_pt": "Enfrentei muitos desafios no passado.",
+      "example_ru": "Я столкнулся с многими вызовами в прошлом.",
+      "tags": [
+        "unit6",
+        "nouns",
+        "biography"
+      ]
+    },
+    {
+      "id": "v710",
+      "word": "a conquista",
+      "translation_ru": "достижение",
+      "example_pt": "A conquista do diploma foi importante.",
+      "example_ru": "Достижение диплома было важным.",
+      "tags": [
+        "unit6",
+        "nouns",
+        "biography"
+      ]
+    },
+    {
+      "id": "v711",
+      "word": "viajar",
+      "translation_ru": "путешествовать",
+      "example_pt": "No passado, eu viajei para Espanha.",
+      "example_ru": "В прошлом я путешествовал в Испанию.",
+      "tags": [
+        "unit6",
+        "verbs",
+        "past"
+      ]
+    },
+    {
+      "id": "v712",
+      "word": "visitar",
+      "translation_ru": "посещать",
+      "example_pt": "Eu visitei museus em Lisboa.",
+      "example_ru": "Я посетил музеи в Лиссабоне.",
+      "tags": [
+        "unit6",
+        "verbs",
+        "past"
+      ]
+    },
+    {
+      "id": "v713",
+      "word": "conhecer",
+      "translation_ru": "знать",
+      "example_pt": "Eu conheci novas pessoas.",
+      "example_ru": "Я познакомился с новыми людьми.",
+      "tags": [
+        "unit6",
+        "verbs",
+        "past"
+      ]
+    },
+    {
+      "id": "v714",
+      "word": "aprender",
+      "translation_ru": "учиться",
+      "example_pt": "Aprendi português rapidamente.",
+      "example_ru": "Я быстро выучил португальский.",
+      "tags": [
+        "unit6",
+        "verbs",
+        "past"
+      ]
+    },
+    {
+      "id": "v715",
+      "word": "perder",
+      "translation_ru": "терять",
+      "example_pt": "Perdi o meu emprego antigo.",
+      "example_ru": "Я потерял свою старую работу.",
+      "tags": [
+        "unit6",
+        "verbs",
+        "past"
+      ]
+    },
+    {
+      "id": "v716",
+      "word": "ganhar",
+      "translation_ru": "выигрывать",
+      "example_pt": "Ganhei um prémio no concurso.",
+      "example_ru": "Я выиграл приз в конкурсе.",
+      "tags": [
+        "unit6",
+        "verbs",
+        "past"
+      ]
+    },
+    {
+      "id": "v717",
+      "word": "começar",
+      "translation_ru": "начинать",
+      "example_pt": "Comecei um novo curso.",
+      "example_ru": "Я начал новый курс.",
+      "tags": [
+        "unit6",
+        "verbs",
+        "past"
+      ]
+    },
+    {
+      "id": "v718",
+      "word": "terminar",
+      "translation_ru": "заканчивать",
+      "example_pt": "Terminei os estudos em 2015.",
+      "example_ru": "Я закончил учебу в 2015 году.",
+      "tags": [
+        "unit6",
+        "verbs",
+        "past"
+      ]
+    },
+    {
+      "id": "v719",
+      "word": "viver",
+      "translation_ru": "жить",
+      "example_pt": "Vivi em Portugal por cinco anos.",
+      "example_ru": "Я жил в Португалии пять лет.",
+      "tags": [
+        "unit6",
+        "verbs",
+        "past"
+      ]
+    },
+    {
+      "id": "v720",
+      "word": "morar",
+      "translation_ru": "проживать",
+      "example_pt": "Morei numa casa grande.",
+      "example_ru": "Я проживал в большом доме.",
+      "tags": [
+        "unit6",
+        "verbs",
+        "past"
+      ]
+    },
+    {
+      "id": "v721",
+      "word": "felicidade",
+      "translation_ru": "счастье",
+      "example_pt": "A felicidade vem das pequenas coisas.",
+      "example_ru": "Счастье приходит от мелочей.",
+      "tags": [
+        "unit6",
+        "nouns",
+        "feelings"
+      ]
+    },
+    {
+      "id": "v722",
+      "word": "tristeza",
+      "translation_ru": "грусть",
+      "example_pt": "Senti tristeza quando parti.",
+      "example_ru": "Я почувствовал грусть, когда уехал.",
+      "tags": [
+        "unit6",
+        "nouns",
+        "feelings"
+      ]
+    },
+    {
+      "id": "v723",
+      "word": "raiva",
+      "translation_ru": "гнев",
+      "example_pt": "A raiva passou rapidamente.",
+      "example_ru": "Гнев прошел быстро.",
+      "tags": [
+        "unit6",
+        "nouns",
+        "feelings"
+      ]
+    },
+    {
+      "id": "v724",
+      "word": "cansaço",
+      "translation_ru": "усталость",
+      "example_pt": "O cansaço é normal após o trabalho.",
+      "example_ru": "Усталость нормальна после работы.",
+      "tags": [
+        "unit6",
+        "nouns",
+        "feelings"
+      ]
+    },
+    {
+      "id": "v725",
+      "word": "alegria",
+      "translation_ru": "радость",
+      "example_pt": "Senti alegria ao ver os amigos.",
+      "example_ru": "Я почувствовал радость, увидев друзей.",
+      "tags": [
+        "unit6",
+        "nouns",
+        "feelings"
+      ]
+    },
+    {
+      "id": "v726",
+      "word": "ansiedade",
+      "translation_ru": "тревога",
+      "example_pt": "A ansiedade antes do exame é comum.",
+      "example_ru": "Тревога перед экзаменом распространена.",
+      "tags": [
+        "unit6",
+        "nouns",
+        "feelings"
+      ]
+    },
+    {
+      "id": "v727",
+      "word": "calma",
+      "translation_ru": "спокойствие",
+      "example_pt": "Preciso de calma para pensar.",
+      "example_ru": "Мне нужно спокойствие, чтобы подумать.",
+      "tags": [
+        "unit6",
+        "nouns",
+        "feelings"
+      ]
+    },
+    {
+      "id": "v728",
+      "word": "surpresa",
+      "translation_ru": "удивление",
+      "example_pt": "A surpresa foi grande.",
+      "example_ru": "Удивление было большим.",
+      "tags": [
+        "unit6",
+        "nouns",
+        "feelings"
+      ]
+    },
+    {
+      "id": "v729",
+      "word": "aborrecimento",
+      "translation_ru": "раздражение",
+      "example_pt": "O aborrecimento veio do barulho.",
+      "example_ru": "Раздражение пришло от шума.",
+      "tags": [
+        "unit6",
+        "nouns",
+        "feelings"
+      ]
+    },
+    {
+      "id": "v730",
+      "word": "orgulho",
+      "translation_ru": "гордость",
+      "example_pt": "Sinto orgulho do meu trabalho.",
+      "example_ru": "Я чувствую гордость за свою работу.",
+      "tags": [
+        "unit6",
+        "nouns",
+        "feelings"
+      ]
+    },
+    {
+      "id": "v731",
+      "word": "vergonha",
+      "translation_ru": "стыд",
+      "example_pt": "Senti vergonha pelo erro.",
+      "example_ru": "Я почувствовал стыд за ошибку.",
+      "tags": [
+        "unit6",
+        "nouns",
+        "feelings"
+      ]
+    },
+    {
+      "id": "v732",
+      "word": "contentamento",
+      "translation_ru": "удовлетворение",
+      "example_pt": "O contentamento é essencial.",
+      "example_ru": "Удовлетворение essential.",
+      "tags": [
+        "unit6",
+        "nouns",
+        "feelings"
+      ]
+    },
+    {
+      "id": "v733",
+      "word": "decepção",
+      "translation_ru": "разочарование",
+      "example_pt": "A decepção foi com o amigo.",
+      "example_ru": "Разочарование было с другом.",
+      "tags": [
+        "unit6",
+        "nouns",
+        "feelings"
+      ]
+    },
+    {
+      "id": "v734",
+      "word": "nervosismo",
+      "translation_ru": "нервозность",
+      "example_pt": "O nervosismo afetou o desempenho.",
+      "example_ru": "Нервозность повлияла на производительность.",
+      "tags": [
+        "unit6",
+        "nouns",
+        "feelings"
+      ]
+    },
+    {
+      "id": "v735",
+      "word": "relaxamento",
+      "translation_ru": "расслабление",
+      "example_pt": "Preciso de relaxamento após o dia.",
+      "example_ru": "Мне нужно расслабление после дня.",
+      "tags": [
+        "unit6",
+        "nouns",
+        "feelings"
+      ]
+    },
+    {
+      "id": "v736",
+      "word": "a história",
+      "translation_ru": "история",
+      "example_pt": "A minha história de vida é interessante.",
+      "example_ru": "Моя жизненная история интересна.",
+      "tags": [
+        "unit6",
+        "nouns",
+        "biography"
+      ]
+    },
+    {
+      "id": "v737",
+      "word": "o capítulo",
+      "translation_ru": "глава",
+      "example_pt": "Cada ano é um capítulo novo.",
+      "example_ru": "Каждый год - новая глава.",
+      "tags": [
+        "unit6",
+        "nouns",
+        "biography"
+      ]
+    },
+    {
+      "id": "v738",
+      "word": "o momento",
+      "translation_ru": "момент",
+      "example_pt": "Aquele momento mudou tudo.",
+      "example_ru": "Тот момент изменил все.",
+      "tags": [
+        "unit6",
+        "nouns",
+        "time"
+      ]
+    },
+    {
+      "id": "v739",
+      "word": "a experiência",
+      "translation_ru": "опыт",
+      "example_pt": "Tenho experiência em ensino.",
+      "example_ru": "У меня есть опыт в преподавании.",
+      "tags": [
+        "unit6",
+        "nouns",
+        "biography"
+      ]
+    },
+    {
+      "id": "v740",
+      "word": "o erro",
+      "translation_ru": "ошибка",
+      "example_pt": "Aprendi com os erros do passado.",
+      "example_ru": "Я учился на ошибках прошлого.",
+      "tags": [
+        "unit6",
+        "nouns",
+        "past"
+      ]
+    },
+    {
+      "id": "v741",
+      "word": "o sucesso",
+      "translation_ru": "успех",
+      "example_pt": "O sucesso veio após esforço.",
+      "example_ru": "Успех пришел после усилий.",
+      "tags": [
+        "unit6",
+        "nouns",
+        "biography"
+      ]
+    },
+    {
+      "id": "v742",
+      "word": "o fracasso",
+      "translation_ru": "неудача",
+      "example_pt": "O fracasso me ensinou lições.",
+      "example_ru": "Неудача научила меня урокам.",
+      "tags": [
+        "unit6",
+        "nouns",
+        "biography"
+      ]
+    },
+    {
+      "id": "v743",
+      "word": "a lição",
+      "translation_ru": "урок",
+      "example_pt": "Cada experiência é uma lição.",
+      "example_ru": "Каждый опыт - урок.",
+      "tags": [
+        "unit6",
+        "nouns",
+        "biography"
+      ]
+    },
+    {
+      "id": "v744",
+      "word": "o caminho",
+      "translation_ru": "путь",
+      "example_pt": "O caminho para o sucesso é longo.",
+      "example_ru": "Путь к успеху долгий.",
+      "tags": [
+        "unit6",
+        "nouns",
+        "biography"
+      ]
+    },
+    {
+      "id": "v745",
+      "word": "a jornada",
+      "translation_ru": "путешествие",
+      "example_pt": "A jornada da vida é imprevisível.",
+      "example_ru": "Путешествие жизни непредсказуемо.",
+      "tags": [
+        "unit6",
+        "nouns",
+        "biography"
+      ]
+    },
+    {
+      "id": "v746",
+      "word": "mais rápido",
+      "translation_ru": "быстрее",
+      "example_pt": "Ele corre mais rápido que eu.",
+      "example_ru": "Он бегает быстрее меня.",
+      "tags": [
+        "unit6",
+        "adverbs",
+        "comparisons"
+      ]
+    },
+    {
+      "id": "v747",
+      "word": "mais devagar",
+      "translation_ru": "медленнее",
+      "example_pt": "Ando mais devagar agora.",
+      "example_ru": "Я хожу медленнее сейчас.",
+      "tags": [
+        "unit6",
+        "adverbs",
+        "comparisons"
+      ]
+    },
+    {
+      "id": "v748",
+      "word": "tão bom",
+      "translation_ru": "такой хороший",
+      "example_pt": "Não é tão bom como o anterior.",
+      "example_ru": "Не такой хороший, как предыдущий.",
+      "tags": [
+        "unit6",
+        "adjectives",
+        "comparisons"
+      ]
+    },
+    {
+      "id": "v749",
+      "word": "o melhor",
+      "translation_ru": "лучший",
+      "example_pt": "Este é o melhor dia da minha vida.",
+      "example_ru": "Это лучший день в моей жизни.",
+      "tags": [
+        "unit6",
+        "adjectives",
+        "comparisons"
+      ]
+    },
+    {
+      "id": "v750",
+      "word": "o pior",
+      "translation_ru": "худший",
+      "example_pt": "Foi o pior momento.",
+      "example_ru": "Это был худший момент.",
+      "tags": [
+        "unit6",
+        "adjectives",
+        "comparisons"
+      ]
+    },
+    {
+      "id": "v751",
+      "word": "igualmente importante",
+      "translation_ru": "равно важный",
+      "example_pt": "Todos são igualmente importantes.",
+      "example_ru": "Все равно важны.",
+      "tags": [
+        "unit6",
+        "adjectives",
+        "comparisons"
+      ]
+    },
+    {
+      "id": "v752",
+      "word": "diferentemente",
+      "translation_ru": "по-разному",
+      "example_pt": "Pensamos diferentemente.",
+      "example_ru": "Мы думаем по-разному.",
+      "tags": [
+        "unit6",
+        "adverbs",
+        "comparisons"
+      ]
+    },
+    {
+      "id": "v753",
+      "word": "costumeiramente",
+      "translation_ru": "обычно",
+      "example_pt": "Costumeiramente, chego cedo.",
+      "example_ru": "Обычно я прихожу рано.",
+      "tags": [
+        "unit6",
+        "adverbs",
+        "habits"
+      ]
+    },
+    {
+      "id": "v754",
+      "word": "diariamente",
+      "translation_ru": "ежедневно",
+      "example_pt": "Exercito-me diariamente.",
+      "example_ru": "Я занимаюсь ежедневно.",
+      "tags": [
+        "unit6",
+        "adverbs",
+        "habits"
+      ]
+    },
+    {
+      "id": "v755",
+      "word": "semanalmente",
+      "translation_ru": "еженедельно",
+      "example_pt": "Reunimo-nos semanalmente.",
+      "example_ru": "Мы встречаемся еженедельно.",
+      "tags": [
+        "unit6",
+        "adverbs",
+        "habits"
+      ]
+    },
+    {
+      "id": "v756",
+      "word": "mensalmente",
+      "translation_ru": "ежемесячно",
+      "example_pt": "Pago as contas mensalmente.",
+      "example_ru": "Я плачу счета ежемесячно.",
+      "tags": [
+        "unit6",
+        "adverbs",
+        "habits"
+      ]
+    },
+    {
+      "id": "v757",
+      "word": "anualmente",
+      "translation_ru": "ежегодно",
+      "example_pt": "Viajo anualmente para o Brasil.",
+      "example_ru": "Я путешествую ежегодно в Бразилию.",
+      "tags": [
+        "unit6",
+        "adverbs",
+        "habits"
+      ]
+    },
+    {
+      "id": "v758",
+      "word": "ocasionalmente",
+      "translation_ru": "изредка",
+      "example_pt": "Ocasionalmente como doces.",
+      "example_ru": "Изредка ем сладости.",
+      "tags": [
+        "unit6",
+        "adverbs",
+        "habits"
+      ]
+    },
+    {
+      "id": "v759",
+      "word": "habitualmente",
+      "translation_ru": "привычно",
+      "example_pt": "Habitualmente durmo oito horas.",
+      "example_ru": "Привычно сплю восемь часов.",
+      "tags": [
+        "unit6",
+        "adverbs",
+        "habits"
+      ]
+    },
+    {
+      "id": "v760",
+      "word": "a rotina",
+      "translation_ru": "рутина",
+      "example_pt": "A minha rotina mudou.",
+      "example_ru": "Моя рутина изменилась.",
+      "tags": [
+        "unit6",
+        "nouns",
+        "habits"
+      ]
+    },
+    {
+      "id": "v761",
+      "word": "o costume",
+      "translation_ru": "обычай",
+      "example_pt": "É o meu costume.",
+      "example_ru": "Это мой обычай.",
+      "tags": [
+        "unit6",
+        "nouns",
+        "habits"
+      ]
+    },
+    {
+      "id": "v762",
       "word": "a tradição",
       "translation_ru": "традиция",
-      "example_pt": "Em Portugal há muitas tradições.",
-      "example_ru": "В Португалии много традиций.",
+      "example_pt": "Mantemos a tradição familiar.",
+      "example_ru": "Мы сохраняем семейную традицию.",
       "tags": [
-        "a1",
-        "unit4",
+        "unit6",
+        "nouns",
+        "habits"
+      ]
+    },
+    {
+      "id": "v763",
+      "word": "o padrão",
+      "translation_ru": "стандарт",
+      "example_pt": "O padrão de vida melhorou.",
+      "example_ru": "Стандарт жизни улучшился.",
+      "tags": [
+        "unit6",
+        "nouns",
+        "present"
+      ]
+    },
+    {
+      "id": "v764",
+      "word": "a diferença",
+      "translation_ru": "разница",
+      "example_pt": "Há uma diferença grande.",
+      "example_ru": "Есть большая разница.",
+      "tags": [
+        "unit6",
+        "nouns",
+        "comparisons"
+      ]
+    },
+    {
+      "id": "v765",
+      "word": "a semelhança",
+      "translation_ru": "сходство",
+      "example_pt": "Vejo semelhança entre eles.",
+      "example_ru": "Я вижу сходство между ними.",
+      "tags": [
+        "unit6",
+        "nouns",
+        "comparisons"
+      ]
+    },
+    {
+      "id": "v766",
+      "word": "a comparação",
+      "translation_ru": "сравнение",
+      "example_pt": "Faço uma comparação.",
+      "example_ru": "Я делаю сравнение.",
+      "tags": [
+        "unit6",
+        "nouns",
+        "comparisons"
+      ]
+    },
+    {
+      "id": "v767",
+      "word": "o contraste",
+      "translation_ru": "контраст",
+      "example_pt": "Há contraste entre passado e presente.",
+      "example_ru": "Есть контраст между прошлым и настоящим.",
+      "tags": [
+        "unit6",
+        "nouns",
+        "comparisons"
+      ]
+    },
+    {
+      "id": "v768",
+      "word": "a igualdade",
+      "translation_ru": "равенство",
+      "example_pt": "Buscamos a igualdade.",
+      "example_ru": "Мы стремимся к равенству.",
+      "tags": [
+        "unit6",
+        "nouns",
+        "comparisons"
+      ]
+    },
+    {
+      "id": "v769",
+      "word": "a desigualdade",
+      "translation_ru": "неравенство",
+      "example_pt": "A desigualdade existe.",
+      "example_ru": "Неравенство существует.",
+      "tags": [
+        "unit6",
+        "nouns",
+        "comparisons"
+      ]
+    },
+    {
+      "id": "v770",
+      "word": "sentir",
+      "translation_ru": "чувствовать",
+      "example_pt": "Sinto frio no inverno.",
+      "example_ru": "Я чувствую холод зимой.",
+      "tags": [
+        "unit6",
+        "verbs",
+        "feelings"
+      ]
+    },
+    {
+      "id": "v771",
+      "word": "expressar",
+      "translation_ru": "выражать",
+      "example_pt": "Expresso os meus sentimentos.",
+      "example_ru": "Я выражаю свои чувства.",
+      "tags": [
+        "unit6",
+        "verbs",
+        "feelings"
+      ]
+    },
+    {
+      "id": "v772",
+      "word": "controlar",
+      "translation_ru": "контролировать",
+      "example_pt": "Controlo as emoções.",
+      "example_ru": "Я контролирую эмоции.",
+      "tags": [
+        "unit6",
+        "verbs",
+        "feelings"
+      ]
+    },
+    {
+      "id": "v773",
+      "word": "partilhar",
+      "translation_ru": "делиться",
+      "example_pt": "Partilho os sentimentos com amigos.",
+      "example_ru": "Я делюсь чувствами с друзьями.",
+      "tags": [
+        "unit6",
+        "verbs",
+        "feelings"
+      ]
+    },
+    {
+      "id": "v774",
+      "word": "esconder",
+      "translation_ru": "прятать",
+      "example_pt": "Não escondo a tristeza.",
+      "example_ru": "Я не прячу грусть.",
+      "tags": [
+        "unit6",
+        "verbs",
+        "feelings"
+      ]
+    },
+    {
+      "id": "v775",
+      "word": "o medo",
+      "translation_ru": "страх",
+      "example_pt": "Tenho medo de alturas.",
+      "example_ru": "У меня страх высоты.",
+      "tags": [
+        "unit6",
+        "nouns",
+        "feelings"
+      ]
+    },
+    {
+      "id": "v776",
+      "word": "a coragem",
+      "translation_ru": "смелость",
+      "example_pt": "Mostrei coragem na situação.",
+      "example_ru": "Я показал смелость в ситуации.",
+      "tags": [
+        "unit6",
+        "nouns",
+        "feelings"
+      ]
+    },
+    {
+      "id": "v777",
+      "word": "a esperança",
+      "translation_ru": "надежда",
+      "example_pt": "Tenho esperança no futuro.",
+      "example_ru": "У меня надежда на будущее.",
+      "tags": [
+        "unit6",
+        "nouns",
+        "feelings"
+      ]
+    },
+    {
+      "id": "v778",
+      "word": "o desespero",
+      "translation_ru": "отчаяние",
+      "example_pt": "Evitei o desespero.",
+      "example_ru": "Я избежал отчаяния.",
+      "tags": [
+        "unit6",
+        "nouns",
+        "feelings"
+      ]
+    },
+    {
+      "id": "v779",
+      "word": "a paciência",
+      "translation_ru": "терпение",
+      "example_pt": "Preciso de paciência com crianças.",
+      "example_ru": "Мне нужно терпение с детьми.",
+      "tags": [
+        "unit6",
+        "nouns",
+        "feelings"
+      ]
+    },
+    {
+      "id": "v780",
+      "word": "a impaciência",
+      "translation_ru": "нетерпение",
+      "example_pt": "Mostro impaciência no trânsito.",
+      "example_ru": "Я показываю нетерпение в пробке.",
+      "tags": [
+        "unit6",
+        "nouns",
+        "feelings"
+      ]
+    },
+    {
+      "id": "v781",
+      "word": "a gratidão",
+      "translation_ru": "благодарность",
+      "example_pt": "Expresso gratidão aos amigos.",
+      "example_ru": "Я выражаю благодарность друзьям.",
+      "tags": [
+        "unit6",
+        "nouns",
+        "feelings"
+      ]
+    },
+    {
+      "id": "v782",
+      "word": "o ressentimento",
+      "translation_ru": "обида",
+      "example_pt": "Superei o ressentimento.",
+      "example_ru": "Я преодолел обиду.",
+      "tags": [
+        "unit6",
+        "nouns",
+        "feelings"
+      ]
+    },
+    {
+      "id": "v783",
+      "word": "a inveja",
+      "translation_ru": "зависть",
+      "example_pt": "Evito a inveja.",
+      "example_ru": "Я избегаю зависти.",
+      "tags": [
+        "unit6",
+        "nouns",
+        "feelings"
+      ]
+    },
+    {
+      "id": "v784",
+      "word": "o ciúme",
+      "translation_ru": "ревность",
+      "example_pt": "O ciúme pode destruir relações.",
+      "example_ru": "Ревность может разрушить отношения.",
+      "tags": [
+        "unit6",
+        "nouns",
+        "feelings"
+      ]
+    },
+    {
+      "id": "v785",
+      "word": "a admiração",
+      "translation_ru": "восхищение",
+      "example_pt": "Tenho admiração pelo artista.",
+      "example_ru": "У меня восхищение художником.",
+      "tags": [
+        "unit6",
+        "nouns",
+        "feelings"
+      ]
+    },
+    {
+      "id": "v786",
+      "word": "comunicar",
+      "translation_ru": "общаться",
+      "example_pt": "Eu comunico com os meus colegas todos os dias.",
+      "example_ru": "Я общаюсь со своими коллегами каждый день.",
+      "tags": [
+        "unit7",
+        "verbs",
+        "communication"
+      ]
+    },
+    {
+      "id": "v787",
+      "word": "a comunicação",
+      "translation_ru": "общение",
+      "example_pt": "A comunicação é essencial na sociedade.",
+      "example_ru": "Общение необходимо в обществе.",
+      "tags": [
+        "unit7",
+        "nouns",
+        "communication"
+      ]
+    },
+    {
+      "id": "v788",
+      "word": "a notícia",
+      "translation_ru": "новость",
+      "example_pt": "Leio as notícias no jornal.",
+      "example_ru": "Я читаю новости в газете.",
+      "tags": [
+        "unit7",
+        "nouns",
+        "media"
+      ]
+    },
+    {
+      "id": "v789",
+      "word": "o jornal",
+      "translation_ru": "газета",
+      "example_pt": "Compro o jornal Público todas as semanas.",
+      "example_ru": "Я покупаю газету Público каждую неделю.",
+      "tags": [
+        "unit7",
+        "nouns",
+        "media"
+      ]
+    },
+    {
+      "id": "v790",
+      "word": "a televisão",
+      "translation_ru": "телевизор; телевидение",
+      "example_pt": "Vejo as notícias na televisão à noite.",
+      "example_ru": "Я смотрю новости по телевизору вечером.",
+      "tags": [
+        "unit7",
+        "nouns",
+        "media"
+      ]
+    },
+    {
+      "id": "v791",
+      "word": "o rádio",
+      "translation_ru": "радио",
+      "example_pt": "Ouço o rádio no carro de manhã.",
+      "example_ru": "Я слушаю радио в машине утром.",
+      "tags": [
+        "unit7",
+        "nouns",
+        "media"
+      ]
+    },
+    {
+      "id": "v792",
+      "word": "a internet",
+      "translation_ru": "интернет",
+      "example_pt": "Procuro informações na internet.",
+      "example_ru": "Я ищу информацию в интернете.",
+      "tags": [
+        "unit7",
+        "nouns",
+        "media"
+      ]
+    },
+    {
+      "id": "v793",
+      "word": "a rede social",
+      "translation_ru": "социальная сеть",
+      "example_pt": "Uso redes sociais para falar com amigos.",
+      "example_ru": "Я использую социальные сети, чтобы общаться с друзьями.",
+      "tags": [
+        "unit7",
+        "nouns",
+        "media"
+      ]
+    },
+    {
+      "id": "v794",
+      "word": "o telemóvel",
+      "translation_ru": "мобильный телефон",
+      "example_pt": "Falo pelo telemóvel todos os dias.",
+      "example_ru": "Я говорю по мобильному телефону каждый день.",
+      "tags": [
+        "unit7",
+        "nouns",
+        "communication"
+      ]
+    },
+    {
+      "id": "v795",
+      "word": "o email",
+      "translation_ru": "электронная почта",
+      "example_pt": "Envio um email formal ao trabalho.",
+      "example_ru": "Я отправляю официальное письмо по email на работу.",
+      "tags": [
+        "unit7",
+        "nouns",
+        "communication"
+      ]
+    },
+    {
+      "id": "v796",
+      "word": "o direito",
+      "translation_ru": "право",
+      "example_pt": "Todos têm o direito à liberdade de expressão.",
+      "example_ru": "У всех есть право на свободу выражения.",
+      "tags": [
+        "unit7",
+        "nouns",
+        "rights"
+      ]
+    },
+    {
+      "id": "v797",
+      "word": "o dever",
+      "translation_ru": "обязанность",
+      "example_pt": "É meu dever respeitar as leis.",
+      "example_ru": "Моя обязанность — уважать законы.",
+      "tags": [
+        "unit7",
+        "nouns",
+        "rights"
+      ]
+    },
+    {
+      "id": "v798",
+      "word": "a cidadania",
+      "translation_ru": "гражданство",
+      "example_pt": "Quero pedir a cidadania portuguesa.",
+      "example_ru": "Я хочу запросить португальское гражданство.",
+      "tags": [
+        "unit7",
+        "nouns",
+        "citizenship"
+      ]
+    },
+    {
+      "id": "v799",
+      "word": "o cidadão",
+      "translation_ru": "гражданин",
+      "example_pt": "Sou cidadão europeu.",
+      "example_ru": "Я гражданин Европы.",
+      "tags": [
+        "unit7",
+        "nouns",
+        "citizenship"
+      ]
+    },
+    {
+      "id": "v800",
+      "word": "a cidadã",
+      "translation_ru": "гражданка",
+      "example_pt": "Ela é cidadã portuguesa.",
+      "example_ru": "Она гражданка Португалии.",
+      "tags": [
+        "unit7",
+        "nouns",
+        "citizenship"
+      ]
+    },
+    {
+      "id": "v801",
+      "word": "votar",
+      "translation_ru": "голосовать",
+      "example_pt": "Voto nas eleições locais.",
+      "example_ru": "Я голосую на местных выборах.",
+      "tags": [
+        "unit7",
+        "verbs",
+        "rights"
+      ]
+    },
+    {
+      "id": "v802",
+      "word": "a eleição",
+      "translation_ru": "выборы",
+      "example_pt": "As eleições são em outubro.",
+      "example_ru": "Выборы в октябре.",
+      "tags": [
+        "unit7",
+        "nouns",
+        "rights"
+      ]
+    },
+    {
+      "id": "v803",
+      "word": "o governo",
+      "translation_ru": "правительство",
+      "example_pt": "O governo ajuda os imigrantes.",
+      "example_ru": "Правительство помогает иммигрантам.",
+      "tags": [
+        "unit7",
+        "nouns",
+        "society"
+      ]
+    },
+    {
+      "id": "v804",
+      "word": "a cultura",
+      "translation_ru": "культура",
+      "example_pt": "Gosto muito da cultura portuguesa.",
+      "example_ru": "Мне очень нравится португальская культура.",
+      "tags": [
+        "unit7",
+        "nouns",
         "culture"
       ]
     },
     {
-      "id": "v504",
-      "word": "o fado",
-      "translation_ru": "фаду",
-      "example_pt": "Ouço fado à noite.",
-      "example_ru": "Я слушаю фаду вечером.",
+      "id": "v805",
+      "word": "o estereótipo",
+      "translation_ru": "стереотип",
+      "example_pt": "Os estereótipos nem sempre são verdadeiros.",
+      "example_ru": "Стереотипы не всегда правдивы.",
       "tags": [
-        "a1",
-        "unit4",
+        "unit7",
+        "nouns",
         "culture"
       ]
     },
     {
-      "id": "v505",
-      "word": "o futebol",
-      "translation_ru": "футбол",
-      "example_pt": "Em Portugal todos gostam de futebol.",
-      "example_ru": "В Португалии все любят футбол.",
+      "id": "v806",
+      "word": "a opinião",
+      "translation_ru": "мнение",
+      "example_pt": "A minha opinião é diferente.",
+      "example_ru": "Моё мнение отличается.",
       "tags": [
-        "a1",
-        "unit4",
-        "leisure"
+        "unit7",
+        "nouns",
+        "communication"
+      ]
+    },
+    {
+      "id": "v807",
+      "word": "opinar",
+      "translation_ru": "выражать мнение",
+      "example_pt": "Posso opinar sobre este tema?",
+      "example_ru": "Можно высказать мнение по этой теме?",
+      "tags": [
+        "unit7",
+        "verbs",
+        "communication"
+      ]
+    },
+    {
+      "id": "v808",
+      "word": "concordar",
+      "translation_ru": "соглашаться",
+      "example_pt": "Concordo completamente contigo.",
+      "example_ru": "Я полностью с тобой согласен.",
+      "tags": [
+        "unit7",
+        "verbs",
+        "communication"
+      ]
+    },
+    {
+      "id": "v809",
+      "word": "discordar",
+      "translation_ru": "не соглашаться",
+      "example_pt": "Discordo desta ideia.",
+      "example_ru": "Я не согласен с этой идеей.",
+      "tags": [
+        "unit7",
+        "verbs",
+        "communication"
+      ]
+    },
+    {
+      "id": "v810",
+      "word": "discutir",
+      "translation_ru": "обсуждать",
+      "example_pt": "Discutimos política na aula.",
+      "example_ru": "Мы обсуждаем политику на уроке.",
+      "tags": [
+        "unit7",
+        "verbs",
+        "communication"
+      ]
+    },
+    {
+      "id": "v811",
+      "word": "debater",
+      "translation_ru": "дебатировать",
+      "example_pt": "Gostamos de debater temas atuais.",
+      "example_ru": "Нам нравится дебатировать актуальные темы.",
+      "tags": [
+        "unit7",
+        "verbs",
+        "communication"
+      ]
+    },
+    {
+      "id": "v812",
+      "word": "explicar",
+      "translation_ru": "объяснять",
+      "example_pt": "Podes explicar melhor esta regra?",
+      "example_ru": "Можешь объяснить это правило лучше?",
+      "tags": [
+        "unit7",
+        "verbs",
+        "communication"
+      ]
+    },
+    {
+      "id": "v813",
+      "word": "perguntar",
+      "translation_ru": "спрашивать",
+      "example_pt": "Pergunto quando não entendo.",
+      "example_ru": "Я спрашиваю, когда не понимаю.",
+      "tags": [
+        "unit7",
+        "verbs",
+        "communication"
+      ]
+    },
+    {
+      "id": "v814",
+      "word": "responder",
+      "translation_ru": "отвечать",
+      "example_pt": "Respondo às mensagens rapidamente.",
+      "example_ru": "Я быстро отвечаю на сообщения.",
+      "tags": [
+        "unit7",
+        "verbs",
+        "communication"
+      ]
+    },
+    {
+      "id": "v815",
+      "word": "enviar",
+      "translation_ru": "отправлять",
+      "example_pt": "Envio emails todos os dias.",
+      "example_ru": "Я отправляю emails каждый день.",
+      "tags": [
+        "unit7",
+        "verbs",
+        "communication"
+      ]
+    },
+    {
+      "id": "v816",
+      "word": "receber",
+      "translation_ru": "получать",
+      "example_pt": "Recebo muitas notícias por email.",
+      "example_ru": "Я получаю много новостей по email.",
+      "tags": [
+        "unit7",
+        "verbs",
+        "communication"
+      ]
+    },
+    {
+      "id": "v817",
+      "word": "informar-se",
+      "translation_ru": "информировать себя",
+      "example_pt": "Informo-me sobre os direitos dos trabalhadores.",
+      "example_ru": "Я информирую себя о правах работников.",
+      "tags": [
+        "unit7",
+        "verbs",
+        "media"
+      ]
+    },
+    {
+      "id": "v818",
+      "word": "a liberdade",
+      "translation_ru": "свобода",
+      "example_pt": "A liberdade de expressão é importante.",
+      "example_ru": "Свобода слова важна.",
+      "tags": [
+        "unit7",
+        "nouns",
+        "rights"
+      ]
+    },
+    {
+      "id": "v819",
+      "word": "a igualdade",
+      "translation_ru": "равенство",
+      "example_pt": "Defendo a igualdade entre todos.",
+      "example_ru": "Я отстаиваю равенство между всеми.",
+      "tags": [
+        "unit7",
+        "nouns",
+        "rights"
+      ]
+    },
+    {
+      "id": "v820",
+      "word": "respeitar",
+      "translation_ru": "уважать",
+      "example_pt": "É importante respeitar as diferenças culturais.",
+      "example_ru": "Важно уважать культурные различия.",
+      "tags": [
+        "unit7",
+        "verbs",
+        "culture"
+      ]
+    },
+    {
+      "id": "v821",
+      "word": "a diferença",
+      "translation_ru": "различие",
+      "example_pt": "Aceito as diferenças entre culturas.",
+      "example_ru": "Я принимаю различия между культурами.",
+      "tags": [
+        "unit7",
+        "nouns",
+        "culture"
+      ]
+    },
+    {
+      "id": "v822",
+      "word": "aceitar",
+      "translation_ru": "принимать",
+      "example_pt": "Aceito pessoas de todas as origens.",
+      "example_ru": "Я принимаю людей всех происхождений.",
+      "tags": [
+        "unit7",
+        "verbs",
+        "culture"
+      ]
+    },
+    {
+      "id": "v823",
+      "word": "integrar-se",
+      "translation_ru": "интегрироваться",
+      "example_pt": "Quero integrar-me na sociedade portuguesa.",
+      "example_ru": "Я хочу интегрироваться в португальское общество.",
+      "tags": [
+        "unit7",
+        "verbs",
+        "society"
+      ]
+    },
+    {
+      "id": "v824",
+      "word": "participar",
+      "translation_ru": "участвовать",
+      "example_pt": "Participo em eventos culturais.",
+      "example_ru": "Я участвую в культурных мероприятиях.",
+      "tags": [
+        "unit7",
+        "verbs",
+        "society"
+      ]
+    },
+    {
+      "id": "v825",
+      "word": "o evento",
+      "translation_ru": "мероприятие",
+      "example_pt": "Há um evento sobre cidadania amanhã.",
+      "example_ru": "Завтра мероприятие о гражданстве.",
+      "tags": [
+        "unit7",
+        "nouns",
+        "society"
+      ]
+    },
+    {
+      "id": "v826",
+      "word": "a associação",
+      "translation_ru": "ассоциация",
+      "example_pt": "A associação ajuda os imigrantes.",
+      "example_ru": "Ассоциация помогает иммигрантам.",
+      "tags": [
+        "unit7",
+        "nouns",
+        "society"
+      ]
+    },
+    {
+      "id": "v827",
+      "word": "o voluntário",
+      "translation_ru": "волонтёр",
+      "example_pt": "Trabalho como voluntário numa associação.",
+      "example_ru": "Я работаю волонтёром в ассоциации.",
+      "tags": [
+        "unit7",
+        "nouns",
+        "society"
+      ]
+    },
+    {
+      "id": "v828",
+      "word": "ajudar",
+      "translation_ru": "помогать",
+      "example_pt": "Ajudo os novos imigrantes a integrar-se.",
+      "example_ru": "Я помогаю новым иммигрантам интегрироваться.",
+      "tags": [
+        "unit7",
+        "verbs",
+        "society"
+      ]
+    },
+    {
+      "id": "v829",
+      "word": "a tolerância",
+      "translation_ru": "толерантность",
+      "example_pt": "A tolerância é essencial na sociedade.",
+      "example_ru": "Толерантность необходима в обществе.",
+      "tags": [
+        "unit7",
+        "nouns",
+        "culture"
+      ]
+    },
+    {
+      "id": "v830",
+      "word": "diverso",
+      "translation_ru": "разнообразный",
+      "example_pt": "Portugal é um país diverso.",
+      "example_ru": "Португалия — разнообразная страна.",
+      "tags": [
+        "unit7",
+        "adjectives",
+        "culture"
+      ]
+    },
+    {
+      "id": "v831",
+      "word": "multicultural",
+      "translation_ru": "мультикультурный",
+      "example_pt": "Lisboa é uma cidade multicultural.",
+      "example_ru": "Лиссабон — мультикультурный город.",
+      "tags": [
+        "unit7",
+        "adjectives",
+        "culture"
+      ]
+    },
+    {
+      "id": "v832",
+      "word": "a diversidade",
+      "translation_ru": "разнообразие",
+      "example_pt": "Celebramos a diversidade cultural.",
+      "example_ru": "Мы празднуем культурное разнообразие.",
+      "tags": [
+        "unit7",
+        "nouns",
+        "culture"
+      ]
+    },
+    {
+      "id": "v833",
+      "word": "tolerante",
+      "translation_ru": "толерантный",
+      "example_pt": "A sociedade portuguesa é tolerante.",
+      "example_ru": "Португальское общество толерантно.",
+      "tags": [
+        "unit7",
+        "adjectives",
+        "culture"
+      ]
+    },
+    {
+      "id": "v834",
+      "word": "inclusivo",
+      "translation_ru": "инклюзивный",
+      "example_pt": "Queremos uma sociedade inclusiva.",
+      "example_ru": "Мы хотим инклюзивное общество.",
+      "tags": [
+        "unit7",
+        "adjectives",
+        "society"
+      ]
+    },
+    {
+      "id": "v835",
+      "word": "democrático",
+      "translation_ru": "демократический",
+      "example_pt": "Portugal é um país democrático.",
+      "example_ru": "Португалия — демократическая страна.",
+      "tags": [
+        "unit7",
+        "adjectives",
+        "society"
+      ]
+    },
+    {
+      "id": "v836",
+      "word": "acolhedor",
+      "translation_ru": "гостеприимный",
+      "example_pt": "Os portugueses são muito acolhedores.",
+      "example_ru": "Португальцы очень гостеприимны.",
+      "tags": [
+        "unit7",
+        "adjectives",
+        "culture"
+      ]
+    },
+    {
+      "id": "v837",
+      "word": "a lei",
+      "translation_ru": "закон",
+      "example_pt": "Devemos respeitar as leis do país.",
+      "example_ru": "Мы должны уважать законы страны.",
+      "tags": [
+        "unit7",
+        "nouns",
+        "rights"
+      ]
+    },
+    {
+      "id": "v838",
+      "word": "a Constituição",
+      "translation_ru": "Конституция",
+      "example_pt": "A Constituição protege os direitos humanos.",
+      "example_ru": "Конституция защищает права человека.",
+      "tags": [
+        "unit7",
+        "nouns",
+        "rights"
+      ]
+    },
+    {
+      "id": "v839",
+      "word": "a discriminação",
+      "translation_ru": "дискриминация",
+      "example_pt": "A discriminação é proibida por lei.",
+      "example_ru": "Дискриминация запрещена законом.",
+      "tags": [
+        "unit7",
+        "nouns",
+        "rights"
+      ]
+    },
+    {
+      "id": "v840",
+      "word": "a integração",
+      "translation_ru": "интеграция",
+      "example_pt": "A integração dos imigrantes é importante.",
+      "example_ru": "Интеграция иммигрантов важна.",
+      "tags": [
+        "unit7",
+        "nouns",
+        "society"
+      ]
+    },
+    {
+      "id": "v841",
+      "word": "o imigrante",
+      "translation_ru": "иммигрант",
+      "example_pt": "Muitos imigrantes vivem em Lisboa.",
+      "example_ru": "Многие иммигранты живут в Лиссабоне.",
+      "tags": [
+        "unit7",
+        "nouns",
+        "society"
+      ]
+    },
+    {
+      "id": "v842",
+      "word": "a imigrante",
+      "translation_ru": "иммигрантка",
+      "example_pt": "Ela é imigrante da Ucrânia.",
+      "example_ru": "Она иммигрантка из Украины.",
+      "tags": [
+        "unit7",
+        "nouns",
+        "society"
+      ]
+    },
+    {
+      "id": "v843",
+      "word": "o refugiado",
+      "translation_ru": "беженец",
+      "example_pt": "Portugal acolhe refugiados.",
+      "example_ru": "Португалия принимает беженцев.",
+      "tags": [
+        "unit7",
+        "nouns",
+        "society"
+      ]
+    },
+    {
+      "id": "v844",
+      "word": "a mensagem",
+      "translation_ru": "сообщение",
+      "example_pt": "Envio uma mensagem pelo WhatsApp.",
+      "example_ru": "Я отправляю сообщение через WhatsApp.",
+      "tags": [
+        "unit7",
+        "nouns",
+        "communication"
+      ]
+    },
+    {
+      "id": "v845",
+      "word": "a fonte",
+      "translation_ru": "источник",
+      "example_pt": "Verifico sempre a fonte da notícia.",
+      "example_ru": "Я всегда проверяю источник новости.",
+      "tags": [
+        "unit7",
+        "nouns",
+        "media"
+      ]
+    },
+    {
+      "id": "v846",
+      "word": "confiável",
+      "translation_ru": "надёжный",
+      "example_pt": "O jornal Público é confiável.",
+      "example_ru": "Газета Público надёжная.",
+      "tags": [
+        "unit7",
+        "adjectives",
+        "media"
+      ]
+    },
+    {
+      "id": "v847",
+      "word": "falso",
+      "translation_ru": "ложный",
+      "example_pt": "Cuidado com notícias falsas.",
+      "example_ru": "Осторожно с ложными новостями.",
+      "tags": [
+        "unit7",
+        "adjectives",
+        "media"
+      ]
+    },
+    {
+      "id": "v848",
+      "word": "a fake news",
+      "translation_ru": "фейковые новости",
+      "example_pt": "As fake news espalham-se rapidamente.",
+      "example_ru": "Фейковые новости распространяются быстро.",
+      "tags": [
+        "unit7",
+        "nouns",
+        "media"
+      ]
+    },
+    {
+      "id": "v849",
+      "word": "verificar",
+      "translation_ru": "проверять",
+      "example_pt": "Verifico as informações antes de partilhar.",
+      "example_ru": "Я проверяю информацию перед тем, как поделиться.",
+      "tags": [
+        "unit7",
+        "verbs",
+        "media"
+      ]
+    },
+    {
+      "id": "v850",
+      "word": "partilhar",
+      "translation_ru": "делиться",
+      "example_pt": "Partilho notícias nas redes sociais.",
+      "example_ru": "Я делюсь новостями в социальных сетях.",
+      "tags": [
+        "unit7",
+        "verbs",
+        "communication"
+      ]
+    },
+    {
+      "id": "v851",
+      "word": "o diálogo",
+      "translation_ru": "диалог",
+      "example_pt": "O diálogo é importante na democracia.",
+      "example_ru": "Диалог важен в демократии.",
+      "tags": [
+        "unit7",
+        "nouns",
+        "communication"
+      ]
+    },
+    {
+      "id": "v852",
+      "word": "respeitoso",
+      "translation_ru": "уважительный",
+      "example_pt": "O debate deve ser respeitoso.",
+      "example_ru": "Дебаты должны быть уважительными.",
+      "tags": [
+        "unit7",
+        "adjectives",
+        "communication"
+      ]
+    },
+    {
+      "id": "v853",
+      "word": "a manifestação",
+      "translation_ru": "манифестация; демонстрация",
+      "example_pt": "Participo em manifestações pacíficas.",
+      "example_ru": "Я участвую в мирных демонстрациях.",
+      "tags": [
+        "unit7",
+        "nouns",
+        "rights"
+      ]
+    },
+    {
+      "id": "v854",
+      "word": "pacífico",
+      "translation_ru": "мирный",
+      "example_pt": "O protesto foi pacífico.",
+      "example_ru": "Протест был мирным.",
+      "tags": [
+        "unit7",
+        "adjectives",
+        "rights"
+      ]
+    },
+    {
+      "id": "v855",
+      "word": "a democracia",
+      "translation_ru": "демократия",
+      "example_pt": "Vivo numa democracia.",
+      "example_ru": "Я живу в демократии.",
+      "tags": [
+        "unit7",
+        "nouns",
+        "society"
+      ]
+    },
+    {
+      "id": "v856",
+      "word": "o voto",
+      "translation_ru": "голос",
+      "example_pt": "O meu voto é importante.",
+      "example_ru": "Мой голос важен.",
+      "tags": [
+        "unit7",
+        "nouns",
+        "rights"
+      ]
+    },
+    {
+      "id": "v857",
+      "word": "eleitoral",
+      "translation_ru": "избирательный",
+      "example_pt": "As campanhas eleitorais são intensas.",
+      "example_ru": "Избирательные кампании интенсивны.",
+      "tags": [
+        "unit7",
+        "adjectives",
+        "rights"
+      ]
+    },
+    {
+      "id": "v858",
+      "word": "a campanha",
+      "translation_ru": "кампания",
+      "example_pt": "A campanha eleitoral começa em setembro.",
+      "example_ru": "Избирательная кампания начинается в сентябре.",
+      "tags": [
+        "unit7",
+        "nouns",
+        "rights"
+      ]
+    },
+    {
+      "id": "v859",
+      "word": "o partido",
+      "translation_ru": "партия",
+      "example_pt": "Voto num partido de centro.",
+      "example_ru": "Я голосую за партию центра.",
+      "tags": [
+        "unit7",
+        "nouns",
+        "rights"
+      ]
+    },
+    {
+      "id": "v860",
+      "word": "político",
+      "translation_ru": "политический",
+      "example_pt": "Discutimos temas políticos.",
+      "example_ru": "Мы обсуждаем политические темы.",
+      "tags": [
+        "unit7",
+        "adjectives",
+        "society"
+      ]
+    },
+    {
+      "id": "v861",
+      "word": "a política",
+      "translation_ru": "политика",
+      "example_pt": "Interesso-me por política.",
+      "example_ru": "Я интересуюсь политикой.",
+      "tags": [
+        "unit7",
+        "nouns",
+        "society"
+      ]
+    },
+    {
+      "id": "v862",
+      "word": "o debate",
+      "translation_ru": "дебаты",
+      "example_pt": "O debate na televisão foi interessante.",
+      "example_ru": "Дебаты по телевизору были интересными.",
+      "tags": [
+        "unit7",
+        "nouns",
+        "communication"
+      ]
+    },
+    {
+      "id": "v863",
+      "word": "o moderador",
+      "translation_ru": "модератор",
+      "example_pt": "O moderador controla o debate.",
+      "example_ru": "Модератор контролирует дебаты.",
+      "tags": [
+        "unit7",
+        "nouns",
+        "communication"
+      ]
+    },
+    {
+      "id": "v864",
+      "word": "a afirmação",
+      "translation_ru": "утверждение",
+      "example_pt": "Discordo desta afirmação.",
+      "example_ru": "Я не согласен с этим утверждением.",
+      "tags": [
+        "unit7",
+        "nouns",
+        "communication"
+      ]
+    },
+    {
+      "id": "v865",
+      "word": "verdadeiro",
+      "translation_ru": "правдивый",
+      "example_pt": "A notícia é verdadeira.",
+      "example_ru": "Новость правдивая.",
+      "tags": [
+        "unit7",
+        "adjectives",
+        "media"
+      ]
+    },
+    {
+      "id": "v866",
+      "word": "a comunidade",
+      "translation_ru": "сообщество",
+      "example_pt": "Integro-me na comunidade local.",
+      "example_ru": "Я интегрируюсь в местное сообщество.",
+      "tags": [
+        "unit7",
+        "nouns",
+        "society"
+      ]
+    },
+    {
+      "id": "v867",
+      "word": "local",
+      "translation_ru": "местный",
+      "example_pt": "Participo em eventos locais.",
+      "example_ru": "Я участвую в местных мероприятиях.",
+      "tags": [
+        "unit7",
+        "adjectives",
+        "society"
+      ]
+    },
+    {
+      "id": "v868",
+      "word": "a origem",
+      "translation_ru": "происхождение",
+      "example_pt": "Aceito pessoas independentemente da origem.",
+      "example_ru": "Я принимаю людей независимо от происхождения.",
+      "tags": [
+        "unit7",
+        "nouns",
+        "culture"
+      ]
+    },
+    {
+      "id": "v869",
+      "word": "a tradição",
+      "translation_ru": "традиция",
+      "example_pt": "Respeito as tradições portuguesas.",
+      "example_ru": "Я уважаю португальские традиции.",
+      "tags": [
+        "unit7",
+        "nouns",
+        "culture"
+      ]
+    },
+    {
+      "id": "v870",
+      "word": "celebrar",
+      "translation_ru": "праздновать",
+      "example_pt": "Celebramos a diversidade todos os anos.",
+      "example_ru": "Мы празднуем разнообразие каждый год.",
+      "tags": [
+        "unit7",
+        "verbs",
+        "culture"
+      ]
+    },
+    {
+      "id": "v871",
+      "word": "a festa",
+      "translation_ru": "праздник",
+      "example_pt": "Há uma festa multicultural na cidade.",
+      "example_ru": "В городе мультикультурный праздник.",
+      "tags": [
+        "unit7",
+        "nouns",
+        "culture"
+      ]
+    },
+    {
+      "id": "v872",
+      "word": "intercultural",
+      "translation_ru": "межкультурный",
+      "example_pt": "O festival é intercultural.",
+      "example_ru": "Фестиваль межкультурный.",
+      "tags": [
+        "unit7",
+        "adjectives",
+        "culture"
+      ]
+    },
+    {
+      "id": "v873",
+      "word": "o festival",
+      "translation_ru": "фестиваль",
+      "example_pt": "O Festival Intercultura é em junho.",
+      "example_ru": "Фестиваль Intercultura в июне.",
+      "tags": [
+        "unit7",
+        "nouns",
+        "culture"
+      ]
+    },
+    {
+      "id": "v874",
+      "word": "conhecer",
+      "translation_ru": "знать; знакомиться",
+      "example_pt": "Conheço pessoas de muitos países.",
+      "example_ru": "Я знаком с людьми из многих стран.",
+      "tags": [
+        "unit7",
+        "verbs",
+        "communication"
+      ]
+    },
+    {
+      "id": "v875",
+      "word": "a história",
+      "translation_ru": "история",
+      "example_pt": "Ouço a história de cada pessoa.",
+      "example_ru": "Я слушаю историю каждого человека.",
+      "tags": [
+        "unit7",
+        "nouns",
+        "culture"
+      ]
+    },
+    {
+      "id": "v876",
+      "word": "combater",
+      "translation_ru": "бороться",
+      "example_pt": "Devemos combater a discriminação.",
+      "example_ru": "Мы должны бороться с дискриминацией.",
+      "tags": [
+        "unit7",
+        "verbs",
+        "rights"
+      ]
+    },
+    {
+      "id": "v877",
+      "word": "proibir",
+      "translation_ru": "запрещать",
+      "example_pt": "A lei proíbe a discriminação.",
+      "example_ru": "Закон запрещает дискриминацию.",
+      "tags": [
+        "unit7",
+        "verbs",
+        "rights"
+      ]
+    },
+    {
+      "id": "v878",
+      "word": "a proteção",
+      "translation_ru": "защита",
+      "example_pt": "Tenho direito à proteção social.",
+      "example_ru": "У меня есть право на социальную защиту.",
+      "tags": [
+        "unit7",
+        "nouns",
+        "rights"
+      ]
+    },
+    {
+      "id": "v879",
+      "word": "social",
+      "translation_ru": "социальный",
+      "example_pt": "O sistema social é importante.",
+      "example_ru": "Социальная система важна.",
+      "tags": [
+        "unit7",
+        "adjectives",
+        "rights"
+      ]
+    },
+    {
+      "id": "v880",
+      "word": "a dignidade",
+      "translation_ru": "достоинство",
+      "example_pt": "Todos merecem dignidade.",
+      "example_ru": "Все заслуживают достоинства.",
+      "tags": [
+        "unit7",
+        "nouns",
+        "rights"
+      ]
+    },
+    {
+      "id": "v881",
+      "word": "merecer",
+      "translation_ru": "заслуживать",
+      "example_pt": "Todos merecem respeito.",
+      "example_ru": "Все заслуживают уважения.",
+      "tags": [
+        "unit7",
+        "verbs",
+        "rights"
+      ]
+    },
+    {
+      "id": "v882",
+      "word": "independente",
+      "translation_ru": "независимый",
+      "example_pt": "A opinião deve ser independente.",
+      "example_ru": "Мнение должно быть независимым.",
+      "tags": [
+        "unit7",
+        "adjectives",
+        "communication"
+      ]
+    },
+    {
+      "id": "v883",
+      "word": "a imprensa",
+      "translation_ru": "пресса",
+      "example_pt": "A liberdade de imprensa é fundamental.",
+      "example_ru": "Свобода прессы фундаментальна.",
+      "tags": [
+        "unit7",
+        "nouns",
+        "media"
+      ]
+    },
+    {
+      "id": "v884",
+      "word": "fundamental",
+      "translation_ru": "фундаментальный",
+      "example_pt": "Os direitos humanos são fundamentais.",
+      "example_ru": "Права человека фундаментальны.",
+      "tags": [
+        "unit7",
+        "adjectives",
+        "rights"
+      ]
+    },
+    {
+      "id": "v885",
+      "word": "humano",
+      "translation_ru": "человеческий",
+      "example_pt": "Os direitos humanos são universais.",
+      "example_ru": "Права человека универсальны.",
+      "tags": [
+        "unit7",
+        "adjectives",
+        "rights"
+      ]
+    },
+    {
+      "id": "v886",
+      "word": "universal",
+      "translation_ru": "универсальный",
+      "example_pt": "Os direitos são universais.",
+      "example_ru": "Права универсальны.",
+      "tags": [
+        "unit7",
+        "adjectives",
+        "rights"
+      ]
+    },
+    {
+      "id": "v887",
+      "word": "o conflito",
+      "translation_ru": "конфликт",
+      "example_pt": "Evitamos conflitos com diálogo.",
+      "example_ru": "Мы избегаем конфликтов с помощью диалога.",
+      "tags": [
+        "unit7",
+        "nouns",
+        "society"
+      ]
+    },
+    {
+      "id": "v888",
+      "word": "evitar",
+      "translation_ru": "избегать",
+      "example_pt": "Evito discussões agressivas.",
+      "example_ru": "Я избегаю агрессивных дискуссий.",
+      "tags": [
+        "unit7",
+        "verbs",
+        "communication"
+      ]
+    },
+    {
+      "id": "v889",
+      "word": "agressivo",
+      "translation_ru": "агрессивный",
+      "example_pt": "O tom não deve ser agressivo.",
+      "example_ru": "Тон не должен быть агрессивным.",
+      "tags": [
+        "unit7",
+        "adjectives",
+        "communication"
+      ]
+    },
+    {
+      "id": "v890",
+      "word": "construtivo",
+      "translation_ru": "конструктивный",
+      "example_pt": "O diálogo deve ser construtivo.",
+      "example_ru": "Диалог должен быть конструктивным.",
+      "tags": [
+        "unit7",
+        "adjectives",
+        "communication"
+      ]
+    },
+    {
+      "id": "v891",
+      "word": "a solução",
+      "translation_ru": "решение",
+      "example_pt": "Encontramos soluções juntos.",
+      "example_ru": "Мы находим решения вместе.",
+      "tags": [
+        "unit7",
+        "nouns",
+        "society"
+      ]
+    },
+    {
+      "id": "v892",
+      "word": "encontrar",
+      "translation_ru": "находить",
+      "example_pt": "Encontramos soluções com diálogo.",
+      "example_ru": "Мы находим решения с помощью диалога.",
+      "tags": [
+        "unit7",
+        "verbs",
+        "society"
+      ]
+    },
+    {
+      "id": "v893",
+      "word": "junto",
+      "translation_ru": "вместе",
+      "example_pt": "Trabalhamos junto para a integração.",
+      "example_ru": "Мы работаем вместе ради интеграции.",
+      "tags": [
+        "unit7",
+        "adverbs",
+        "society"
+      ]
+    },
+    {
+      "id": "v894",
+      "word": "responsável",
+      "translation_ru": "ответственный",
+      "example_pt": "Sou responsável pela minha integração.",
+      "example_ru": "Я ответственен за свою интеграцию.",
+      "tags": [
+        "unit7",
+        "adjectives",
+        "society"
+      ]
+    },
+    {
+      "id": "v895",
+      "word": "a responsabilidade",
+      "translation_ru": "ответственность",
+      "example_pt": "A integração é responsabilidade de todos.",
+      "example_ru": "Интеграция — ответственность всех.",
+      "tags": [
+        "unit7",
+        "nouns",
+        "society"
+      ]
+    },
+    {
+      "id": "v896",
+      "word": "rápido",
+      "translation_ru": "быстрый",
+      "example_pt": "A internet é muito rápida.",
+      "example_ru": "Интернет очень быстрый.",
+      "tags": [
+        "unit7",
+        "adjectives",
+        "media"
+      ]
+    },
+    {
+      "id": "v897",
+      "word": "confiar",
+      "translation_ru": "доверять",
+      "example_pt": "Confio em fontes confiáveis.",
+      "example_ru": "Я доверяю надёжным источникам.",
+      "tags": [
+        "unit7",
+        "verbs",
+        "media"
+      ]
+    },
+    {
+      "id": "v898",
+      "word": "a confiança",
+      "translation_ru": "доверие",
+      "example_pt": "A confiança é importante na comunicação.",
+      "example_ru": "Доверие важно в общении.",
+      "tags": [
+        "unit7",
+        "nouns",
+        "communication"
+      ]
+    },
+    {
+      "id": "v899",
+      "word": "aberto",
+      "translation_ru": "открытый",
+      "example_pt": "Tenho uma mente aberta.",
+      "example_ru": "У меня открытый ум.",
+      "tags": [
+        "unit7",
+        "adjectives",
+        "culture"
+      ]
+    },
+    {
+      "id": "v900",
+      "word": "a mente",
+      "translation_ru": "ум; разум",
+      "example_pt": "Mantenho a mente aberta para novas ideias.",
+      "example_ru": "Я держу ум открытым для новых идей.",
+      "tags": [
+        "unit7",
+        "nouns",
+        "culture"
+      ]
+    },
+    {
+      "id": "v901",
+      "word": "manter",
+      "translation_ru": "поддерживать",
+      "example_pt": "Mantenho contacto com a família.",
+      "example_ru": "Я поддерживаю контакт с семьёй.",
+      "tags": [
+        "unit7",
+        "verbs",
+        "communication"
+      ]
+    },
+    {
+      "id": "v902",
+      "word": "o contacto",
+      "translation_ru": "контакт",
+      "example_pt": "Mantenho contacto com amigos.",
+      "example_ru": "Я поддерживаю контакт с друзьями.",
+      "tags": [
+        "unit7",
+        "nouns",
+        "communication"
+      ]
+    },
+    {
+      "id": "v903",
+      "word": "essencial",
+      "translation_ru": "существенный",
+      "example_pt": "A tolerância é essencial.",
+      "example_ru": "Толерантность существенна.",
+      "tags": [
+        "unit7",
+        "adjectives",
+        "culture"
+      ]
+    },
+    {
+      "id": "v904",
+      "word": "a harmonia",
+      "translation_ru": "гармония",
+      "example_pt": "Vivemos em harmonia.",
+      "example_ru": "Мы живём в гармонии.",
+      "tags": [
+        "unit7",
+        "nouns",
+        "society"
+      ]
+    },
+    {
+      "id": "v905",
+      "word": "viver",
+      "translation_ru": "жить",
+      "example_pt": "Quero viver em harmonia com todos.",
+      "example_ru": "Я хочу жить в гармонии со всеми.",
+      "tags": [
+        "unit7",
+        "verbs",
+        "society"
+      ]
+    },
+    {
+      "id": "v906",
+      "word": "a sociedade",
+      "translation_ru": "общество",
+      "example_pt": "A sociedade portuguesa é acolhedora.",
+      "example_ru": "Португальское общество гостеприимно.",
+      "tags": [
+        "unit7",
+        "nouns",
+        "society"
+      ]
+    },
+    {
+      "id": "v907",
+      "word": "acolher",
+      "translation_ru": "принимать; встречать",
+      "example_pt": "Portugal acolhe muitos imigrantes.",
+      "example_ru": "Португалия принимает многих иммигрантов.",
+      "tags": [
+        "unit7",
+        "verbs",
+        "society"
+      ]
+    },
+    {
+      "id": "v908",
+      "word": "o acolhimento",
+      "translation_ru": "приём; гостеприимство",
+      "example_pt": "O acolhimento em Portugal é bom.",
+      "example_ru": "Гостеприимство в Португалии хорошее.",
+      "tags": [
+        "unit7",
+        "nouns",
+        "society"
+      ]
+    },
+    {
+      "id": "v909",
+      "word": "a experiência",
+      "translation_ru": "опыт",
+      "example_pt": "Tenho experiência de integração.",
+      "example_ru": "У меня есть опыт интеграции.",
+      "tags": [
+        "unit7",
+        "nouns",
+        "society"
+      ]
+    },
+    {
+      "id": "v910",
+      "word": "partilhar",
+      "translation_ru": "делиться (опытом)",
+      "example_pt": "Partilho a minha experiência com outros.",
+      "example_ru": "Я делюсь своим опытом с другими.",
+      "tags": [
+        "unit7",
+        "verbs",
+        "communication"
+      ]
+    },
+    {
+      "id": "v911",
+      "word": "positivo",
+      "translation_ru": "положительный",
+      "example_pt": "Tenho uma visão positiva da diversidade.",
+      "example_ru": "У меня положительное мнение о разнообразии.",
+      "tags": [
+        "unit7",
+        "adjectives",
+        "culture"
+      ]
+    },
+    {
+      "id": "v912",
+      "word": "negativo",
+      "translation_ru": "отрицательный",
+      "example_pt": "Evito comentários negativos.",
+      "example_ru": "Я избегаю отрицательных комментариев.",
+      "tags": [
+        "unit7",
+        "adjectives",
+        "communication"
+      ]
+    },
+    {
+      "id": "v913",
+      "word": "o comentário",
+      "translation_ru": "комментарий",
+      "example_pt": "Deixo comentários nas redes sociais.",
+      "example_ru": "Я оставляю комментарии в социальных сетях.",
+      "tags": [
+        "unit7",
+        "nouns",
+        "communication"
+      ]
+    },
+    {
+      "id": "v914",
+      "word": "deixar",
+      "translation_ru": "оставлять",
+      "example_pt": "Deixo um comentário respeitoso.",
+      "example_ru": "Я оставляю уважительный комментарий.",
+      "tags": [
+        "unit7",
+        "verbs",
+        "communication"
+      ]
+    },
+    {
+      "id": "v915",
+      "word": "a discussão",
+      "translation_ru": "обсуждение",
+      "example_pt": "A discussão foi construtiva.",
+      "example_ru": "Обсуждение было конструктивным.",
+      "tags": [
+        "unit7",
+        "nouns",
+        "communication"
+      ]
+    },
+    {
+      "id": "v916",
+      "word": "o tema",
+      "translation_ru": "тема",
+      "example_pt": "O tema da discussão é a cidadania.",
+      "example_ru": "Тема обсуждения — гражданство.",
+      "tags": [
+        "unit7",
+        "nouns",
+        "communication"
+      ]
+    },
+    {
+      "id": "v917",
+      "word": "atual",
+      "translation_ru": "актуальный",
+      "example_pt": "Discutimos temas atuais.",
+      "example_ru": "Мы обсуждаем актуальные темы.",
+      "tags": [
+        "unit7",
+        "adjectives",
+        "communication"
+      ]
+    },
+    {
+      "id": "v918",
+      "word": "a informação",
+      "translation_ru": "информация",
+      "example_pt": "A informação deve ser correta.",
+      "example_ru": "Информация должна быть правильной.",
+      "tags": [
+        "unit7",
+        "nouns",
+        "media"
+      ]
+    },
+    {
+      "id": "v919",
+      "word": "correto",
+      "translation_ru": "правильный",
+      "example_pt": "Verifico se a informação é correta.",
+      "example_ru": "Я проверяю, правильная ли информация.",
+      "tags": [
+        "unit7",
+        "adjectives",
+        "media"
+      ]
+    },
+    {
+      "id": "v920",
+      "word": "espalhar",
+      "translation_ru": "распространять",
+      "example_pt": "Não espalho notícias falsas.",
+      "example_ru": "Я не распространяю ложные новости.",
+      "tags": [
+        "unit7",
+        "verbs",
+        "media"
+      ]
+    },
+    {
+      "id": "v921",
+      "word": "o boato",
+      "translation_ru": "слух",
+      "example_pt": "Não acredito em boatos.",
+      "example_ru": "Я не верю слухам.",
+      "tags": [
+        "unit7",
+        "nouns",
+        "media"
+      ]
+    },
+    {
+      "id": "v922",
+      "word": "acreditar",
+      "translation_ru": "верить",
+      "example_pt": "Acredito em fontes confiáveis.",
+      "example_ru": "Я верю надёжным источникам.",
+      "tags": [
+        "unit7",
+        "verbs",
+        "media"
+      ]
+    },
+    {
+      "id": "v923",
+      "word": "a verdade",
+      "translation_ru": "правда",
+      "example_pt": "Procuro sempre a verdade.",
+      "example_ru": "Я всегда ищу правду.",
+      "tags": [
+        "unit7",
+        "nouns",
+        "media"
+      ]
+    },
+    {
+      "id": "v924",
+      "word": "procurar",
+      "translation_ru": "искать",
+      "example_pt": "Procuro a verdade nas fontes.",
+      "example_ru": "Я ищу правду в источниках.",
+      "tags": [
+        "unit7",
+        "verbs",
+        "media"
+      ]
+    },
+    {
+      "id": "v925",
+      "word": "a educação",
+      "translation_ru": "образование",
+      "example_pt": "Todos têm direito à educação.",
+      "example_ru": "У всех есть право на образование.",
+      "tags": [
+        "unit7",
+        "nouns",
+        "rights"
+      ]
+    },
+    {
+      "id": "v926",
+      "word": "o respeito",
+      "translation_ru": "уважение",
+      "example_pt": "O respeito é mútuo.",
+      "example_ru": "Уважение взаимно.",
+      "tags": [
+        "unit7",
+        "nouns",
+        "culture"
+      ]
+    },
+    {
+      "id": "v927",
+      "word": "mútuo",
+      "translation_ru": "взаимный",
+      "example_pt": "O respeito deve ser mútuo.",
+      "example_ru": "Уважение должно быть взаимным.",
+      "tags": [
+        "unit7",
+        "adjectives",
+        "culture"
+      ]
+    },
+    {
+      "id": "v928",
+      "word": "reduzir",
+      "translation_ru": "сокращать",
+      "example_pt": "O diálogo reduz estereótipos.",
+      "example_ru": "Диалог сокращает стереотипы.",
+      "tags": [
+        "unit7",
+        "verbs",
+        "culture"
+      ]
+    },
+    {
+      "id": "v929",
+      "word": "desaparecer",
+      "translation_ru": "исчезать",
+      "example_pt": "Os estereótipos desaparecem com o tempo.",
+      "example_ru": "Стереотипы исчезают со временем.",
+      "tags": [
+        "unit7",
+        "verbs",
+        "culture"
+      ]
+    },
+    {
+      "id": "v930",
+      "word": "o tempo",
+      "translation_ru": "время",
+      "example_pt": "Com o tempo, integro-me melhor.",
+      "example_ru": "Со временем я лучше интегрируюсь.",
+      "tags": [
+        "unit7",
+        "nouns",
+        "society"
+      ]
+    },
+    {
+      "id": "v931",
+      "word": "melhor",
+      "translation_ru": "лучше",
+      "example_pt": "A comunicação melhora com a prática.",
+      "example_ru": "Общение улучшается с практикой.",
+      "tags": [
+        "unit7",
+        "adverbs",
+        "communication"
+      ]
+    },
+    {
+      "id": "v932",
+      "word": "a prática",
+      "translation_ru": "практика",
+      "example_pt": "A prática ajuda na integração.",
+      "example_ru": "Практика помогает в интеграции.",
+      "tags": [
+        "unit7",
+        "nouns",
+        "society"
+      ]
+    },
+    {
+      "id": "v933",
+      "word": "enriquecer",
+      "translation_ru": "обогащать",
+      "example_pt": "A diversidade enriquece a cultura.",
+      "example_ru": "Разнообразие обогащает культуру.",
+      "tags": [
+        "unit7",
+        "verbs",
+        "culture"
+      ]
+    },
+    {
+      "id": "v934",
+      "word": "rico",
+      "translation_ru": "богатый",
+      "example_pt": "Portugal é rico em diversidade.",
+      "example_ru": "Португалия богата разнообразием.",
+      "tags": [
+        "unit7",
+        "adjectives",
+        "culture"
+      ]
+    },
+    {
+      "id": "v935",
+      "word": "interessante",
+      "translation_ru": "интересный",
+      "example_pt": "A vida multicultural é interessante.",
+      "example_ru": "Мультикультурная жизнь интересна.",
+      "tags": [
+        "unit7",
+        "adjectives",
+        "culture"
+      ]
+    },
+    {
+      "id": "v936",
+      "word": "a vida",
+      "translation_ru": "жизнь",
+      "example_pt": "A vida em Portugal é boa.",
+      "example_ru": "Жизнь в Португалии хорошая.",
+      "tags": [
+        "unit7",
+        "nouns",
+        "society"
+      ]
+    },
+    {
+      "id": "v937",
+      "word": "bom",
+      "translation_ru": "хороший",
+      "example_pt": "O acolhimento é muito bom.",
+      "example_ru": "Приём очень хороший.",
+      "tags": [
+        "unit7",
+        "adjectives",
+        "society"
+      ]
+    },
+    {
+      "id": "v938",
+      "word": "feliz",
+      "translation_ru": "счастливый",
+      "example_pt": "Sinto-me feliz em Portugal.",
+      "example_ru": "Я чувствую себя счастливым в Португалии.",
+      "tags": [
+        "unit7",
+        "adjectives",
+        "society"
+      ]
+    },
+    {
+      "id": "v939",
+      "word": "sentir-se",
+      "translation_ru": "чувствовать себя",
+      "example_pt": "Sinto-me integrado na sociedade.",
+      "example_ru": "Я чувствую себя интегрированным в общество.",
+      "tags": [
+        "unit7",
+        "verbs",
+        "society"
+      ]
+    },
+    {
+      "id": "v940",
+      "word": "integrado",
+      "translation_ru": "интегрированный",
+      "example_pt": "Sinto-me integrado após três anos.",
+      "example_ru": "Я чувствую себя интегрированным после трёх лет.",
+      "tags": [
+        "unit7",
+        "adjectives",
+        "society"
+      ]
+    },
+    {
+      "id": "v941",
+      "word": "o ano",
+      "translation_ru": "год",
+      "example_pt": "Vivo aqui há dois anos.",
+      "example_ru": "Я живу здесь два года.",
+      "tags": [
+        "unit7",
+        "nouns",
+        "society"
+      ]
+    },
+    {
+      "id": "v942",
+      "word": "há",
+      "translation_ru": "назад (с временем)",
+      "example_pt": "Vivo em Portugal há cinco anos.",
+      "example_ru": "Я живу в Португалии пять лет (назад).",
+      "tags": [
+        "unit7",
+        "adverbs",
+        "society"
+      ]
+    },
+    {
+      "id": "v943",
+      "word": "o curso",
+      "translation_ru": "курс",
+      "example_pt": "Faço um curso de integração.",
+      "example_ru": "Я прохожу курс интеграции.",
+      "tags": [
+        "unit7",
+        "nouns",
+        "society"
+      ]
+    },
+    {
+      "id": "v944",
+      "word": "fazer",
+      "translation_ru": "делать; проходить",
+      "example_pt": "Faço um curso de português.",
+      "example_ru": "Я прохожу курс португальского.",
+      "tags": [
+        "unit7",
+        "verbs",
+        "society"
+      ]
+    },
+    {
+      "id": "v945",
+      "word": "o português",
+      "translation_ru": "португальский (язык)",
+      "example_pt": "Aprendo o português todos os dias.",
+      "example_ru": "Я учу португальский каждый день.",
+      "tags": [
+        "unit7",
+        "nouns",
+        "society"
       ]
     }
   ]

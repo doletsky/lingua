@@ -783,6 +783,621 @@
         }
       ],
       "correct_logic": "Правильный артикль и согласование"
+    },
+    {
+      "type": "multiple_choice",
+      "base": "[subject] trabalha como [profession].",
+      "params": [
+        {
+          "placeholder": "[subject]",
+          "from": "subjects"
+        },
+        {
+          "placeholder": "[profession]",
+          "from": "professions"
+        }
+      ],
+      "correct_logic": "Выбрать правильный перевод профессии или согласование."
+    },
+    {
+      "type": "fill_blank",
+      "base": "Eu ___ (trabalhar) [hours] por semana.",
+      "params": [
+        {
+          "placeholder": "[verb]",
+          "from": "regular_verbs_ar",
+          "tense": "present"
+        },
+        {
+          "placeholder": "[hours]",
+          "from": "numbers"
+        }
+      ],
+      "correct_logic": "Спряжение в 1-м лице singular."
+    },
+    {
+      "type": "multiple_choice",
+      "base": "Qual é [possessive] profissão?",
+      "params": [
+        {
+          "placeholder": "[possessive]",
+          "from": "possessives"
+        }
+      ],
+      "correct_logic": "Согласовать притяжательное с профессией."
+    },
+    {
+      "type": "fill_blank",
+      "base": "Tenho direito ___ [benefit].",
+      "params": [
+        {
+          "placeholder": "[benefit]",
+          "from": "rights_benefits"
+        }
+      ],
+      "correct_logic": "Правильный предлог a."
+    },
+    {
+      "type": "translate_to_pt",
+      "base": "Я ищу работу в [sector].",
+      "params": [
+        {
+          "placeholder": "[sector]",
+          "from": "work_sectors"
+        }
+      ],
+      "correct_logic": "Procuro emprego na/na construção etc."
+    },
+    {
+      "type": "fill_blank",
+      "base": "O meu horário é das ___ às ___.",
+      "params": [
+        {
+          "placeholder": "start",
+          "from": "hours"
+        },
+        {
+          "placeholder": "end",
+          "from": "hours"
+        }
+      ],
+      "correct_logic": "Логичный диапазон часов."
+    },
+    {
+      "type": "multiple_choice",
+      "base": "[person] quer [infinitive] mais.",
+      "params": [
+        {
+          "placeholder": "[person]",
+          "from": "subjects"
+        },
+        {
+          "placeholder": "[infinitive]",
+          "from": "verbs"
+        }
+      ],
+      "correct_logic": "Правильное спряжение querer."
+    },
+    {
+      "type": "matching",
+      "base": "Сопоставь профессию и описание.",
+      "params": [
+        {
+          "placeholder": "professions",
+          "from": "professions"
+        },
+        {
+          "placeholder": "descriptions",
+          "from": "job_descriptions"
+        }
+      ],
+      "correct_logic": "Пары профессия-описание."
+    },
+    {
+      "type": "fill_blank",
+      "base": "Há [quantity] empregos em [sector].",
+      "params": [
+        {
+          "placeholder": "[quantity]",
+          "from": [
+            "muitos",
+            "poucos"
+          ]
+        },
+        {
+          "placeholder": "[sector]",
+          "from": "sectors"
+        }
+      ],
+      "correct_logic": "Há для наличия."
+    },
+    {
+      "type": "multiple_choice",
+      "base": "Quanto ganhas [period]?",
+      "params": [
+        {
+          "placeholder": "[period]",
+          "from": [
+            "por mês",
+            "por hora",
+            "por semana"
+          ]
+        }
+      ],
+      "correct_logic": "Вопрос о зарплате."
+    },
+    {
+      "type": "translate_to_ru",
+      "base": "Assinei o contrato [type].",
+      "params": [
+        {
+          "placeholder": "[type]",
+          "from": [
+            "full-time",
+            "part-time",
+            "temporário"
+          ]
+        }
+      ],
+      "correct_logic": "Перевод предложения."
+    },
+    {
+      "type": "fill_blank",
+      "base": "Não ___ (poder) discriminar no trabalho.",
+      "params": [
+        {
+          "placeholder": "[verb]",
+          "from": "poder",
+          "negation": true
+        }
+      ],
+      "correct_logic": "Não pode в 3-м лице."
+    },
+    {
+      "type": "multiple_choice",
+      "base": "[possessive] colegas são [adjective].",
+      "params": [
+        {
+          "placeholder": "[possessive]",
+          "from": "possessives"
+        },
+        {
+          "placeholder": "[adjective]",
+          "from": "person_adjectives"
+        }
+      ],
+      "correct_logic": "Согласование."
+    },
+    {
+      "type": "sentence_transform",
+      "base": "Преобразовать в вопрос: Tu tens experiência.",
+      "params": [
+        {
+          "placeholder": "statement",
+          "from": "work_statements"
+        }
+      ],
+      "correct_logic": "Qual é / Tens tu / etc."
+    },
+    {
+      "type": "fill_blank",
+      "base": "Trabalho [preposition] [place].",
+      "params": [
+        {
+          "placeholder": "[preposition]",
+          "from": [
+            "em",
+            "no",
+            "na",
+            "ao"
+          ]
+        },
+        {
+          "placeholder": "[place]",
+          "from": "work_places"
+        }
+      ],
+      "correct_logic": "Правильный предлог с артиклем."
+    },
+    {
+      "type": "multiple_choice",
+      "base": "Estou [feeling] com o meu trabalho.",
+      "params": [
+        {
+          "placeholder": "[feeling]",
+          "from": [
+            "satisfeito",
+            "cansado",
+            "motivado",
+            "orgulhoso"
+          ]
+        }
+      ],
+      "correct_logic": "Estar для временных чувств."
+    },
+    {
+      "type": "fill_blank",
+      "base": "Quero [infinitive] na minha carreira.",
+      "params": [
+        {
+          "placeholder": "[infinitive]",
+          "from": [
+            "progredir",
+            "mudar",
+            "realizar-me",
+            "contribuir"
+          ]
+        }
+      ],
+      "correct_logic": "Quero + инфинитив в eu."
+    },
+    {
+      "type": "fill_blank",
+      "base": "[subject] ___ ([verb]) no ano passado.",
+      "params": [
+        {
+          "placeholder": "[subject]",
+          "from": "vocabulary",
+          "tags": ["pronouns", "unit2"]
+        },
+        {
+          "placeholder": "[verb]",
+          "from": "vocabulary",
+          "tags": ["verbs", "past", "unit2"]
+        }
+      ],
+      "correct_logic": "Conjugate the verb in pretérito perfeito for the given subject, e.g., if verb is 'ir' and subject is 'eu', correct is 'fui'."
+    },
+    {
+      "type": "multiple_choice",
+      "base": "Qual é a forma correta para descrever uma hábito no passado? [sentence]",
+      "params": [
+        {
+          "placeholder": "[sentence]",
+          "from": "grammar",
+          "tags": ["habits", "imperfeito", "unit2"]
+        }
+      ],
+      "correct_logic": "Select the option using imperfeito tense, e.g., options: ['costumava', 'costuma', 'vai costumar'], correct: 'costumava' for past habits."
+    },
+    {
+      "type": "match",
+      "base": "Associe as frases do presente com o passado.",
+      "params": [
+        {
+          "placeholder": "left",
+          "from": "vocabulary",
+          "tags": ["present_phrases", "unit2"],
+          "count": 5
+        },
+        {
+          "placeholder": "right",
+          "from": "vocabulary",
+          "tags": ["past_phrases", "unit2"],
+          "count": 5
+        }
+      ],
+      "correct_logic": "Match present tense phrases to their past tense equivalents, e.g., 'Eu vivo em Lisboa' matches 'Eu vivi em Lisboa'."
+    },
+    {
+      "type": "translate",
+      "base": "Traduza para português: [ru_sentence]",
+      "params": [
+        {
+          "placeholder": "[ru_sentence]",
+          "from": "vocabulary",
+          "tags": ["biography", "ru_to_pt", "unit2"]
+        }
+      ],
+      "correct_logic": "The correct translation uses past or present tense as per the Russian sentence context, e.g., 'Я родился в России' -> 'Eu nasci na Rússia'."
+    },
+    {
+      "type": "fill_blank",
+      "base": "Esta cidade é ___ ([adjective]) que aquela.",
+      "params": [
+        {
+          "placeholder": "[adjective]",
+          "from": "vocabulary",
+          "tags": ["adjectives", "comparative", "unit2"]
+        }
+      ],
+      "correct_logic": "Form the comparative, e.g., for 'grande' correct is 'maior que', or 'mais grande que' depending on adjective rules."
+    },
+    {
+      "type": "multiple_choice",
+      "base": "Escolha a emoção correta: Eu me sinto ___ hoje.",
+      "params": [
+        {
+          "placeholder": "options",
+          "from": "vocabulary",
+          "tags": ["feelings", "unit2"]
+        }
+      ],
+      "correct_logic": "Select the appropriate feeling adjective in context, e.g., options: ['feliz', 'triste', 'cansado'], correct based on generated scenario."
+    },
+    {
+      "type": "transform",
+      "base": "Transforme para o passado: [present_sentence]",
+      "params": [
+        {
+          "placeholder": "[present_sentence]",
+          "from": "grammar",
+          "tags": ["present_to_past", "unit2"]
+        }
+      ],
+      "correct_logic": "Change verbs to pretérito or imperfeito, e.g., 'Eu trabalho aqui' -> 'Eu trabalhei aqui' or 'Eu trabalhava aqui' based on context."
+    },
+    {
+      "type": "fill_blank",
+      "base": "Quando eu era criança, eu ___ ([verb]) todos os dias.",
+      "params": [
+        {
+          "placeholder": "[verb]",
+          "from": "vocabulary",
+          "tags": ["habits", "imperfeito", "unit2"]
+        }
+      ],
+      "correct_logic": "Use imperfeito for past habits, e.g., for 'jogar' correct is 'jogava'."
+    },
+    {
+      "type": "multiple_choice",
+      "base": "Qual é a comparação correta? [item1] é tão ___ como [item2].",
+      "params": [
+        {
+          "placeholder": "[item1]",
+          "from": "vocabulary",
+          "tags": ["nouns", "unit2"]
+        },
+        {
+          "placeholder": "[item2]",
+          "from": "vocabulary",
+          "tags": ["nouns", "unit2"]
+        }
+      ],
+      "correct_logic": "Use 'tão ... como' structure, e.g., options: ['bom', 'melhor', 'tão bom'], correct: 'tão bom'."
+    },
+    {
+      "type": "translate",
+      "base": "Traduza para russo: [pt_sentence]",
+      "params": [
+        {
+          "placeholder": "[pt_sentence]",
+          "from": "vocabulary",
+          "tags": ["feelings", "pt_to_ru", "unit2"]
+        }
+      ],
+      "correct_logic": "Provide the Russian translation matching the feeling or biography element, e.g., 'Eu sinto saudades' -> 'Я скучаю'."
+    },
+    {
+      "type": "match",
+      "base": "Associe os sentimentos com as situações.",
+      "params": [
+        {
+          "placeholder": "left",
+          "from": "vocabulary",
+          "tags": ["feelings", "unit2"],
+          "count": 4
+        },
+        {
+          "placeholder": "right",
+          "from": "vocabulary",
+          "tags": ["situations", "unit2"],
+          "count": 4
+        }
+      ],
+      "correct_logic": "Match feelings to past or present situations, e.g., 'feliz' matches 'ganhei um prêmio'."
+    },
+    {
+      "type": "fill_blank",
+      "base": "Eu ___ ([have]) uma casa maior agora.",
+      "params": [
+        {
+          "placeholder": "[have]",
+          "from": "grammar",
+          "tags": ["ter", "present", "unit2"]
+        }
+      ],
+      "correct_logic": "Conjugate 'ter' in present, e.g., 'tenho' for 'eu'."
+    },
+    {
+      "type": "multiple_choice",
+      "base": "Escolha a forma correta para biografia: Eu ___ em 1990.",
+      "params": [
+        {
+          "placeholder": "options",
+          "from": "grammar",
+          "tags": ["nascir", "past", "unit2"]
+        }
+      ],
+      "correct_logic": "Use pretérito, e.g., options: ['nasci', 'nasço', 'nascia'], correct: 'nasci'."
+    },
+    {
+      "type": "transform",
+      "base": "Mude para comparativo: [base_sentence]",
+      "params": [
+        {
+          "placeholder": "[base_sentence]",
+          "from": "vocabulary",
+          "tags": ["adjectives", "unit2"]
+        }
+      ],
+      "correct_logic": "Add comparative structure, e.g., 'A casa é grande' -> 'A casa é maior que o apartamento'."
+    },
+    {
+      "type": "fill_blank",
+      "base": "No passado, eu não ___ ([like]) isso, mas agora sim.",
+      "params": [
+        {
+          "placeholder": "[like]",
+          "from": "vocabulary",
+          "tags": ["gostar", "imperfeito", "unit2"]
+        }
+      ],
+      "correct_logic": "Use imperfeito negative, e.g., 'gostava' -> 'não gostava'."
+    },
+    {
+      "type": "multiple_choice",
+      "base": "Qual é o sentimento expresso? [sentence]",
+      "params": [
+        {
+          "placeholder": "[sentence]",
+          "from": "grammar",
+          "tags": ["feelings", "unit2"]
+        }
+      ],
+      "correct_logic": "Identify the feeling, e.g., 'Estou contente' options: ['feliz', 'triste', 'cansado'], correct: 'feliz'."
+    },
+    {
+      "type": "multiple_choice",
+      "base": "Как лучше выразить мнение: «Я думаю, что свобода слова очень важна»?",
+      "params": [
+        {"placeholder": "verb_form", "from": "opinion_verbs"}
+      ],
+      "correct_logic": "Правильные варианты: 'Acho que a liberdade de expressão é muito importante.' или 'Penso que a liberdade de expressão é muito importante.'"
+    },
+    {
+      "type": "fill_blank",
+      "base": "Eu ___ que todos os cidadãos devem respeitar as diferenças culturais.",
+      "params": [
+        {"placeholder": "verb", "from": ["acho", "penso"], "tense": "present_1st_singular"}
+      ],
+      "correct_logic": "correct = acho или penso",
+      "hint": "Используй achar que или pensar que",
+      "distractors": ["parece-me", "concordo", "discordo"]
+    },
+    {
+      "type": "fill_blank",
+      "base": "[subject] ___ completamente com esta opinião sobre a integração dos imigrantes.",
+      "params": [
+        {"placeholder": "subject", "from": "subjects"},
+        {"placeholder": "verb", "from": "agree_verbs", "form": "present"}
+      ],
+      "correct_logic": "concordar → concordo/concordas/concorda/concordamos/concordais/concordam",
+      "hint": "concordar com = соглашаться",
+      "distractors": ["discordo", "discordas", "parece"]
+    },
+    {
+      "type": "fill_blank",
+      "base": "Nós não ___ desta ideia sobre estereótipos nacionais.",
+      "params": [
+        {"placeholder": "verb", "from": "disagree_verbs", "form": "present_1st_plural"}
+      ],
+      "correct_logic": "correct = concordamos (потому что с 'não' это означает согласие с отрицанием)",
+      "hint": "Не соглашаться = discordar de",
+      "distractors": ["discordamos", "achamos", "pensamos"]
+    },
+    {
+      "type": "multiple_choice",
+      "base": "Выбери правильный предлог: Vejo as notícias ___ televisão.",
+      "params": [
+        {"placeholder": "media", "from": ["televisão", "rádio", "internet", "telemóvel", "jornal"]}
+      ],
+      "correct_logic": "na televisão / no rádio / na internet / no telemóvel / no jornal",
+      "options": ["na", "no", "por", "em"],
+      "hint": "Телевизор, радио, интернет, телефон, газета требуют артикля и предлога na/no"
+    },
+    {
+      "type": "fill_blank",
+      "base": "Falo com os amigos ___ telemóvel todos os dias.",
+      "params": [],
+      "correct": "pelo",
+      "hint": "Говорить по телефону = falar pelo telemóvel / por telefone",
+      "distractors": ["na", "no", "em", "com"]
+    },
+    {
+      "type": "translation_ru_to_pt",
+      "base": "Переведи на португальский: «Мне кажется, что в Португалии уважают культурное разнообразие».",
+      "params": [
+        {"placeholder": "structure", "from": "opinion_structures"}
+      ],
+      "correct_logic": "Parece-me que em Portugal respeitam a diversidade cultural."
+    },
+    {
+      "type": "translation_pt_to_ru",
+      "base": "Переведи на русский: Discordo completamente desta afirmação sobre os direitos dos imigrantes.",
+      "params": [],
+      "correct_logic": "Я полностью не согласен с этим утверждением о правах иммигрантов."
+    },
+    {
+      "type": "sentence_transform",
+      "base": "Преобразуй утверждение в вопрос: Todos os cidadãos têm o direito de votar nas eleições.",
+      "params": [],
+      "correct_logic": "Todos os cidadãos têm o direito de votar nas eleições? / Os cidadãos todos têm o direito de votar nas eleições?"
+    },
+    {
+      "type": "match_pairs",
+      "base": "Сопоставь средство информации с правильным предлогом",
+      "params": [
+        {"left": ["televisão", "rádio", "internet", "telemóvel", "email", "jornal"]},
+        {"right": ["na", "no", "na", "no", "por", "no"]}
+      ],
+      "correct_logic": "televisão→na, rádio→no, internet→na, telemóvel→no, email→por, jornal→no"
+    },
+    {
+      "type": "fill_blank",
+      "base": "Para me informar sobre os meus direitos, procuro informações ___ internet.",
+      "params": [],
+      "correct": "na",
+      "hint": "Искать в интернете = procurar na internet",
+      "distractors": ["no", "por", "em"]
+    },
+    {
+      "type": "multiple_choice",
+      "base": "Что из перечисленного является обязанностью (dever), а не правом (direito)?",
+      "params": [
+        {"placeholder": "options", "from": ["votar", "pagar impostos", "ter liberdade de expressão", "respeitar os outros", "participar em associações"]}
+      ],
+      "correct_logic": "pagar impostos и respeitar os outros — deveres",
+      "options": ["votar", "pagar impostos", "ter liberdade de expressão", "participar em associações"]
+    },
+    {
+      "type": "fill_blank",
+      "base": "É importante ___ as diferenças culturais para viver em harmonia.",
+      "params": [
+        {"placeholder": "verb", "from": ["respeitar", "aceitar", "celebrar", "conhecer"]}
+      ],
+      "correct": "respeitar",
+      "hint": "Глагол respeitar в инфинитиве после 'é importante'",
+      "distractors": ["respeito", "respeitamos", "respeitei"]
+    },
+    {
+      "type": "fill_blank",
+      "base": "Quero ___ na sociedade portuguesa o mais rápido possível.",
+      "params": [
+        {"placeholder": "verb", "from": "integration_verbs", "form": "reflexive_present_1st"}
+      ],
+      "correct": "integrar-me",
+      "hint": "integrar-se = интегрироваться",
+      "distractors": ["integrar", "integro-me", "integrado"]
+    },
+    {
+      "type": "multiple_choice",
+      "base": "Как сказать по-португальски: «Я участвую в мероприятиях ассоциации иммигрантов»?",
+      "params": [],
+      "correct": "Participo em eventos da associação de imigrantes.",
+      "options": [
+        "Participo em eventos da associação de imigrantes.",
+        "Participo nos eventos da associação de imigrantes.",
+        "Participo à associação de imigrantes.",
+        "Participo na associação de imigrantes."
+      ]
+    },
+    {
+      "type": "fill_blank",
+      "base": "A diversidade cultural ___ a sociedade e torna-a mais rica.",
+      "params": [
+        {"placeholder": "verb", "from": ["enriquece", "melhora", "ajuda", "torna"]}
+      ],
+      "correct": "enriquece",
+      "distractors": ["enriqueço", "enriquecem", "enriquecer"]
+    },
+    {
+      "type": "sentence_build",
+      "base": "Составь предложение из слов: opinião / minha / é / que / tolerância / essencial / a / sociedade / em",
+      "params": [
+        {"words": ["A", "minha", "opinião", "é", "que", "a", "tolerância", "é", "essencial", "na", "sociedade"]}
+      ],
+      "correct_logic": "A minha opinião é que a tolerância é essencial na sociedade."
     }
   ]
 }
