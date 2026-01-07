@@ -422,22 +422,29 @@ onMounted(async () => {
         return
       }
 
-      const lines = unitVocab
-        .slice(0, 40)
+      // Получаем batch из query
+      const batchParam = Number(route.query.batch ?? 0)
+      const batches = []
+      for (let i = 0; i < unitVocab.length; i += 40) {
+        batches.push(unitVocab.slice(i, i + 40))
+      }
+      const currentBatchIndex = Math.max(0, Math.min(batchParam, batches.length - 1))
+      const currentBatch = batches[currentBatchIndex]
+
+      const lines = currentBatch
         .map(v => `- ${v.word} — ${v.translation_ru}`)
         .join('\n')
-      const more = unitVocab.length > 40 ? `\n\n(и ещё ${unitVocab.length - 40}…)` : ''
 
       currentTheory.value = {
-        title: `Слова: ${String(forcedVocabTag)}`,
-        explanation_ru: `Тема: ${String(forcedVocabTag)}\n\nСлова:\n${lines}${more}`,
+        title: `Слова: ${String(forcedVocabTag)}${batches.length > 1 ? ` (спринт ${currentBatchIndex + 1} из ${batches.length})` : ''}`,
+        explanation_ru: `Тема: ${String(forcedVocabTag)}\n\nСлова:\n${lines}`,
         examples: null,
         vocabTag: String(forcedVocabTag),
         unit: String(unitId)
       }
       showingTheory.value = true
 
-      exercises.value = generateVocabularyTagSprintExercises(unitVocab, String(forcedVocabTag), 10)
+      exercises.value = generateVocabularyTagSprintExercises(currentBatch, String(forcedVocabTag), 10)
       if (!Array.isArray(exercises.value) || exercises.value.length === 0) {
         error.value = 'Не удалось сгенерировать упражнения для словарного спринта'
         console.error('❌ [SprintView] vocab sprint: генератор вернул пусто')

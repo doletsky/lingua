@@ -91,7 +91,7 @@
     {
       "id": "v9",
       "word": "por favor",
-      "translation_ru": "Счёт",
+      "translation_ru": "пожалуйста",
       "example_pt": "Um café, por favor.",
       "example_ru": "Кофе, пожалуйста.",
       "tags": [
@@ -278,7 +278,7 @@
     {
       "id": "v26",
       "word": "segunda-feira",
-      "translation_ru": "Сегодня понедельник",
+      "translation_ru": "понедельник",
       "example_pt": "Na segunda-feira, começo o trabalho.",
       "example_ru": "В понедельник я начинаю работу.",
       "tags": [
@@ -289,7 +289,7 @@
     {
       "id": "v27",
       "word": "terça-feira",
-      "translation_ru": "Завтра вторник",
+      "translation_ru": "вторник",
       "example_pt": "Terça-feira é dia de mercado.",
       "example_ru": "Вторник - день рынка.",
       "tags": [
@@ -333,7 +333,7 @@
     {
       "id": "v31",
       "word": "sábado",
-      "translation_ru": "В субботу отдыхаю",
+      "translation_ru": "суббота",
       "example_pt": "No sábado, descanso.",
       "example_ru": "В субботу я отдыхаю.",
       "tags": [
@@ -410,7 +410,7 @@
     {
       "id": "v38",
       "word": "hoje",
-      "translation_ru": "Сегодня понедельник",
+      "translation_ru": "Сегодня",
       "example_pt": "Hoje é segunda-feira.",
       "example_ru": "Сегодня понедельник.",
       "tags": [
@@ -421,7 +421,7 @@
     {
       "id": "v39",
       "word": "amanhã",
-      "translation_ru": "До завтра",
+      "translation_ru": "завтра",
       "example_pt": "Amanhã vou ao mercado.",
       "example_ru": "Завтра я иду на рынок.",
       "tags": [
@@ -559,7 +559,7 @@
     {
       "id": "v51",
       "word": "a família",
-      "translation_ru": "Семья важна",
+      "translation_ru": "семья",
       "example_pt": "A minha família é grande.",
       "example_ru": "Моя семья большая.",
       "tags": [
@@ -723,9 +723,9 @@
     },
     {
       "id": "v66",
-      "word": "o banheiro",
+      "word": "a casa  de banho",
       "translation_ru": "ванная",
-      "example_pt": "O banheiro é limpo.",
+      "example_pt": "A casa de banho é limpa.",
       "example_ru": "Ванная чистая.",
       "tags": [
         "unit1",
@@ -1179,7 +1179,7 @@
     {
       "id": "v106",
       "word": "de manhã",
-      "translation_ru": "Пью кофе утром",
+      "translation_ru": "утром",
       "example_pt": "De manhã bebo café.",
       "example_ru": "Утром я пью кофе.",
       "tags": [
@@ -1369,7 +1369,7 @@
     {
       "id": "v123",
       "word": "tarde",
-      "translation_ru": "Добрый день",
+      "translation_ru": "день",
       "example_pt": "Deito-me tarde.",
       "example_ru": "Я ложусь поздно.",
       "tags": [
@@ -1460,9 +1460,9 @@
     {
       "id": "v131",
       "word": "participar em atividades",
-      "translation_ru": "участвовать в活動",
+      "translation_ru": "участвовать в мероприятиях",
       "example_pt": "Participo em atividades locais.",
-      "example_ru": "Я участвую в местных活動.",
+      "example_ru": "Я участвую в местных мероприятиях.",
       "tags": [
         "unit1",
         "routine"
@@ -1837,7 +1837,7 @@
     {
       "id": "v165",
       "word": "o peixe",
-      "translation_ru": "Рыба свежая",
+      "translation_ru": "Рыба",
       "example_pt": "Em Portugal come-se muito peixe.",
       "example_ru": "В Португалии едят много рыбы.",
       "tags": [
@@ -1881,7 +1881,7 @@
     {
       "id": "v169",
       "word": "a salada",
-      "translation_ru": "Салат вкусный",
+      "translation_ru": "Салат",
       "example_pt": "A salada tem tomate e alface.",
       "example_ru": "Салат с помидором и салатом.",
       "tags": [
@@ -2466,7 +2466,7 @@
     {
       "id": "v220",
       "word": "um quilo de",
-      "translation_ru": "Хочу килограмм помидоров",
+      "translation_ru": "килограмм (чего-то)",
       "example_pt": "Quero um quilo de tomates.",
       "example_ru": "Хочу килограмм помидоров.",
       "tags": [
@@ -2725,7 +2725,7 @@
     {
       "id": "v243",
       "word": "fresco",
-      "translation_ru": "Рыба свежая",
+      "translation_ru": "свежая",
       "example_pt": "Gosto de peixe fresco.",
       "example_ru": "Мне нравится свежая рыба.",
       "tags": [

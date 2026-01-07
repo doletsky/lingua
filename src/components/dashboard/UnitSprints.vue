@@ -28,21 +28,23 @@
         </div>
       </div>
 
-      <div v-if="vocabTopics.length > 0" class="texts-section">
+      <div v-if="vocabTopicBatches.length > 0" class="texts-section">
         <h3 class="section-title">🗣️ Слова</h3>
         <div class="sprints-grid">
-          <div v-for="topic in vocabTopics" :key="topic.tag" class="grammar-card">
+          <div v-for="batch in vocabTopicBatches" :key="batch.tag + '-' + batch.batchIndex" class="grammar-card">
             <div class="card-header">
-              <h3 class="grammar-title">{{ topic.tag }}</h3>
+              <h3 class="grammar-title">
+                {{ batch.tag }}
+                <span v-if="batch.batchCount > 1"> (спринт {{ batch.batchIndex + 1 }} из {{ batch.batchCount }})</span>
+              </h3>
               <div class="meta">
-                <span>📦 {{ topic.count }}</span>
-                <span v-if="statsByVocabTag[topic.tag]">⏱️ {{ statsByVocabTag[topic.tag].timesPracticed }}×</span>
-                <span v-if="statsByVocabTag[topic.tag]">📊 {{ statsByVocabTag[topic.tag].lastAccuracy || '—' }}%</span>
+                <span>📦 {{ batch.wordsCount }}</span>
+                <span v-if="statsByVocabTag[batch.tag]">⏱️ {{ statsByVocabTag[batch.tag].timesPracticed }}×</span>
+                <span v-if="statsByVocabTag[batch.tag]">📊 {{ statsByVocabTag[batch.tag].lastAccuracy || '—' }}%</span>
               </div>
             </div>
-
             <div class="card-actions">
-              <button @click="startVocabSprint(topic.tag)" class="btn-start">▶️ Начать спринт</button>
+              <button @click="startVocabSprintBatch(batch.tag, batch.batchIndex)" class="btn-start">▶️ Начать спринт</button>
             </div>
           </div>
         </div>
@@ -99,6 +101,7 @@ const unitInfo = ref(null)
 const statsByGrammar = ref({})
 const statsByVocabTag = ref({})
 const statsByText = ref({})
+const vocabTopicBatches = ref([])
 
 const load = async () => {
   loading.value = true
@@ -149,10 +152,29 @@ const load = async () => {
         topicCounts.set(tag, (topicCounts.get(tag) || 0) + 1)
       }
     }
-
-    vocabTopics.value = Array.from(topicCounts.entries())
+      
+    const topicsArr = Array.from(topicCounts.entries())
       .map(([tag, count]) => ({ tag, count }))
       .sort((a, b) => String(a.tag).localeCompare(String(b.tag)))
+    vocabTopics.value = topicsArr
+    
+    // Для каждой темы разбиваем на батчи по 40
+    const batches = []
+    for (const topic of topicsArr) {
+      const words = unitVocab.filter(v => Array.isArray(v.tags) && v.tags.includes(topic.tag))
+      const batchCount = Math.ceil(words.length / 40)
+      for (let i = 0; i < batchCount; i++) {
+        batches.push({
+          tag: topic.tag,
+          batchIndex: i,
+          batchCount,
+          wordsCount: words.length,
+          start: i * 40,
+          end: Math.min((i + 1) * 40, words.length)
+        })
+      }
+    }
+    vocabTopicBatches.value = batches
     // texts for unit
     let textList = []
     try {
@@ -292,12 +314,12 @@ const startTextSprint = async (textId) => {
   }
 }
 
-const startVocabSprint = async (tag) => {
+const startVocabSprintBatch = async (tag, batchIndex) => {
   await progressStore.setCurrentUnit(unitId.value)
   try {
-    await router.push({ name: 'Sprint', query: { vocabTag: tag } })
+    await router.push({ name: 'Sprint', query: { vocabTag: tag, batch: batchIndex } })
   } catch (e) {
-    console.error('[UnitSprints] Navigation error (startVocabSprint):', e)
+    console.error('[UnitSprints] Navigation error (startVocabSprintBatch):', e)
   }
 }
 

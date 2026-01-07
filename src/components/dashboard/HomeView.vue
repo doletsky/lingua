@@ -9,6 +9,7 @@
       <div class="last-info" v-if="lastCompletedGrammarTitle">
         <p v-if="lastCompletedGrammarTitle">✅ Последний пройденный: <strong>{{ lastCompletedGrammarTitle }}</strong></p>
       </div>
+      <button v-if="showUpdateButton" class="update-btn" @click="updateApp">🔄 Обновить приложение</button>
     </div>
 
     <UnitSelector 
@@ -21,6 +22,54 @@
 </template>
 
 <script setup>
+import { ref, onMounted as vueOnMounted } from 'vue'
+
+// Показываем кнопку только если есть обновление
+const showUpdateButton = ref(false)
+const updating = ref(false)
+let registration = null
+
+const checkForUpdate = async () => {
+  if ('serviceWorker' in navigator) {
+    registration = await navigator.serviceWorker.getRegistration()
+    if (registration && registration.waiting) {
+      showUpdateButton.value = true
+    } else {
+      showUpdateButton.value = false
+    }
+  }
+}
+
+const updateApp = async () => {
+  updating.value = true
+  if (registration && registration.waiting) {
+    registration.waiting.postMessage({ type: 'SKIP_WAITING' })
+    window.location.reload()
+  } else {
+    await checkForUpdate()
+    if (registration && registration.waiting) {
+      registration.waiting.postMessage({ type: 'SKIP_WAITING' })
+      window.location.reload()
+    }
+  }
+  updating.value = false
+}
+
+// Следим за обновлениями Service Worker
+vueOnMounted(() => {
+  checkForUpdate()
+  if ('serviceWorker' in navigator) {
+    navigator.serviceWorker.addEventListener('controllerchange', () => {
+      showUpdateButton.value = false
+    })
+    navigator.serviceWorker.addEventListener('message', (event) => {
+      if (event.data && event.data.type === 'NEW_VERSION_AVAILABLE') {
+        showUpdateButton.value = true
+      }
+    })
+    setInterval(checkForUpdate, 10000) // Проверяем каждые 10 секунд
+  }
+})
 import { computed, onMounted } from 'vue'
 import { useRouter } from 'vue-router'
 import { useProgressStore } from '@/stores/progressStore'
@@ -78,6 +127,21 @@ const openStats = () => {
 </script>
 
 <style scoped>
+
+.update-btn {
+  margin-left: 1.5rem;
+  padding: 0.5rem 1.2rem;
+  font-size: 1rem;
+  background: #42b883;
+  color: #fff;
+  border: none;
+  border-radius: 6px;
+  cursor: pointer;
+  transition: background 0.2s;
+}
+.update-btn:hover {
+  background: #36996b;
+}
 .home-view {
   max-width: 1200px;
   margin: 0 auto;
