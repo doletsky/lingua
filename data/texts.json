@@ -25,6 +25,27 @@
           "a": "Vê televisão",
           "type": "short_answer"
         }
+        ,
+        {
+          "q": "Переведите на португальский: Моя сестра встаёт в семь утра.",
+          "a": "A minha irmã levanta-se às sete da manhã.",
+          "type": "ru_to_pt_analogue"
+        },
+        {
+          "q": "Переведите на португальский: Семья Педру завтракает вместе.",
+          "a": "A família do Pedro toma o pequeno-almoço junta.",
+          "type": "ru_to_pt_analogue"
+        },
+        {
+          "q": "Переведите на португальский: После школы Мария едет домой на автобусе.",
+          "a": "Depois da escola, a Maria vai para casa de autocarro.",
+          "type": "ru_to_pt_analogue"
+        },
+        {
+          "q": "Переведите на португальский: По выходным мы ходим гулять в сад.",
+          "a": "Ao fim de semana, vamos passear no jardim.",
+          "type": "ru_to_pt_analogue"
+        }
       ]
     },
     {
@@ -46,6 +67,22 @@
             "Limpa a casa e faz compras",
             "Vê TV"
           ]
+        }
+        ,
+        {
+          "q": "Переведите на португальский: У Марии большая семья: муж, трое детей и родители.",
+          "a": "A Maria tem uma família grande: marido, três filhos e pais.",
+          "type": "ru_to_pt_analogue"
+        },
+        {
+          "q": "Переведите на португальский: Дети идут в школу утром.",
+          "a": "As crianças vão à escola de manhã.",
+          "type": "ru_to_pt_analogue"
+        },
+        {
+          "q": "Переведите на португальский: По воскресеньям семья собирается вместе.",
+          "a": "Ao domingo, a família reúne-se.",
+          "type": "ru_to_pt_analogue"
         }
       ]
     },
@@ -69,6 +106,22 @@
             "Para dormir"
           ]
         }
+        ,
+        {
+          "q": "Переведите на португальский: В понедельник я открываю банковский счет.",
+          "a": "Na segunda-feira, abro uma conta bancária.",
+          "type": "ru_to_pt_analogue"
+        },
+        {
+          "q": "Переведите на португальский: В час дня мы обедаем с друзьями.",
+          "a": "À uma da tarde, almoçamos com amigos.",
+          "type": "ru_to_pt_analogue"
+        },
+        {
+          "q": "Переведите на португальский: Вечером я ужинаю дома.",
+          "a": "À noite, janto em casa.",
+          "type": "ru_to_pt_analogue"
+        }
       ]
     },
     {
@@ -90,6 +143,22 @@
             "Com 'bom dia'",
             "Olá"
           ]
+        }
+        ,
+        {
+          "q": "Переведите на португальский: В доме есть гостиная и две детские комнаты.",
+          "a": "A casa tem uma sala e dois quartos para crianças.",
+          "type": "ru_to_pt_analogue"
+        },
+        {
+          "q": "Переведите на португальский: Соседи всегда здороваются утром.",
+          "a": "Os vizinhos cumprimentam-se sempre de manhã.",
+          "type": "ru_to_pt_analogue"
+        },
+        {
+          "q": "Переведите на португальский: В саду много цветов.",
+          "a": "No jardim há muitas flores.",
+          "type": "ru_to_pt_analogue"
         }
       ]
     },
@@ -135,6 +204,22 @@
             "Em casa"
           ]
         }
+        ,
+        {
+          "q": "Переведите на португальский: У Лауры два брата и родители.",
+          "a": "A Laura tem dois irmãos e pais.",
+          "type": "ru_to_pt_analogue"
+        },
+        {
+          "q": "Переведите на португальский: Отец работает в порту двадцать лет.",
+          "a": "O pai trabalha no porto há vinte anos.",
+          "type": "ru_to_pt_analogue"
+        },
+        {
+          "q": "Переведите на португальский: Братья учатся в местной школе.",
+          "a": "Os irmãos estudam na escola local.",
+          "type": "ru_to_pt_analogue"
+        }
       ]
     },
     {
@@ -156,6 +241,17 @@
             "Quando ajudam",
             "Для прощания"
           ]
+        }
+        ,
+        {
+          "q": "Переведите на португальский: Я всегда говорю 'пожалуйста', когда прошу о помощи.",
+          "a": "Digo sempre 'por favor' quando peço ajuda.",
+          "type": "ru_to_pt_analogue"
+        },
+        {
+          "q": "Переведите на португальский: Вечером мы желаем друг другу доброй ночи.",
+          "a": "À noite desejamos 'boa noite' uns aos outros.",
+          "type": "ru_to_pt_analogue"
         }
       ]
     },
@@ -189,6 +285,17 @@
           "a": "vinho ou água",
           "type": "multiple_choice"
         }
+        ,
+        {
+          "q": "Переведите на португальский: На обед мы часто едим суп и рыбу.",
+          "a": "Ao almoço comemos muitas vezes sopa e peixe.",
+          "type": "ru_to_pt_analogue"
+        },
+        {
+          "q": "Переведите на португальский: После еды португальцы пьют кофе.",
+          "a": "Depois da refeição, os portugueses bebem café.",
+          "type": "ru_to_pt_analogue"
+        }
       ]
     },
     {
@@ -215,6 +322,17 @@
           ],
           "a": "sopa de legumes e peixe grelhado",
           "type": "multiple_choice"
+        }
+        ,
+        {
+          "q": "Переведите на португальский: Я покупаю хлеб и молоко в магазине.",
+          "a": "Compro pão e leite na loja.",
+          "type": "ru_to_pt_analogue"
+        },
+        {
+          "q": "Переведите на португальский: Сегодня я готовлю овощной суп.",
+          "a": "Hoje faço sopa de legumes.",
+          "type": "ru_to_pt_analogue"
         }
       ]
     },
@@ -243,6 +361,17 @@
           "a": "deliciosa",
           "type": "multiple_choice"
         }
+        ,
+        {
+          "q": "Переведите на португальский: Я всегда прошу меню в ресторане.",
+          "a": "Peço sempre o menu no restaurante.",
+          "type": "ru_to_pt_analogue"
+        },
+        {
+          "q": "Переведите на португальский: На десерт я хочу пирожное.",
+          "a": "Para sobremesa quero um pastel.",
+          "type": "ru_to_pt_analogue"
+        }
       ]
     },
     {
@@ -269,6 +398,17 @@
           ],
           "a": "comida e amizade",
           "type": "multiple_choice"
+        }
+        ,
+        {
+          "q": "Переведите на португальский: По выходным я приглашаю друзей на ужин.",
+          "a": "Ao fim de semana convido amigos para jantar.",
+          "type": "ru_to_pt_analogue"
+        },
+        {
+          "q": "Переведите на португальский: Мы любим слушать музыку после ужина.",
+          "a": "Gostamos de ouvir música depois do jantar.",
+          "type": "ru_to_pt_analogue"
         }
       ]
     },
@@ -297,6 +437,22 @@
           "a": "música e dança",
           "type": "multiple_choice"
         }
+        ,
+        {
+          "q": "Переведите на португальский: В Порту летом устраивают большие праздники.",
+          "a": "No Porto, no verão, há grandes festas.",
+          "type": "ru_to_pt_analogue"
+        },
+        {
+          "q": "Переведите на португальский: Люди танцуют и поют всю ночь.",
+          "a": "As pessoas dançam e cantam toda a noite.",
+          "type": "ru_to_pt_analogue"
+        },
+        {
+          "q": "Переведите на португальский: Многие приезжают из других городов на праздник.",
+          "a": "Muitos vêm de outras cidades para a festa.",
+          "type": "ru_to_pt_analogue"
+        }
       ]
     },
     {
@@ -324,6 +480,22 @@
           "a": "para sentir-se bem",
           "type": "multiple_choice"
         }
+        ,
+        {
+          "q": "Переведите на португальский: Я ем овощи и фрукты каждый день.",
+          "a": "Como legumes e fruta todos os dias.",
+          "type": "ru_to_pt_analogue"
+        },
+        {
+          "q": "Переведите на португальский: Моя мама любит пить чай без сахара.",
+          "a": "A minha mãe gosta de beber chá sem açúcar.",
+          "type": "ru_to_pt_analogue"
+        },
+        {
+          "q": "Переведите на португальский: Мы часто гуляем на пляже.",
+          "a": "Caminhamos muitas vezes na praia.",
+          "type": "ru_to_pt_analogue"
+        }
       ]
     },
     {
@@ -346,6 +518,22 @@
             "Ao banco",
             "Aos correios"
           ]
+        }
+        ,
+        {
+          "q": "Переведите на португальский: У человека есть руки и ноги.",
+          "a": "A pessoa tem braços e pernas.",
+          "type": "ru_to_pt_analogue"
+        },
+        {
+          "q": "Переведите на португальский: Сердце находится в груди.",
+          "a": "O coração está no peito.",
+          "type": "ru_to_pt_analogue"
+        },
+        {
+          "q": "Переведите на португальский: Если болит спина, нужно идти к врачу.",
+          "a": "Se doem as costas, é preciso ir ao médico.",
+          "type": "ru_to_pt_analogue"
         }
       ]
     },
@@ -370,6 +558,22 @@
             "Compra bilhete"
           ]
         }
+        ,
+        {
+          "q": "Переведите на португальский: Когда я болею, иду к врачу.",
+          "a": "Quando estou doente, vou ao médico.",
+          "type": "ru_to_pt_analogue"
+        },
+        {
+          "q": "Переведите на португальский: В аптеке можно купить лекарства.",
+          "a": "Na farmácia pode-se comprar remédios.",
+          "type": "ru_to_pt_analogue"
+        },
+        {
+          "q": "Переведите на португальский: После таблетки я чувствую себя лучше.",
+          "a": "Depois do comprimido, sinto-me melhor.",
+          "type": "ru_to_pt_analogue"
+        }
       ]
     },
     {
@@ -392,6 +596,22 @@
             "Bilhete",
             "Selo"
           ]
+        }
+        ,
+        {
+          "q": "Переведите на португальский: Я отправляю открытки друзьям по почте.",
+          "a": "Envio postais aos amigos pelo correio.",
+          "type": "ru_to_pt_analogue"
+        },
+        {
+          "q": "Переведите на португальский: В банке можно открыть новый счет.",
+          "a": "No banco pode-se abrir uma nova conta.",
+          "type": "ru_to_pt_analogue"
+        },
+        {
+          "q": "Переведите на португальский: Для оплаты я использую карту.",
+          "a": "Para pagar, uso cartão.",
+          "type": "ru_to_pt_analogue"
         }
       ]
     },
@@ -416,6 +636,17 @@
             "No banco"
           ]
         }
+        ,
+        {
+          "q": "Переведите на португальский: Я жду автобус на остановке.",
+          "a": "Espero o autocarro na paragem.",
+          "type": "ru_to_pt_analogue"
+        },
+        {
+          "q": "Переведите на португальский: На метро можно быстро доехать до центра.",
+          "a": "De metro pode-se chegar rápido ao centro.",
+          "type": "ru_to_pt_analogue"
+        }
       ]
     },
     {
@@ -439,6 +670,17 @@
             "Gotas"
           ]
         }
+        ,
+        {
+          "q": "Переведите на португальский: Медсестра измеряет температуру.",
+          "a": "A enfermeira mede a temperatura.",
+          "type": "ru_to_pt_analogue"
+        },
+        {
+          "q": "Переведите на португальский: В больнице есть отделение неотложной помощи.",
+          "a": "No hospital há urgência.",
+          "type": "ru_to_pt_analogue"
+        }
       ]
     },
     {
@@ -461,6 +703,17 @@
             "Como comprar",
             "Como depositar"
           ]
+        }
+        ,
+        {
+          "q": "Переведите на португальский: Я покупаю антибиотик по рецепту.",
+          "a": "Compro antibiótico com receita.",
+          "type": "ru_to_pt_analogue"
+        },
+        {
+          "q": "Переведите на португальский: В аптеке можно получить совет фармацевта.",
+          "a": "Na farmácia pode-se pedir conselho ao farmacêutico.",
+          "type": "ru_to_pt_analogue"
         }
       ]
     },
@@ -504,6 +757,17 @@
           "type": "short_answer",
           "options": null
         }
+        ,
+        {
+          "q": "Переведите на португальский: Я отправил резюме в несколько компаний.",
+          "a": "Enviei o meu currículo para várias empresas.",
+          "type": "ru_to_pt_analogue"
+        },
+        {
+          "q": "Переведите на португальский: У меня есть опыт работы строителем.",
+          "a": "Tenho experiência como pedreiro.",
+          "type": "ru_to_pt_analogue"
+        }
       ]
     },
     {
@@ -546,6 +810,17 @@
           "type": "short_answer",
           "options": null
         }
+        ,
+        {
+          "q": "Переведите на португальский: Работники имеют право на отпуск.",
+          "a": "Os trabalhadores têm direito a férias.",
+          "type": "ru_to_pt_analogue"
+        },
+        {
+          "q": "Переведите на португальский: Женщины получают декретный отпуск.",
+          "a": "As mulheres têm licença de maternidade.",
+          "type": "ru_to_pt_analogue"
+        }
       ]
     },
     {
@@ -587,6 +862,17 @@
           "a": "IEFP",
           "type": "short_answer",
           "options": null
+        }
+        ,
+        {
+          "q": "Переведите на португальский: Мария работает в отеле в Лиссабоне.",
+          "a": "A Maria trabalha num hotel em Lisboa.",
+          "type": "ru_to_pt_analogue"
+        },
+        {
+          "q": "Переведите на португальский: Она хочет стать администратором.",
+          "a": "Ela quer ser recepcionista.",
+          "type": "ru_to_pt_analogue"
         }
       ]
     },
@@ -634,6 +920,17 @@
           "a": "está baixo",
           "type": "short_answer",
           "options": null
+        }
+        ,
+        {
+          "q": "Переведите на португальский: Я ищу работу в сфере туризма.",
+          "a": "Procuro trabalho na área do turismo.",
+          "type": "ru_to_pt_analogue"
+        },
+        {
+          "q": "Переведите на португальский: Нужно подготовить резюме и сопроводительное письмо.",
+          "a": "É preciso preparar o currículo e a carta de apresentação.",
+          "type": "ru_to_pt_analogue"
         }
       ]
     },
@@ -684,6 +981,17 @@
           "a": "Sim",
           "type": "multiple_choice"
         }
+        ,
+        {
+          "q": "Переведите на португальский: Я работаю из дома и участвую в онлайн-встречах.",
+          "a": "Trabalho em casa e participo em reuniões online.",
+          "type": "ru_to_pt_analogue"
+        },
+        {
+          "q": "Переведите на португальский: Мне нравится профессия программиста.",
+          "a": "Gosto da profissão de programador.",
+          "type": "ru_to_pt_analogue"
+        }
       ]
     },
     {
@@ -726,6 +1034,17 @@
           "a": "liberdade",
           "type": "short_answer",
           "options": null
+        }
+        ,
+        {
+          "q": "Переведите на португальский: Я работаю водителем и сам выбираю график.",
+          "a": "Trabalho como motorista e escolho o meu horário.",
+          "type": "ru_to_pt_analogue"
+        },
+        {
+          "q": "Переведите на португальский: Мне нравится быть независимым.",
+          "a": "Gosto de ser independente.",
+          "type": "ru_to_pt_analogue"
         }
       ]
     },
@@ -773,6 +1092,17 @@
           "type": "short_answer",
           "options": null
         }
+        ,
+        {
+          "q": "Переведите на португальский: В нашей компании работают люди из разных стран.",
+          "a": "Na nossa empresa trabalham pessoas de vários países.",
+          "type": "ru_to_pt_analogue"
+        },
+        {
+          "q": "Переведите на португальский: Мы уважаем друг друга и работаем вместе.",
+          "a": "Respeitamo-nos e trabalhamos juntos.",
+          "type": "ru_to_pt_analogue"
+        }
       ]
     },
     {
@@ -806,6 +1136,17 @@
           "q": "Как автор чувствует себя сейчас?",
           "a": "Счастливым",
           "type": "short_answer"
+        }
+        ,
+        {
+          "q": "Переведите на португальский: Я вырос в маленьком городе с родителями и братьями.",
+          "a": "Cresci numa cidade pequena com os meus pais e irmãos.",
+          "type": "ru_to_pt_analogue"
+        },
+        {
+          "q": "Переведите на португальский: В детстве я был застенчивым и играл с друзьями.",
+          "a": "Na infância eu era tímido e jogava com amigos.",
+          "type": "ru_to_pt_analogue"
         }
       ]
     },
@@ -841,6 +1182,17 @@
           "a": "Оба имеют ценность",
           "type": "short_answer"
         }
+        ,
+        {
+          "q": "Переведите на португальский: Раньше я жил в деревне и помогал родителям.",
+          "a": "Antes morava numa aldeia e ajudava os pais.",
+          "type": "ru_to_pt_analogue"
+        },
+        {
+          "q": "Переведите на португальский: Сейчас у меня больше обязанностей и я живу в городе.",
+          "a": "Agora tenho mais responsabilidades e vivo na cidade.",
+          "type": "ru_to_pt_analogue"
+        }
       ]
     },
     {
@@ -874,6 +1226,16 @@
           "q": "Что прошлое научило автора?",
           "a": "Ценить различия",
           "type": "short_answer"
+        },
+        {
+          "q": "Переведите на португальский: Я жил во Франции и говорил по-французски дома.",
+          "a": "Vivi em França e falava francês em casa.",
+          "type": "ru_to_pt_analogue"
+        },
+        {
+          "q": "Переведите на португальский: Сейчас я работаю в туризме и люблю делиться историями.",
+          "a": "Agora trabalho em turismo e gosto de partilhar histórias.",
+          "type": "ru_to_pt_analogue"
         }
       ]
     },
@@ -909,6 +1271,17 @@
           "a": "Обе важны для роста",
           "type": "short_answer"
         }
+        ,
+        {
+          "q": "Переведите на португальский: Раньше я работал учителем в маленькой школе.",
+          "a": "Antes trabalhava como professor numa escola pequena.",
+          "type": "ru_to_pt_analogue"
+        },
+        {
+          "q": "Переведите на португальский: Сейчас я пишу книги о жизни.",
+          "a": "Agora escrevo livros sobre a vida.",
+          "type": "ru_to_pt_analogue"
+        }
       ]
     },
     {
@@ -942,6 +1315,17 @@
           "q": "Как автор сравнивает прошлое и настоящее?",
           "a": "Прошлое спокойное, настоящее возбуждающее",
           "type": "short_answer"
+        }
+        ,
+        {
+          "q": "Переведите на португальский: В детстве я любил читать старые книги и гулять на природе.",
+          "a": "Na infância gostava de ler livros velhos e explorar a natureza.",
+          "type": "ru_to_pt_analogue"
+        },
+        {
+          "q": "Переведите на португальский: Сейчас я работаю в сфере технологий.",
+          "a": "Agora trabalho na área da tecnologia.",
+          "type": "ru_to_pt_analogue"
         }
       ]
     },
@@ -977,6 +1361,17 @@
           "a": "Новые крылья",
           "type": "short_answer"
         }
+        ,
+        {
+          "q": "Переведите на португальский: В Украине я отмечал традиционные праздники.",
+          "a": "Na Ucrânia celebrava festas tradicionais.",
+          "type": "ru_to_pt_analogue"
+        },
+        {
+          "q": "Переведите на португальский: Сейчас я живу в Лиссабоне и чувствую себя частью общества.",
+          "a": "Agora vivo em Lisboa e sinto-me integrado na sociedade.",
+          "type": "ru_to_pt_analogue"
+        }
       ]
     },
     {
@@ -1010,6 +1405,17 @@
           "q": "Как автор описывает свою биографию?",
           "a": "С главами вызовов и побед",
           "type": "short_answer"
+        }
+        ,
+        {
+          "q": "Переведите на португальский: В прошлом у меня была стабильная работа, но я хотел перемен.",
+          "a": "No passado tinha um emprego estável, mas queria mudanças.",
+          "type": "ru_to_pt_analogue"
+        },
+        {
+          "q": "Переведите на португальский: Сейчас я учусь и работаю в Португалии.",
+          "a": "Agora estudo e trabalho em Portugal.",
+          "type": "ru_to_pt_analogue"
         }
       ]
     },
@@ -1045,6 +1451,17 @@
           "type": "multiple_choice",
           "options": ["демократическое и мультикультурное", "только демократическое", "только мультикультурное", "авторитарное"]
         }
+        ,
+        {
+          "q": "Переведите на португальский: В Португалии у всех есть права и обязанности.",
+          "a": "Em Portugal todos têm direitos e deveres.",
+          "type": "ru_to_pt_analogue"
+        },
+        {
+          "q": "Переведите на португальский: Важно уважать других людей и законы страны.",
+          "a": "É importante respeitar os outros e as leis do país.",
+          "type": "ru_to_pt_analogue"
+        }
       ]
     },
     {
@@ -1079,6 +1496,17 @@
           "a": "толерантность",
           "type": "short_answer"
         }
+        ,
+        {
+          "q": "Переведите на португальский: Мария живёт в Лиссабоне и учит португальский язык.",
+          "a": "A Maria vive em Lisboa e aprende português.",
+          "type": "ru_to_pt_analogue"
+        },
+        {
+          "q": "Переведите на португальский: Она участвует в курсах для иммигрантов.",
+          "a": "Ela participa em cursos para imigrantes.",
+          "type": "ru_to_pt_analogue"
+        }
       ]
     },
     {
@@ -1106,6 +1534,17 @@
           "a": "Да",
           "type": "multiple_choice",
           "options": ["Да", "Нет"]
+        }
+        ,
+        {
+          "q": "Переведите на португальский: В Португалии много газет и телеканалов.",
+          "a": "Em Portugal há muitos jornais e canais de televisão.",
+          "type": "ru_to_pt_analogue"
+        },
+        {
+          "q": "Переведите на португальский: Молодёжь читает новости в интернете и социальных сетях.",
+          "a": "Os jovens leem notícias na internet e nas redes sociais.",
+          "type": "ru_to_pt_analogue"
         }
       ]
     },
@@ -1136,6 +1575,17 @@
           "type": "multiple_choice",
           "options": ["взаимное уважение и открытый диалог", "закрытость", "игнорирование", "конфликты"]
         }
+        ,
+        {
+          "q": "Переведите на португальский: Интеграция — задача и для мигрантов, и для общества.",
+          "a": "A integração é tarefa tanto dos migrantes como da sociedade.",
+          "type": "ru_to_pt_analogue"
+        },
+        {
+          "q": "Переведите на португальский: Важно уважать культуру и учить язык страны.",
+          "a": "É importante respeitar a cultura e aprender a língua do país.",
+          "type": "ru_to_pt_analogue"
+        }
       ]
     },
     {
@@ -1164,6 +1614,17 @@
           "type": "multiple_choice",
           "options": ["Да", "Нет"]
         }
+        ,
+        {
+          "q": "Переведите на португальский: Граждане имеют право голосовать и быть избранными.",
+          "a": "Os cidadãos têm direito a votar e a ser eleitos.",
+          "type": "ru_to_pt_analogue"
+        },
+        {
+          "q": "Переведите на португальский: Нужно платить налоги и соблюдать законы страны.",
+          "a": "É preciso pagar impostos e cumprir as leis do país.",
+          "type": "ru_to_pt_analogue"
+        }
       ]
     },
     {
@@ -1191,6 +1652,16 @@
           "a": "Да",
           "type": "multiple_choice",
           "options": ["Да", "Нет"]
+        },
+        {
+          "q": "Переведите на португальский: Я всегда проверяю новости в официальных источниках.",
+          "a": "Verifico sempre as notícias em fontes oficiais.",
+          "type": "ru_to_pt_analogue"
+        },
+        {
+          "q": "Переведите на португальский: Ответственная коммуникация помогает избегать конфликтов.",
+          "a": "A comunicação responsável ajuda a evitar conflitos.",
+          "type": "ru_to_pt_analogue"
         }
       ]
     },
@@ -1220,6 +1691,17 @@
           "type": "multiple_choice",
           "options": ["Да", "Нет"]
         }
+        ,
+        {
+          "q": "Переведите на португальский: Личные истории помогают понять других людей.",
+          "a": "As histórias pessoais ajudam a compreender outras pessoas.",
+          "type": "ru_to_pt_analogue"
+        },
+        {
+          "q": "Переведите на португальский: Разнообразие делает общество интереснее.",
+          "a": "A diversidade torna a sociedade mais interessante.",
+          "type": "ru_to_pt_analogue"
+        }
       ]
     },
     {
@@ -1246,6 +1728,17 @@
           "q": "Что ведущий назвал лучшим способом находить решения?",
           "a": "конструктивный диалог",
           "type": "short_answer"
+        }
+        ,
+        {
+          "q": "Переведите на португальский: Все люди заслуживают уважения независимо от происхождения.",
+          "a": "Todas as pessoas merecem respeito independentemente da origem.",
+          "type": "ru_to_pt_analogue"
+        },
+        {
+          "q": "Переведите на португальский: Диалог помогает находить решения в обществе.",
+          "a": "O diálogo ajuda a encontrar soluções na sociedade.",
+          "type": "ru_to_pt_analogue"
         }
       ]
     }
